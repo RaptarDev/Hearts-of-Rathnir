@@ -53,16 +53,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 1
-	fascism = 18
-	communism = 1
-	neutrality = 80
+	democratic = 2
+	fascism = 78
+	communism = 2
+	neutrality = 18
 }
 
 create_country_leader = {
 	
 	name = "Filipe M. Vallen"
-	picture = gfx/leaders/AVE/magicalticket.dds
+	picture = "gfx/leaders/AVE/magic.dds"
 	expire = "1000.1.1"
 	ideology = nazism
 	traits = {
