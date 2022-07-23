@@ -25,9 +25,17 @@ state={
 			arms_industry = 1
 
 		}
+
 		victory_points = { 
 			11047 15 
+
+		} 
+
+		victory_points = { 
 			7306 15
+		} 
+
+		victory_points = { 
 			5964 20
 		} 
 	}

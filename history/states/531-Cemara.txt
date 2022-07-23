@@ -26,10 +26,14 @@ state={
 			dockyard = 3
 
 		}
+
 		victory_points = { 
 			6861 25
-			10509 15
-		
 		} 
+
+		victory_points = { 
+			10509 15
+		} 
+
 	}
 }
