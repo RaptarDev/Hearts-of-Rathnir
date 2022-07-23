@@ -1,0 +1,22 @@
+
+state={
+	id=78
+	name="STATE_78"
+	manpower = 10000 # 0 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+
+	provinces={
+		865 1184 1847 3410 3747 5544 5881 7812 17207 17256 17285 17340 17400 17425 17448 17502 
+	}
+
+	history = {
+		
+		owner = FRO
+
+		add_core_of = FRO
+
+	}
+	
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 43
+	name = "STATE_43"
+	manpower = 3900000 # 78
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+
+	provinces = {
+		1849 2853 5800 5908 6513 7859 8307 17206 17217 17234 17261 17279 17295 17308 17319 17333 17347 17405 17453 17500 19293 19311 19313 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 5800 20 }
+
+	}
+
+
+}

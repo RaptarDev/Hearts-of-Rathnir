@@ -1,0 +1,32 @@
+
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		815 866 1575 1679 2105 3525 4387 4624 8235 10150 10192 10268 10283 10288 10331 10339 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=450000
+	State_category=large_town
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}		
+	
+		victory_points = {10268 25}
+
+	}
+}
+

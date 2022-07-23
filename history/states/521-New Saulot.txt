@@ -1,0 +1,31 @@
+
+state={
+	id=521
+	name="STATE_521"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			8360 15 
+		}
+
+	}
+
+	provinces={
+		890 1282 1388 3275 3421 4846 4938 6798 8180 8360 11028 11130 11206 11249 11262 11263 11290 11291 11296 11313 11335 11341 11362 11366 11376 11377 11416 11417 18779 18783 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

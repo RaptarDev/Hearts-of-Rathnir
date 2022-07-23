@@ -1,0 +1,28 @@
+
+state={
+	id=626
+	name="STATE_626"
+	provinces={
+		1020 1040 2891 3035 3352 4993 5006 5729 5847 6279 6778 6844 7721 13711 13719 13765 13791 13807 13815 13828 13840 13841 13876 13893 13942 13984 14010 14011 14036 18984 
+	}
+
+	history={
+
+		owner = MAG 
+
+		add_core_of = MAG 
+
+		victory_points = {
+			13807 2
+		}
+		victory_points = {
+			3035 1
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

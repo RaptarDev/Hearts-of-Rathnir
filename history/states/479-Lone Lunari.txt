@@ -1,0 +1,21 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		18776 
+	}
+	manpower=5
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=tiny_island
+	
+
+	history=
+	{
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		
+
+	}
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		818 847 871 1294 1384 1629 3674 5953 6143 6314 7312 14872 14893 14934 14940 14953 14995 15023 19052 
+	}
+	history={
+
+		owner = LUX
+
+		add_core_of = LUX
+		
+		victory_points = {
+			14995 3  
+		}
+
+	}
+
+	manpower=600000 # 12 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

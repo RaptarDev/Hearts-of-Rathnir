@@ -1,0 +1,25 @@
+
+state={
+	id=722
+	name="STATE_722"
+	provinces={
+		981 2241 2978 3083 4443 4826 4870 6206 8306 8550 8894 8899 8907 8975 9005 9018 9026 9062 9098 9102 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			9026 2
+		}
+
+	}
+
+	manpower=200000 # 4 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	
+}

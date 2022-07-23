@@ -1,0 +1,26 @@
+
+state={
+	id=721
+	name="STATE_721"
+	provinces={
+		92 938 3384 5549 6224 6297 6571 6970 8965 8971 8976 8977 9019 9027 9063 9070 9126 9172 9189 18586 18589 26631 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			8965 3
+		}
+
+
+	}
+
+	manpower=1900000 # 5 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	
+}

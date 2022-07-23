@@ -1,0 +1,31 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		1700 2782 4651 9214 9260 9270 9274 9302 9309 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = Town
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}		
+	
+		victory_points = {
+			9214 5
+		}
+
+	}
+}

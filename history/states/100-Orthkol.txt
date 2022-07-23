@@ -1,0 +1,22 @@
+
+state={
+	id=100
+	name="STATE_100"
+
+	history={
+		owner = AVA
+		add_core_of = AVA
+		victory_points = {
+			15456 5 
+		}
+
+	}
+
+	provinces={
+		343 900 1278 2147 2637 3314 3365 3412 3483 4930 5725 6499 7070 7879 8051 15328 15375 15376 15435 15456 15471 15507 15531 15539 15582 15583 15602 15637 19132 19140 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

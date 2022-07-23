@@ -1,0 +1,29 @@
+
+state={
+	id=613
+	name="STATE_613"
+	provinces={
+		759 1826 2475 2551 3618 3655 3752 4712 4911 5452 5499 6097 8250 11363 11384 11388 11389 11413 11461 11469 11473 11492 11493 11513 11521 11537 11565 18778 26647 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			11469 3
+		}
+
+		victory_points = {
+			1826 2
+		}
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

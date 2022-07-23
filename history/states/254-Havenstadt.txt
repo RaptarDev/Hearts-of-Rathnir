@@ -1,0 +1,36 @@
+state={
+	id=254
+	name="STATE_254"
+	manpower=1325000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+	provinces={
+		4384 5443 8127 9953 9980 10004 10022 10029 10066 10074 10115 10038 10075 2856 
+	}
+
+	resources = {
+		steel = 4
+	}
+
+history = {
+		owner = CHU
+		
+                controller = CHU
+
+		add_core_of = CHU
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			9953 = { naval_base = 5}
+		}
+		
+		victory_points = {
+			10022 30
+		}
+
+	}
+}

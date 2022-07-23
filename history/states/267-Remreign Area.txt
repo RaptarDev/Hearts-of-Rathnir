@@ -1,0 +1,23 @@
+state={
+	id=267
+	name="STATE_267"
+	manpower=400
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	provinces={
+		1264 1336 4291 4483 9115 9188 
+	}
+
+
+history = {
+		owner = AAT
+		
+                controller = AAT
+
+		add_core_of = AAT
+
+		}
+
+}

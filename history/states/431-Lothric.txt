@@ -1,0 +1,26 @@
+
+state={
+	id=431
+	name="STATE_431"
+	provinces={
+		108 466 589 655 1034 1162 1725 1922 2095 3847 4373 4515 4701 7389 7459 8003 8276 8394 12665 12709 12745 12771 12804 12891 12919 12920 12935 12936 12968 12971 12973 12984 12995 
+	}
+
+	history={
+
+		owner = KAR
+
+		add_core_of = KAR 
+
+		victory_points = {
+			1725 25
+		}
+
+	}
+
+	manpower=2750000 # 55 people
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+
+}

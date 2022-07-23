@@ -1,0 +1,29 @@
+
+state={
+	id=244
+	name="STATE_244"
+
+	history={
+		owner = AYN
+		controller = AYN
+		add_core_of = AYN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			5472 20 
+		}
+
+	}
+
+	provinces={
+		1160 2151 5472 8792 8851 8859 8860 8897 8967 26619 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

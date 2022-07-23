@@ -1,0 +1,22 @@
+
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = SAV
+		add_core_of = SAV
+		victory_points = {
+			32 10 
+		}
+
+	}
+
+	provinces={
+		32 670 1038 1295 4301 7163 8261 17960 17981 18002 18017 18027 18159 18264 18270 18309 18363 19338 
+	}
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

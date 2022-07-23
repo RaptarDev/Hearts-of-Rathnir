@@ -1,0 +1,26 @@
+
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		30 1010 2048 2178 2211 2387 2904 3822 4002 5594 6749 6925 6950 6983 7002 7012 7436 8157 8233 13879 13880 13900 13901 13918 13921 13932 13998 14021 14032 14033 14070 14128 14190 14208 14249 14254 14341 14388 
+	}
+
+	history={
+
+		owner = AAZ 
+
+		add_core_of = AAZ 
+		
+		victory_points = {
+			14249 20 
+		}
+
+	}
+
+	manpower=1850000 # 37 peoplee
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

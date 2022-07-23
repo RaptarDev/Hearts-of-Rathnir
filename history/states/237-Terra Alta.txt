@@ -1,0 +1,35 @@
+state={
+	id=237
+	name="STATE_237"
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Rural
+	provinces={
+		2265 4560 7244 8513 8951 9008 9015 18594 18596 
+	}
+
+resources = {
+		oil  = 2
+	}
+
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 0
+			arms_factory = 1
+			industrial_complex = 1
+		}		
+	
+		victory_points = {
+			7244 10
+		}
+
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=693
+	name="STATE_693"
+	provinces={
+		1319 5175 7113 7211 7778 9328 9341 9347 9419 9456 9470 9503 9566 9579 
+	}
+
+	history={
+
+		owner = ASK 
+
+		add_core_of = ASK 
+
+		victory_points = {
+			556 4
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

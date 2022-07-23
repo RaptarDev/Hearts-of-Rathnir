@@ -1,0 +1,22 @@
+
+state={
+	id=368
+	name="STATE_368"
+
+	history={
+		owner = OMB
+		add_core_of = OMB
+		victory_points = {
+			13653 10 
+		}
+
+	}
+
+	provinces={
+		743 2024 2203 4044 4152 4566 4817 5681 5742 7472 8434 8506 13290 13347 13447 13482 13526 13540 13585 13589 13604 13629 13643 13652 13653 13666 13686 13687 13714 13724 13727 18972 18973 18983 18986 
+	}
+	manpower=950000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

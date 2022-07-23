@@ -1,0 +1,24 @@
+
+state = {
+	id = 69
+	name = "STATE_69"
+	manpower = 10000 # 0 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+
+	provinces = {
+		463 1249 1548 1565 2256 3915 3940 4948 5171 6773 7467 18200 18221 18253 18287 18331 18364 18386 18392 18412 18441 18463 18466 18489 18535 18551 
+	}
+
+	history = {
+		
+		owner = TOR
+
+		add_core_of = TOR
+
+		victory_points = { 2256 1 }
+
+
+	}
+}

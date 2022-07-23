@@ -1,0 +1,27 @@
+state={
+	id=600
+	name="STATE_600"
+	provinces={
+		277 630 2375 2761 2905 7622 8288 11260 11284 11295 11298 11303 11328 11332 11347 11374 11411 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Pastoral
+
+	resources = {
+		Rubber = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			industrial_complex = 1
+		}
+		victory_points = { 2905 10 } #TortuinKrieg
+	}
+}

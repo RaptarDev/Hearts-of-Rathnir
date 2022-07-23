@@ -1,0 +1,32 @@
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		2361 5685 7963 10491 10520 10533 10557 10586 10615 26640 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=rural
+
+	resources = {
+		rubber = 5
+	}
+
+history = {
+		owner = OPC
+		
+                controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+
+		}	
+		victory_points = {
+			10586 10
+		}
+	}
+}

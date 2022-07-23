@@ -1,0 +1,25 @@
+
+state={
+	id=702
+	name="STATE_702"
+	provinces={
+		556 2668 2892 3423 3478 3567 4145 4772 7483 7846 9609 9675 9682 9711 9720 9758 9759 
+	}
+
+	history={
+
+		owner = ASK 
+
+		add_core_of = ASK 
+
+		victory_points = {
+			4145 4
+		}
+
+	}
+
+	manpower=400000 # 8 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

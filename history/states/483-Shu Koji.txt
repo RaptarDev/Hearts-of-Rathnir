@@ -1,0 +1,11 @@
+state={
+	id=483
+	name="STATE_483"
+	provinces={
+		4170 5201 11971 11972 12007 12015 12016 12059 12069 12080 12108 18845 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_category=large_town
+}

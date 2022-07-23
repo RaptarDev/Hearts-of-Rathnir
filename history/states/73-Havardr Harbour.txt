@@ -1,0 +1,22 @@
+
+state={
+	id=73
+	name="STATE_73"
+
+	history={
+		owner = FRO
+		add_core_of = FRO
+		victory_points = {
+			6945 1 
+		}
+
+	}
+
+	provinces={
+		128 915 941 1682 2156 2780 2938 3536 4446 5733 6042 6394 6945 8421 8457 17148 17165 17175 17176 17208 17214 17235 17246 17263 17286 17302 17321 17341 17342 17352 17376 17380 17393 17450 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

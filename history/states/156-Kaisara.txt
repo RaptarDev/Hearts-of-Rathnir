@@ -1,0 +1,30 @@
+
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		17420 19297 19304 19310 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			17420 10
+		}
+
+		victory_points = {
+			17829 1
+		}
+
+	}
+
+	manpower = 1050000 # 21 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+
+}

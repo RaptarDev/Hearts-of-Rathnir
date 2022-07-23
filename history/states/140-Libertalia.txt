@@ -1,0 +1,36 @@
+
+state={
+	id=140
+	name="STATE_140"
+	manpower=600000 # 12 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+
+	provinces={
+		211 409 587 610 1520 2041 2246 2316 2873 4395 4810 5216 5245 5390 6112 6121 6188 7181 8401 8524 17767 17957 17984 18024 18048 18055 18116 18150 18155 18218 18219 18223 18224 18241 18267 18275 18276 18302 18343 19345 
+	}
+
+	history = {
+
+		owner = VAL
+
+		add_core_of = VAL
+		
+		victory_points = {
+			409 3
+		}
+
+		victory_points = {
+			18150 3
+		}
+
+		victory_points = {
+			17957 1
+		}
+
+
+
+	}
+
+}

@@ -1,0 +1,30 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		2090 2532 2787 3060 3142 3974 5932 6498 8599 8600 8629 8650 8662 8663 8679 8733 8771 8601 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=400000
+	State_category=town
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+		}		
+	
+		victory_points = {2787 24} #Frostarch
+
+	}
+}

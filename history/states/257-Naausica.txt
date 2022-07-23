@@ -1,0 +1,32 @@
+state={
+	id=257
+	name="STATE_257"
+	manpower=300000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=enclave	
+
+	provinces={
+		10023 
+	}
+
+
+history = {
+		owner = CHU
+		
+                controller = CHU
+
+		add_core_of = CHU
+		add_core_of = ARL
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			land_fort = 1
+		}
+		
+		victory_points = {
+			10023 15
+		}
+	}
+}

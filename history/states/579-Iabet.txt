@@ -1,0 +1,25 @@
+
+state={
+	id=579
+	name="STATE_579"
+	provinces={
+		229 2271 3189 3226 4277 4600 4744 5379 6879 7205 8033 8156 12376 12399 12413 12426 12433 12447 12457 12462 12517 12542 12547 12597 12623 12646 12674 18899 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			3226 20
+		}
+
+	}
+
+	manpower=2150000 # 43 people
+	buildings_max_level_factor=1.000
+	state_category=city
+
+}

@@ -1,0 +1,24 @@
+state={
+	id=751
+	name="STATE_751"
+	provinces={
+		585 2221 2332 2814 7607 7625 7630 7825 9054 9060 9096 9097 9183 18591 18598 18615 
+	}
+	manpower=400
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = Wasteland
+
+	resources = {
+		Oil  = 4
+	}
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=256
+	name="STATE_256"
+	manpower=5400
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	provinces={
+		1500 2971 10123 10141 10146 10181 
+	}
+
+	resources = {
+		rubber = 1
+	}
+
+history = {
+		owner = CHU
+		
+                controller = CHU
+
+		add_core_of = CHU
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+		}
+		
+		victory_points = {
+			1500 10
+		}
+
+	}
+}

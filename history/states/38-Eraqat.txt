@@ -1,0 +1,24 @@
+
+state = {
+	id = 38
+	name = "STATE_38"
+	manpower = 1150000 # 23 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+	provinces = {
+		1065 1879 2733 2918 4564 4813 6776 7739 8221 8302 16365 16386 16408 16456 16508 16584 16585 16618 16650 16663 16664 16676 16702 16719 19231 19244 
+	}
+
+	history = {
+		
+		owner = AKH
+
+		add_core_of = AKH
+
+		victory_points = { 1065 15 }
+
+	}
+
+}

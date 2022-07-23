@@ -1,0 +1,26 @@
+
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 2350000 # 47 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+	provinces = {
+		536 4527 5348 8516 16076 16092 16144 16164 16197 16238 19166 19173 
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			5348 25 
+		}
+
+	}
+
+}

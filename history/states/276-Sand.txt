@@ -1,0 +1,35 @@
+state={
+	id=276
+	name="STATE_276"
+	manpower=3650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Metropolis
+
+
+	provinces={
+		1860 3814 3833 10147 10164 10201 10225 10248 294 2810 5133 10106 10060
+	}
+
+	resources = {
+		Oil = 2
+	}
+
+history = {
+		owner = SLI
+		
+                controller = SLI
+
+		add_core_of = SLI
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 6
+
+		}	
+		victory_points = {
+			3833 50
+		}
+	}
+}

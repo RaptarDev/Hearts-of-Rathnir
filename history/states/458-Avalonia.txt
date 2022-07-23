@@ -1,0 +1,34 @@
+state={
+	id=458
+	name="STATE_458"
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	provinces={
+		9428 18618 18619 18623 
+	}
+
+	resources = {
+		Oil = 2
+	}
+
+history = {
+		owner = SHN
+		
+                controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			18618 15
+		}
+    }
+}

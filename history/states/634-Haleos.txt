@@ -1,0 +1,25 @@
+
+state={
+	id=634
+	name="STATE_634"
+	provinces={
+		456 1071 1628 1851 3272 3703 5008 5262 5358 5866 7116 7428 7638 8078 8141 12093 12154 12160 12199 12225 12233 12239 12259 12265 12315 12363 12428 
+	}
+
+	history={
+
+		owner = ALD 
+
+		add_core_of = ALD 
+
+		victory_points = {
+			5262 45
+		}
+
+	}
+
+	manpower=4500000 # 90 people
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+}

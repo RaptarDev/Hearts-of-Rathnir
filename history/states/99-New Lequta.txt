@@ -1,0 +1,26 @@
+
+state = {
+	id = 99
+	name = "STATE_99"
+	manpower = 850000 # 17 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+
+	provinces = {
+		387 489 1854 1900 2575 3762 3909 5038 5059 5299 5455 5623 5639 5872 7079 7581 7683 8200 8471 15591 15619 15627 15631 15644 15657 15663 15677 15705 15735 15748 15755 15780 15784 15799 15829 15832 15858 15864 15892 15900 19148 
+	}
+
+	history = {
+		
+		owner = IAU
+
+		add_core_of = IAU
+
+		victory_points = { 8471 5 }
+
+		victory_points = { 15892 5 }
+
+	}
+
+}

@@ -1,0 +1,11 @@
+state={
+	id=484
+	name="STATE_314"
+	provinces={
+		4634 6351 7109 12107 12125 12159 12215 12257 18855 18856 18867 18871 18875 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

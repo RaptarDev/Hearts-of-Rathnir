@@ -1,0 +1,30 @@
+
+state={
+	id=671
+	name="STATE_671"
+	provinces={
+		2325 3028 3803 6071 6415 7701 7777 7914 11686 11719 11746 18812 18817 18824 
+	}
+
+	history={
+
+		owner = GAN 
+
+		add_core_of = GAN 
+
+		victory_points = {
+			7701 2
+		}
+
+		victory_points = {
+			3028 1
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		252 306 1758 2896 4944 5280 6956 7061 7500 12966 12976 13002 13044 13086 13104 13139 13160 13168 13207 13220 13258 13307 13321 13361 13369 13420 18971 
+	}
+
+	history={
+
+		owner = OMB 
+
+		add_core_of = OMB 
+
+		victory_points = {
+			6956 1
+		}
+
+		victory_points = {
+			5280 10
+		}
+
+
+	}
+
+	manpower=950000 # 19 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

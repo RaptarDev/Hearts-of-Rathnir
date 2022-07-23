@@ -1,0 +1,28 @@
+state={
+	id=234
+	name="STATE_234"
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	provinces={
+		181 4441 4836 7774 8614 8625 8652 8697 8727 26626 
+	}
+
+resources = {
+		rubber  = 1
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+		
+		victory_points = {
+			8625 10
+		}
+
+	}
+}

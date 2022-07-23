@@ -1,0 +1,31 @@
+
+state = {
+	id = 121
+	name = "STATE_121"
+	manpower = 1200000 # 24 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+
+	provinces={
+		603 1345 2446 3992 4618 6146 7007 7980 15481 15573 15595 15616 15698 19137 19143 19146 
+	}
+
+	
+	history={
+
+		owner = REG
+
+		add_core_of = REG
+		
+		victory_points = {
+			1921 10 
+		}
+
+		victory_points = {
+			603 1 
+		}
+		
+	}
+
+}

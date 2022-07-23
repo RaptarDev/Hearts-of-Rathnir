@@ -1,0 +1,31 @@
+state={
+	id=796
+	name="STATE_796"
+	provinces={
+		2531 4351 5945 7659 9174 9196 9226 9253 9268 9337 9348 9385 18614 6037 6103 7937 9433 9479
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=200000
+	State_category=town
+
+	resources = {
+		rubber = 3
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			industrial_complex = 1
+
+		}		
+	
+		victory_points = {2996 10}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=383
+	name="STATE_383"
+	provinces={
+		213 1090 1512 2114 2581 2843 3437 4247 14496 14518 14519 14535 14553 14560 14607 14627 14652 
+	}
+
+	history={
+
+		owner = IAU 
+
+		add_core_of = IAU 
+
+		victory_points = {
+			8411 5
+		}
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

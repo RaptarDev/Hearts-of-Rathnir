@@ -1,0 +1,34 @@
+state={
+	id=522
+	name="STATE_522"
+	provinces={
+		285 493 1239 1747 2895 3002 3373 3517 3595 3952 4314 4414 4752 4874 5084 5598 5696 5711 5868 5904 5964 6116 6284 6458 6639 6753 6779 6960 7306 7661 10655 10788 10822 10861 10882 10921 10927 10942 10943 10958 10981 10982 11000 11027 11047 11071 11076 11088 11100 11109 11125 11135 11136 11154 11179 11186 11211 11216 11237 11242 11254 11271 11288 11302 11312 11348 18748 18757 18761 18762 18771 26608 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	resources = {
+		rubber = 2
+		steel = 1
+   }
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_industry = 1
+
+		}
+		victory_points = { 
+			11047 15 
+			7306 15
+			5964 20
+		} 
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=228
+	name="STATE_228"
+	manpower=700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+	provinces={
+		24 1087 1117 1364 1596 3032 4522 5316 6748 7611 8273 8619 8653 8659 8701 8702 8728 8739 8761 8786 8876 
+	}
+
+resources = {
+		rubber  = 2
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 3
+		}			
+		victory_points = {
+			5316 10
+		}
+
+}

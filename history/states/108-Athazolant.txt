@@ -1,0 +1,26 @@
+
+state = {
+	id = 108
+	name = "STATE_108"
+	manpower = 2250000 # 45 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+	provinces={
+		1327 1562 1621 2589 2924 3364 3643 4280 8569 15214 15226 15229 15233 15256 15275 15285 15303 15304 15327 15386 19116 
+	}
+
+	history={
+
+		owner = VIR
+
+		add_core_of = VIR
+		
+		victory_points = {
+			8569 20 
+		}
+		
+	}
+
+}

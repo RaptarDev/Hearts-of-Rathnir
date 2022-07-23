@@ -1,0 +1,25 @@
+
+state={
+	id=584
+	name="STATE_584"
+	provinces={
+		1128 4166 7442 11817 11843 11869 11904 11905 11933 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			7442 3
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

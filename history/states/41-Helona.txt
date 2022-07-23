@@ -1,0 +1,24 @@
+
+state = {
+	id = 41
+	name = "STATE_41"
+	manpower = 1800000 # 36 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+	provinces = {
+		660 6756 7996 17953 18018 18060 18136 18205 19339 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 660 20 }
+
+	}
+
+}

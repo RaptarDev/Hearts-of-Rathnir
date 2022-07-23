@@ -1,0 +1,26 @@
+
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		1244 2210 2550 4665 6150 15177 15221 15262 15297 15298 15308 15309 15354 15408 15429 19108 
+	}
+
+	history={
+
+		owner = VOS 
+
+		add_core_of = VOS 
+
+		victory_points = {
+			15262 3
+		}
+
+	}
+
+	manpower=2150000 # 43 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

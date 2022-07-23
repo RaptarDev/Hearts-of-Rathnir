@@ -1,0 +1,32 @@
+
+state={
+	id=300
+	name="STATE_300"
+	provinces={
+		196 1589 3149 4041 4249 5305 6453 6551 7143 8214 13617 13632 13683 13734 13744 13778 13795 13821 13869 13872 13910 13958 14005 
+	}
+
+	history={
+
+		owner = HUI 
+
+		add_core_of = HUI 
+		
+		victory_points = {
+			13958 3 
+		}
+		victory_points = {
+			4249 1 
+		}
+		victory_points = {
+			13744 1 
+		}
+
+	}
+
+	manpower=750000 # 15 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

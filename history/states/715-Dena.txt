@@ -1,0 +1,24 @@
+
+state={
+	id=715
+	name="STATE_715"
+	provinces={
+		36 398 1756 3385 4542 5355 9203 9220 9243 9256 9285 9320 9326 9354 9371 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			1756 3
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 32
+	name = "STATE_32"
+	manpower = 1600000  # 32 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+
+	provinces = {
+		566 671 1166 1636 1801 2976 3111 3191 3266 3305 3816 4157 5137 6286 7259 7751 16113 16149 16187 16201 16227 16245 16254 16293 16294 16304 16319 16340 16346 16351 16361 16379 16380 16384 16394 16419 16428 16431 16454 16458 16504 16512 16533 16593 
+	}
+
+	history = {
+		
+		owner = AUR
+
+		add_core_of = AUR
+
+		victory_points = { 16201 5 }
+
+		victory_points = { 1636 3 }
+
+	}
+
+}

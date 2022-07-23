@@ -1,0 +1,35 @@
+
+state = {
+	id = 110
+	name = "STATE_110"
+	manpower = 300000 # 6 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		269 1637 2334 3068 3667 5302 8269 15359 15416 15473 15522 15564 19125 
+	}
+
+	history={
+
+		owner = VIR
+
+		add_core_of = VIR
+		
+		victory_points = {
+			3068 1 
+		}
+
+		victory_points = {
+			15564 1 
+		}
+
+		victory_points = {
+			1637 1 
+		}
+		
+	}
+
+
+}

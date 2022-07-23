@@ -1,0 +1,22 @@
+
+state={
+	id=175
+	name="STATE_175"
+
+	history={
+		owner = AEZ
+		add_core_of = AEZ
+		victory_points = {
+			16136 3 
+		}
+
+	}
+
+	provinces={
+		423 3017 3315 3346 5075 16084 16115 16136 16145 16154 16167 16168 16216 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

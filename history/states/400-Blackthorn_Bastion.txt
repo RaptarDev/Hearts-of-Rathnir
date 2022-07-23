@@ -1,0 +1,26 @@
+
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		544 2213 2452 2953 2972 3473 5507 6245 14692 14738 14808 14816 14825 14838 14849 14889 14933 
+	}
+
+	history={
+
+		owner = ECC 
+
+		add_core_of = ECC 
+
+		victory_points = {
+			6245 5
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+	
+}

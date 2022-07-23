@@ -1,0 +1,34 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		892 2236 4066 6197 6938 8375 8572 10793 10807 10836 10854 10886 10926 10941 10962 10999 11052 18744 26644 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Town
+
+	resources = {
+		Tungsten = 3
+		steel = 3
+	}
+
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_industry = 1
+
+		}
+		victory_points = { 
+		6197 15
+		
+		} 
+	}
+}

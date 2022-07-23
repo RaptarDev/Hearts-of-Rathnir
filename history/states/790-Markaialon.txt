@@ -1,0 +1,27 @@
+
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = DLR
+		controller = DLR
+		add_core_of = DLR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9370 20 
+		}
+
+	}
+
+	provinces={
+		67 6366 7909 8488 9333 9378 9424 9510 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		243 292 3654 4619 4937 6446 6782 6860 7491 10036 10065 10086 10097 10133 10145 10159 10163 10198 10203 10257 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_category=pastoral
+history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+	
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		1212 6271 11463 11549 18788 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+
+	resources = {
+		steel = 2
+	}
+
+history = {
+		owner = OPC
+		
+        	controller = OPC
+
+		add_core_of = OPC
+	
+		victory_points = {
+			6271 20
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		6223 10382 10406 10436 10462 10502 18709 18715 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Pastoral
+
+	resources = {
+		Steel = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+	}
+}
+

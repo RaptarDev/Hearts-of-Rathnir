@@ -1,0 +1,22 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		owner = TOR
+		add_core_of = TOR
+		victory_points = {
+			16441 5 
+		}
+
+	}
+
+	provinces={
+		711 975 1506 1511 3579 4114 5223 5849 6131 7401 7920 8018 8054 8086 8097 16290 16300 16333 16387 16412 16426 16441 16461 16462 16578 16621 16635 16656 16759 19241 19252 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

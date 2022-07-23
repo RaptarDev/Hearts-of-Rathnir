@@ -1,0 +1,26 @@
+
+state={
+	id=684
+	name="STATE_684"
+	provinces={
+		1293 1897 2825 3020 3817 4529 4589 6202 6660 8671 8847 8858 8895 8972 9011 9012 9053 18570 18572 18573 18574 18580 18582 18583 
+	}
+
+	history={
+
+		owner = TTT 
+
+		add_core_of = TTT 
+
+		victory_points = {
+			6660d 5
+		}
+
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

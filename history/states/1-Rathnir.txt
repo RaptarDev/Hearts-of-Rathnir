@@ -1,0 +1,19 @@
+
+state={
+	id=1
+	name="STATE_1"
+
+	history={
+		owner = JUN
+		add_core_of = JUN
+
+	}
+
+	provinces={
+		2698 3701 4273 6988 7956 8497 11764 11818 11864 11871 26650 
+	}
+	manpower=90000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

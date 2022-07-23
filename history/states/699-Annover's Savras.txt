@@ -1,0 +1,26 @@
+
+state={
+	id=699
+	name="STATE_699"
+	provinces={
+		340 360 805 2345 2476 3417 4098 5785 6768 7177 7277 7477 7834 8568 10067 10109 10110 10183 10226 10233 10286 10329 10337 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			10329 35
+		}
+
+	}
+
+	manpower=34500000 # 69 people
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		953 4359 4367 4850 5461 7532 8303 8500 16050 16085 16093 16094 16122 16130 16142 16146 16155 16179 16217 16218 16257 16272 19171 19174 19179 19192 
+	}
+
+	history={
+		owner = AEZ
+
+		add_core_of = AEZ
+
+		victory_points = {
+			4359 15 
+		}
+
+		victory_points = {
+			5462 1 
+		}
+
+
+	}
+
+	manpower=950000 # 19 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

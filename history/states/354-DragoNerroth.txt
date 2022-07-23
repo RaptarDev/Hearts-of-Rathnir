@@ -1,0 +1,27 @@
+
+state={
+	id=354
+	name="STATE_354"
+	provinces={
+		1419 2046 4449 13140 13208 13246 13264 13289 
+	}
+
+	history={
+
+		owner = DRA 
+
+		add_core_of = DRA 
+
+		victory_points = {
+			13264 5
+		}
+
+
+	}
+
+	manpower=400000 # 8 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

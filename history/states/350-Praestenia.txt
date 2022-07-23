@@ -1,0 +1,26 @@
+
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		390 771 1032 2257 2844 3105 3459 3460 4934 6410 6526 7586 8071 14137 14191 14204 14243 14257 14299 14311 14329 14346 14351 14391 14437 
+	}
+
+	history={
+
+		owner = CAR 
+
+		add_core_of = CAR 
+
+		victory_points = {
+			14257 10
+		}
+
+	}
+
+	manpower=850000 # 17 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

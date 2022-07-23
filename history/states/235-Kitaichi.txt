@@ -1,0 +1,30 @@
+state={
+	id=235
+	name="STATE_235"
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=metropolis
+	provinces={
+		1185 3646 4548 6326 6593 6599 8634 8699 8722 8742 8748 8767 8774 8793 8823 8864 8892 8910 8912 18564 18575 8952 8989 8996 9035 18597 18600
+	}
+
+	history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 6
+		}	
+		
+		victory_points = {
+			8864 50
+		}
+
+	}
+}

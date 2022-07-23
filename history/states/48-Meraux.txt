@@ -1,0 +1,25 @@
+
+state = {
+	id = 48
+	name = "STATE_48"
+	manpower = 2200000 # 44 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+	provinces = {
+		99 701 2404 4490 4580 5715 6184 6370 7132 8037 17085 17098 17121 17187 17250 17334 17348 17362 17392 17423 17446 17477 19291 19302 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 6184 15 }
+
+
+	}
+
+}

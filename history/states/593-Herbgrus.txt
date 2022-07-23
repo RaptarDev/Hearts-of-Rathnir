@@ -1,0 +1,28 @@
+state={
+	id=593
+	name="STATE_593"
+	provinces={
+		156 1915 5011 5573 6080 7235 10748 10773 10798 10849 10867 10902 10908 10909 10973 11019 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_town
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			Arms_industry = 2
+		}
+		victory_points = { 2781 40 } 
+	}
+}

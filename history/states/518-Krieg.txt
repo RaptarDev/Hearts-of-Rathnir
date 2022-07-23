@@ -1,0 +1,27 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		1411 4956 9662 9692 9735 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 0
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+		victory_points = { 1441 10 } #Ignatava
+	}
+
+}

@@ -1,0 +1,28 @@
+state={
+	id=227
+	name="STATE_227"
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	provinces={
+		219 1234 4763 7836 8831 8861 8865 8905 8944 8998 
+	}
+
+resources = {
+		tungsten  = 4
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+		
+		victory_points = {
+			8831 10
+		}
+
+
+}

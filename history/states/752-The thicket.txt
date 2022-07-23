@@ -1,0 +1,29 @@
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		698 912 1057 1978 3922 4160 4997 5597 7504 7606 9039 9066 9086 9168 9177 9218 9219 9234 9263 9269 9272 9279 9290 9300 9316 9324 9349 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+
+	resources = {
+		Steel  = 4
+	}
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			industrial_complex = 1
+	
+		}		
+	
+	}
+}

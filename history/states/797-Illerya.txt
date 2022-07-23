@@ -1,0 +1,31 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		146 2522 6724 7895 9384 9450 9462 9490 9528 9533 9610 18633 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1850000
+	State_category=metropolis
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 3
+			146 = { Naval_base = 5}
+		}		
+	
+		victory_points = {2522 40}
+
+
+	}
+}

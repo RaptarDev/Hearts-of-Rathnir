@@ -1,0 +1,28 @@
+
+state={
+	id=624
+	name="STATE_624"
+	provinces={
+		347 1578 1963 2313 3063 3433 4310 4824 7800 8062 13877 13907 13924 13943 13962 13968 13985 13999 14024 14025 14058 14066 14072 14086 14093 14103 14106 14143 19003 
+	}
+
+	history={
+
+		owner = AZU 
+
+		add_core_of = AZU 
+
+		victory_points = {
+			1963 2
+		}
+		victory_points = {
+			14072 1
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

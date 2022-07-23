@@ -1,0 +1,26 @@
+
+state={
+	id=691
+	name="STATE_691"
+	provinces={
+		724 1203 4063 4541 5269 5454 6091 6419 6540 6984 8241 9130 9152 9187 9217 9229 9245 9275 9276 9287 9291 9308 9312 9365 9369 9374 
+	}
+
+	history={
+
+		owner = WIV 
+
+		add_core_of = WIV 
+
+		victory_points = {
+			9229 15
+		}
+
+	}
+
+	manpower=1550000 # 31 people
+	buildings_max_level_factor=1.000
+	state_category=city
+
+
+}

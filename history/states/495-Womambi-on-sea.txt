@@ -1,0 +1,30 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		1093 1570 2644 2658 2789 3095 4117 4638 4747 4910 5052 5899 8115 10525 10553 10580 10633 10660 10686 10700 10749 10756 10809 18720 
+	}
+	manpower=450000
+	state_category=Large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	resources = {
+		aluminium  = 2
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+		}
+		victory_points = { 2658 50 } #Wombambi-on-sea
+	}
+}

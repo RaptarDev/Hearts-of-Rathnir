@@ -1,0 +1,25 @@
+
+state={
+	id=581
+	name="STATE_581"
+	provinces={
+		174 356 831 982 2765 3820 5349 6055 6110 12290 12330 12354 12400 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			12290 3
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

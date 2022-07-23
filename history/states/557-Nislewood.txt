@@ -1,0 +1,30 @@
+
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		6 288 571 887 1139 1196 1917 2881 3077 3081 4503 5432 5848 6865 6926 8005 13028 13059 13096 13161 13193 13209 13226 13237 13243 13249 13292 13330 13373 13390 13396 13427 13453 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			3077 5
+		}
+
+		victory_points = {
+			887 2
+		}
+
+	}
+
+	manpower=700000 # 14 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+
+}

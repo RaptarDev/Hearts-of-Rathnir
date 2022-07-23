@@ -1,0 +1,37 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		1116 1503 2841 8215 8338 9751 9881 145 704 1573 9690 3709 4317 9607 9623 9648 9667 9670 9703 9704 9739 9750 9797 2713 6266 7307 9632 9666 9698 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=4100000
+	State_category=megalopolis
+
+	resources = {
+		Steel  = 4
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 2
+			3709 = { supply_node = 1}
+		}		
+	
+		victory_points = {3709 40} #Frostarch
+		victory_points = {704 15} #Duskopion
+		victory_points = {785 10} #Wyrmpit
+
+	}
+}

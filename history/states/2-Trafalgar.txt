@@ -1,0 +1,23 @@
+
+state = {
+	id = 2
+	name = "STATE_2"
+	manpower = 150000  # 3 People
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		853 2441 3180 4328 4847 5860 18296 18388 18407 18414 18504 19342 19354 
+	}
+	history = {
+		
+		owner = UOH
+
+		add_core_of = UOH
+
+		victory_points = { 18388 5 }
+
+	}
+
+}

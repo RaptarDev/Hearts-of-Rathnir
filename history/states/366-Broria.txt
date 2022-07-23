@@ -1,0 +1,24 @@
+
+state={
+	id=366
+	name="STATE_366"
+	provinces={
+		944 1351 1442 3184 3240 3262 3295 3453 5435 5859 6258 6823 7125 7495 13109 13144 13149 13203 13277 13311 13337 13388 13391 13414 26660 26662 
+	}
+	history={
+
+		owner = OMB 
+
+		add_core_of = OMB 
+
+		victory_points = {
+			5435 3
+		}
+
+	}
+
+	manpower=250000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

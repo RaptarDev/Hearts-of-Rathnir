@@ -1,0 +1,26 @@
+
+state={
+	id=540
+	name="STATE_540"
+	provinces={
+		578 1018 1290 7374 14439 14468 14485 14593 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			7374 5
+		}
+
+	}
+
+	manpower=400000 # 8 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

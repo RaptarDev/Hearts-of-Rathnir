@@ -1,0 +1,25 @@
+
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		1515 3871 3983 6009 7264 7533 8055 14030 14213 14225 14284 14305 14331 
+	}
+	
+	history={
+
+		owner = ARD 
+
+		add_core_of = ARD 
+
+		victory_points = {
+			3983 8
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

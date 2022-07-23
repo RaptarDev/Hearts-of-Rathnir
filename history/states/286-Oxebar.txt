@@ -1,0 +1,28 @@
+
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		2052 6505 6552 14988 15024 15045 15048 
+	}
+
+	history={
+
+		owner = VIR
+
+		add_core_of = VIR
+		
+		victory_points = {
+			286 3  
+		}
+
+
+
+	}
+
+	manpower=200000 # 4 peoplee
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+
+}

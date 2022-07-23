@@ -1,0 +1,26 @@
+
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		3552 3824 4082 6390 6514 6857 7765 8432 13234 13260 13331 13412 13468 26659 26663 
+	}
+
+	history={
+
+		owner = VGD 
+
+		add_core_of = VGD 
+
+		victory_points = {
+			13331 20
+		}
+
+	}
+
+	manpower=1500000 # 30 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

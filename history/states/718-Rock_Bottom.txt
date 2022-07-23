@@ -1,0 +1,23 @@
+
+state={
+	id=718
+	name="STATE_718"
+	provinces={
+		137 513 5506 5797 7559 8575 8576 8674 8729 
+	}
+	history = {
+		owner = HSY 
+
+		add_core_of = NOR 
+
+		victory_points = {
+			513 1
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

@@ -1,0 +1,23 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		4596 5105 6316 9368 8385 9292 9315 9370 9386 9420 9425 9480 9500 18620 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=2000
+	State_category=pastoral
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+
+	}
+}
+

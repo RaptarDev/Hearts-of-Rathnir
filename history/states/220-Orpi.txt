@@ -1,0 +1,25 @@
+
+state={
+	id=220
+	name="STATE_220"
+	provinces={
+		189 440 904 1583 1610 2000 3302 4014 16068 16150 16191 16198 16236 
+	}
+	history={
+
+		owner = UOH
+
+		add_core_of = UOH
+	
+
+		victory_points = {
+			2000 1  
+		}
+
+	}
+
+	manpower=150000 # 3 peoplee
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		341 2548 3224 3443 4614 7837 8593 8594 8595 8642 8678 8690 8740 8782 8788 8830 8873 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=50000
+	State_category=Pastoral
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+	}
+}

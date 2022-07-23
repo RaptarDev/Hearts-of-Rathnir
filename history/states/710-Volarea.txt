@@ -1,0 +1,25 @@
+
+state={
+	id=710
+	name="STATE_710"
+	provinces={
+		2029 4097 5376 6190 9407 9446 9455 9459 9493 9509 9551 9564 
+	}
+
+	history={
+
+		owner = NOR 
+
+		add_core_of = NOR 
+
+		victory_points = {
+			5376 2
+		}
+
+	}
+
+	manpower=1500000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

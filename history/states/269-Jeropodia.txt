@@ -1,0 +1,33 @@
+state={
+	id=269
+	name="STATE_269"
+	provinces={
+		3466 9116 18593 18601 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_category=town
+	
+	resources = {
+		Tungsten = 5
+	}
+
+history = {
+		owner = SHN
+		
+        	controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			3466 15
+		}
+    }
+}

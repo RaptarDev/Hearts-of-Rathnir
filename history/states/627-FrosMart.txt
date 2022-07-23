@@ -1,0 +1,30 @@
+
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		64 2200 2962 3218 3760 4584 5535 5980 6013 6273 6565 7014 13294 13382 13422 13430 13473 13537 13546 13555 13580 13583 13607 13612 13644 13655 13661 18961 18980 
+	}
+
+	history={
+
+		owner = MAG 
+
+		add_core_of = MAG 
+
+		victory_points = {
+			64 8
+		}
+		victory_points = {
+			6013 1
+		}
+		victory_points = {
+			2962 2
+		}
+	}
+
+	manpower=1100000 # 22 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

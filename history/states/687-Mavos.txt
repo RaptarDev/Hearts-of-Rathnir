@@ -1,0 +1,29 @@
+
+state={
+	id=687
+	name="STATE_687"
+	provinces={
+		5103 9038 9079 9107 
+	}
+
+	history={
+
+		owner = AZD
+
+		add_core_of = AZD
+
+		add_core_of = TTT 
+
+		victory_points = {
+			9079 5
+		}
+
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+
+}

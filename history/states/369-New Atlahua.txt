@@ -1,0 +1,25 @@
+
+state={
+	id=369
+	name="STATE_369"
+
+	history={
+		owner = DEN
+		add_core_of = DEN
+		victory_points = {
+			12696 3 
+		}
+		victory_points = {
+			12861 1 
+		}
+
+	}
+
+	provinces={
+		804 940 1077 1124 1200 2163 2851 3199 3664 3711 4189 4512 5042 6385 6467 7562 7591 8445 8531 8551 12487 12567 12602 12612 12624 12647 12653 12679 12696 12726 12738 12765 12792 12798 12802 12828 12836 12861 12892 12926 12956 18942 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

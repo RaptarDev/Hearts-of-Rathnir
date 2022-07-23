@@ -1,0 +1,27 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		2433 
+	}
+	manpower=100000
+
+history=
+	{
+		owner = CZR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+		}
+		victory_points = { 2433 10 } #Port_boros
+		add_core_of = CZR
+	}
+
+
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		770 1021 1886 2725 3306 4285 4429 5253 5821 6547 7150 7166 7458 7643 17171 17193 17224 17260 17268 17274 17294 17300 17317 17358 17404 17414 17432 17452 17473 17476 17481 17482 17506 17520 17539 17540 17569 17614 17635 
+	}
+	history={
+
+		owner = UOH
+
+		add_core_of = UOH
+		
+		victory_points = {
+			17274 13  
+		}
+			victory_points = {
+			3014 5  
+		}
+
+	}
+
+	manpower=950000 # 19 peoplee
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

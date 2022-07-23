@@ -1,0 +1,21 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		1338 5130 9524 9544 9553 9594 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+	}
+}

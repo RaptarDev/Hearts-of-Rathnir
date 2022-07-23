@@ -1,0 +1,34 @@
+
+state = {
+	id = 111
+	name = "STATE_111"
+	manpower = 250000 # 5 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		15555 15598 15606 15654 
+	}
+
+	history={
+
+		owner = BOR
+
+		add_core_of = BOR
+		
+		victory_points = {
+			3068 1 
+		}
+
+		victory_points = {
+			15564 1 
+		}
+
+		victory_points = {
+			1637 1 
+		}
+		
+	}
+
+}

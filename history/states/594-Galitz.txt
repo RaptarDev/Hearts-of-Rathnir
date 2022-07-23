@@ -1,0 +1,30 @@
+state={
+	id=594
+	name="STATE_594"
+	provinces={
+		1047 3570 10894 10940 10989 10990 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_town
+
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			Arms_industry = 1
+			dockyard = 1
+		}
+		victory_points = { 10989 40 }
+	}
+}

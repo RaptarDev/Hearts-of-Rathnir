@@ -1,0 +1,31 @@
+state={
+	id=455
+	name="STATE_455"
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	provinces={
+		5635 9089 9101 9136 9145 
+	}
+
+history = {
+		owner = SKJ
+		
+                controller = SKJ
+
+		add_core_of = SKJ
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+
+		}	
+		victory_points = {
+			9145 30
+			}
+		}
+
+}

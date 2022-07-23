@@ -1,0 +1,6 @@
+#Lorent
+
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d
+
+color = { 29 93 161 }

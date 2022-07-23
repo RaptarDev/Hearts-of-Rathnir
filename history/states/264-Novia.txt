@@ -1,0 +1,37 @@
+state={
+	id=264
+	name="STATE_264"
+	manpower=4250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=metropolis
+
+	provinces={
+		1026 2796 6002 6924 9179 9210 9224 9264 9310 9319 9352
+	}
+
+	resources = {
+		steel = 4
+		tungsten = 5
+	}
+
+history = {
+		owner = NOA
+		
+                controller = NOA
+
+		add_core_of = NOA
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+		}
+		
+		victory_points = {
+			6002 50
+		}
+	
+	}
+}

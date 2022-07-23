@@ -1,0 +1,29 @@
+
+state={
+	id=373
+	name="STATE_373"
+	provinces={
+		3704 3794 4174 5513 12663 12672 12716 12733 12759 12785 12814 
+	}
+
+	history={
+
+		owner = DEN 
+
+		add_core_of = DEN 
+
+		victory_points = {
+			12759 3
+		}
+		victory_points = {
+			12663 1
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		3888 7230 7377 7574 7823 8006 16793 16903 16910 16945 16951 16993 16994 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			16910 5
+		}
+
+	}
+
+	manpower = 500000 # 10 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=642
+	name="STATE_642"
+	provinces={
+		115 1474 1642 2197 2926 4045 4159 4307 4505 6111 7023 7783 10499 10500 10507 10559 10574 10583 10584 10601 10630 10646 10657 10690 10703 10716 10744 10750 10751 10762 10803 10818 10826 10843 10898 10953 18729 26639 
+	}
+
+	history={
+
+		owner = RYZ 
+
+		add_core_of = RYZ 
+
+		victory_points = {
+			10750 3
+		}
+
+		victory_points = {
+			1642 2
+		}
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

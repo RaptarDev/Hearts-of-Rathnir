@@ -1,0 +1,25 @@
+
+state={
+	id=632
+	name="STATE_632"
+	provinces={
+		509 542 1542 4358 5846 7292 7320 8334 12293 12366 12392 12396 12402 12417 12486 18872 
+	}
+
+	history={
+
+		owner = ALD 
+
+		add_core_of = ALD 
+
+		victory_points = {
+			12396 10
+		}
+
+	}
+
+	manpower=1000000 # 20 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

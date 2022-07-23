@@ -1,0 +1,26 @@
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		1735 1869 2338 2407 2912 3512 4303 4609 5190 6541 6691 7062 8121 9945 9984 9985 10026 10080 10107 10129 10158 18667 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = { 9590 10 } 
+	}
+}

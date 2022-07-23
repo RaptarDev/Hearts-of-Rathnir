@@ -1,0 +1,24 @@
+
+state = {
+	id = 77
+	name = "STATE_77"
+	manpower = 50000 # 1 person
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+
+	provinces = {
+		1371 2419 3537 3773 4805 5560 6220 7018 17449 17515 17562 17646 
+	}
+
+	history = {
+		
+		owner = FRO
+
+		add_core_of = FRO
+
+		victory_points = { 3773 1 }
+
+	}
+
+}

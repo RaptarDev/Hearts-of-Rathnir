@@ -1,0 +1,30 @@
+state={
+	id=489
+	name="STATE_489"
+	provinces={
+		18828 18833 
+	}
+	manpower=3500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=metropolis
+
+	resources = {
+		Oil  = 2
+	}
+
+	history=
+	{
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+		}
+		victory_points = { 18828 60 } #Nox Aetena
+	}
+}

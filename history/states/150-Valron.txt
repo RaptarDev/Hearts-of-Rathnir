@@ -1,0 +1,31 @@
+
+state = {
+	id = 150
+	name = "STATE_150"
+
+	provinces = {
+		838 961 2289 2454 2603 3553 3580 3893 3941 4173 4365 4648 4803 4908 7232 17396 17409 17431 17443 17486 17509 17548 17584 17600 17641 17666 17725 17769 
+	}
+	
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			17666 35
+		}
+
+		victory_points = {
+			3553 3
+		}
+
+	}
+
+	manpower = 2950000 # 59 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+}

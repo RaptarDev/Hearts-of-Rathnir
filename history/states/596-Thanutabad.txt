@@ -1,0 +1,29 @@
+state={
+	id=596
+	name="STATE_596"
+	provinces={
+		98 798 1707 2571 2887 3550 4312 6576 11079 11086 11123 11140 11178 11195 11246 11269 11301 11311 11045
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Town
+
+	resources = {
+		steel = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			Arms_industry = 1
+		}
+		victory_points = { 11195 40 } 
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=466
+	name="STATE_466"
+	provinces={
+		18679 18683 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+
+	resources = {
+		Oil = 2
+	}
+
+	history = {
+		owner = SHN
+		
+                controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			Dockyard = 1
+		}
+	
+		victory_points = { 
+		18683 15 	
+		}
+    }
+}

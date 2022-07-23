@@ -1,0 +1,22 @@
+
+state={
+	id=50
+	name="STATE_50"
+
+	history={
+		owner = LOR
+		add_core_of = LOR
+		victory_points = {
+			17455 25 
+		}
+
+	}
+
+	provinces={
+		109 433 629 1429 1434 1449 3130 3404 3546 3566 4256 4658 4968 5297 6060 6118 6728 6830 7031 7402 17254 17309 17338 17339 17363 17398 17455 17495 17512 17550 17560 17571 17580 17589 17604 17652 17678 19287 19290 
+	}
+	manpower=2800000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

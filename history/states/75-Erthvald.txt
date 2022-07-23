@@ -1,0 +1,28 @@
+
+state={
+	id=75
+	name="STATE_75"
+
+	history={
+		owner = FRO
+		add_core_of = FRO
+		victory_points = {
+			17922 5 
+		}
+		victory_points = {
+			17516 20 
+		}
+		victory_points = {
+			17783 1 
+		}
+
+	}
+
+	provinces={
+		393 662 835 1172 1252 1402 1855 2086 2225 2327 2369 3299 3914 4009 4122 4205 4593 5425 5605 5625 6075 6435 6510 7304 7427 7536 7566 8040 8061 8105 17369 17407 17408 17426 17436 17457 17465 17466 17490 17491 17516 17522 17533 17534 17557 17564 17565 17594 17637 17654 17709 17728 17777 17783 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

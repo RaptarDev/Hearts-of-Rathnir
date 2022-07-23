@@ -1,0 +1,27 @@
+
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		1999 5511 6065 13108 
+	}
+
+	history={
+
+		owner = DRA 
+
+		add_core_of = DRA 
+
+		victory_points = {
+			13108 3
+		}
+
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+
+}

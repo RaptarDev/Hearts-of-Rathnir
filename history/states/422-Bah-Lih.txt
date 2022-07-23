@@ -1,0 +1,32 @@
+
+state={
+	id=422
+	name="STATE_422"
+	provinces={
+		330 1478 1768 2080 2337 3307 4677 6321 6825 13328 13425 13470 13530 13538 13603 13656 13706 13707 13713 13761 13777 13800 13820 
+	}
+
+	history={
+
+		owner = FJE 
+
+		controller = KAR
+
+		add_core_of = FJE 
+
+		victory_points = {
+			2080 10
+		}
+
+		victory_points = {
+			13854 5
+		}
+
+	}
+
+	manpower=1700000 # 34 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+	
+}

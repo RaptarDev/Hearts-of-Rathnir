@@ -1,0 +1,25 @@
+state={
+	id=223
+	name="STATE_223"
+	provinces={
+		18669 
+	}
+
+history=
+	{
+		owner = CZR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = { 18669 5 } #Kavan
+		add_core_of = CZR
+	}
+
+
+	manpower=2000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+}

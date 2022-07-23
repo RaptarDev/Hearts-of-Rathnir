@@ -1,0 +1,24 @@
+
+state={
+	id=413
+	name="STATE_413"
+	provinces={
+		6365 13944 13945 13955 14000 14001 14029 14067 14087 19000 26670 
+	}
+	history={
+
+		owner = SEI 
+
+		add_core_of = SEI 
+
+		victory_points = {
+			14000 4
+		}
+
+	}
+
+	manpower=400000 # 8 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

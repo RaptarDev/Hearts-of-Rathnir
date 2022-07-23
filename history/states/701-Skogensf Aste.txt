@@ -1,0 +1,23 @@
+
+state={
+	id=701
+	name="STATE_701"
+	provinces={
+		932 954 3519 5152 6079 6312 7635 7858 9891 9896 9897 9937 9982 9996 10008 10053 10130 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+
+
+	}
+
+	manpower=100000 # 0 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

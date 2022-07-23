@@ -1,0 +1,22 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = UOH
+		add_core_of = UOH
+		victory_points = {
+			7602 3 
+		}
+
+	}
+
+	provinces={
+		3955 4737 5282 6113 7361 7380 7602 14918 15235 15271 15315 15316 15324 15385 15453 19100 19101 19105 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

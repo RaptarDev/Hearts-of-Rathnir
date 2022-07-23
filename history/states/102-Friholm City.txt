@@ -1,0 +1,26 @@
+
+state = {
+	id = 102
+	name = "STATE_102"
+	manpower = 1200000 # 24 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+
+	provinces={
+		11 179 216 1713 2822 2955 3767 4607 5032 5553 5659 5906 6070 6836 7152 8014 8407 15084 15109 15114 15123 15130 15180 15197 15202 15203 15227 15249 15253 15261 15264 15312 15351 
+	}
+
+	history={
+
+		owner = FRI
+
+		add_core_of = FRI
+		
+		victory_points = {
+			15249 10
+		}
+
+	}
+
+}

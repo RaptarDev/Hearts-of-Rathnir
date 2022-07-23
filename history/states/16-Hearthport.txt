@@ -1,0 +1,24 @@
+
+state = {
+	id = 16
+	name = "STATE_16"
+	manpower = 2000000 # 40 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+	provinces = {
+		68 370 1403 1441 2380 3190 3696 3925 5224 5931 7144 7172 8253 18046 18102 18113 18142 18180 18197 18220 18243 18255 18284 
+	}
+
+	history = {
+		
+		owner = SAV
+
+		add_core_of = SAV
+
+		victory_points = { 18102 25 }
+
+	}
+
+}

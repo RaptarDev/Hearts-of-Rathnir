@@ -1,0 +1,28 @@
+
+state={
+	id=421
+	name="STATE_421"
+	provinces={
+		611 2977 4731 6426 6570 6920 7673 13819 13854 13861 13868 13884 13897 13920 13970 
+	}
+	
+	history={
+
+		owner = FJE 
+
+		controller = KAR
+
+		add_core_of = FJE 
+
+		victory_points = {
+			13854 5
+		}
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

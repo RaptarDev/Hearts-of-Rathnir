@@ -1,0 +1,26 @@
+
+state={
+	id=397
+	name="STATE_397"
+	provinces={
+		408 2676 7170 15065 15142 15187 
+	}
+
+	history={
+
+		owner = JAM 
+
+		add_core_of = JAM 
+
+		victory_points = {
+			15187 3
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = AUR
+		add_core_of = AUR
+		victory_points = {
+			15849 3 
+		}
+
+	}
+
+	provinces={
+		26 187 1296 1766 3071 4579 5521 6045 6138 6493 6590 6817 7372 7466 8256 8349 15737 15759 15803 15820 15849 15862 15912 15936 15948 15994 16036 16058 16086 16139 16143 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

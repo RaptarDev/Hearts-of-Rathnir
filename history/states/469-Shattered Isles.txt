@@ -1,0 +1,27 @@
+state={
+	id=469
+	name="STATE_469"
+	provinces={
+		7627 11039 18738 18750 18751 18753 18754 18759 18760 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+
+	resources = {
+		steel = 2
+	}
+
+history = {
+		owner = OPC
+		
+                controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			arms_factory = 1
+		}
+    }
+}

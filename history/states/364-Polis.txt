@@ -1,0 +1,26 @@
+
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		7494 7560 
+	}
+
+	history={
+
+		owner = SAN 
+
+		add_core_of = SAN 
+
+		victory_points = {
+			7560 1
+		}
+
+	}
+
+	manpower=150000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+
+}

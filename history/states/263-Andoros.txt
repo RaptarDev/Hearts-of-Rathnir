@@ -1,0 +1,36 @@
+state={
+	id=263
+	name="STATE_263"
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_city
+
+	provinces={
+		258 363 789 2011 3203 3917 4776 4963 5465 5768 5984 6475 6998 7335 8388 9360 9416 9483 9535 9541 9563 9597 9614 9620 18642 2342
+	}
+
+	resources = {
+		rubber = 4
+	}
+
+history = {
+		owner = NOA
+		
+                controller = NOA
+
+		add_core_of = NOA
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+		}
+		
+		victory_points = {
+			8388 30
+		}
+	
+	}
+}

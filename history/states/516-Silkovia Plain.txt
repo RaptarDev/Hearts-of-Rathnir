@@ -1,0 +1,20 @@
+state={
+	id=516
+	name="STATE_516"
+	provinces={
+		758 1485 3366 5843 5885 6166 6180 7480 10058 10064 10091 10175 10211 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		victory_points = { 6180 10 } 
+	}
+}

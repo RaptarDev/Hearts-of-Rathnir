@@ -1,0 +1,60 @@
+# All cavalry equipment
+
+equipments = {
+		cavalry_equipment_0 = {
+		year = 1350
+		priority = 10
+		active = yes
+		is_buildable = no
+		is_archetype = yes
+		visual_level = 1
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 10
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 4
+		ap_attack = 2
+		hardness = 0.75
+		armor_value = 10
+		
+		reliability = 0.8
+		build_cost_ic = 2.5
+		resources = {
+			steel = 4
+		}
+	}
+	cavalry_equipment_1 = {
+		year = 1350
+		archetype = cavalry_equipment_0
+		active = no
+		is_buildable = yes
+		priority = 15
+		visual_level = 1
+		
+		interface_category = interface_category_land
+		
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 10
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 4
+		ap_attack = 2
+		hardness = 0.75
+		armor_value = 10
+		
+		reliability = 0.8
+		build_cost_ic = 2.5
+		resources = {
+			steel = 5
+		}
+	}
+}

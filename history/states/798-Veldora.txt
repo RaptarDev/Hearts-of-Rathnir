@@ -1,0 +1,29 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		2308 4856 5030 5166 6559 7542 8002 9181 9202 9222 9239 9247 9273 9306 9314 18613 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			Arms_industry = 0
+
+		}
+		victory_points = { 9273 30 }
+		victory_points = { 4857 15 }
+	}
+}
+

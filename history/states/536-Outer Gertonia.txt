@@ -1,0 +1,24 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		1510 1937 1969 4769 4906 5207 6427 8024 10531 10554 10570 10577 10591 10596 10607 10620 10626 10645 10651 10668 10672 10685 10797 10866 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}
+

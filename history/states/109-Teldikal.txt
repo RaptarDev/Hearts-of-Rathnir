@@ -1,0 +1,22 @@
+
+state={
+	id=109
+	name="STATE_109"
+
+	history={
+		owner = VIR
+		add_core_of = VIR
+		victory_points = {
+			15168 5 
+		}
+
+	}
+
+	provinces={
+		613 1421 1979 2042 2290 3442 4762 6601 6755 6870 7308 7852 8144 15051 15122 15168 15211 15293 15326 15397 15431 15451 15454 15469 15485 15492 15496 15500 15576 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

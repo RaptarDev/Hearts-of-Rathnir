@@ -1,0 +1,28 @@
+state={
+	id=229
+	name="STATE_229"
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+	provinces={
+		1097 1975 2828 2985 3470 3950 5222 6463 7281 8554 8620 8621 8622 8623 8648 8654 8669 8687 8692 8714 8715 8716 8743 8762 8768 8852 8877 8886 8919 26627 
+	}
+
+resources = {
+		aluminium  = 1
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+		
+		victory_points = {
+			8623 2
+		}
+
+
+}

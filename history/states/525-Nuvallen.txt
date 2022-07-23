@@ -1,0 +1,34 @@
+state={
+	id=525
+	name="STATE_525"
+	provinces={
+		150 327 633 2363 3016 3858 4499 4633 4786 4838 4912 5064 5086 5300 6765 7076 7957 8232 8260 11380 11403 11433 11440 11477 11484 11498 11518 11525 11548 11560 11561 11576 11585 11612 11620 11635 11646 11661 
+	}
+	manpower=5050000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Megalopolis
+
+	resources = {
+		Tungsten = 3
+		steel = 3
+	}
+
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_industry = 2
+
+		}
+		victory_points = { 
+		4838 60
+		
+		} 
+	}
+}

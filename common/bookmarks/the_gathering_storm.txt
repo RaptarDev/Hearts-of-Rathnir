@@ -1,0 +1,21 @@
+bookmarks = {
+	bookmark = {
+		name = "Wrath of War"
+		desc = "GATHERING_STORM_DESC"
+		date = 142.9.18
+		picture = "GFX_select_date_1936"
+		default_country = "HSY"
+		default = yes
+		
+		"HSY"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"UOH"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

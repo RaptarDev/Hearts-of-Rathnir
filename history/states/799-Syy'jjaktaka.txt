@@ -1,0 +1,29 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			Arms_industry = 0
+
+		}
+		victory_points = {
+			9132 20 
+		}
+
+	}
+
+	provinces={
+		2 2842 4684 7255 9076 9132 9140 9166 9167 9206 18606 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,34 @@
+state={
+	id=250
+	name="STATE_250"
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	provinces={	
+
+		3479 5155 5737 5826 6534 7842 9427 9464 9508 9557 9520 9562 9604 5368 9645
+	}
+	
+resources = {
+		Tungsten = 2
+	}
+
+history = {
+		owner = AAT
+		
+                controller = AAT
+
+		add_core_of = AAT
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			
+		}
+		
+		victory_points = {
+			5155 15
+		}
+	}
+}

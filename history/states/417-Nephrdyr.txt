@@ -1,0 +1,24 @@
+
+state={
+	id=417
+	name="STATE_417"
+	provinces={
+		112 480 1719 1749 1931 3591 4837 5829 6278 7693 7749 8442 13803 13858 13898 13899 13916 13967 13989 14003 14004 14013 14042 
+	}
+	history={
+
+		owner = NOV 
+
+		add_core_of = NOV 
+
+		victory_points = {
+			13898 10
+		}
+
+	}
+
+	manpower=1050000 # 21 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

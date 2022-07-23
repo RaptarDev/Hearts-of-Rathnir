@@ -1,0 +1,30 @@
+state={
+	id=520
+	name="STATE_520"
+	provinces={
+		1808 1858 5418 5490 5628 5759 5902 8122 11255 11272 11299 11329 11334 11361 11372 11415 11429 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_city
+
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = DRK
+		controller = DRK
+		add_core_of = DRK
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			Arms_industry = 2
+		}
+		victory_points = { 11415 50 } #Drakonia
+	}
+}
+

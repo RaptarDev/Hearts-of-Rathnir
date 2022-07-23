@@ -1,0 +1,30 @@
+
+state={
+	id=698
+	name="STATE_698"
+	provinces={
+		657 1661 2180 2287 3078 4035 4119 4466 4802 4945 5464 7271 7354 7522 8529 10045 10088 10089 10117 10173 10182 10190 10235 10243 10282 10295 10314 10333 10364 10411 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			5464 3
+		}
+		victory_points = {
+			657 2
+		}
+
+
+	}
+
+	manpower=2500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+
+}

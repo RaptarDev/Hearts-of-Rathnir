@@ -1,0 +1,28 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		1358 4059 9307 9330 9406 9415 9421 9445 9498 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+	
+	history={
+		owner = NOA
+		controller = NOA
+		add_core_of = NOA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+
+		}
+		victory_points = {
+			6002 50 
+		}
+
+		}
+}

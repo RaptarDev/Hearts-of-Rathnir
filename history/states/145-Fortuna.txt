@@ -1,0 +1,30 @@
+
+state={
+	id=145
+	name="STATE_145"
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	provinces={
+		104 1138 1315 1831 2175 3330 4013 4340 4688 6124 6506 6994 7265 7888 8189 17459 17485 17504 17525 17536 17567 17576 17583 17595 17617 17669 17670 17673 17705 17706 17724 17739 17750 17768 17789 17798 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			6994 20
+		}
+
+	}
+
+	manpower = 1750000 # 35
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+}

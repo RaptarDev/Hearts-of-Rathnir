@@ -1,0 +1,22 @@
+
+state={
+	id=117
+	name="STATE_117"
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		victory_points = {
+			15003 45 
+		}
+
+	}
+
+	provinces={
+		14 338 1430 1459 2908 4694 5094 5517 5937 6558 6567 6939 7862 8108 14858 14873 14895 14937 15003 15015 15019 15049 15054 15064 15076 15082 15105 15121 15141 15153 15183 19057 19067 19073 19077 
+	}
+	manpower=8500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

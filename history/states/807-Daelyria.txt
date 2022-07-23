@@ -1,0 +1,32 @@
+state={
+	id=807
+	name="STATE_807"
+	provinces={
+		8076 9377 18629 18630 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=250000
+	State_category=Large_town
+
+	resources = {
+		oil  = 2
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+		}		
+	
+		victory_points = {9377 60} #Frostarch
+	}
+}

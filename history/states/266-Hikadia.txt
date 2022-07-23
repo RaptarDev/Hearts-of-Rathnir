@@ -1,0 +1,31 @@
+state={
+	id=266
+	name="STATE_266"
+	manpower=2600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	provinces={
+		1133 2673 3571 5181 5611 6578 6888 6955 7624 8871 8914 8968 9068 9088 9135 18599 
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 2
+		}		
+	
+		victory_points = {
+			6955 10
+		}
+
+
+	}
+}

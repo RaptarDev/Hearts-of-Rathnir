@@ -1,0 +1,25 @@
+
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		owner = YAS
+		add_core_of = YAS
+		victory_points = {
+			583 20 
+		}
+		victory_points = {
+			3357 3 
+		}
+
+	}
+
+	provinces={
+		17 263 583 843 859 957 1229 1845 3357 3852 4220 4232 5156 5219 5440 5456 6396 6650 6652 7541 7967 15786 15834 15877 15908 15939 15942 15988 16002 16003 16042 16052 16059 16067 16087 16090 16097 16104 16114 16124 16157 16161 16176 16181 16190 16221 16243 16258 16270 
+	}
+	manpower=1700000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

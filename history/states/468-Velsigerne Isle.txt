@@ -1,0 +1,27 @@
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		5444 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+history = {
+		owner = SHN
+		
+        	controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			5444 10
+		}
+    }
+}

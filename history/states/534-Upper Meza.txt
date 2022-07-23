@@ -1,0 +1,28 @@
+state={
+	id=534
+	name="STATE_534"
+	provinces={
+		511 576 1484 1550 4751 4961 6951 7067 8294 10341 10428 10496 10503 10504 10552 10555 
+	}
+	manpower=4560
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Pastoral
+
+	resources = {
+		Tungsten = 2
+	}
+
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+	
+	}
+}

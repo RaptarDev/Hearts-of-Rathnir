@@ -1,0 +1,22 @@
+
+state={
+	id=393
+	name="STATE_393"
+
+	history={
+		owner = IAU
+		add_core_of = IAU
+		victory_points = {
+			15030 5 
+		}
+
+	}
+
+	provinces={
+		634 1352 1640 1867 2170 3872 4217 4477 5373 5644 6244 6347 7270 7275 7430 7796 8110 8164 8312 14952 14972 15022 15030 15042 15043 15047 15059 15077 15095 15138 15147 15158 15171 15181 15241 15269 15301 15314 15449 19128 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

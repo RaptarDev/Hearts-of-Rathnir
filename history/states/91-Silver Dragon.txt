@@ -1,0 +1,24 @@
+
+state = {
+	id = 91
+	name = "STATE_91"
+	manpower = 400000 # 8 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		935 1669 2117 3900 5196 7202 7617 8219 16088 16105 16110 16140 16152 16163 16171 16196 16206 16207 16265 16288 
+	}
+
+	history = {
+		
+		owner = TOR
+
+		add_core_of = TOR
+
+		victory_points = { 16196 5 }
+
+	}
+
+}

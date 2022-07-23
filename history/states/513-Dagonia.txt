@@ -1,0 +1,23 @@
+state={
+	id=513
+	name="STATE_513"
+	provinces={
+		422 746 768 970 1811 2552 3589 4742 5047 6440 6767 7228 10169 10178 10179 10215 10230 10255 10256 10263 10275 10290 10307 10308 10323 10340
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			industrial_complex = 1
+		}
+	
+	}
+}

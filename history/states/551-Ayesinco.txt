@@ -1,0 +1,27 @@
+
+state={
+	id=551
+	name="STATE_551"
+	provinces={
+		2202 3522 4428 5782 7254 7478 8447 13130 13145 13177 13236 13259 13266 13274 13291 13301 13348 13362 13380 18954 18960 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			13130 7
+		}
+
+
+
+	}
+
+	manpower=750000 # 15 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	
+}

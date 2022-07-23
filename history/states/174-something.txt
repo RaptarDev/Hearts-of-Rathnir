@@ -1,0 +1,22 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = AEZ
+		add_core_of = AEZ
+		victory_points = {
+			2160 3 
+		}
+
+	}
+
+	provinces={
+		69 623 1204 2160 2207 2247 2269 2510 4075 4143 4158 4516 4591 5460 6209 6867 7747 8293 8339 8510 16135 16178 16215 16262 16275 16301 16325 16334 16349 16375 16413 16417 16509 19202 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

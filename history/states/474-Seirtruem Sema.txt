@@ -1,0 +1,34 @@
+state={
+	id=474
+	name="STATE_474" 
+	provinces={
+		4133 8217 10598 10789 10850 18716 18724 18727 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	resources = {
+		Chromium = 4
+	}
+
+	history=
+	{
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = { 
+			18749 15
+			18770 30
+		} 
+
+	}
+}

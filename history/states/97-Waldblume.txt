@@ -1,0 +1,25 @@
+
+state = {
+	id = 97
+	name = "STATE_97"
+	manpower = 1700000 # 34
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+	provinces = {
+		3738 5595 6182 6263 6633 7439 7631 7632 16048 16089 16091 16208 
+	}
+
+
+	history = {
+		
+		owner = VAL
+
+		add_core_of = VAL
+
+		victory_points = { 6182 15 }
+
+	}
+
+}

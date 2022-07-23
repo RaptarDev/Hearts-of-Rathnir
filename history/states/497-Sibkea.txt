@@ -1,0 +1,31 @@
+state={
+	id=497
+	name="STATE_497"
+	provinces={
+		1648 1928 2497 2534 4240 4417 4427 4819 4970 5394 5712 6108 6345 6635 6675 7363 9412 9507 9534 9542 9550 9596 9619 9707 9754 9798 9827 18635 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_city
+
+	resources = {
+		Steel  = 2
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = { 6108 20 }
+	}
+}
+

@@ -1,0 +1,26 @@
+state={
+	id=274
+	name="STATE_274"
+	manpower=69
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+
+	provinces={
+		2219 6167 10216 10247 10266 10299 10300 10349 10352 
+	}
+
+	resources = {
+		Oil = 5
+	}
+
+history = {
+		owner = SLI
+		
+                controller = SLI
+
+		add_core_of = SLI
+
+		}
+
+}

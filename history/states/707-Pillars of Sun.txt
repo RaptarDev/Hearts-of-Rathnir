@@ -1,0 +1,25 @@
+
+state={
+	id=707
+	name="STATE_707"
+	provinces={
+		331 345 2520 3705 3819 5141 5534 8017 9185 9205 9221 9228 9235 9258 9266 9282 9296 9303 9305 9322 9362 9388 9437 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			2520 3
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

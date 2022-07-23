@@ -1,0 +1,23 @@
+
+state = {
+	id = 5
+	name = "STATE_5"
+	manpower = 450000  # 9 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		19343 19347 19350 19353 
+	}
+	history = {
+		
+		owner = GRE
+
+		add_core_of = GRE
+
+		victory_points = { 19350 1 }
+
+	}
+
+}

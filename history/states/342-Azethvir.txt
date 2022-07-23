@@ -1,0 +1,32 @@
+
+state={
+	id=342
+	name="STATE_342"
+	provinces={
+		958 1509 1832 2199 5491 5783 6074 7578 8451 8546 13582 13621 13634 13673 13688 13715 13716 13750 13770 13782 13813 13832 13881 13929 13934 13990 14016 14045 14099 14108 14136 14162 18977 18982 18985 18992 18997 
+	}
+
+	history={
+
+		owner = SIR 
+
+		add_core_of = SIR 
+
+		victory_points = {
+			7578 3
+		}
+
+		victory_points = {
+			13688 1
+		}
+
+
+
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=706
+	name="STATE_706"
+	provinces={
+		1385 3122 3439 3944 4602 5921 6012 9381 9400 9438 9447 9475 9546 9565 9583 9629 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			9546 4
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+
+}

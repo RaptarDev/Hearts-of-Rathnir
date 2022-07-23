@@ -1,0 +1,27 @@
+state={
+	id=255
+	name="STATE_255"
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	provinces={
+		1726 1838 5062 9972 10124
+	}
+
+history = {
+		owner = NOA
+		
+                controller = NOA
+
+		add_core_of = NOA
+		add_core_of = ARL
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+    }
+}

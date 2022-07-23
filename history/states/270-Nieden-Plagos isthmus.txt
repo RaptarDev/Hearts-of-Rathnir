@@ -1,0 +1,28 @@
+state={
+	id=270
+	name="STATE_270"
+	provinces={
+		5231 5934 10310 18705 
+	}
+	
+	manpower=40
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_Category=wasteland
+
+	resources = {
+		oil = 2
+	}
+
+history = {
+		owner = OPC
+		
+        controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

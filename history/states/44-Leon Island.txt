@@ -1,0 +1,25 @@
+
+state={
+	id=44
+	name="STATE_44"
+
+	history={
+		owner = LOR
+		add_core_of = LOR
+		victory_points = {
+			16858 5 
+		}
+		victory_points = {
+			5525 3 
+		}
+
+	}
+
+	provinces={
+		526 1934 5525 6759 16812 16850 16858 16861 16873 16928 16968 17008 19249 19251 19267 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

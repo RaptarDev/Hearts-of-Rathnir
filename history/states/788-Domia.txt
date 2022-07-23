@@ -1,0 +1,30 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		882 1698 1890 2300 2721 4472 8410 9323 9358 9367 9403 9417 9523 9560 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=350000
+	State_category=Large_town
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}		
+	
+		victory_points = {1890 20} #Frostarch
+
+	}
+}
+

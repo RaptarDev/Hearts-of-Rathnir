@@ -1,0 +1,30 @@
+
+state = {
+	id = 144
+	name = "STATE_144"
+	manpower = 250000 # 5 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces={
+		436 1560 1794 1840 2133 2196 2222 3599 3645 4126 4229 4984 5267 6141 6539 6727 7382 7451 17197 17281 17304 17354 17395 17430 17442 17524 17535 17582 17629 17640 17694 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			6737 1
+		}
+
+		victory_points = {
+			17354 1
+		}
+
+	}
+
+}

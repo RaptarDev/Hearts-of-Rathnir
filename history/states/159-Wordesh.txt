@@ -1,0 +1,26 @@
+
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		990 1317 2296 3135 3325 3929 4574 4909 5883 6807 16852 16869 16952 16976 16977 17005 17036 17124 17130 17180 26683 26684 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			5883 35
+		}
+
+	}
+
+	manpower = 5200000 # 104 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+
+}

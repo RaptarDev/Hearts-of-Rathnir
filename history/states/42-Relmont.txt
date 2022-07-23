@@ -1,0 +1,24 @@
+
+state = {
+	id = 42
+	name = "STATE_42"
+	manpower = 8200000 # 164 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = megalopolis  
+
+	provinces = {
+		2604 3516 5877 17530 17591 17601 17638 17651 17683 19312 19319 19324 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 17601 40 }
+
+	}
+
+}

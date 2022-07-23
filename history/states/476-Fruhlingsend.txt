@@ -1,0 +1,33 @@
+
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		3153 11264 18743 18745 18765 18773 18774 
+	}
+
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		victory_points = {
+			3153 15 
+		}
+
+	}
+
+}

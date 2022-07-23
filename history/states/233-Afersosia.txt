@@ -1,0 +1,29 @@
+state={
+	id=233
+	name="STATE_233"
+	manpower=15000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	provinces={
+		9240 18607 18609 18612 18616 
+	}
+
+history=
+	{
+		owner = CZR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = { 18616 10 } #Fort
+		add_core_of = CZR
+	}
+
+resources = {
+		Oil = 3
+	}
+
+
+}

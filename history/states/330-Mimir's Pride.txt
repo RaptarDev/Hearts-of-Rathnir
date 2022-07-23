@@ -1,0 +1,28 @@
+
+state={
+	id=330
+	name="STATE_330"
+	provinces={
+		1974 3257 6092 7583 15274 15356 15366 15484 
+	}
+	history={
+
+		owner = ADA 
+
+		add_core_of = ADA 
+
+		victory_points = {
+			3015 3
+		}
+
+		victory_points = {
+			1951 1
+		}
+
+	}
+
+	manpower=850000 # 17 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

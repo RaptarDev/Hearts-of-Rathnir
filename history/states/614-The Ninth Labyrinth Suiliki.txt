@@ -1,0 +1,25 @@
+
+state={
+	id=614
+	name="STATE_614"
+	provinces={
+		1082 1301 2859 2919 2986 4275 4407 4611 5044 6039 6144 6357 6701 6771 7059 7417 7550 8295 8435 11192 11222 11236 11258 11322 11323 11359 11364 11368 11390 11394 11406 11409 11424 11451 11481 11522 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			4407 1
+		}
+
+	}
+
+	manpower=150000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

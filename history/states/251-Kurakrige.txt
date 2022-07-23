@@ -1,0 +1,34 @@
+state={
+	id=251
+	name="STATE_251"
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	provinces={
+		437 2909 3039 6916 9603 9644 9672 9681 9688 
+	}
+
+	resources = {
+		steel = 4
+	}
+
+history = {
+		owner = CHU
+		
+                controller = CHU
+
+		add_core_of = CHU
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			9672 10
+		}
+
+	}
+}

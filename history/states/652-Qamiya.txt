@@ -1,0 +1,25 @@
+
+state={
+	id=652
+	name="STATE_652"
+	provinces={
+		1996 3444 4898 4935 6304 6517 7122 7246 7399 7440 8527 11833 11842 11858 11925 11928 11929 11959 12004 12013 12035 12047 12052 12084 12085 12094 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			4898 5
+		}
+
+	}
+
+	manpower=750000 # 15 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

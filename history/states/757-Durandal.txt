@@ -1,0 +1,30 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		875 1109 2039 2672 4111 4213 5912 6723 8145 9335 9404 9405 9426 9451 9452 9473 9481 9530 9350 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}		
+	
+		victory_points = {
+			2039 25
+		}
+
+	}
+}

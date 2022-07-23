@@ -1,0 +1,32 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		262 2067 2145 2299 2621 2940 3962 4326 6466 6952 6999 7135 8712 8721 8726 8757 8801 8811 8855 4422 4434 8987 9001 18585 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Metropolis
+	manpower=1000000
+
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 2
+		}		
+	
+		victory_points = {
+			4326 30
+		}
+
+	}
+}

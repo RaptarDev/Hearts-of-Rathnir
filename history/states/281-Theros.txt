@@ -1,0 +1,27 @@
+state={
+	id=281
+	name="STATE_281"
+	provinces={
+		4399 6661 8152 10841 10855 10975 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	history=
+	{
+		owner = THE
+		controller = THE
+		add_core_of = The
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+
+		victory_points = { 4399 60 } 
+	}
+}

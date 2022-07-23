@@ -1,0 +1,26 @@
+
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		4418 6914 14164 14224 14259 14271 14292 14324 
+	}
+
+	history={
+
+		owner = ARD 
+
+		add_core_of = ARD 
+
+		victory_points = {
+			4418 7
+		}
+
+	}
+
+	manpower=750000 # 15 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

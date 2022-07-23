@@ -1,0 +1,28 @@
+state={
+	id=519
+	name="STATE_519"
+	provinces={
+		88 612 3221 7419 11375 11441 11455 11466 11480 11503 11541 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = DRK
+		controller = DRK
+		add_core_of = DRK
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			Arms_industry = 1
+		}
+	}
+}

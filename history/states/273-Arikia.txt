@@ -1,0 +1,33 @@
+state={
+	id=273
+	name="STATE_273"
+	provinces={
+		1348 3998 6438 10408 10409 10477 10484 18711 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	
+	resources = {
+		steel = 2
+	}
+
+history = {
+		owner = OPC
+		
+        controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			10409 20
+		}
+	}
+}

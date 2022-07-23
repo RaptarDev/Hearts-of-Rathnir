@@ -1,0 +1,30 @@
+
+state={
+	id=163
+	name="STATE_163"
+	provinces={
+		785 3672 3770 4520 5292 5755 6327 7297 8027 8467 16360 16373 16401 16424 16438 16446 16484 16485 16574 19198 19200 19204 26614 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			16373 20
+		}
+
+		victory_points = {
+			16401 3
+		}
+
+	}
+
+	manpower = 2000000 # 40 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+}

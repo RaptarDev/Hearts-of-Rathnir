@@ -1,0 +1,38 @@
+
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		37 1529 1662 2085 2162 2209 2812 2830 4900 4966 5179 5188 5265 5584 6122 6636 7876 7960 8007 16732 16737 16771 16790 16796 16817 16827 16845 16871 16886 16890 16891 16909 16913 16918 16932 16933 16938 16944 16969 16970 16981 17004 19227 19237 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			4966 3
+		}
+
+		victory_points = {
+			16817 1
+		}
+
+		victory_points = {
+			16796 1
+		}
+
+		victory_points = {
+			5179 1
+		}
+
+	}
+
+	manpower = 1700000 # 34 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=554
+	name="STATE_554"
+	provinces={
+		124 287 874 1182 2172 2583 2681 2707 2870 3344 3681 3933 4038 5484 6343 7084 7457 7824 7927 8161 13293 13299 13350 13381 13397 13400 13410 13429 13454 13459 13483 13513 13514 13535 13536 13545 13579 13590 13606 13622 13639 13654 13691 13728 13737 13738 13752 13773 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			6343 5
+		}		
+		
+		victory_points = {
+			3933 2
+		}
+
+		victory_points = {
+			1182 1
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

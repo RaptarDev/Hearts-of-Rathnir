@@ -1,0 +1,29 @@
+state={
+	id=496
+	name="STATE_496"
+	provinces={
+		4531 6308 7098 7182 7347 7653 9683 9728 9741 9770 9771 9786 9822 9851 9852 9873 9909 9916 4334 18672 6404 9879 9886 9923 9929 9957 9971
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	resources = {
+		Chromium  = 3
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 2
+		}
+		victory_points = { 9822 20 } #Campus Ordo
+	}
+}

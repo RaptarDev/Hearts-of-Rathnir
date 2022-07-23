@@ -1,0 +1,26 @@
+
+state={
+	id=689
+	name="STATE_689"
+	provinces={
+		800 914 5832 6618 9037 9072 9075 9117 9161 18603 18617 
+	}
+
+	history={
+
+		owner = TTT 
+
+		add_core_of = TTT 
+
+		victory_points = {
+			800 1
+		}
+
+
+	}
+
+	manpower=150000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

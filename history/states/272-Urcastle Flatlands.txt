@@ -1,0 +1,29 @@
+state={
+	id=272
+	name="STATE_272"
+	provinces={
+		3733 5574 10407 10463 10469 10512 10566 10587 18706 18721 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+
+
+history = {
+		owner = OPC
+		
+                controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			10469 10
+		}
+	}
+}

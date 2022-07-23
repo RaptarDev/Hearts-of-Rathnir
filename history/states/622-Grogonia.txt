@@ -1,0 +1,22 @@
+
+state={
+	id=622
+	name="STATE_622"
+
+	history={
+		owner = AZU
+		add_core_of = AZU
+		victory_points = {
+			8418 15 
+		}
+
+	}
+
+	provinces={
+		34 434 2110 2773 3031 3509 6662 6699 7413 7892 7968 8135 8169 8418 14367 14402 14410 14430 14446 14487 14511 14517 14534 14559 14614 14660 14661 14723 19024 19029 19031 19040 
+	}
+	manpower=1550000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 123
+	name = "STATE_123"
+	manpower = 300000 # 6 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		368 4046 8166 15476 
+	}
+
+	history={
+
+		owner = REG
+
+		add_core_of = REG
+		
+		victory_points = {
+			15476 3 
+		}
+		
+	}
+
+}

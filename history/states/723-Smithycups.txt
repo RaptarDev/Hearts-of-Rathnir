@@ -1,0 +1,25 @@
+
+state={
+	id=723
+	name="STATE_723"
+	provinces={
+		199 295 993 4869 5414 8545 8778 8845 8872 8925 8947 8954 8962 8990 8993 9010 9043 9078 9111 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			5414 3
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	
+}

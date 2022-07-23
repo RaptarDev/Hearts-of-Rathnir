@@ -1,0 +1,26 @@
+state={
+	id=491
+	name="STATE_491"
+	provinces={
+		2650 12019 12033 18841 18843 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	history=
+	{
+		owner = THE
+		controller = THE
+		add_core_of = THE
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
+		victory_points = { 4399 60 } 
+	}
+}

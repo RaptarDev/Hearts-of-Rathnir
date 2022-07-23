@@ -1,0 +1,22 @@
+
+state={
+	id=358
+	name="STATE_358"
+
+	history={
+		owner = OMB
+		add_core_of = OMB
+		victory_points = {
+			3037 5 
+		}
+
+	}
+
+	provinces={
+		302 2007 2237 3037 6259 6859 12725 12736 12826 18919 18922 26653 
+	}
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

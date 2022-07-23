@@ -1,0 +1,26 @@
+
+state={
+	id=451
+	name="STATE_451"
+	provinces={
+		964 2355 2396 2793 3445 3622 6909 7664 8001 8301 13927 13937 13949 13969 14019 14020 14037 14054 14073 14120 14144 14166 14173 14207 14214 14286 19002 26622 
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU 
+
+		victory_points = {
+			13937 5
+		}
+
+	}
+
+	manpower=600000 # 12 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

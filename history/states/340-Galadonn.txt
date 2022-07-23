@@ -1,0 +1,26 @@
+
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		52 1236 5458 6411 7740 14515 
+	}
+
+	history={
+
+		owner = SIR 
+
+		add_core_of = SIR 
+
+		victory_points = {
+			52 30
+		}
+
+	}
+
+	manpower=2700000 # 54 people
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+
+}

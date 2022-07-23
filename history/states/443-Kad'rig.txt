@@ -1,0 +1,25 @@
+
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		214 1418 7154 13508 13562 13581 13627 13636 
+	}
+
+	history={
+
+		owner = KAR
+
+		add_core_of = KAR 
+
+		victory_points = {
+			214 5
+		}
+
+	}
+
+	manpower=700000 # 14 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

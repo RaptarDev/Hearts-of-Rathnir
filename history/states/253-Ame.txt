@@ -1,0 +1,32 @@
+
+state={
+	id=253
+	name="STATE_253"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = CHU
+		controller = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			8343 15 
+		}
+
+	}
+
+	provinces={
+		2708 3825 5920 8343 9853 9912 9948 9989 10042 10072 26636 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

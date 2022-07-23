@@ -1,0 +1,32 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		6631 8247 10388 18699 18701 18696
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	
+	resources = {
+		Rubber = 2
+	}
+
+history = {
+		owner = SHN
+		
+        controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			6631 20
+		}
+    }
+}

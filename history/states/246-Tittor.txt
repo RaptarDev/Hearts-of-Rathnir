@@ -1,0 +1,31 @@
+state={
+	id=246
+	name="STATE_246"
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	provinces={
+		549 824 2537 5106 5270 5630 7501 8602 8665 8698 8706 8741 8758 8791 8822 
+	}
+
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+		}		
+	
+		victory_points = {
+			824 25
+		}
+	}
+}

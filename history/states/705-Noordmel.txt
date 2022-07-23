@@ -1,0 +1,26 @@
+
+state={
+	id=705
+	name="STATE_705"
+	provinces={
+		695 1693 2386 3400 5845 5856 6384 6437 7237 9845 9868 9875 9882 9906 9930 9931 9936 9965 9981 9990 9995 10043 
+	}
+
+	history={
+
+		owner = NOR 
+
+		add_core_of = NOR 
+
+		victory_points = {
+			9990 9
+		}
+
+	}
+
+	manpower=900000 # 18 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+
+}

@@ -1,0 +1,33 @@
+state={
+	id=463
+	name="STATE_463"
+	manpower=2750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	provinces={
+		10143 
+	}
+
+
+	history = {
+
+		owner = ZEM
+		
+        controller = ZEM
+
+		add_core_of = ZEM
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+		}
+		
+		victory_points = {
+			10143 35
+		}
+	}
+}

@@ -1,0 +1,11 @@
+state={
+	id=487
+	name="STATE_317"
+	provinces={
+		18891 18903 18909 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+}

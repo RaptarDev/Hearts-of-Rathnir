@@ -1,0 +1,30 @@
+
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		1055 1248 2543 4085 5772 5896 6152 6935 7158 7982 8371 13457 13490 13509 13548 13549 13573 13594 13662 13670 13679 13696 
+	}
+
+	history={
+
+		owner = NOV 
+
+		add_core_of = NOV 
+
+		victory_points = {
+			7982 4
+		}
+
+		victory_points = {
+			2543 1
+		}
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 114
+	name = "STATE_114"
+	manpower = 350000 # 7 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		310 683 1458 2499 2783 6459 7675 15318 15372 15399 15427 15432 15479 15488 15530 
+	}
+
+	history={
+
+		owner = BOR
+
+		add_core_of = BOR
+		
+		victory_points = {
+			15339 3 
+		}
+		
+	}
+
+}

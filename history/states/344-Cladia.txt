@@ -1,0 +1,31 @@
+
+state={
+	id=344
+	name="STATE_344"
+	provinces={
+		471 764 974 1121 1451 2467 2827 3025 3372 3559 3740 5370 5496 6668 7330 7866 14631 14700 14707 14741 14746 14752 14773 14795 14796 14802 14845 19051 26675 
+	}
+
+	history={
+
+		owner = CAR 
+
+		add_core_of = CAR 
+
+		victory_points = {
+			5370 1
+		}
+
+		victory_points = {
+			3740 1
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+
+
+}

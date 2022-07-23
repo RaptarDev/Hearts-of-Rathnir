@@ -1,0 +1,24 @@
+
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		5433 13831 13862 18987 18998 
+	}
+	history={
+
+		owner = KOC 
+
+		add_core_of = KOC 
+		
+		victory_points = {
+			13862 5 
+		}
+
+	}
+
+	manpower=400000 # 8 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

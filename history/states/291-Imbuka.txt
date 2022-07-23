@@ -1,0 +1,24 @@
+
+state={
+	id=291
+	name="STATE_291"
+	provinces={
+		496 3088 4919 5252 6903 14767 14788 14793 14800 
+	}
+	history={
+
+		owner = ZEF
+
+		add_core_of = ZEF
+		
+		victory_points = {
+			14767 3  
+		}
+
+	}
+
+	manpower=250000 # 5 peoplee
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

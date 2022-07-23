@@ -1,0 +1,30 @@
+
+state={
+	id=279
+	name="STATE_279"
+	provinces={
+		1841 2639 7452 8100 10547 10611 10656 10661 10708 10741 10800 10868 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	resources = {
+		Steel  = 2
+	}
+
+	history=
+	{
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = { 10656 10 } #Thorn
+	}
+}

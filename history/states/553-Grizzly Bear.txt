@@ -1,0 +1,46 @@
+
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		397 3862 4177 6797 7353 8013 13339 13340 13349 13389 13415 13448 13449 13472 13506 13521 13566 13630 18978 26665 
+	}
+	history={
+
+		owner = AAZ 
+
+		add_core_of = AAZ 
+
+		add_core_of = GRI
+
+		victory_points = {
+			13448 10
+		}
+
+		victory_points = {
+			13472 3
+		}
+
+		victory_points = {
+			13339 5
+		}
+
+		victory_points = {
+			13449 15
+		}
+
+		victory_points = {
+			4177 3
+		}
+
+		victory_points = {
+			13630 5
+		}
+
+
+	}
+
+	manpower=3000000 # 60 people
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

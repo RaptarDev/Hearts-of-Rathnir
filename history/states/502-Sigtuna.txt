@@ -1,0 +1,32 @@
+
+state={
+	id=502
+	name="STATE_502"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			8230 20 
+		}
+
+	}
+
+	provinces={
+		102 324 765 945 1776 2601 2727 2885 4132 4318 4404 5090 6285 7718 8230 10774 10837 10895 10903 10966 10983 10993 11020 11023 11053 11089 11090 11131 11149 11170 11187 11212 18731 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

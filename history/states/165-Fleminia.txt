@@ -1,0 +1,30 @@
+
+state={
+	id=165
+	name="STATE_165"
+	provinces={
+		1675 3802 4222 4629 4941 5467 7115 7905 7992 8153 15888 15889 15923 15938 15963 15969 15979 15985 16016 16061 16063 16078 16100 16103 16159 16174 16175 16219 16230 16231 16242 16263 16283 16307 16318 16335 16336 16359 19157 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			7792 3
+		}
+
+		victory_points = {
+			16283 1
+		}
+
+	}
+
+	manpower = 400000 # 8 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+}

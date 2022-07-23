@@ -1,0 +1,27 @@
+
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		317 1504 4695 15342 15398 
+	}
+
+	history={
+
+		owner = TOR 
+
+		add_core_of = TOR 
+
+		add_core_of = SAL
+
+		victory_points = {
+			317 3
+		}
+
+	}
+
+	manpower=2500000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

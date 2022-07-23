@@ -1,0 +1,31 @@
+
+state={
+	id=90
+	name="STATE_90"
+
+	history={
+		owner = TOR
+		add_core_of = TOR
+		victory_points = {
+			15966 10 
+		}
+		victory_points = {
+			3956 1 
+		}
+		victory_points = {
+			1076 1 
+		}
+		victory_points = {
+			15787 1 
+		}
+
+	}
+
+	provinces={
+		23 1076 1155 1275 1427 1710 2096 2701 3956 5285 5529 5698 6387 6687 7867 7908 15743 15787 15798 15804 15822 15828 15835 15844 15851 15857 15879 15890 15891 15931 15932 15951 15966 16007 16020 16054 16055 16069 19164 19165 26679 
+	}
+	manpower=1150000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

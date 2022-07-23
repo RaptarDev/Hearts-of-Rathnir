@@ -1,0 +1,25 @@
+
+state = {
+	id = 83
+	name = "STATE_83"
+	manpower = 250000 # 5 people 
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		4036 4488 5882 8384 16785 16822 16835 16864 
+	}
+
+	history = {
+		
+		owner = TOR
+
+		add_core_of = TOR
+
+		victory_points = { 168 3 }
+
+	}
+
+
+}

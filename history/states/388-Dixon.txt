@@ -1,0 +1,24 @@
+
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		116 191 1781 1948 5159 5926 6323 6610 6967 7092 8468 14543 14591 14633 14732 14735 
+	}
+	history={
+
+		owner = KAR 
+
+		add_core_of = KAR 
+
+		victory_points = {
+			8411 5
+		}
+
+	}
+
+	manpower=400000 # 8 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+
+state = {
+	id = 31
+	name = "STATE_31"
+	manpower = 400000  # 8 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		2054 3102 4201 4282 5068 5757 5815 6011 7025 8416 15060 15096 15149 15188 15212 15213 15239 15250 15277 15281 15302 15322 15323 15349 15350 15364 15377 15395 15404 15413 19085 19096 19107 19124 
+	}
+
+	history = {
+		
+		owner = AUR
+
+		add_core_of = AUR
+
+		victory_points = { 15302 3 }
+
+	}
+
+}

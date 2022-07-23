@@ -1,0 +1,22 @@
+
+state={
+	id=428
+	name="STATE_428"
+
+	history={
+		owner = KAR
+		add_core_of = KAR
+		victory_points = {
+			12575 10 
+		}
+
+	}
+
+	provinces={
+		19 139 582 625 631 1944 1966 2391 4094 4621 5979 6041 6383 7295 7620 7899 12451 12476 12518 12535 12555 12575 12576 12579 12589 12599 12605 12627 12631 12635 12648 12649 12724 12763 12772 18901 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

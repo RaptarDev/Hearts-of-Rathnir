@@ -1,0 +1,27 @@
+
+state={
+	id=696
+	name="STATE_696"
+	provinces={
+		10397 10431 10432 10493 18719 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			10431 3
+		}
+
+
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

@@ -1,0 +1,24 @@
+
+state = {
+	id = 4
+	name = "STATE_4"
+	manpower = 150000 # 3 people 
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		195 795 1101 1266 2055 4252 4257 4865 4962 5113 5251 5494 6518 6624 6864 7015 7904 8461 18346 18382 18421 18443 18449 18457 18470 18492 18493 18500 18511 18531 
+	}
+
+	history = {
+		
+		owner = HSY
+
+		add_core_of = HSY
+
+		victory_points = { 1101 3 }
+
+	}
+
+}

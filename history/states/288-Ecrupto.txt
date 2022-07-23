@@ -1,0 +1,25 @@
+
+state={
+	id=288
+	name="STATE_288"
+	provinces={
+		814 5357 6050 14664 14686 14698 14728 14750 14761 
+	}
+
+	history={
+
+		owner = VAN
+
+		add_core_of = VAN
+		
+		victory_points = {
+			814 5  
+		}
+
+	}
+
+	manpower=350000 # 7 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

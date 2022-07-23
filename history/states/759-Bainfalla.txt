@@ -1,0 +1,35 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		1400 2569 4759 6194 8417 9734 9795 9803 
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+
+	resources = {
+		Oil  = 3
+	}
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}		
+	
+		victory_points = {
+			9803 10
+		}
+
+	}
+}

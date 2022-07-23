@@ -1,0 +1,22 @@
+
+state={
+	id=326
+	name="STATE_326"
+
+	history={
+		owner = LIR
+		add_core_of = LIR
+		victory_points = {
+			1194 5 
+		}
+
+	}
+
+	provinces={
+		25 899 1194 1607 1627 1641 2040 2609 3163 3821 6893 7056 7133 7608 7997 14867 14876 14894 14906 14929 14930 14935 14936 14954 14961 14969 14977 14980 14998 14999 15013 15032 15044 15056 15089 15108 15112 19082 19087 19088 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

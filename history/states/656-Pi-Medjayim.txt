@@ -1,0 +1,29 @@
+
+state={
+	id=656
+	name="STATE_656"
+	provinces={
+		178 1622 2898 3027 4225 4456 4568 5891 6849 6918 8147 8218 8358 11853 11877 11897 11902 11924 11936 11963 12050 12051 12099 12123 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			4225 3
+		}
+
+		victory_points = {
+			5891 2
+		}
+
+	}
+
+	manpower=550000 # 11 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

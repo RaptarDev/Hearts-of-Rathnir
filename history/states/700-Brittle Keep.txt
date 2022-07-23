@@ -1,0 +1,25 @@
+
+state={
+	id=700
+	name="STATE_700"
+	provinces={
+		160 1237 1580 1600 1957 2526 3225 4154 4300 5143 6267 6656 6790 7256 10009 10024 10046 10047 10061 10081 10108 10148 10176 10221 10236 10239 10251 10285 10296 10302 10328 10365 18700 18703 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			6656 5
+		}
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

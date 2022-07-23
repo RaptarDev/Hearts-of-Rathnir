@@ -1,0 +1,24 @@
+
+state={
+	id=325
+	name="STATE_325"
+	provinces={
+		215 524 1328 3677 5558 6029 6329 15150 15189 15200 15231 15242 15251 15273 19115 
+	}
+	history={
+
+		owner = LIR
+
+		add_core_of = LIR
+
+		victory_points = {
+			1328 3
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

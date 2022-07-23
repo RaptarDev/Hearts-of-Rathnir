@@ -1,0 +1,26 @@
+
+state={
+	id=341
+	name="STATE_341"
+	provinces={
+		369 648 909 1205 2070 2512 2614 3779 5099 5308 5320 5328 5384 5817 6360 7169 7612 13977 14044 14111 14185 14266 14267 14298 14317 14323 14328 14360 14400 14409 14453 19019 26673 
+	}
+
+	history={
+
+		owner = SIR 
+
+		add_core_of = SIR 
+
+		victory_points = {
+			14044 1
+		}
+
+	}
+
+	manpower=100000 # 2 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+
+}

@@ -1,0 +1,29 @@
+state={
+	id=258
+	name="STATE_258"
+	manpower= 50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	provinces={
+		1094 5577 8507 10116 10156 10171 10172 10200 10125
+	}
+
+history = {
+		owner = SLI
+		
+                controller = SLI
+
+		add_core_of = SLI
+		add_core_of = ARL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		
+		victory_points = {10200 10}
+    }
+}

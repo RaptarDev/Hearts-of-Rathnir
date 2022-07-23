@@ -1,0 +1,30 @@
+
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		10 2315 2675 4221 4260 5667 7520 14516 14533 14569 14581 14612 14658 
+	}
+
+	history={
+
+		owner = CAR 
+
+		add_core_of = CAR 
+
+		victory_points = {
+			10 3
+		}
+
+		victory_points = {
+			4260 1
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+
+}

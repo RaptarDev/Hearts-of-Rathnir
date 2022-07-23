@@ -1,0 +1,30 @@
+
+state={
+	id=668
+	name="STATE_668"
+	provinces={
+		193 286 446 690 885 1360 1392 2073 2914 3119 3565 3775 4033 5022 5522 5828 5854 5948 6788 7106 7820 8112 10345 10394 10528 10571 10572 10616 10617 10662 10695 10702 10709 10714 10715 10725 10729 10742 10743 10760 10783 10784 10816 10851 10897 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			193 2
+		}
+
+		victory_points = {
+			5522 1
+		}
+
+	}
+
+	manpower=350000 # 7 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+
+}

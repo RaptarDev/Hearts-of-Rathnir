@@ -1,0 +1,26 @@
+
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		755 757 850 1012 1556 2799 3406 3793 3939 4484 4495 4670 5929 6282 7036 8296 14356 14408 14418 14445 14466 14500 14524 14550 14574 14588 14621 14657 19021 19022 26674 
+	}
+
+	history={
+
+		owner = SIR 
+
+		add_core_of = SIR 
+
+		victory_points = {
+			5929 20
+		}
+
+	}
+
+	manpower=1750000 # 35 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

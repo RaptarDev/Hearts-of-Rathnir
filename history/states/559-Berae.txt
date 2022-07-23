@@ -1,0 +1,25 @@
+
+state={
+	id=559
+	name="STATE_559"
+	provinces={
+		349 1006 1220 2434 3961 4812 5536 5834 5957 6392 7770 8158 12466 12475 12493 12532 12644 12660 12669 12688 12730 12751 12752 12757 12775 12790 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			7770 1
+		}
+
+	}
+
+	manpower=100000 # 2 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

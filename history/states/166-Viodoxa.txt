@@ -1,0 +1,27 @@
+
+state={
+	id=166
+	name="STATE_166"
+
+	provinces={
+		289 1288 1334 1592 2838 3009 5505 5841 15962 15968 16010 16051 16077 16095 16107 16117 16137 16147 16186 16226 16234 16267 16302 16313 16354 16437 16483 16535 16541 19167 19193 19196 19199 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			16267 35
+		}
+
+	}
+
+	manpower = 3850000 # 77 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=711
+	name="STATE_711"
+	provinces={
+		152 308 734 1428 1532 1793 2756 3880 8149 9391 9422 9439 9468 9511 9555 9582 9588 9611 9657 9677 9710 9746 9783 9836 
+	}
+
+	history={
+
+		owner = NOR 
+
+		add_core_of = NOR 
+
+		victory_points = {
+			308 8
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

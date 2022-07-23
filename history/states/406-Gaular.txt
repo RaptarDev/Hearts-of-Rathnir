@@ -1,0 +1,26 @@
+
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		2216 3066 3409 4598 5120 8079 14180 
+	}
+
+	history={
+
+		owner = CAS 
+
+		add_core_of = CAS 
+
+		victory_points = {
+			5120 5
+		}
+
+	}
+
+	manpower=1300000 # 26 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

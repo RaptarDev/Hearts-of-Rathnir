@@ -1,0 +1,26 @@
+
+state = {
+	id = 133
+	name = "STATE_133"
+	manpower = 7550000 # 151
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = megalopolis
+
+	provinces={
+		207 290 455 1151 1379 1643 2416 3098 3236 4025 5466 5720 6120 6177 6533 6587 6706 6953 7732 17100 17145 17166 17177 17192 17196 17209 17247 17264 17271 17303 17372 17386 17429 19282 19283 19298 
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			5720 40
+		}
+
+	}
+
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		561 699 1426 2012 2208 3047 3154 3183 3402 3639 4022 4064 4868 5132 5508 5622 6253 6296 6503 7053 7694 7932 17814 17854 17866 17887 17941 17963 17972 17990 18029 18030 18035 18050 18074 18093 18094 18101 18133 18169 18202 18203 18235 18262 18303 18328 18360 18394 19329 
+	}
+
+	history = {
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			4137 3
+		}
+		
+		victory_points = {
+			4031 5
+		}
+
+	}
+
+	manpower = 700000 # 14 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+}

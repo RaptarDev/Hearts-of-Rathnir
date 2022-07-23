@@ -1,0 +1,32 @@
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		230 2636 3526 3812 6479 6796 10166 10213 10229 10262 10273 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=100000
+	State_category=town
+
+	resources = {
+		tungsten  = 2
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			industrial_complex = 1
+		}		
+	
+		victory_points = {3812 15}
+
+	}
+}
+

@@ -1,0 +1,20 @@
+state={
+	id=532
+	name="STATE_532"
+	provinces={
+		3011 10417 10537 18710 18713 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		
+	}
+}

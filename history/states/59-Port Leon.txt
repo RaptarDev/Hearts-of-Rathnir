@@ -1,0 +1,23 @@
+
+state = {
+	id = 59
+	name = "STATE_59"
+	manpower = 1500000 # 30 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+
+	provinces = {
+		80 321 1590 3461 3584 3714 3854 5339 5731 6165 6382 6679 7902 8094 17779 17863 17892 17912 17978 18005 18023 18053 18070 18084 18108 18137 19332 26690 
+	}
+
+	history = {
+		
+		owner = FRO
+
+		add_core_of = FRO
+
+		victory_points = { 17863 20 }
+
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=637
+	name="STATE_637"
+	provinces={
+		2229 12636 12650 12671 18910 
+	}
+
+	history={
+
+		owner = ALD 
+
+		add_core_of = ALD 
+
+		victory_points = {
+			2229 10
+		}
+
+	}
+
+	manpower=1050000 # 21 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

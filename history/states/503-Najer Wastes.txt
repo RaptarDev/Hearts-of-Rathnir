@@ -1,0 +1,19 @@
+
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		394 1824 2141 2403 3362 3680 4199 6837 7102 7493 7943 8429 10386 10396 10444 10476 10483 10506 10511 10519 10538 10539 10564 10565 10593 10610 10640 10664 10771  
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+
+	history= {
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+
+	}
+}

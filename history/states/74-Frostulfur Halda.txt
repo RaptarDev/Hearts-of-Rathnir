@@ -1,0 +1,26 @@
+
+state = {
+	id = 74
+	name = "STATE_74"
+	manpower = 200000 # 4 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		382 520 1591 1792 2769 4141 5542 5816 7054 16921 17027 17081 17082 17088 17122 17133 17134 17144 17157 17195 17227 17228 17245 17311 19271 19280 
+	}
+
+	history = {
+		
+		owner = AAT
+
+		add_core_of = AAT
+
+		add_core_of = FRO
+
+		victory_points = { 1792 3 }
+
+	}
+
+}

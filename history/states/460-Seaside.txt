@@ -1,0 +1,34 @@
+state={
+	id=460
+	name="STATE_460"
+	manpower=700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	provinces={
+		9353 
+	}
+
+	resources = {
+		oil = 2
+		rubber = 4
+	}
+
+history = {
+		owner = SHN
+		
+        controller = SHN
+
+		add_core_of = SHN
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}	
+		victory_points = {
+			9353 40
+		}
+    }
+}

@@ -1,0 +1,30 @@
+state={
+	id=535
+	name="STATE_535"
+	provinces={
+		2781 3379 6170 7057 7309 7936 10254 10306 10321 10322 10335 10347 10355 10373 10374 10385 10392 10427 10451 10474 10480 10518 10523 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_city
+
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			Arms_industry = 2
+			dockyard = 2
+		}
+		victory_points = { 2781 40 } #TortuinKrieg
+	}
+}

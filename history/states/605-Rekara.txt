@@ -1,0 +1,25 @@
+
+state={
+	id=605
+	name="STATE_605"
+
+	history={
+		owner = IMP
+		add_core_of = IMP
+		victory_points = {
+			10274 2 
+		}
+		victory_points = {
+			605 1 
+		}
+
+	}
+
+	provinces={
+		891 1517 1646 1947 2714 2815 2849 4311 4668 6678 6906 7130 7142 10269 10270 10274 10279 10305 10334 10346 10361 10391 10450 10473 10478 10479 10543 10544 10545 10563 10625 18692 18693 18694 18695 18697 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

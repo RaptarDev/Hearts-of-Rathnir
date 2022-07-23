@@ -1,0 +1,30 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		5147 7429 8920 8933 8964 9034 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+
+	resources = {
+		Chromium  = 2
+	}
+
+	history=
+	{
+		owner = GRT
+		controller = GRT
+		add_core_of = GRT
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			Arms_industry = 1
+
+		}
+		victory_points = { 7429 20 }
+	}
+}

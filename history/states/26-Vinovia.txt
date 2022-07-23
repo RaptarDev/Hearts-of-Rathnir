@@ -1,0 +1,26 @@
+
+state = {
+	id = 26
+	name = "STATE_26"
+	manpower = 5750000  # 115 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = metropolis
+
+	provinces = {
+		405 996 1231 1950 2346 2613 3448 3489 3513 5410 5861 6489 6640 6855 6981 8133 8354 8528 16277 16356 16368 16381 16385 16395 16429 16452 16459 16496 16497 16517 16543 16564 16581 16587 16595 16605 16630 16641 16654 16665 16674 16682 16716 
+	}
+
+	history = {
+		
+		owner = VIN
+
+		add_core_of = VIN
+
+		victory_points = { 6489 30 }
+
+		victory_points = { 16429 1 }
+		
+	}
+
+}

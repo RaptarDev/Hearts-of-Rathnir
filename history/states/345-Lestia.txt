@@ -1,0 +1,27 @@
+
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		1299 2747 3555 4164 7290 14479 14529 14558 14577 14613 14659 14678 14721 14722 19043 
+	}
+
+	history={
+
+		owner = CAR 
+
+		add_core_of = CAR 
+
+		victory_points = {
+			3555 10
+		}
+
+	}
+
+	manpower=1200000 # 24 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+
+}

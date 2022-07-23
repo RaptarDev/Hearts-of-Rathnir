@@ -1,0 +1,25 @@
+
+state={
+	id=724
+	name="STATE_724"
+	provinces={
+		166 840 1042 1424 1454 2074 3554 4485 4916 5446 6713 7492 7853 8862 8898 8926 8970 9017 9032 9061 9195 9204 9227 9257 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			7853 3
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+	
+}

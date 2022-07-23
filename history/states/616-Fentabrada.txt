@@ -1,0 +1,25 @@
+
+state={
+	id=616
+	name="STATE_616"
+	provinces={
+		5 1092 1572 1611 2099 2310 2679 2994 4631 4808 5958 6082 7499 8044 8571 10795 10828 10853 10864 10870 10878 10910 10911 10924 10932 10968 11007 11013 11050 11083 11107 11108 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			10878 10
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 37
+	name = "STATE_37"
+	manpower = 3550000 # 71 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+
+	provinces = {
+		1791 2218 5919 7035 8321 16684 16691 16714 16725 16728 16749 16766 
+	}
+
+	history = {
+		
+		owner = AKH
+
+		add_core_of = AKH
+
+		victory_points = { 16776 40 }
+
+	}
+
+
+}

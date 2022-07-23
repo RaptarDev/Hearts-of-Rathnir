@@ -1,0 +1,26 @@
+
+state = {
+	id = 25
+	name = "STATE_25"
+	manpower = 700000  # 14 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		254 952 2480 3604 3861 4171 4181 4987 5129 7276 7300 7760 8039 8541 16188 16189 16205 16235 16246 16269 16276 16285 16295 16321 16327 16337 16347 16357 16420 16451 16476 16505 16516 
+	}
+
+	history = {
+		
+		owner = PAL
+
+		add_core_of = PAL
+
+		victory_points = { 4171 10 }
+
+		victory_points = { 3861 1 }
+		
+	}
+
+}

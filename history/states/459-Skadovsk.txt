@@ -1,0 +1,39 @@
+state={
+	id=459
+	name="STATE_459"
+	manpower=1650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	provinces={
+		18637 18640 
+	}
+
+	resources = {
+		oil = 10
+	}
+
+history = {
+
+		owner = SKA
+		
+        controller = SKA
+
+		add_core_of = SKA
+
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+		}
+		
+		victory_points = {
+			18640 40
+		}
+
+	}
+}

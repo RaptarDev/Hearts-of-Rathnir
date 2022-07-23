@@ -1,0 +1,26 @@
+
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		1899 4643 5045 7195 7585 8848 8890 8901 8902 8903 8943 8980 
+	}
+
+	history = {
+
+		owner = TTT
+
+        controller = TTT
+
+		add_core_of = TTT
+
+	
+		victory_points = { 8980 3 }
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		907 2507 2641 2732 3277 5642 6993 13614 13692 13760 13792 
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU 
+
+		victory_points = {
+			6993 1
+		}
+
+	}
+
+	manpower=150000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

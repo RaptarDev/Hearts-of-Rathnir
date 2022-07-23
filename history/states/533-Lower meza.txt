@@ -1,0 +1,28 @@
+state={
+	id=533
+	name="STATE_533"
+	provinces={
+		2359 2695 3205 3381 3548 5140 5362 6604 10621 10658 10755 10806 10834 10835 10860 10888 10951 18725 26607 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Pastoral
+
+	resources = {
+		Rubber = 3
+	}
+
+	history=
+	{
+		owner = SIM
+		controller = SIM
+		add_core_of = SIM
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+	
+	}
+}

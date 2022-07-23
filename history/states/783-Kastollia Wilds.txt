@@ -1,0 +1,25 @@
+state={
+	id=783
+	name="STATE_783"
+	provinces={
+		442 992 2762 3143 3162 10069 10102 10112 10136 10161 10196 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=4000
+	State_category=Wasteland
+
+
+history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+		}		
+
+	}
+}

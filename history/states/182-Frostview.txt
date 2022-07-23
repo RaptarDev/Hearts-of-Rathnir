@@ -1,0 +1,26 @@
+
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		1505 3309 5702 6018 6456 15535 15572 15579 15604 15630 15635 
+	}
+
+	history={
+
+		owner = AVE
+
+		add_core_of = AVE
+		
+		victory_points = {
+			5702 15 
+		}
+
+	}
+
+	manpower=1200000 # 24 peoplee
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=290
+	name="STATE_290"
+
+	history={
+		owner = VAN
+		add_core_of = VAN
+		victory_points = {
+			14693 5 
+		}
+
+	}
+
+	provinces={
+		529 1044 1797 3982 4271 5226 8257 14556 14586 14604 14610 14634 14646 14655 14656 14668 14676 14693 14716 14739 14751 14777 14784 19041 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

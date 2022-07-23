@@ -1,0 +1,26 @@
+
+state = {
+	id = 138
+	name = "STATE_138"
+	manpower = 100000 # 2 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+
+	provinces = {
+		74 1822 3534 3906 3978 4770 5735 7272 7571 7925 7998 18115 18232 18306 18353 18399 18442 18467 18485 18499 18510 19336 19348 
+	}
+
+	history = {
+
+		owner = VAL
+
+		add_core_of = VAL
+		
+		victory_points = {
+			7998 1
+		}
+
+	}
+
+}

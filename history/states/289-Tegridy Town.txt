@@ -1,0 +1,24 @@
+
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		1584 1807 3188 4149 6395 7576 7758 7875 14540 14620 
+	}
+	history={
+
+		owner = TEG
+
+		add_core_of = TEG
+		
+		victory_points = {
+			14540 5  
+		}
+
+	}
+
+	manpower=500000 # 10 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

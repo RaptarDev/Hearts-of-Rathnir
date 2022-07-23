@@ -1,0 +1,31 @@
+
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		1216 1463 1941 2379 3573 4263 4551 4732 5927 7100 12819 12832 12841 12854 12860 12874 12882 12887 12899 12937 12946 12982 13004 13041 18929 18937 
+	}
+
+	history={
+
+		owner = OMB 
+
+		add_core_of = OMB 
+
+		victory_points = {
+			3573 4
+		}
+
+		victory_points = {
+			13041 1
+		}
+
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

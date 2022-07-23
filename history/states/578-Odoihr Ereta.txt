@@ -1,0 +1,25 @@
+
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		1889 2545 3207 4237 4925 5081 6835 7469 7509 7779 7978 8128 8300 12870 12894 12895 12906 12941 12952 12959 12993 13020 13027 13029 13050 13052 13053 13067 13081 13088 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			4925 3
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

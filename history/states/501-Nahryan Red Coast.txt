@@ -1,0 +1,23 @@
+state={
+	id=501
+	name="STATE_501"
+	provinces={
+		516 1620 3293 5118 7514 8228 9947 9994 10037 10140 10205 
+	}
+	manpower=400
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_category=wasteland
+
+	resources = {
+		oil  = 2
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+
+	}
+}

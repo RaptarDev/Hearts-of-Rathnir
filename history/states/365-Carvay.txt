@@ -1,0 +1,22 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = VUL
+		add_core_of = VUL
+		victory_points = {
+			5176 20 
+		}
+
+	}
+
+	provinces={
+		430 694 1228 1962 5176 5353 5474 5482 6139 6163 6196 6653 7545 8351 8378 12876 12917 12938 12977 12987 13012 13047 13083 13117 13118 13141 13169 13191 13204 13221 13241 13247 13265 13338 13346 18945 18951 18959 26654 26656 
+	}
+	manpower=1700000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

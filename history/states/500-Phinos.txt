@@ -1,0 +1,28 @@
+ state={
+	id=500
+	name="STATE_500"
+	provinces={
+		2077 2136 2574 2777 5104 5530 6117 6422 7880 10241 10271 10325 10363 10453 10281 10336
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	State_category=pastoral
+
+	resources = {
+		Tungsten  = 2
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
+		victory_points = { 10189 20 } #Pinos
+	}
+}

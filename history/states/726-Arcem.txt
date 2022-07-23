@@ -1,0 +1,29 @@
+
+state={
+	id=726
+	name="STATE_726"
+	provinces={
+		1309 1617 1844 2183 2385 2456 2528 2640 2996 3745 3846 4479 4500 4753 4933 5278 5347 5776 6066 6089 7917 8065 8446 9141 9184 9198 9216 9225 9238 9251 9252 9261 9262 9265 9271 9286 9294 9295 9321 9325 9346 9372 9392 9418 9429 9469 9474 18631 18632 26613 
+	}
+
+	history = {
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			9026 8
+		}
+
+		victory_points = {
+			9261 6
+		}
+
+	}
+
+	manpower=1400000 # 28 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+	
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=697
+	name="STATE_697"
+	provinces={
+		439 728 2414 3791 4872 5255 6203 6621 8177 10380 10420 10446 10458 10492 10573 10600 10653 18704 18714 18718 18722 
+	}
+	history={
+
+		owner = RIC 
+
+		add_core_of = RIC 
+
+		victory_points = {
+			728 10
+		}
+		victory_points = {
+			697 2
+		}
+		victory_points = {
+			6621 1
+		}
+
+
+	}
+
+	manpower=1250000 # 25 people
+	buildings_max_level_factor=1.000
+	state_category=city
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		649 665 852 1030 1113 1289 1613 1940 2279 2906 3219 3980 4980 5532 5566 5578 5666 5675 5820 6254 6509 7343 8383 13112 13152 13198 13200 13215 13224 13255 13271 13283 13306 13315 13345 13353 13367 13377 13407 13413 13418 13471 13475 13476 13489 13502 13518 13571 13572 13592 13650 13677 
+	}
+
+	history={
+
+		owner = FJE 
+
+		controller = KAR
+
+		add_core_of = FJE 
+
+		victory_points = {
+			7343 10
+		}
+
+		victory_points = {
+			13571 2
+		}
+
+	}
+
+	manpower=1150000 # 23 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+	
+}

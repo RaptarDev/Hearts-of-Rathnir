@@ -1,0 +1,26 @@
+
+state={
+	id=694
+	name="STATE_694"
+	provinces={
+		180 732 1120 1373 1667 1825 2159 2788 2832 4004 4706 4926 5727 6145 6644 7398 7931 8833 8841 8867 8868 8882 8888 8900 8916 8928 8935 8966 9000 9022 9064 9092 9095 9105 9147 18577 
+	}
+
+	history={
+
+		owner = AND 
+
+		add_core_of = AND 
+
+		victory_points = {
+			8928 1
+		}
+
+	}
+
+	manpower=1000000 # 2 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+
+}

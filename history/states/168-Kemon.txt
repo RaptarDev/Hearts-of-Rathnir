@@ -1,0 +1,22 @@
+
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = IAU
+		add_core_of = IAU
+		victory_points = {
+			15813 1 
+		}
+
+	}
+
+	provinces={
+		4058 5469 7993 8227 15740 15812 15813 15819 15847 15848 19145 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

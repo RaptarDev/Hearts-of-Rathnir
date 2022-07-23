@@ -1,0 +1,28 @@
+state={
+	id=472
+	name="STATE_472"
+	provinces={
+		2715 18795 18811 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+history = {
+		owner = OPC
+		
+                controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}	
+		victory_points = {
+			2715 20
+		}
+	}
+}

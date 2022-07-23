@@ -1,0 +1,25 @@
+
+state = {
+	id = 47
+	name = "STATE_47"
+	manpower = 1450000 # 29 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+
+	provinces = {
+		16991 17035 17049 17054 17080 17115 17163 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 17054 10 }
+
+
+	}
+
+}

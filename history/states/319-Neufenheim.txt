@@ -1,0 +1,22 @@
+
+state={
+	id=319
+	name="STATE_319"
+
+	history={
+		owner = HUI
+		add_core_of = HUI
+		victory_points = {
+			12211 10 
+		}
+
+	}
+
+	provinces={
+		1161 2493 8477 12077 12078 12100 12119 12120 12176 12185 12211 12217 18854 18859 18863 
+	}
+	manpower=950000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

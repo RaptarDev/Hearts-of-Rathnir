@@ -1,0 +1,24 @@
+
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		386 894 1099 1828 1875 2742 3024 3220 3500 3826 4234 4730 4880 6465 6472 6899 7261 7341 7528 7771 7898 7921 8123 14230 14274 14339 14392 14411 14425 14458 14470 14505 14526 14536 14542 14582 14583 14584 26672 
+	}
+	history={
+
+		owner = KAR 
+
+		add_core_of = KAR 
+
+		victory_points = {
+			3024 5
+		}
+
+	}
+
+	manpower=550000 # 11 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

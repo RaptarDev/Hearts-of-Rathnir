@@ -1,0 +1,29 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		18861 18864 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+
+	history=
+	{
+		owner = LUN
+		controller = LUN
+		add_core_of = LUN
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = { 
+		18864 15
+		} 
+
+	}
+}

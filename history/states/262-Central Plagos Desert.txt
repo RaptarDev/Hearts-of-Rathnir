@@ -1,0 +1,36 @@
+state={
+	id=262
+	name="STATE_262"
+	manpower=750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+
+	provinces={
+		1015 1333 1769 7321 9656 9663 9708 9737 9752 9787 9829 9850 
+	}
+
+	resources = {
+		rubber = 5
+		aluminium = 1
+	}
+
+history = {
+		owner = AAT
+		
+                controller = AAT
+
+		add_core_of = AAT
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}
+		
+		victory_points = {
+			9737 10
+		}
+	}
+}

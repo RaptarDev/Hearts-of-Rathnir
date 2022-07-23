@@ -1,0 +1,26 @@
+
+state = {
+	id = 116
+	name = "STATE_116"
+	manpower = 12100000 # 242 people
+	buildings_max_level_factor = 4.000
+	local_supplies = 0.000
+	state_category = megalopolis
+
+	provinces={
+		1 313 531 857 967 1326 1857 2389 3232 3624 3644 4489 4650 4864 5065 5569 6069 7298 7577 7745 7784 8428 15368 15381 15428 15433 15442 15460 15489 15490 15497 15544 15590 15640 15648 15672 15676 15694 15725 15729 15754 15769 15790 15810 15823 
+	}
+
+	history={
+
+		owner = BOR
+
+		add_core_of = BOR
+		
+		victory_points = {
+			313 55 
+		}
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+state={
+	id=240
+	name="STATE_240"
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_town
+	provinces={
+		159 328 1702 2003 5194 5765 7454 8453 8607 8608 8708 8807 8837 5363
+	}
+
+resources = {
+		tungsten  = 2
+	}
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+		}		
+	
+		victory_points = {
+			2003 40
+		}
+
+
+	}
+}

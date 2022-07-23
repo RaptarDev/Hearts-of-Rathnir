@@ -1,0 +1,28 @@
+state={
+	id=499
+	name="STATE_499"
+	provinces={
+		448 905 1497 1582 2472 2677 2863 4131 4823 4860 4957 5385 5661 5756 5789 6040 7565 7912 8064 8154 8521 9894 9935 9943 9979 10000 10003 10028 10051 10095 10104 10105 10142 10184 10185 10194 10204 10231 10232 10240 10246 10280 10318 10343 10368 10393 18670 26638 
+	}
+	manpower=1050000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=metropolis
+
+	resources = {
+		Steel  = 5
+	}
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 1441 10 } #Ignatava
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=657
+	name="STATE_657"
+	provinces={
+		3416 4238 4669 4989 5074 5429 6085 6600 11850 11862 11886 11908 11914 11922 11935 11945 11946 11962 11979 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			5074 1
+		}
+
+	}
+
+	manpower=1500000 # 3 people
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

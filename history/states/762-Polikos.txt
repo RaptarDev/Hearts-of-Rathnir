@@ -1,0 +1,25 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		5359 6580 7396 9443 9491 9539 9585 9586 9624 18644 18647 
+	}
+	manpower=1150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = City
+
+	resources = {
+		Steel  = 2
+	}
+
+history = {
+		owner = POL
+
+                controller =  POL
+
+		add_core_of =  POL
+		add_claim_by =  AYN
+
+	}
+}

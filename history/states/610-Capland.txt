@@ -1,0 +1,26 @@
+
+state={
+	id=610
+	name="STATE_610"
+	provinces={
+		1943 2249 2274 2563 4927 5364 7945 8082 8280 10678 10698 10727 10763 10813 10819 10845 10871 10900 10904 10956 10965 10996 11014 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			10678 3
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+
+}

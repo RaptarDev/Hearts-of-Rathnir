@@ -1,0 +1,25 @@
+
+state={
+	id=713
+	name="STATE_713"
+	provinces={
+		1674 4967 5533 5706 5865 7804 9484 9502 9521 9536 9576 
+	}
+	
+	history = {
+		owner = NOR 
+
+		add_core_of = NOR 
+
+		victory_points = {
+			7804 5
+		}
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+
+}

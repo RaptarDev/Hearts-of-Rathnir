@@ -1,0 +1,26 @@
+
+state={
+	id=677
+	name="STATE_677"
+	provinces={
+		647 730 1945 2688 3073 3991 4722 4790 5256 6073 6078 6501 6973 7319 7388 8765 8810 8826 8869 8896 8932 8940 8941 8942 8949 8979 8985 9029 9073 9093 9100 
+	}
+
+	history={
+
+		owner = TTT 
+
+		add_core_of = TTT 
+
+		victory_points = {
+			3074 10
+		}
+
+
+	}
+
+	manpower=850000 # 17 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

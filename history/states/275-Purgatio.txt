@@ -1,0 +1,38 @@
+
+state={
+	id=275
+	name="STATE_275"
+	manpower=850000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+	
+
+	provinces={
+		364 4561 5626 10332 10410 10445 10457 10526 6674 7176 10292 10387  
+	}
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = SLI
+		
+                controller = SLI
+
+		add_core_of = SLI
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+		}
+		
+		victory_points = {
+			10387 25
+			10445 10
+		}
+	}
+}

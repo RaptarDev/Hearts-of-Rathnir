@@ -1,0 +1,29 @@
+
+state={
+	id=566
+	name="STATE_566"
+	provinces={
+		357 1312 2341 2627 2665 2808 3252 3358 4350 4537 4920 5200 6913 7431 7446 7604 12335 12377 12405 12440 12454 12464 12472 12479 12480 12481 12495 12506 12527 12531 12539 12568 12569 12583 12594 12595 12603 12621 
+	}
+
+	history={
+
+		owner = YIM 
+
+		add_core_of = YIM 
+
+		victory_points = {
+			2341 2
+		}
+
+		victory_points = {
+			12506 2
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

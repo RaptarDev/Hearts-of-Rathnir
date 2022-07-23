@@ -1,0 +1,26 @@
+
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		329 2824 2826 4325 5109 5741 7506 8143 15125 15131 15170 15174 15194 15199 15207 15237 15268 15296 
+	}
+
+	history={
+
+		owner = CER 
+
+		add_core_of = CER 
+
+		victory_points = {
+			15207 5
+		}
+
+	}
+
+	manpower=550000 # 11 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

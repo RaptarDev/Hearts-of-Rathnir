@@ -1,0 +1,30 @@
+state={
+	id=494
+	name="STATE_494"
+	provinces={
+		555 1420 2911 4721 4106 5218 10189 10219 10234 10272 10309 10326 10344 10376 10377 10439 18684 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+
+	resources = {
+		oil  = 1
+	}
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = { 10189 20 } #Ajek Point
+ 
+	}
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=360
+	name="STATE_360"
+
+	history={
+		owner = OMB
+		add_core_of = OMB
+		victory_points = {
+			12748 5 
+		}
+
+	}
+
+	provinces={
+		1528 3052 7767 12593 12638 12685 12705 12748 
+	}
+
+	manpower=450000 # 9 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+	
+}

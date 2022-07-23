@@ -1,0 +1,27 @@
+
+state={
+	id=676
+	name="STATE_676"
+
+	history={
+		owner = RYZ
+
+		add_core_of = RYZ
+
+		add_core_of = TTT
+
+		
+		victory_points = {
+			9283 5 
+		}
+
+	}
+
+	provinces={
+		1331 1553 6575 9173 9191 9246 9283 9284 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

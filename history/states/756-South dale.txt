@@ -1,0 +1,21 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		284 6584 8068 9331 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+	
+
+	}
+}

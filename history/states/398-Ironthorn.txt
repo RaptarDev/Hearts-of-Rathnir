@@ -1,0 +1,25 @@
+
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		527 3123 3937 4458 5415 5903 6373 7224 14993 15027 15037 15067 15101 15132 15148 15163 15164 15172 15176 15205 15220 15238 19089 19111 
+	}
+	
+	history={
+
+		owner = ECC 
+
+		add_core_of = ECC 
+
+		victory_points = {
+			4458 20
+		}
+
+	}
+
+	manpower=900000 # 40 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

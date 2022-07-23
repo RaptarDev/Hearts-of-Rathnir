@@ -1,0 +1,31 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		428 5165 5545 6555 6947 9338 9359 9387 9389 9410 9457 9519 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+
+history = {
+		owner = AYN
+
+                controller = AYN
+
+		add_core_of = AYN
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+		}		
+	
+		victory_points = {
+			5545 30
+		}
+
+	}
+}

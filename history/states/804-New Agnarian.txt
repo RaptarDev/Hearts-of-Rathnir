@@ -1,0 +1,32 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		947 1491 4216 6623 6813 7009 8330 8596 8597 8598 8657 8695 8783 8789 8836 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=200000
+	State_category=rural
+
+	resources = {
+		tungsten  = 4
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			industrial_complex = 1
+		}		
+	
+		victory_points = {8657 10}
+
+
+	}
+}

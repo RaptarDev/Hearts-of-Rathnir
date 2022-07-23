@@ -1,0 +1,21 @@
+state={
+	id=236
+	name="STATE_236"
+	manpower=15000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	provinces={
+		1914 1984 2491 3841 5021 5966 6044 7706 8609 8610 8611 8612 8613 8633 8684 8705 
+	}
+
+history = {
+		owner = GSH
+
+                controller = GSH
+
+		add_core_of = GSH
+
+	}
+}

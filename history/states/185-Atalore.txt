@@ -1,0 +1,25 @@
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		937 
+	}
+
+	history={
+
+		owner = ATL
+
+		add_core_of = ATL
+		
+		victory_points = {
+			937 5  
+		}
+
+	}
+
+	manpower=40000 # 8 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

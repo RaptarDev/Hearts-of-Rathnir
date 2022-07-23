@@ -1,0 +1,34 @@
+state={
+	id=470
+	name="STATE_470"
+	provinces={
+		3440 11499 18775 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	resources = {
+		steel = 2
+	}
+
+history = {
+		owner = OPC
+		
+        controller = OPC
+
+		add_core_of = OPC
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+		}	
+		victory_points = {
+			3440 50
+		}
+	}
+}

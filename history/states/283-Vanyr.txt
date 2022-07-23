@@ -1,0 +1,26 @@
+
+state={
+	id=283
+	name="STATE_283"
+	provinces={
+		3844 6337 7131 7134 7628 15011 15028 15066 15068 15097 15098 15102 15103 15144 
+	}
+
+	history={
+
+		owner = VAN
+
+		add_core_of = VAN
+		
+		victory_points = {
+			15028 5  
+		}
+
+	}
+
+	manpower=700000 # 14 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

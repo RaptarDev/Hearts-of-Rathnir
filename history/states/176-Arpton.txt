@@ -1,0 +1,27 @@
+
+state={
+	id=176
+	name="STATE_176"
+
+	provinces={
+		858 1189 1462 2192 3175 4196 4269 4859 5406 5664 5990 7229 7515 7709 8126 8299 15824 15887 15898 15906 15911 15926 15935 15953 15959 15967 15984 16006 16008 16009 16015 16041 16045 16046 16056 16099 16106 
+	}
+
+	history={
+		owner = AEZ
+		add_core_of = AEZ
+		victory_points = {
+			15911 1 
+		}
+		victory_points = {
+			16046 1 
+		}
+
+	}
+
+
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

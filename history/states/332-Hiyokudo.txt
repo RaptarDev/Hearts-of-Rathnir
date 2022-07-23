@@ -1,0 +1,26 @@
+
+state={
+	id=332
+	name="STATE_332"
+	provinces={
+		1340 7227 8473 15325 15333 
+	}
+
+	history={
+
+		owner = ADA 
+
+		add_core_of = ADA 
+
+		victory_points = {
+			7227 3
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+
+}

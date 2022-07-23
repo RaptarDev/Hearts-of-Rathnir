@@ -1,0 +1,26 @@
+
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		315 452 548 1207 1498 1537 1864 2428 3610 5073 5781 5858 5864 6932 7191 8316 8398 13764 13827 13873 13874 13887 13928 13940 13983 14061 14098 26669 
+	}
+
+	history={
+
+		owner = AAZ 
+
+		add_core_of = AAZ 
+		
+		victory_points = {
+			2428 7 
+		}
+
+	}
+
+	manpower=750000 # 15 peoplee
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=638
+	name="STATE_638"
+	provinces={
+		1344 1390 1563 1687 2283 2473 2645 3109 3255 3495 3799 4974 5298 6399 6736 7016 7207 7544 8350 11034 11101 11111 11159 11160 11165 11220 11336 11356 11357 11393 11408 11445 11458 11487 11500 11512 11543 
+	}
+
+	history={
+
+		owner = RYZ 
+
+		add_core_of = RYZ 
+
+		victory_points = {
+			2473 3
+		}
+
+		victory_points = {
+			5298 1
+		}
+
+	}
+
+	manpower=250000 # 5 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+
+}

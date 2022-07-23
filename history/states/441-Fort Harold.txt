@@ -1,0 +1,26 @@
+
+state={
+	id=441
+	name="STATE_441"
+	provinces={
+		1701 1752 3454 6186 13561 13626 
+	}
+
+	history={
+
+		owner = KAR
+
+		add_core_of = KAR 
+
+		victory_points = {
+			13561 8
+		}
+
+	}
+
+	manpower=800000 # 16 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

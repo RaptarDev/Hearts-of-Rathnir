@@ -1,0 +1,29 @@
+
+state={
+	id=655
+	name="STATE_655"
+	provinces={
+		1072 1846 1913 3166 3776 4393 5087 5662 6495 6566 6881 8381 11569 11577 11579 11594 11617 11681 11689 11697 11723 11728 11729 11745 11771 18790 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			5662 2
+		}
+
+		victory_points = {
+			11681 1
+		}
+
+	}
+
+	manpower=300000 # 6 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

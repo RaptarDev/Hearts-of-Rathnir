@@ -1,0 +1,37 @@
+
+state={
+	id=800
+	name="STATE_800"
+	provinces={
+		147 2193 4246 4842 6488 6560 7110 8827 8881 8921 8934 8991 8995 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=400000
+	State_category=town
+
+	resources = {
+		tungsten  = 5
+	}
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			7118 = { naval_base = 2}
+		}		
+	
+		victory_points = {7118 15} 
+
+
+	}
+}

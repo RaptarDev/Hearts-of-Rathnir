@@ -1,0 +1,11 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		5943 11404 18767 18780 18785 18786 18794 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=small_island
+}

@@ -1,0 +1,19 @@
+state={
+	id=508
+	name="STATE_508"
+	provinces={
+		2153 2945 3176 3804 3972 4007 4167 6349 6451 9843 9866 9889 9903 9942 9951 9986 9998 10019 10040 10050 412 1605 9824 9861 9908 9952 
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+	
+	}
+}

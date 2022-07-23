@@ -1,0 +1,25 @@
+
+state={
+	id=665
+	name="STATE_665"
+	provinces={
+		721 962 1366 1814 2516 4241 4978 5135 5191 5988 6917 7736 10721 10722 10761 10776 10817 10838 10889 10945 11003 11016 11110 11142 18726 18730 18733 18735 18739 
+	}
+
+	history={
+
+		owner = AVD 
+
+		add_core_of = AVD 
+
+		victory_points = {
+			10817 10
+		}
+
+	}
+
+	manpower=1200000 # 24 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

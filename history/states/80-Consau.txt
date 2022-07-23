@@ -1,0 +1,25 @@
+
+state = {
+	id = 80
+	name = "STATE_80"
+	manpower = 550000 # 11 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+
+	provinces = {
+		822 1002 2065 2875 3036 3124 4120 4526 4794 5026 5228 5620 5668 6142 6791 6818 7569 8448 17631 17659 17696 17708 17718 17758 17759 17774 17801 17819 17823 17861 17869 17870 17914 17920 17947 17975 18022 18052 26688 
+	}
+
+	history = {
+		
+		owner = CON
+
+		add_core_of = CON
+
+		victory_points = { 6791 5 }
+
+	}
+
+
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=573
+	name="STATE_573"
+
+	history={
+		owner = YIM
+		add_core_of = YIM
+		victory_points = {
+			12002 1 
+		}
+		victory_points = {
+			4245 1 
+		}
+
+	}
+
+	provinces={
+		908 1263 3766 4245 5122 5313 5412 5477 5572 5648 7088 11884 11955 11960 11966 11994 12002 12029 12044 12067 12074 12082 12090 12112 12116 12133 12151 12152 12163 12168 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

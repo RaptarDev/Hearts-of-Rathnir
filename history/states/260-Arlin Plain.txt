@@ -1,0 +1,29 @@
+
+state={
+	id=260
+	name="STATE_260"
+	manpower=400
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+
+	provinces={
+		1460 9924 9954 9964 10005 
+	}
+
+
+resources = {
+		chromium = 2
+	}
+
+history = {
+		owner = NOA
+		
+        controller = NOA
+
+		add_core_of = NOA
+		add_core_of = ARL
+		}
+		
+
+}

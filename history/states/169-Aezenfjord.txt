@@ -1,0 +1,26 @@
+
+state={
+	id=169
+	name="STATE_169"
+	provinces={
+		777 923 2050 2201 2829 3744 4521 5119 5523 5778 6107 7075 7296 8243 8248 8278 16339 16378 16390 16391 16392 16400 16423 16436 16449 16464 16474 16478 16489 16501 16502 16515 16529 16549 16558 16592 16604 16623 16651 16715 19211 
+	}
+
+	history = {
+
+		owner = AEZ
+
+		add_core_of = AEZ
+		
+		victory_points = {
+			5523 20
+		}
+
+	}
+
+	manpower = 1300000 # 26 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+}

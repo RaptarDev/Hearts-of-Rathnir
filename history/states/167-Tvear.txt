@@ -1,0 +1,34 @@
+
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		371 1078 2031 2078 2542 5909 6731 16570 16586 16615 16624 16658 16707 16731 16770 16776 16777 16806 16807 16813 16839 16844 16870 19222 19242 19247 19272 19277 
+	}
+
+	history = {
+
+		owner = VAL
+
+		add_core_of = VAL
+		
+		victory_points = {
+			2031 10
+		}
+
+		victory_points = {
+			19272 3
+		}
+
+		victory_points = {
+			19277 5
+		}
+
+	}
+
+	manpower = 1550000 # 31 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+
+}

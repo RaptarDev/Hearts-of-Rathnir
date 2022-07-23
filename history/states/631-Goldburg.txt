@@ -1,0 +1,25 @@
+
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		270 1347 1522 3848 5220 8225 8277 12340 12372 12408 12435 12439 12474 12524 12536 12556 12580 18893 
+	}
+
+	history={
+
+		owner = GOL 
+
+		add_core_of = GOL 
+
+		victory_points = {
+			6686 5
+		}
+
+	}
+
+	manpower=500000 # 10 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

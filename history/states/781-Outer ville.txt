@@ -1,0 +1,32 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		1839 4713 5092 6239 6454 9860 9900 9950 10001 10015 10032 10057 10090 10101 10135 18662 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=2000
+	State_category=Pastoral
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}		
+	
+		victory_points = {5091 10} #Lakierka
+
+
+	}
+}
+

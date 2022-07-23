@@ -1,0 +1,26 @@
+
+state = {
+	id = 139
+	name = "STATE_139"
+	manpower = 150000 # 3 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+
+	provinces={
+		2190 6862 16843 16865 16879 16908 
+	}
+
+	history = {
+
+		owner = AEZ
+
+		add_core_of = AEZ
+		
+		victory_points = {
+			2190 1
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		626 673 921 1313 2511 3337 4248 4463 5771 6058 6280 6299 6476 6883 7763 7900 7984 14756 14809 14826 14866 14898 14904 14923 14958 14959 14976 14987 14994 15031 15110 15133 15143 
+	}
+
+	history={
+
+		owner = ECC 
+
+		add_core_of = ECC 
+
+		victory_points = {
+			14898 25
+		}
+
+	}
+
+	manpower=2300000 # 46 people
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+
+}

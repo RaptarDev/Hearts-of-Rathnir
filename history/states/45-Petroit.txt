@@ -1,0 +1,26 @@
+
+state = {
+	id = 45
+	name = "STATE_45"
+	manpower = 300000 # 6 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		484 1118 5790 16833 16851 16862 16885 16964 17013 17053 
+	}
+
+	history = {
+		
+		owner = LOR
+
+		add_core_of = LOR
+
+		victory_points = { 5790 1 }
+
+		victory_points = { 17013 1 }
+
+	}
+
+}

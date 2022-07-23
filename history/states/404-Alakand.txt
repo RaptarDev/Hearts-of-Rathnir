@@ -1,0 +1,26 @@
+
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		652 685 1406 3476 4878 5136 5631 14393 14394 14405 14433 14449 14502 
+	}
+
+	history={
+
+		owner = CAS 
+
+		add_core_of = CAS 
+
+		victory_points = {
+			685 5
+		}
+
+	}
+
+	manpower=550000 # 11 people
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

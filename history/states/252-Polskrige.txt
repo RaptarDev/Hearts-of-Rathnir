@@ -1,0 +1,33 @@
+
+state={
+	id=252
+	name="STATE_252"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = CHU
+		controller = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 1
+
+		}
+		victory_points = {
+			7226 40 
+		}
+
+	}
+
+	provinces={
+		91 479 4453 5680 5701 6068 7226 7505 9643 9655 9680 9694 9695 9729 9793 
+	}
+	manpower=1325000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

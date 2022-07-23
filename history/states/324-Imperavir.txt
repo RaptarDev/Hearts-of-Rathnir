@@ -1,0 +1,24 @@
+
+state={
+	id=324
+	name="STATE_324"
+	provinces={
+		60 158 720 1998 2578 4006 4118 4635 4767 5665 6014 6072 7128 7702 8479 15087 15090 15140 15145 15178 15209 15232 15263 19090 
+	}
+	history={
+
+		owner = VOL 
+
+		add_core_of = VOL 
+
+		victory_points = {
+			15145 20
+		}
+
+	}
+
+	manpower=1550000 # 31 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

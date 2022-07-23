@@ -1,0 +1,30 @@
+
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		1902 4543 9732 9777 9813 9823 18649 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=250000
+	State_category=town
+
+
+history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}		
+	
+		victory_points = {4543 10} #milet
+
+	}
+}

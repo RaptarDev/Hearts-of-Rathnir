@@ -1,0 +1,26 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		2181 2262 2692 2771 4136 4219 5888 7358 7369 8386 9587 9625 9628 9642 9805 9676 9687 9718 9722 9727 9745 9769 9781 9782 9792 9799 9828 9844 9867 18654 18658 18661 26637 2894 6200 8032 9780 9862 9946 9963
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=Large_town
+ 
+
+	history=
+	{
+		owner = NAJ
+		controller = NAJ
+		add_core_of = NAJ
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = { 9792 20 } #Corvus
+	}
+}

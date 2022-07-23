@@ -1,0 +1,26 @@
+
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		1519 1631 3582 3988 4447 5013 5632 6685 7071 7324 8136 13122 13136 13210 13228 13252 13268 13269 13305 13314 13317 13406 13417 13438 13469 13501 13517 18964 18967 18969 26658 26661 
+	}
+
+	history={
+
+		owner = KAR
+
+		add_core_of = KAR 
+
+		victory_points = {
+			13210 20
+		}
+
+	}
+
+	manpower=2100000 # 42 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+
+}

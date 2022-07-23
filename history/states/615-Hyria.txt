@@ -1,0 +1,25 @@
+
+state={
+	id=615
+	name="STATE_615"
+	provinces={
+		1759 2939 3334 3420 4436 5582 6205 6460 6620 8272 8370 10515 10542 10549 10603 10613 10663 10697 10733 
+	}
+
+	history={
+
+		owner = IMP 
+
+		add_core_of = IMP 
+
+		victory_points = {
+			10549 5
+		}
+
+	}
+
+	manpower=600000 # 12 people
+	buildings_max_level_factor=1.000
+	state_category=town
+
+}

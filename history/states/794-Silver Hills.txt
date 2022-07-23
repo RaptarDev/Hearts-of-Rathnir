@@ -1,0 +1,33 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		1363 1443 1982 2097 2267 6298 8322 8463 8986 9046 9081 9085 9120 9128 9137 9163 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=850000
+	State_category=city
+
+
+	history = {
+		owner = DLR
+
+                controller = DLR
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			8463 = { naval_base = 3}
+		}		
+	
+		victory_points = {8463 20}
+
+
+	}
+}
+

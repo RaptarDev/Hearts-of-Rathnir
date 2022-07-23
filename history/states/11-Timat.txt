@@ -1,0 +1,28 @@
+
+state={
+	id=11
+	name="STATE_11"
+
+	history={
+		owner = HSY
+		add_core_of = HSY
+		victory_points = {
+			6608 3 
+		}
+		victory_points = {
+			8000 1 
+		}
+		victory_points = {
+			2925 5 
+		}
+
+	}
+
+	provinces={
+		472 604 903 1132 1174 1479 2925 3010 3041 3734 3764 4215 4362 4469 4615 5001 5537 5761 6608 7157 7580 7710 7915 8000 8320 8377 14871 14910 14911 14917 15005 15006 15012 15038 15055 15079 15099 15107 15111 15117 15134 15139 15166 19099 
+	}
+	manpower=1150000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

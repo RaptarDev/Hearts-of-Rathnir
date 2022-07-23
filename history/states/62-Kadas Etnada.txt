@@ -1,0 +1,24 @@
+
+state = {
+	id = 62
+	name = "STATE_62"
+	manpower = 200000 # 4 people
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+
+	provinces = {
+		248 1256 1470 1581 1850 2214 5360 7790 8308 18352 18398 18404 18411 18446 18451 18480 18526 18542 
+	}
+
+	history = {
+		
+		owner = FRO
+
+		add_core_of = FRO
+
+		victory_points = { 7790 1 }
+
+	}
+
+}

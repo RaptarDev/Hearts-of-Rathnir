@@ -1,0 +1,26 @@
+
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		803 7582 16305 16306 
+	}
+
+	history={
+
+		owner = TCC
+
+		add_core_of = TCC
+		
+		victory_points = {
+			7582 5  
+		}
+
+	}
+
+	manpower=950000 # 13 peoplee
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+}

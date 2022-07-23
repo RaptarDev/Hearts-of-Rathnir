@@ -1,0 +1,28 @@
+
+state={
+	id=450
+	name="STATE_450"
+	provinces={
+		1143 1681 1790 1818 1991 2092 2557 2786 2861 3614 3899 4103 4746 5142 6777 7864 8088 8499 13648 13649 13703 13712 13720 13753 13754 13775 13776 13785 13798 13816 13829 13830 13843 13850 13867 13904 13947 13948 13963 14053 14104 18976 26664 26668 
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU 
+
+		victory_points = {
+			26668 10
+		}
+		victory_points = {
+			7864 1
+		}
+
+	}
+
+	manpower=1100000 # 22 people
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=359
+	name="STATE_359"
+
+	history={
+		owner = OMB
+		add_core_of = OMB
+		victory_points = {
+			12565 3 
+		}
+
+	}
+
+	provinces={
+		5020 8085 12525 12565 
+	}
+	manpower=200000 # 4 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

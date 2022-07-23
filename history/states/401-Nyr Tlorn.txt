@@ -1,0 +1,26 @@
+
+state={
+	id=401
+	name="STATE_401"
+	provinces={
+		1473 1558 1717 2135 2353 2663 3581 3866 3912 4885 5708 5901 6473 7919 14434 14481 14482 14490 14522 14527 14528 14547 14602 14628 14650 14737 
+	}
+
+	history={
+
+		owner = ECC 
+
+		add_core_of = ECC 
+
+		victory_points = {
+			7990 3
+		}
+
+	}
+
+	manpower=200000 # 4 people
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+	
+}
