@@ -21,7 +21,6 @@ history = {
 		
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			land_fort = 1
 		}
 		
