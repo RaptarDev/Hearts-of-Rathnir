@@ -61,8 +61,9 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Filipe M. Vallen"
-	picture = "gfx/leaders/AVE/magic.dds"
+	name = "Filipe Matthew Vallen"
+	desc = "LEADER_AVERTICO_MAGICALTICKET_DESC"
+	picture = "gfx/leaders/SPARWOOD_MINOR/magicalticket1.dds"
 	expire = "1000.1.1"
 	ideology = nazism
 	traits = {
