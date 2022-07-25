@@ -23,7 +23,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			Arms_industry = 1
+			arms_factory = 1
 
 		}
 		victory_points = { 5203 15 } #TortuinKrieg

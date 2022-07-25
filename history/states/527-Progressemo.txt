@@ -9,8 +9,7 @@ state={
 	local_supplies=0.000
 	state_category=Pastoral
 
-	history=
-	{
+	history={
 		owner = SIM
 		controller = SIM
 		add_core_of = SIM
