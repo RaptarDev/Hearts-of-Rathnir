@@ -75,3 +75,30 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12001;12064;;-1;-1;-1;-1;-1;-1
 8140;12217;;-1;-1;-1;-1;-1;-1
 9761;9820;;-1;-1;-1;-1;-1;-1
+6333;6733;sea;23807;-1;-1;-1;-1;;Ignatava-donfuer
+9634;7342;sea;20019;-1;-1;-1;-1;;Lower Durandal-Paludis
+9452;3335;sea;25226;-1;-1;-1;-1;;Durandal-Paludis
+10114;4609;sea;20311;-1;-1;-1;-1;;Kigera'jad-najerajad
+3469;9961;sea;23918;-1;-1;-1;-1;;Ravgard-Gdanyc
+9743;3040;sea;24322;-1;-1;-1;-1;;Ville
+9136;140;sea;25176;-1;-1;-1;-1;;Narva
+10310;18705;sea;24677;-1;-1;-1;-1;;Isthmus
+18705;5685;sea;25357;-1;-1;-1;-1;;Isthmus
+8152;8029;sea;2410;-1;-1;-1;-1;;Theros
+6418;12149;sea;24809;-1;-1;-1;-1;;Huitca
+12114;12143;sea;25618;-1;-1;-1;-1;;Huitca
+9193;2366;sea;24898;-1;-1;-1;-1;;Korribon
+6333;9680;sea;22178;-1;-1;-1;-1;;Ignatava - Chumon-ito
+9515;7;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
+9515;9482;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
+9515;9557;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
+8618;8619;impassable;-1;-1;-1;-1;-1;;Genshin mountains
+8618;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
+8686;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
+8618;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
+8686;8701;impassable;-1;-1;-1;-1;-1;;Genshin mountains
+824;262;sea;22763;-1;-1;-1;-1;;POrt tittor -axum
+8634;181;sea;26626;-1;-1;-1;-1;;Kitaitchi
+5934;10181;sea;25314;-1;-1;-1;-1;;Isthmus
+9491;5130;sea;26598;-1;-1;-1;-1;;Polikos
+9773;9821;sea;25256;-1;-1;-1;-1;;Cusilvana
