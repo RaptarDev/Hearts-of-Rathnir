@@ -1,11 +1,10 @@
 continents = {
 	Syltor
-    	Nieden
+    Nieden
 	Plagos
-    	Alteniquia
-    	Sparwood
+    Alteniquia
+    Sparwood
    	Akratia
-    	Haven
+    Haven
    	Sorligste
-    	Haven
 }

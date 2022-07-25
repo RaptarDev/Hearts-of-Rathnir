@@ -61,8 +61,8 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Filipe Matthew Vallen"
-	desc = "Born in Askalon 32 years ago young Fillipe even from his early age showed he always wanted to have higher authority among his friends and colleagues.  His bony, towering body and his manipulative charisma would create shivers in his political opponents as much as his calm and almost soothing voice. His rise to power didn't happen over night. It was carefully crafted and planned against the council of the Posavertican Union. Even though he was a part of it he never saw it as effective as it was meant to be. Soon his army sieged the capital building and forced out the goverment. Though nobody was killed due to Vallens thought that all life is beautiful even though some don't know how to properly use it. All of the council was exiled and finally Vallen was able to achieve his industrial dream. But a problem faces Vallen. His paranoia, His rising schizophrenia and most importantly rise of corruption within his incompetent government."
+	name = "Filipe Maxwell Vallen"
+	desc = "LEADER_AVERTICO_MAGICALTICKET_DESC"
 	picture = "gfx/leaders/SPARWOOD_MINOR/magicalticket1.dds"
 	expire = "1000.1.1"
 	ideology = nazism
