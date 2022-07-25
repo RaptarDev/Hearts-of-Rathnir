@@ -4,7 +4,29 @@ state={
 	provinces={
 		1475 2608 2865 4748 6592 9725 9760 9767 9778 9833 9842 9871 9928 9962 18652 18663 18664 9914 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=900000
+	State_category=Town
+
+	history = {
+		owner = RYZ
+
+                controller = RYZ
+
+		add_core_of = RYZ
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}		
+	
+		victory_points = {4748 15} 
+		victory_points = {2608 10} 
+
+
+	}
 }
+

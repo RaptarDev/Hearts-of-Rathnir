@@ -4,7 +4,31 @@ state={
 	provinces={
 		602 1193 3469 4144 4652 5924 6046 6100 6719 7120 7149 7407 7540 8099 10054 10063 10083 10103 10113 10131 10137 10167 10197 10210 10214 10289 10320 18698 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=50000
+	State_category=rural
+
+	resources = {
+		tungsten  = 3
+		steel = 1
+	}
+
+
+	history = {
+		owner = RYZ
+
+                controller = RYZ
+
+		add_core_of = RYZ
+
+		buildings = {
+			industrial_complex = 1
+		}		
+	
+		victory_points = {10137 5} #Frostarch
+
+
+	}
 }
+

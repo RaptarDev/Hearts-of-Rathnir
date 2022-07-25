@@ -5,7 +5,18 @@ state={
 	provinces={
 		638 2744 3233 3742 7310 7689 7857 10381 10456 10467 10488 10489 10516 10522 10536 10585 10589 10614 10619 10654 10667 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=4000
+	State_category=rural
+
+
+	history = {
+		owner = RYZ
+
+                controller = RYZ
+
+		add_core_of = RYZ
+
+	}
 }

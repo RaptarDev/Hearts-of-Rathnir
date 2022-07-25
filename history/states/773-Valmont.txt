@@ -5,7 +5,27 @@ state={
 	provinces={
 		877 2115 2348 3201 4209 5463 6612 8165 10228 10253 10278 10298 10330 10405 10425 10426 10466 10487 10494 10530 10535 10560 10624 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=950000
+	State_category=large_town
+
+	history = {
+		owner = RYZ
+
+                controller = RYZ
+
+		add_core_of = RYZ
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+		}		
+	
+		victory_points = {10405 20}
+		victory_points = {877 10}
+
+	}
 }
+

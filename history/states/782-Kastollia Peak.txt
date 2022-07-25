@@ -17,13 +17,14 @@ state={
 	history = {
 		owner = DLR
 
-        controller = DLR
+                controller = DLR
 
 		add_core_of = DLR
 
 
-	}		
+		}		
 
+	}
 }
 
 
