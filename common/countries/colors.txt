@@ -340,8 +340,8 @@ YIM = {
 }
 
 GRT = {
-	color = rgb { 0 242 145 }
-	color_ui = rgb { 0 242 145 }
+	color = rgb { 189 6 48 }
+	color_ui = rgb { 189 6 48 }
 }
 
 IMP = {
