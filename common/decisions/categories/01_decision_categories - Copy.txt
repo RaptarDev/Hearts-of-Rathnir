@@ -1,0 +1,11 @@
+avertico_paranoid = {
+	priority = 15
+	icon = generic_propaganda
+    
+	visible = {
+	   is_ai = no
+	   original_tag = AVE
+	}
+	
+	cost
+}
