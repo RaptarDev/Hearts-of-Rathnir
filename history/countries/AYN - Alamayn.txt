@@ -53,15 +53,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 15
+	democratic = 60
+	fascism = 10
 	communism = 5
-	neutrality = 75
+	neutrality = 25
 }
 
 create_country_leader = {
 	
-	name = "Grand Sultan Bolivar"
+	name = "Grand Sultan BlackAdder"
 	picture = 
 	expire = "1965.1.1"
 	ideology = democratic
