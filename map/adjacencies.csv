@@ -74,7 +74,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12001;12064;sea;-1;-1;-1;-1;-1;-1
 8140;12217;sea;-1;-1;-1;-1;-1;-1
 9761;9820;sea;-1;-1;-1;-1;-1;-1
-6333;6733;sea;23807;-1;-1;-1;-1;;Ignatava-donfuer
 9634;7342;sea;20019;-1;-1;-1;-1;;Lower Durandal-Paludis
 9452;3335;sea;25226;-1;-1;-1;-1;;Durandal-Paludis
 10114;4609;sea;20311;-1;-1;-1;-1;;Kigera'jad-najerajad
@@ -101,4 +100,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5934;10181;sea;25314;-1;-1;-1;-1;;Isthmus
 9491;5130;sea;26598;-1;-1;-1;-1;;Polikos
 9773;9821;sea;25256;-1;-1;-1;-1;;Cusilvana
--1;-1;;-1;-1;-1;-1;-1;-1
+6333;6733;sea;23807;-1;-1;-1;-1;;Ignatava-donfuer

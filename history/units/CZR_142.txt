@@ -1,0 +1,231 @@
+﻿
+
+
+
+division_template = {
+	name = "Otdál Vojskij"			# Infantry Division
+	division_names_group = CZR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+}
+division_template = {
+	name = "krolija straž"
+	division_names_group = CZR_INF_02
+	template_counter = 3
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+division_template = {
+	name = "Otdál Posadá"			# Garrison Force
+	division_names_group = CZR_GAR_01
+	template_counter = 12
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Otdál ézdéckij"  	# Cavalry Regiment
+	division_names_group = CZR_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Otdál Motorizovni"  	
+	division_names_group = CZR_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+
+
+	######## LAND UNITS ########
+
+units = {
+
+	division = { # "I. Otdál Vojskij"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18616 # Aferosia
+		division_template = "Otdál Vojskij"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "II. Otdál Vojskij"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 18616 # Östersund
+		division_template = "Otdál Vojskij"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "III. Otdál Vojskij"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2433 # Port Boros
+		division_template = "Otdál Vojskij"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "IV. Otdál Vojskij"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 2433 #Port Boros
+		division_template = "Otdál Vojskij"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "V. Otdál Vojskij"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2433 #Port Boros
+		division_template = "Otdál Vojskij"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "I. Czars Krolija Straž"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9608 #Port Boros
+		division_template = "krolija straž"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "II. Czars Krolija Straž"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9608 #Port Boros
+		division_template = "krolija straž"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+
+	division = { #"I. Otdál ézdéckij"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9608 #
+		division_template = "Otdál ézdéckij"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = { #"II. Otdál ézdéckij"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9608 #
+		division_template = "Otdál ézdéckij"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	division = { # "Aferosia Posadá"					
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18616 # aferosia
+		division_template = "Otdál Posadá"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+		division = { # "Kavan Posadá"					
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18669 # Kavan
+		division_template = "Otdál Posadá"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CZR"
+		}
+		requested_factories = 1
+		progress = 0.77
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CZR"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CZR"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+
+}
