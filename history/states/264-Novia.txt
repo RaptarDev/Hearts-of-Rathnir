@@ -7,12 +7,12 @@ state={
 	state_category=metropolis
 
 	provinces={
-		1026 2796 6002 6924 9179 9210 9224 9264 9310 9319 9352
+		1026 2796 6002 6924 9179 9210 9224 9264 9310 9319 9352 2342 9406
 	}
 
 	resources = {
 		steel = 4
-		tungsten = 5
+		tungsten 5
 	}
 
 history = {
