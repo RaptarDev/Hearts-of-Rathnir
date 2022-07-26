@@ -15,11 +15,11 @@ resources = {
 	}
 
 history = {
-		owner = AAT
+		owner = NRG
 		
-                controller = AAT
+                controller = NRG
 
-		add_core_of = AAT
+		add_core_of = NRG
 
 		buildings = {
 			infrastructure = 1

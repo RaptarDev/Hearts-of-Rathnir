@@ -444,3 +444,7 @@ CHA = {
 	color = rgb { 22 28 186 }
 	color_ui = rgb { 22 28 186 }
 }
+NRG = {
+	color = rgb { 123 24 143 }
+	color_ui = rgb { 123 24 143 }
+}

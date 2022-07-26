@@ -1,7 +1,7 @@
 state={
 	id=267
 	name="STATE_267"
-	manpower=400
+	manpower=4000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category=pastoral
@@ -12,11 +12,11 @@ state={
 
 
 history = {
-		owner = AAT
+		owner = NRG
 		
-                controller = AAT
+                controller = NRG
 
-		add_core_of = AAT
+		add_core_of = NRG
 
 		}
 
