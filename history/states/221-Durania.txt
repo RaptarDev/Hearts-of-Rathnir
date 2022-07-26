@@ -14,6 +14,7 @@ history=
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 2
+			2433 = { naval_base = 3}
 		}
 		victory_points = { 2433 10 } #Port_boros
 		add_core_of = CZR
