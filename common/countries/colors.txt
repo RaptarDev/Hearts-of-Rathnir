@@ -439,3 +439,8 @@ DLR = {
 	color = rgb { 1 143 27 }
 	color_ui = rgb { 1 143 27 }
 }
+
+CHA = {
+	color = rgb { 22 28 186 }
+	color_ui = rgb { 22 28 186 }
+}
