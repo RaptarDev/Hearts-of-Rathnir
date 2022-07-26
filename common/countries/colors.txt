@@ -330,8 +330,8 @@ SIM = {
 	color_ui = rgb { 0 242 145 }
 }
 DRK = {
-	color = rgb { 0 242 145 }
-	color_ui = rgb { 0 242 145 }
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 83 }
 }
 
 YIM = {
@@ -340,8 +340,8 @@ YIM = {
 }
 
 GRT = {
-	color = rgb { 189 6 48 }
-	color_ui = rgb { 189 6 48 }
+	color = rgb { 171 0 31 }
+	color_ui = rgb { 171 0 31 }
 }
 
 IMP = {
@@ -438,4 +438,9 @@ POL = {
 DLR = {
 	color = rgb { 1 143 27 }
 	color_ui = rgb { 1 143 27 }
+}
+
+CHA = {
+	color = rgb { 22 28 186 }
+	color_ui = rgb { 22 28 186 }
 }

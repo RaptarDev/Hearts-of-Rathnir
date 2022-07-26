@@ -4,7 +4,37 @@ state={
 	provinces={
 		1297 2366 4554 5498 5747 6695 8884 8922 8981 9014 9020 9047 9094 9109 9133 18590 
 	}
-	manpower=0
+	manpower=500000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	State_category=large_town
+
+	resources = {
+		Steel  = 2
+	}
+
+
+	history = {
+		owner = CHA
+
+                controller = CHA
+
+		add_core_of = DLR
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			5747 = { 
+			supply_node = 1
+			naval_base = 3
+			}
+		}		
+	
+		victory_points = {5747 20} #korribon
+
+
+	}
 }
+

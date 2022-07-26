@@ -9,6 +9,29 @@ set_technology = {
 
 set_convoys = 20
 
+set_autonomy = {
+		target = CZR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+set_autonomy = {
+		target = GRT
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+set_autonomy = {
+		target = SKJ
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+set_autonomy = {
+		target = DRK
+		autonomous_state = autonomy_integrated_puppet
+	}
+set_autonomy = {
+		target = GSH
+		autonomous_state = autonomy_integrated_puppet
+	}
 
 1939.1.1 = {
 	#generic focuses
