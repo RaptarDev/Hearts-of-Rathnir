@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "Wrath of War"
 		desc = "GATHERING_STORM_DESC"
-		date = 142.9.18
+		date = 142.7.18
 		picture = "GFX_select_date_1936"
 		default_country = "HSY"
 		default = yes
@@ -11,6 +11,15 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		"UOH"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SIM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"IMP"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"IAU"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		effect = {
