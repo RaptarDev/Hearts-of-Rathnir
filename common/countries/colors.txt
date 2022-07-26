@@ -221,8 +221,8 @@ CHU = {
 }
 
 ARL = {
-	color = rgb { 107 12 12 }
-	color_ui = rgb { 107 12 12 }
+	color = rgb { 36 138 227 }
+	color_ui = rgb { 36 138 227 }
 }
 
 SLI = {
@@ -445,6 +445,14 @@ CHA = {
 	color_ui = rgb { 22 28 186 }
 }
 NRG = {
-	color = rgb { 123 24 143 }
-	color_ui = rgb { 123 24 143 }
+	color = rgb { 112 31 163 }
+	color_ui = rgb { 112 31 163 }
+}
+DON = {
+	color = rgb { 219 130 42 }
+	color_ui = rgb { 219 130 42 }
+}
+SKJ = {
+	color = rgb { 116 148 12 }
+	color_ui = rgb { 116 148 12 }
 }
