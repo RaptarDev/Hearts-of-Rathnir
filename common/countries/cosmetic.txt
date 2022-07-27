@@ -2,3 +2,7 @@ ULD = {
 	color = rgb { 110 21 13 }
 	color_ui = rgb { 110 21 13 }
 }
+KOR = {
+	color = rgb { 153 21 59 }
+	color_ui = rgb { 153 21 59 }
+}

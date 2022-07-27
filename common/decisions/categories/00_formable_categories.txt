@@ -57,3 +57,38 @@ form_empire_of_uldarash_category = {
 	}
 
 }
+form_The_Korolian_empire_category = {
+
+	icon = generic_formable_nations
+	
+	picture = GFX_decision_cat_generic_empire_of_uldarash
+	
+	visible = {
+		NOT = { has_cosmetic_tag = KOR }
+	}
+	
+	allowed = {
+		OR = {
+			original_tag = CZR
+		}
+	}
+	highlight_states = {
+		highlight_state_targets = {
+			state = 221
+			state = 222
+			state = 223
+			state = 233
+			state = 248
+			state = 251
+			state = 252
+			state = 254
+			state = 253
+			state = 256
+			state = 270
+			state = 271
+			state = 281
+			state = 282
+		}
+	}
+
+}
