@@ -5,9 +5,19 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category=rural
-
 	provinces={
 		140 18611 
 	}
+history = {
+		owner = SKJ
+		
+                controller = SKJ
+
+		add_core_of = SKJ
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1}	
+		}
 
 }

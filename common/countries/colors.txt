@@ -445,8 +445,8 @@ CHA = {
 	color_ui = rgb { 22 28 186 }
 }
 NRG = {
-	color = rgb { 112 31 163 }
-	color_ui = rgb { 112 31 163 }
+	color = rgb { 148 12 130 }
+	color_ui = rgb { 48 12 130 }
 }
 DON = {
 	color = rgb { 219 130 42 }
