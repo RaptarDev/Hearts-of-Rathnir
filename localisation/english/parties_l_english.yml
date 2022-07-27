@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Generic Ideoligy Sh*t :)
  communism:0 "Socialist"
  communism_noun:0 "Socialism"
  communism_desc:0 "Socialist Regime"
@@ -8,3 +9,10 @@
  neutrality:0 "Monarchist"
  neutrality_noun:0 "Monarchism"
  neutrality_desc:0 "Monarchist state"
+ #fascism ideology types
+ technocracy:0 "Technocratic"
+ technocracy_noun:0 "Technocracy"
+ technocracy_desc:0 "Technocractic State"
+ #Avertico
+ AVE_fascism_party:0 "ASTRO"
+ AVE_fascism_party_long:0 "Avertican Science and Tech Revolutionary Organisation"
