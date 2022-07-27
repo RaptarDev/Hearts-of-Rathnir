@@ -1,217 +1,59 @@
 #formable_nations = {
 #
 #	icon = generic_formable_nations
-#
-#	allowed = {
-#		has_dlc = "Waking the Tiger"
-#	}
+
 #}
 
-form_scandinavia_category = {
+form_empire_of_uldarash_category = {
 
 	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_scandinavia
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
+	
+	picture = GFX_decision_cat_generic_empire_of_uldarash
+	
+	visible = {
+		NOT = { has_cosmetic_tag = ULD }
 	}
-}
-
-form_nordic_league_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_nordic_league
-
+	
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		OR = {
+			original_tag = HSY
+			original_tag = UOH
+			original_tag = SAV
+			original_tag = AUR
+            original_tag = PAL
+		}
 	}
-}
-
-form_gran_colombia_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_gran_colombia
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
+	highlight_states = {
+		highlight_state_targets = {
+			state = 7
+			state = 8
+			state = 9
+			state = 10
+			state = 197
+			state = 205
+			state = 206
+			state = 198
+			state = 22
+			state = 34
+			state = 6
+			state = 14
+			state = 15
+			state = 30
+			state = 22
+			state = 34
+			state = 31
+			state = 218
+			state = 217
+			state = 215
+			state = 216
+			state = 34
+			state = 220
+			state = 191
+			state = 196
+			state = 203
+			state = 195
+			state = 194
+		}
 	}
-}
 
-form_austria_hungary_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_austria_hungary
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_commonwealth_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_commonwealth
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_united_netherlands_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_united_netherlands
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_united_central_america_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_united_central_america
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_baltic_federation_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_baltic_federation
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_ottoman_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_ottoman_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_european_union_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_european_union
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_mutapa_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_mutapa
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_roman_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_roman_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_persian_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_persian_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_byzantine_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_byzantine_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_arabia_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_arabia
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_majapahit_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_majapahit_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_rattanakosin_kingdom_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_rattanakosin_kingdom
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_hre_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_hre
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
-form_greater_german_reich_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_hre
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
 }

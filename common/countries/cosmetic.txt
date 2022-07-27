@@ -1,4 +1,4 @@
-ULD_HAV = {
-	color = rgb { 79 12 9 }
-	color_ui = rgb { 79 12 9 }
+ULD = {
+	color = rgb { 110 21 13 }
+	color_ui = rgb { 110 21 13 }
 }

@@ -1,2 +1,12 @@
 ﻿l_english:
- ULD_HAV:0 "3rd Empire of Uldarash"
+ ULD_fascism:0 "the 3rd Empire of Uldarash"
+ ULD_fascism_DEF:0 "3rd Empire of Uldarash"
+ ULD_neutrality:0 "3rd Empire of Uldarash"
+ ULD_neutrality_DEF:0 "the 3rd Empire of Uldarash"
+ ULD_democratic:0 "Uldarashi Republic"
+ ULD_democratic_DEF:0 "the Uldarashi Republic"
+ ULD_communism:0 "Socialist Uldarashi Republic"
+ ULD_communism_DEF:0 "the Socialist Uldarashi Republic"
+ ULD:0 "Uldarash"
+ ULD_DEF:0 "Uldarash"
+ ULD_ADJ:0 "Uldarashi"
