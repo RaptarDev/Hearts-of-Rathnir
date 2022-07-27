@@ -32,7 +32,7 @@ division_template = {
 }
 division_template = {
 	name = "Garrison Area"			# Garrison Force
-	division_names_group = CZR_GAR_01
+	division_names_group = CHU_GAR_01
 	template_counter = 12
 	# For reserve and independent regiments, lower experience and equipment
 	regiments = {
@@ -45,7 +45,7 @@ division_template = {
 }
 division_template = {
 	name = "Cavalry group"  	# Cavalry Regiment
-	division_names_group = CZR_CAV_02
+	division_names_group = CHU_CAV_02
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -61,7 +61,7 @@ division_template = {
 }
 division_template = {
 	name = "Motorized"  	
-	division_names_group = CZR_MOT_02
+	division_names_group = CHU_MOT_02
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -79,18 +79,7 @@ division_template = {
 
 units = {
 
-	division = { # "I. Inf Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10022 # havenstat
-		division_template = "Infantery division"
-		start_experience_factor = 0.05
-		start_equipment_factor = 0.3
-
-	}
-	division = { # "II. Inf division"
+	division = { # "I. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
@@ -100,7 +89,7 @@ units = {
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "III. Inf division"
+	division = { # "II. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
@@ -110,7 +99,7 @@ units = {
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "IV. Inf division"
+	division = { # "III. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
@@ -126,7 +115,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 8343 # AME
+		location = 10072 # border south
 		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
@@ -136,7 +125,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 8343 #Port Boros
+		location = 9672 #kurakrige
 		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
@@ -146,7 +135,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 8343 #Port Boros
+		location = 6916 #border north
+		division_template = "Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+division = { # "IV. Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1500 #cape charles
 		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
