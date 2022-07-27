@@ -130,3 +130,72 @@ form_empire_of_uldarash_category = {
 		}
 	}
 }
+
+form_The_Korolian_empire_category = {
+
+	form_The_Korolian_empire = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CZR
+			}
+		}
+
+		available = {			
+			controls_state = 221
+			controls_state = 222
+			controls_state = 223
+			controls_state = 233
+			controls_state = 248
+			controls_state = 251
+			controls_state = 252
+			controls_state = 254
+			controls_state = 253
+			controls_state = 256
+			controls_state = 270
+			controls_state = 271
+			controls_state = 281
+			controls_state = 282
+		}
+
+		
+		visible = {
+			OR = {
+				original_tag = CZR
+			}
+			NOT = { has_cosmetic_tag = KOR }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KOR
+			hidden_effect = {
+			 221= { add_core_of = ROOT }
+			 222= { add_core_of = ROOT }
+			 223= { add_core_of = ROOT }
+			 233= { add_core_of = ROOT }
+			 248= { add_core_of = ROOT }
+			 251= { add_core_of = ROOT }
+			 252= { add_core_of = ROOT }
+			 254= { add_core_of = ROOT }
+			 253= { add_core_of = ROOT }
+			 256= { add_core_of = ROOT }
+			 270= { add_core_of = ROOT }
+			 271= { add_core_of = ROOT }
+			 281= { add_core_of = ROOT }
+			 282= { add_core_of = ROOT }
+			}
+
+
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
