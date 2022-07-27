@@ -57,7 +57,7 @@ form_empire_of_uldarash_category = {
 	}
 
 }
-form_The_Korolian_empire_category = {
+form_Korolian_empire_category = {
 
 	icon = generic_formable_nations
 	
