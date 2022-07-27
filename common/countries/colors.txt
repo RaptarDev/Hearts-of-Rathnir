@@ -445,14 +445,14 @@ CHA = {
 	color_ui = rgb { 22 28 186 }
 }
 NRG = {
-	color = rgb { 148 12 130 }
-	color_ui = rgb { 48 12 130 }
+	color = rgb { 176 26 26 }
+	color_ui = rgb { 176 26 26 }
 }
 DON = {
 	color = rgb { 219 130 42 }
 	color_ui = rgb { 219 130 42 }
 }
 SKJ = {
-	color = rgb { 116 148 12 }
-	color_ui = rgb { 116 148 12 }
+	color = rgb { 235 183 106 }
+	color_ui = rgb { 235 183 106 }
 }
