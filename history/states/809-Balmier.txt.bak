@@ -1,0 +1,26 @@
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		15553 3503 19130 9 15523 5287 15502 550 1863 5423 15536
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+history={
+		owner = IAU
+		controller = IAU
+		add_core_of = IAU AVE
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+
+		}
+		victory_points = {
+			15553 5
+		}
+		State_category=town
+	}
+}
