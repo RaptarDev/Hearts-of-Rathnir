@@ -3,8 +3,8 @@
 
 
 division_template = {
-	name = "Otdál Vojskij"			# Infantry Division
-	division_names_group = CZR_INF_01
+	name = "Infantery division"			# Infantry Division
+	division_names_group = CHU_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -19,8 +19,8 @@ division_template = {
 	
 }
 division_template = {
-	name = "krolija straž"
-	division_names_group = CZR_INF_02
+	name = "Militia"
+	division_names_group = CHU_INF_02
 	template_counter = 3
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -31,7 +31,7 @@ division_template = {
 
 }
 division_template = {
-	name = "Otdál Posadá"			# Garrison Force
+	name = "Garrison Area"			# Garrison Force
 	division_names_group = CZR_GAR_01
 	template_counter = 12
 	# For reserve and independent regiments, lower experience and equipment
@@ -44,7 +44,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Otdál ézdéckij"  	# Cavalry Regiment
+	name = "Cavalry group"  	# Cavalry Regiment
 	division_names_group = CZR_CAV_02
 
 	regiments = {
@@ -60,7 +60,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Otdál Motorizovni"  	
+	name = "Motorized"  	
 	division_names_group = CZR_MOT_02
 
 	regiments = {
@@ -79,119 +79,119 @@ division_template = {
 
 units = {
 
-	division = { # "I. Otdál Vojskij"
+	division = { # "I. Inf Division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 18616 # Aferosia
-		division_template = "Otdál Vojskij"
+		location = 10022 # havenstat
+		division_template = "Infantery division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 
 	}
-	division = { # "II. Otdál Vojskij"
+	division = { # "II. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 18616 # Östersund
-		division_template = "Otdál Vojskij"
+		location = 10023 # Nausicaa
+		division_template = "Infantery division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "III. Otdál Vojskij"
+	division = { # "III. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 2433 # Port Boros
-		division_template = "Otdál Vojskij"
+		location = 7226 # Polskrige
+		division_template = "Infantery division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "IV. Otdál Vojskij"
+	division = { # "IV. Inf division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 2433 #Port Boros
-		division_template = "Otdál Vojskij"
+		location = 10023 # Nausicaa
+		division_template = "Infantery division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "V. Otdál Vojskij"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 2433 #Port Boros
-		division_template = "Otdál Vojskij"
-		start_experience_factor = 0.05
-		start_equipment_factor = 0.3
-	}
-	division = { # "I. Czars Krolija Straž"
+
+	division = { # "I. Militia"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9608 #Port Boros
-		division_template = "krolija straž"
+		location = 8343 # AME
+		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-	division = { # "II. Czars Krolija Straž"
+	division = { # "II. Militia"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9608 #Port Boros
-		division_template = "krolija straž"
+		location = 8343 #Port Boros
+		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-
-
-	division = { #"I. Otdál ézdéckij"			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9608 #
-		division_template = "Otdál ézdéckij"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division = { #"II. Otdál ézdéckij"			
+	division = { # "III. Militia"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9608 #
-		division_template = "Otdál ézdéckij"
+		location = 8343 #Port Boros
+		division_template = "Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { #"I. Cavalery Group"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7226 # polskrige
+		division_template = "Cavalry group"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = { #"II. Cavalery Group"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10022 # Havenstat
+		division_template = "Cavalry group"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 
-	division = { # "Aferosia Posadá"					
+	division = { # "I. Ame Garrison"					
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 18616 # aferosia
-		division_template = "Otdál Posadá"
+		location = 8343 # aferosia
+		division_template = "Garrison Area"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
-		division = { # "Kavan Posadá"					
+		division = { # "I. Nausicaa Garrison"					
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 18669 # Kavan
-		division_template = "Otdál Posadá"
+		location = 10023 # Nausicaa
+		division_template = "Garrison Area"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
@@ -199,11 +199,12 @@ units = {
 }
 
 ### Starting Production ###
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "CZR"
+			creator = "SWE"
 		}
 		requested_factories = 1
 		progress = 0.77
@@ -212,7 +213,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "CZR"
+			creator = "SWE"
 		}
 		requested_factories = 1
 		progress = 0.21
@@ -236,5 +237,4 @@ instant_effect = {
 		progress = 0.21
 		efficiency = 100
 	}
-
 }
