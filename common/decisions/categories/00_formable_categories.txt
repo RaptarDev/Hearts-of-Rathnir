@@ -61,7 +61,7 @@ form_The_Korolian_empire_category = {
 
 	icon = generic_formable_nations
 	
-	picture = GFX_decision_cat_generic_empire_of_uldarash
+	picture = GFX_decision_cat_generic_korolian_empire
 	
 	visible = {
 		NOT = { has_cosmetic_tag = KOR }
