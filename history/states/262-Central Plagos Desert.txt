@@ -21,6 +21,7 @@ history = {
                 controller = NRG
 
 		add_core_of = NRG
+		add_core_of = ARL
 
 		buildings = {
 			infrastructure = 1
