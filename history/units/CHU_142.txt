@@ -24,9 +24,8 @@ division_template = {
 	template_counter = 3
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		
 	}
 
 }
@@ -146,6 +145,26 @@ division = { # "IV. Militia"
 			name_order = 2
 		}
 		location = 1500 #cape charles
+		division_template = "Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+division = { # "V. Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6916 #border north
+		division_template = "Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+division = { # "VI. Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10072 # border south
 		division_template = "Militia"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
