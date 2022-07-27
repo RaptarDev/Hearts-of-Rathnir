@@ -4,7 +4,7 @@
  communism_noun:0 "Socialism"
  communism_desc:0 "Socialist Regime"
  fascism:0 "Imperialist"
- fascism:0 "Imperialism"
+ fascism_noun:0 "Imperialism"
  fascism_desc:0 "Imperialist Regime"
  neutrality:0 "Monarchist"
  neutrality_noun:0 "Monarchism"
