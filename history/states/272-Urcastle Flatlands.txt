@@ -16,6 +16,7 @@ history = {
                 controller = OPC
 
 		add_core_of = OPC
+		add_core_of = URC
 
 		buildings = {
 			infrastructure = 1
@@ -23,7 +24,7 @@ history = {
 
 		}	
 		victory_points = {
-			10469 10
+			10469 15
 		}
 	}
 }
