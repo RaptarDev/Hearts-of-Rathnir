@@ -4,7 +4,7 @@ state={
 	provinces={
 		2433 
 	}
-	manpower=100000
+	manpower=160000
 
 history=
 	{

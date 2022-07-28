@@ -1,0 +1,26 @@
+
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		546 1156 15806 15817 15840 
+	}
+
+	history={
+
+		owner = AVE
+
+		add_core_of = AVE
+		
+		victory_points = {
+			15806 10 
+		}
+
+	}
+
+	manpower=950000 # 19 peoplee
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

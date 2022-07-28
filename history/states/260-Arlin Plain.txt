@@ -19,7 +19,7 @@ resources = {
 history = {
 		owner = NOA
 		
-        controller = NOA
+        	controller = NOA
 
 		add_core_of = NOA
 		add_core_of = ARL
