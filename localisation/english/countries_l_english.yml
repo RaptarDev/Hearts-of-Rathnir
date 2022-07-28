@@ -80,8 +80,8 @@
  CON_DEF:0 "Consau"
  CON_ADJ:0 "Consau"
 
- FRO_fascism:0 "Imperial Serev-Valdic Union"
- FRO_fascism_DEF:0 "the Imperial Serev-Valdic Union”
+ FRO_fascism:0 "Police State of Frostmarch"
+ FRO_fascism_DEF:0 "the Police State of Frostmarch”
  FRO_democratic:0 "Second Grand Sørligste Federation”
  FRO_democratic_DEF:0 "the Second Grand Sørligste Federation"
  FRO_neutrality:1 "Grand Jarldom of Frostmarch"
