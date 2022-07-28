@@ -47,7 +47,7 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Pirate Lord Ulifer"
 	picture = 
 	expire = "1965.1.1"
-	ideology = neutrality
+	ideology = fascism
 	traits = {
 		#
 	}
