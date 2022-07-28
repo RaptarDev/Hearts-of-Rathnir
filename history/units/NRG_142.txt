@@ -120,16 +120,6 @@ units = {
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
-		division = { # "V. Inf division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 5600 # Novia upper border
-		division_template = "Infantery division"
-		start_experience_factor = 0.05
-		start_equipment_factor = 0.5
-	}
 	
 
 	division = { # "I. Defence division"
@@ -157,7 +147,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 9736 #saboten
+		location = 9737 #saboten
 		division_template = "Defence division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
@@ -172,9 +162,19 @@ division = { # "IV. Defence division"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
+	division = { # "IV. Defence division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5600 #border novia
+		division_template = "Defence division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.35600
+	}
 
 
-	division = { #"I. Cavalery Group"			
+	division = { #"I. Cavalry Group"			
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -185,12 +185,12 @@ division = { # "IV. Defence division"
 		start_equipment_factor = 0.3
 
 	}
-	division = { #"II. Cavalery Group"			
+	division = { #"II. Cavalry Group"			
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 6440 # valreign
+		location = 6448 # valreign
 		division_template = "Cavalry group"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.5
@@ -212,7 +212,7 @@ division = { # "IV. Defence division"
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6440 # valreign
+		location = 6448 # valreign
 		division_template = "Garrison Area"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
