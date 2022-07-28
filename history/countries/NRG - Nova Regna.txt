@@ -1,6 +1,6 @@
 capital = 248
 
-oob = "generic_oob"
+oob = "NRG_142"
 
 # Starting tech
 set_technology = {

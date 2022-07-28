@@ -1,0 +1,262 @@
+﻿
+
+
+
+division_template = {
+	name = "Infantery division"			# Infantry Division
+	division_names_group = NRG_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+}
+division_template = {
+	name = "Defence division"
+	division_names_group = NRG_INF_02
+	template_counter = 3
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		
+	}
+
+}
+division_template = {
+	name = "Garrison Area"			# Garrison Force
+	division_names_group = NRG_GAR_01
+	template_counter = 12
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Cavalry group"  	# Cavalry Regiment
+	division_names_group = NRG_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Motorized"  	
+	division_names_group = NRG_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+
+
+	######## LAND UNITS ########
+
+units = {
+
+	division = { # "I. Inf division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9156 # Border north
+		division_template = "Infantery division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = { # "II. Inf division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5155 # Riften
+		division_template = "Infantery division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "III. Inf division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9645 # saboten chokepoint
+		division_template = "Infantery division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "IV. Inf division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3750 # Novia upper border
+		division_template = "Infantery division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+		division = { # "V. Inf division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5600 # Novia upper border
+		division_template = "Infantery division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.5
+	}
+	
+
+	division = { # "I. Defence division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9115 # border north
+		division_template = "Defence division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "II. Defence division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9515 #Donfuer border south
+		division_template = "Defence division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { # "III. Defence division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9736 #saboten
+		division_template = "Defence division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+division = { # "IV. Defence division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9364 #border novia
+		division_template = "Defence division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+
+	division = { #"I. Cavalery Group"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9531 # Donfuer
+		division_template = "Cavalry group"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = { #"II. Cavalery Group"			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6440 # valreign
+		division_template = "Cavalry group"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.5
+
+	}
+
+	division = { # "I. Donfuer Garrison"					
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9531 # Donfuer
+		division_template = "Garrison Area"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+		division = { # "I. Valreign Garrison"					
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6440 # valreign
+		division_template = "Garrison Area"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+}
+
+### Starting Production ###
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NRG"
+		}
+		requested_factories = 1
+		progress = 0.77
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "NRG"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "NRG"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cavalry_equipment_1
+			creator = "NRG"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+}
