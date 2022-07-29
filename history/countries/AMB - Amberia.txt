@@ -1,18 +1,14 @@
-capital = 248
+capital = 
 
-oob = "NRG_142"
+oob = "generic_oob"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	basic_train = 1
 }
 
-set_convoys = 10
+set_convoys = 5
+
 
 1939.1.1 = {
 	#generic focuses
@@ -31,7 +27,6 @@ set_convoys = 10
 		#doctrines
 		grand_battle_plan = 1
 		trench_warfare = 1
-		gw_artillery = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -58,15 +53,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 20
-	communism = 2
-	neutrality = 68
+	democratic = 7
+	fascism = 25
+	communism = 8
+	neutrality = 60
 }
 
 create_country_leader = {
 	
-	name = "King Revo"
+	name = "Mirain Caicuria"
 	picture = 
 	expire = "1965.1.1"
 	ideology = neutrality

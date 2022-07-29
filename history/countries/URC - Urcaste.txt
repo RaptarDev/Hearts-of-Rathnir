@@ -1,4 +1,4 @@
-capital = 252
+capital = 271
 
 oob = "generic_oob"
 
@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 10
+set_convoys = 5
 
 
 1939.1.1 = {
@@ -47,21 +47,21 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 20
-	communism = 2
-	neutrality = 68
+	democratic = 7
+	fascism = 25
+	communism = 8
+	neutrality = 60
 }
 
 create_country_leader = {
 	
-	name = "Basil"
+	name = "Mirain Caicuria"
 	picture = 
 	expire = "1965.1.1"
 	ideology = neutrality

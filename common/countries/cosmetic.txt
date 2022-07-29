@@ -1,8 +1,8 @@
-ULD_HAV = {
+ULD = {
 	color = rgb { 79 12 9 }
 	color_ui = rgb { 79 12 9 }
 }
-KOR_PLA = {
+KOR = {
 	color = rgb { 153 21 59 }
 	color_ui = rgb { 153 21 59 }
 }

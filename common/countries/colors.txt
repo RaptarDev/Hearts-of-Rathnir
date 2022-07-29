@@ -453,6 +453,14 @@ DON = {
 	color_ui = rgb { 219 130 42 }
 }
 SKJ = {
-	color = rgb { 235 183 106 }
-	color_ui = rgb { 235 183 106 }
+	color = rgb { 42 161 97 }
+	color_ui = rgb { 42 161 97 }
+}
+URC = {
+	color = rgb { 47 68 173 }
+	color_ui = rgb { 47 68 173 }
+}
+ABR = {
+	color = rgb { 255 148 24 }
+	color_ui = rgb { 255 148 24 }
 }

@@ -20,6 +20,7 @@ history = {
         controller = OPC
 
 		add_core_of = OPC
+		add_core_of = CZR
 
 		buildings = {
 			infrastructure = 1
