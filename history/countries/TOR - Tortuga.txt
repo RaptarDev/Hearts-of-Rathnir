@@ -9,6 +9,21 @@ set_technology = {
 
 set_convoys = 5
 
+set_autonomy = {
+		target = VAL
+		autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+		target = TCC
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+set_autonomy = {
+		target = FRI
+		autonomous_state = autonomy_integrated_puppet
+}
+
 
 1939.1.1 = {
 	#generic focuses

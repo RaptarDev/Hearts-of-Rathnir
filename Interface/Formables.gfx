@@ -1,4 +1,5 @@
 spriteTypes = {	
+	
 	spriteType = {
 		name = "GFX_decision_cat_generic_empire_of_uldarash"
 		texturefile = "gfx/interface/decisions/decision_cat_generic_empire_of_uldarash.dds"
