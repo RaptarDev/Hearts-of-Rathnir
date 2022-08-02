@@ -1,0 +1,24 @@
+scripted_gui = {
+    topbar_market_scripted_gui = {
+        window_name = after_logistics_button
+        context_type = player_context
+
+         
+        visible = {
+            #has_dlc = "La Resistance"
+        }
+        
+        effects = {
+            market_button_click = {
+                if = {
+                    limit = {
+                        has_country_flag = market_open
+                    }
+                    clr_country_flag = market_open
+                }
+                else = {
+                    set_country_flag = market_open
+                }
+        }
+    }
+}

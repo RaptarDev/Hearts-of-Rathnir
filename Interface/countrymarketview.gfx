@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_market_button"
+		textureFile = "/gfx/interface/topbar/toolbar/market_button.dds"
+		noOfFrames = 2
+	}
+}
