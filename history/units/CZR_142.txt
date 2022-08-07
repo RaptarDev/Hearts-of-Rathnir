@@ -19,7 +19,7 @@ division_template = {
 	
 }
 division_template = {
-	name = "krolija straž"
+	name = "Krolija Straž"
 	division_names_group = CZR_INF_02
 	template_counter = 3
 	regiments = {
@@ -44,7 +44,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Otdál ézdéckij"  	# Cavalry Regiment
+	name = "Otdál Ézdéckij"  	# Cavalry Regiment
 	division_names_group = CZR_CAV_02
 
 	regiments = {
@@ -136,7 +136,7 @@ units = {
 			name_order = 1
 		}
 		location = 9608 #Port Boros
-		division_template = "krolija straž"
+		division_template = "Krolija Straž"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
@@ -146,7 +146,7 @@ units = {
 			name_order = 2
 		}
 		location = 9608 #Port Boros
-		division_template = "krolija straž"
+		division_template = "Krolija Straž"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.3
 	}
@@ -158,7 +158,7 @@ units = {
 			name_order = 1
 		}
 		location = 9608 #
-		division_template = "Otdál ézdéckij"
+		division_template = "Otdál Ézdéckij"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -169,7 +169,7 @@ units = {
 			name_order = 2
 		}
 		location = 9608 #
-		division_template = "Otdál ézdéckij"
+		division_template = "Otdál Ézdéckij"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
