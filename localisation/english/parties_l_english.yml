@@ -8,7 +8,10 @@
  fascism_desc:0 "Imperialist Regime"
  neutrality:0 "Monarchist"
  neutrality_noun:0 "Monarchism"
- neutrality_desc:0 "Monarchist state"
+ neutrality_desc:0 "Monarchist State"
+ democratic:0 "Democratic"
+ democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
  #fascism ideology types
  technocracy:0 "Technocratic"
  technocracy_noun:0 "Technocracy"
