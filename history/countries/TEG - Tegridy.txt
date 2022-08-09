@@ -9,6 +9,21 @@ set_technology = {
 
 set_convoys = 5
 
+ZEF = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = TEG
+			autonomous_state = autonomy_integrated_puppet
+		}
+		else = {
+			puppet = TEG
+		}
+	}
+}
+
 
 1939.1.1 = {
 	#generic focuses
