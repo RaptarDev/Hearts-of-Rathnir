@@ -5,7 +5,7 @@ guiTypes = {
 		#1.10
 		#position = { x=596 y=38 } #x=260 y=38 # x=56 y=0
 		#1.11
-		position = { x= 665 y=36 }
+		position = { x= 665 y=35 }
 
 		buttonType = {
 			name = "market_button"
@@ -67,7 +67,7 @@ guiTypes = {
 		iconType ={
 			name ="product_divider"
 			spriteType = "GFX_divider"
-			position = { x= 12 y = 88 }
+			position = { x= 12 y = 88      }
 			Orientation = "UPPER_LEFT"
 		}
 		containerWindowType = {
@@ -81,6 +81,7 @@ guiTypes = {
 				position = { x=0 y=0 }
 				quadTextureSprite ="GFX_TRADE_resource_btn"
 				clicksound = click_checkbox
+				
 			}
 			buttonType = {
 				name = "boats_button"

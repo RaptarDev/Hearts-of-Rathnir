@@ -4,11 +4,11 @@ tags={
 	"Map"
 	"Utilities"
 }
-picture="blank_map_template_5632x2048.jpg"
+picture="thumbnail.png"
 supported_version="1.11.*"
 
 replace_path="common/ai_peace"
-replace_path="common/ai_strategy"
+replace_path="common/ai_strategy"`
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_equipment"
 replace_path="common/ai_templates"
