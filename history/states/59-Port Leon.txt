@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = FRO
 
+		add_core_of = NVS
+
 		victory_points = { 17863 20 }
 
 	}

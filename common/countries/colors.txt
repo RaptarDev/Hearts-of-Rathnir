@@ -399,7 +399,7 @@ AND = {
 	color_ui = rgb { 232 145 95 }
 }
 
-NOR = {
+ NOR = {
 	color = rgb { 13 117 23 }
 	color_ui = rgb { 13 117 23 }
 
@@ -459,6 +459,18 @@ SKJ = {
 URC = {
 	color = rgb { 47 68 173 }
 	color_ui = rgb { 47 68 173 }
+}
+NVS = {
+	color = rgb { 191 22 10 }
+	color_ui = rgb { 191 22 10 }
+}
+ATO = {
+	color = rgb { 34 52 189 }
+	color_ui = rgb { 34 52 189 }
+}
+ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
 }
 ABR = {
 	color = rgb { 255 148 24 }

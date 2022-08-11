@@ -17,6 +17,10 @@ state = {
 
 		add_core_of = FRO
 
+		add_core_of = ATO
+
+		add_core_of = ITA
+
 		victory_points = { 18427 1 }
 
 		victory_points = { 6265 1 }

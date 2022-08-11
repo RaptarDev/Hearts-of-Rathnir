@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = FRO
 
+		add_core_of = ITA
+
 		victory_points = { 6707 30 }
 
 	}

@@ -16,6 +16,8 @@ state = {
 		owner = FRO
 
 		add_core_of = FRO
+		
+		add_core_of = ITA
 
 		victory_points = { 1658 10 }
 

@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = CON
 
+		add_core_of = NVS
+
 		victory_points = { 6791 5 }
 
 	}

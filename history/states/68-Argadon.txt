@@ -17,6 +17,10 @@ state = {
 
 		add_core_of = TOR
 
+		add_core_of = NVS
+
+		add_core_of = ITA
+
 		victory_points = { 1367 1 }
 
 
