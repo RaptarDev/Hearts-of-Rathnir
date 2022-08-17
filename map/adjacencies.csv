@@ -101,3 +101,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9491;5130;sea;26598;-1;-1;-1;-1;;Polikos
 9773;9821;sea;25256;-1;-1;-1;-1;;Cusilvana
 6333;6733;sea;23807;-1;-1;-1;-1;;Ignatava-donfuer
+
+## TEST
