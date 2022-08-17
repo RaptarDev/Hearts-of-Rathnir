@@ -1,0 +1,16 @@
+characters = {
+
+    FRO_temsyod = {
+        name = FRO_temsyod
+        portraits = {
+            civilian = {
+                large=GFX_FRO_temsyod
+            }
+        }
+        country_leader = {
+            expire = "1965.1.1"
+            ideology = oligarchism
+            id = -1
+        }
+    }
+}
