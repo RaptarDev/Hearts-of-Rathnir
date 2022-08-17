@@ -9,8 +9,8 @@ state={
 	history={
 
 		owner = IAU 
-        add_core_of = IAU
-		add_core_of = AVE 
+
+		add_core_of = IAU 
 
 		victory_points = {
 			8411 3
