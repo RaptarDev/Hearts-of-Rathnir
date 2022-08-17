@@ -1,0 +1,26 @@
+
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		245 3301 4123 4991 6016 6726 14787 14853 14882 14924 14960 14997 
+	}
+
+	history={
+
+		owner = ZEF
+
+		add_core_of = ZEF
+		
+		victory_points = {
+			6016 5  
+		}
+
+	}
+
+	manpower=1250000 # 23 peoplee
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}

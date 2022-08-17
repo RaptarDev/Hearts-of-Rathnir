@@ -1,0 +1,26 @@
+
+state={
+	id=813
+	name="STATE_813"
+	provinces={
+		7193 15770 19154
+	}
+
+	history={
+
+		owner = IAU
+
+		add_core_of = IAU
+		
+		victory_points = {
+			7193 3  
+		}
+
+	}
+
+	manpower=50000 # 1town
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+
+}
