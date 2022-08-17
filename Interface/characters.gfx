@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_FRO_temsyod"
+		texturefile = "gfx/leaders/SORLIGSTE/temsyod.png"
+	}
+
+}
