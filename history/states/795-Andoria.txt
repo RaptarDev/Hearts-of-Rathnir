@@ -1,26 +1,23 @@
+
 state={
 	id=795
 	name="STATE_795"
-	provinces={
-		2051 4481 4734 4797 5955 7239 7910 8474 9065 9113 9153 
-	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	manpower=4000
-	State_category=pastoral
-
-	resources = {
-		Rubber  = 1
+	resources={
+		rubber=1.000
 	}
 
-
-	history = {
+	history={
 		owner = DLR
-
-                controller = DLR
-
+		controller = DLR
 		add_core_of = DLR
-		
 
 	}
+
+	provinces={
+		2051 4481 4734 4797 5955 7239 7910 8474 9065 9113 9153 26632 26633 26634 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

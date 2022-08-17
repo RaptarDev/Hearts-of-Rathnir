@@ -1,24 +1,22 @@
 
-state = {
-	id = 28
-	name = "STATE_28"
-	manpower = 550000 # 11 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = town
+state={
+	id=28
+	name="STATE_28"
 
-	provinces = {
-		245 1872 2014 3082 3235 3368 4626 5293 5835 6088 7026 7117 7637 7843 8501 15584 15587 15621 15645 15650 15695 15730 15749 15875 15893 15919 15928 15954 16000 16021 16065 16080 19159 
-	}
-
-
-	history = {
-		
+	history={
 		owner = AUR
-
 		add_core_of = AUR
-
-		victory_points = { 15954 5 }
+		victory_points = {
+			15954 5 
+		}
 
 	}
+
+	provinces={
+		245 245 1872 2014 3082 3235 3368 4626 5293 5835 6088 7026 7117 7637 7843 8501 15584 15587 15621 15645 15650 15695 15730 15749 15875 15893 15919 15928 15954 16000 16021 16065 16080 19159 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
