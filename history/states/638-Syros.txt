@@ -20,6 +20,8 @@ state={
 			5298 1
 		}
 
+		set_demilitarized_zone = yes
+
 	}
 
 	manpower=250000 # 5 people

@@ -16,6 +16,8 @@ state={
 			6646 7
 		}
 
+		set_demilitarized_zone = yes
+
 	}
 
 	manpower=1450000 # 15 people
