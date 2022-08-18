@@ -1,6 +1,6 @@
 ﻿add_namespace = stuff
 
-# UK becomes just England
+# Grand Jarldom becomes Jarldom
 country_event = {
 	id = stuff.1
 	
