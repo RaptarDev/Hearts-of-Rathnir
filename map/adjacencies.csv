@@ -107,5 +107,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13351;3211;sea;25836;-1;-1;-1;-1;;Magiterium
 13173;18949;sea;22308;-1;-1;-1;-1;;
 16288;1211;sea;26274;-1;-1;-1;-1;;tortuga-akratia
-
+17054;17049;sea;26432;-1;-1;-1;-1;;
+1175;4047;sea;23811;-1;-1;-1;-;1;;
 ## TEST

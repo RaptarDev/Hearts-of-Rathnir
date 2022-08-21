@@ -811,5 +811,5 @@
  STATE_809:0 "Balmier"
  STATE_810:0 "Takmandan"
  STATE_811:0 "Luxor Isles"
- STATE_812:0 "Port Victoria"
- STATE_813:0 "Crescada"
+ STATE_812:0 "STATE_812"
+ STATE_813:0 "STATE_813"
