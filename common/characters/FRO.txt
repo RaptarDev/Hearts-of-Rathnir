@@ -13,4 +13,20 @@ characters = {
             id = -1
         }
     }
+    FRO_raptar={
+		name=FRO_raptar
+		portraits={
+			civilian={
+				large="GFX_FRO_raptar"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+        traits = {
+            work_of_the_people
+        }
+	}
 }

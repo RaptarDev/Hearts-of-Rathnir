@@ -1,0 +1,12 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+    work_of_the_people = {
+        random = no 
+
+        production_speed_buildings_factor = 0.1
+        stability_weekly = 0.05
+    }
+}
