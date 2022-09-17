@@ -4,5 +4,9 @@ spriteTypes = {
 		name = "GFX_FRO_temsyod"
 		texturefile = "gfx/leaders/SORLIGSTE/temsyod.png"
 	}
+	spriteType = {
+		name = "GFX_FRO_raptar"
+		texturefile = "gfx/leaders/SORLIGSTE/raptar.png"
+	}
 
 }
