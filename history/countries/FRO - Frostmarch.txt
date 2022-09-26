@@ -107,4 +107,9 @@ set_popularities = {
 
 recruit_character = FRO_temsyod
 recruit_character = FRO_raptar
+recruit_character = FRO_jcaldas
+recruit_character = FRO_pope_urban
+recruit_character = FRO_earth
+recruit_character = FRO_shark
+
 

@@ -1,12 +1,40 @@
 spriteTypes = {	
 	
+	## FRO
+	## Leaders
 	spriteType = {
 		name = "GFX_FRO_temsyod"
 		texturefile = "gfx/leaders/SORLIGSTE/temsyod.png"
 	}
+
 	spriteType = {
 		name = "GFX_FRO_raptar"
 		texturefile = "gfx/leaders/SORLIGSTE/raptar.png"
 	}
 
+	## Advisors
+	spriteType = {
+		name = "GFX_FRO_idea_raptar"
+		texturefile = "gfx/interface/ideas/idea_FRO_raptar.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_jcaldas"
+		texturefile = "gfx/interface/ideas/idea_FRO_jcaldas.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_pope_urban"
+		texturefile = "gfx/interface/ideas/idea_FRO_pope_urban.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_earth"
+		texturefile = "gfx/interface/ideas/idea_FRO_earth.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_shark"
+		texturefile = "gfx/interfce/ideas/idea_FRO_shark.png"
+	}
 }
