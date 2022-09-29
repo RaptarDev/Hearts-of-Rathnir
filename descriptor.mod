@@ -5,8 +5,7 @@ tags={
 	"Utilities"
 }
 picture="thumbnail.png"
-supported_version="1.11.*"
-
+supported_version="1.12.*"
 
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
@@ -17,6 +16,7 @@ replace_path="common/decisions"
 replace_path="common/decisions/categories"
 replace_path="common/ideas"
 replace_path="common/national_focus"
+replace_path="common/characters"
 replace_path="common/on_actions"
 replace_path="common/scripted_effects"
 replace_path="common/scripted_localisation"

@@ -12,6 +12,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SORLIGSTE/raptar.png"
 	}
 
+	spriteType = {
+		name = "GFX_FRO_shark"
+		texturefile = "gfx/leaders/SORLIGSTE/shark.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_earth"
+		texturefile = "gfx/leaders/SORLIGSTE/earth.png"
+	}
+
 	## Advisors
 	spriteType = {
 		name = "GFX_FRO_idea_raptar"
@@ -37,4 +47,5 @@ spriteTypes = {
 		name = "GFX_FRO_idea_shark"
 		texturefile = "gfx/interfce/ideas/idea_FRO_shark.png"
 	}
+
 }

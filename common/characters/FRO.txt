@@ -70,8 +70,45 @@ characters = {
 			id=-1
 		}
 	}
+	FRO_shark = {
+		name = FRO_shark
+		portraits = {
+			civilian = {
+				large = "GFX_FRO_shark"
+			}
+			army = {
+				small = "GFX_FRO_idea_shark"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			id = -1
+			traits = {
+				popular_figurehead	
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRO_shark
+			allowed  = {
+					original_tag = FRO
+				}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
 
-	FRO_Earth = {
+	FRO_earth = {
+		country_leader = {
+			ideology = rexism
+			expire = "1965.1.1.1"
+			id = -1
+			traits = {
+				anti_democrat
+			}
+		}
 		advisor={
 			slot = political_advisor
 			idea_token = FRO_earth
@@ -84,26 +121,11 @@ characters = {
 		}
 		name = FRO_earth
 		portraits = {
+			civilian = {
+				large = "GFX_FRO_earth"
+			}
 			army = {
 				small="GFX_FRO_idea_earth"
-			}
-		}
-	}
-	FRO_shark = {
-		advisor={
-			slot = political_advisor
-			idea_token = FRO_shark
-			allowed  = {
-					original_tag = FRO
-				}
-			traits = {
-				democratic_reformer
-			}
-		}
-		name = FRO_shark
-		portraits = {
-			army = {
-				small="GFX_FRO_idea_shark"
 			}
 		}
 	}

@@ -5,6 +5,7 @@ state={
 		1358 4059 9307 9330 9415 9421 9445 9498 
 	}
 	manpower=0
+	state_category=pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 history={
@@ -21,6 +22,6 @@ history={
 		victory_points = {
 			6002 50 
 		}
-		State_category=pastoral
+		
 	}
 }
