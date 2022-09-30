@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 60
 }
 
-create_country_leader = {
+#create_country_leader = {
 	
-	name = "Tenoch Zedis Eydur"
-	picture = 
-	expire = "1965.1.1"
-	ideology = neutrality
-	traits = {
+#	name = "Tenoch Zedis Eydur"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = neutrality
+#	traits = {
 		#
-	}
-}
+#	}
+#}

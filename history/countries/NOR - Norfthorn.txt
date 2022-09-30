@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 75
 }
 
-create_country_leader = {
-	
-	name = "Kung Haggly"
-	picture = 
-	expire = "1965.1.1"
-	ideology = neutrality
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Kung Haggly"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = neutrality
+#	traits = {
+#		#
+#	}
+#}

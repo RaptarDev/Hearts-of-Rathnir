@@ -77,12 +77,12 @@ ideas = {
 				modifier = {
 					# Ignore if high on manpower
 					factor = 0.5
-					manpower_per_military_factory > 5000
+					#manpower_per_military_factory > 5000
 				}
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory < 1000
+					#manpower_per_military_factory < 1000
 				}
 				modifier = {
 					tag = ENG
@@ -126,13 +126,13 @@ ideas = {
 				modifier = {
 					# Ignore if high on manpower
 					factor = 0.5
-					manpower_per_military_factory > 3000
+					#manpower_per_military_factory > 3000
 				}
 
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory <  800
+					#manpower_per_military_factory <  800
 				}
 
 				
@@ -189,12 +189,12 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory <  700
+					#manpower_per_military_factory <  700
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					manpower_per_military_factory >  1000
+					#manpower_per_military_factory >  1000
 				}
 				
 				modifier = {
@@ -244,12 +244,12 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory <  600
+					#manpower_per_military_factory <  600
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					manpower_per_military_factory >  1000
+					#manpower_per_military_factory >  1000
 				}
 				
 				modifier = {
@@ -300,17 +300,17 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory <  500
+					#manpower_per_military_factory <  500
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					manpower_per_military_factory >  1000
+					#manpower_per_military_factory >  1000
 				}
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					manpower_per_military_factory >  5000
+					#manpower_per_military_factory >  5000
 				}
 				
 				modifier = {
@@ -335,4 +335,3 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-=

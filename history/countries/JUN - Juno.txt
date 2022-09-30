@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 0
 }
 
-create_country_leader = {
-	
-	name = "Juno"
-	picture = 
-	expire = "1965.1.1"
-	ideology = fascism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Juno"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = fascism
+#	traits = {
+#		#
+#	}
+#}

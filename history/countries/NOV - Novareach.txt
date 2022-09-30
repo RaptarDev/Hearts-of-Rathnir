@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 10
 }
 
-create_country_leader = {
-	
-	name = "Chancellor Syz Ingram"
-	picture = 
-	expire = "1965.1.1"
-	ideology = communism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Chancellor Syz Ingram"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = communism
+#	traits = {
+#		#
+#	}
+#}

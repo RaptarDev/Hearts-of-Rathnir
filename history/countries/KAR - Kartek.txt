@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 15
 }
 
-create_country_leader = {
-	
-	name = "Imperial Cult"
-	picture = 
-	expire = "1965.1.1"
-	ideology = fascism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Imperial Cult"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = fascism
+#	traits = {
+#		#
+#	}
+#}

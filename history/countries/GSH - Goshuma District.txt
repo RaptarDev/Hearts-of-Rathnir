@@ -59,13 +59,13 @@ set_popularities = {
 	neutrality = 52
 }
 
-create_country_leader = {
-	
-	name = "Maestro Zeno"
-	picture = 
-	expire = "1965.1.1"
-	ideology = Neutrality
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Maestro Zeno"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = Neutrality
+#	traits = {
+#		#
+#	}
+#}

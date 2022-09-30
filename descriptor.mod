@@ -7,6 +7,8 @@ tags={
 picture="thumbnail.png"
 supported_version="1.12.*"
 
+replace_path="portraits"
+replace_path="common/dynamic_modifiers"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"

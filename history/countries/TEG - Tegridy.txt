@@ -74,13 +74,13 @@ set_popularities = {
 	neutrality = 60
 }
 
-create_country_leader = {
-	
-	name = "Junkybunky"
-	picture = 
-	expire = "1965.1.1"
-	ideology = neutrality
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Junkybunky"
+#	picture = 
+#	expire = "1965.1.1"
+#	ideology = neutrality
+#	traits = {
+#		#
+#	}
+#}

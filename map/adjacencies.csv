@@ -1,4 +1,4 @@
-From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+#From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9383;18627;sea;22637;-1;-1;-1;-1;;Yulara-Yulara
 18627;2872;sea;23565;-1;-1;-1;-1;;Yulara-Yulara
 4256;19292;sea;26436;-1;-1;-1;-1;;Sorligste-Lumaire

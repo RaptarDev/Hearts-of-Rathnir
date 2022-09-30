@@ -472,10 +472,10 @@ ITA = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
-ABR = {
-	color = rgb { 255 148 24 }
-	color_ui = rgb { 255 148 24 }
-}
+#ABR = {
+#	color = rgb { 255 148 24 }
+#	color_ui = rgb { 255 148 24 }
+#}
 GRE = {
 	color = rgb { 41 222 24 }
 	color_ui = rgb { 41 222 24 }
