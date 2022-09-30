@@ -19,9 +19,7 @@ cw_gui_debug_mode = {
 			set_country_flag = market_open
 		}
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	scotch_died = {
 
@@ -40,11 +38,9 @@ cw_gui_debug_mode = {
 		cost = 0
 
 		complete_effect = {
-			event scotch.1 ROOT
+			# event scotch.1 ROOT
 		}
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 }
