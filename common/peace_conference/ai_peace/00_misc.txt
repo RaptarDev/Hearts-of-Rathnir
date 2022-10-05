@@ -455,7 +455,7 @@ peace_ai_desires = {
                 }
             }
             ROOT.FROM = {
-                NOT = { has_same_ideology = yes }
+                #NOT = { has_same_ideology = yes }
             }
         }
         ai_desire = -20

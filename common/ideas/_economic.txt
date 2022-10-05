@@ -96,7 +96,6 @@ ideas = {
 
 			available = {
 				has_war_support > 0.15
-
 			}
 
 			cost = 150
@@ -130,7 +129,6 @@ ideas = {
 
 			available = {
 				has_war_support > 0.25
-
 			}
 
 			cost = 150
@@ -145,7 +143,6 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
-
 			ai_will_do = {
    				factor = 2
 
@@ -176,7 +173,6 @@ ideas = {
 						}
 					}
 				}
-
 			}
 
 			cost = 150
@@ -190,7 +186,6 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
-
 			ai_will_do = {
    				factor = 3
 
@@ -220,7 +215,7 @@ ideas = {
 
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					#has_large_ally_not_pick_closed_economy = yes
+					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}
@@ -237,9 +232,7 @@ ideas = {
 						ratio > 0.5
 					}
 				}
-
 			}
-
 			ai_will_do = {
    				factor = 1
 
@@ -360,12 +353,18 @@ ideas = {
 				agency_upgrade_time = 0.15
 			}
 
+			allowed_to_remove = {
+					has_war = yes
+			}
 			
 			cancel_if_invalid = no
 		}
 
 		free_trade = {
 
+			available = {
+			always = yes
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -384,16 +383,13 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
-
-				# Oil for hitlers oil throne!
    			}
 		}
 
 		export_focus = {
 
 			available = {
-
-	
+always=yes
 			}
 
 
@@ -416,15 +412,6 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
-
-				modifier = {
-					factor = 0
-
-					is_major = no
-					has_war = no
-					is_in_faction = no
-
-				}
 				modifier = {
 					factor = 1000
 					has_idea = uncontrolled_exports #Poland should try and escape this as soon as they can
@@ -434,27 +421,7 @@ ideas = {
 
 		limited_exports = {
 			available = {
-				OR = {
-					AND = {
-						has_government = democratic
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = {
-								tag = ROOT
-								ratio > 0.2
-							}
-						}
-					}
-					AND = {
-						NOT = { has_government = democratic }
-						OR = {
-							has_idea = partial_economic_mobilisation
-							has_idea = war_economy
-							has_idea = tot_economic_mobilisation
-						}
-					}
-				}
-
+always=yes
 			}
 
 			cost = 150
@@ -496,7 +463,7 @@ ideas = {
 
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					#has_large_ally_not_pick_closed_economy = yes
+					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}
@@ -554,7 +521,7 @@ ideas = {
 
 					# don't take if we have a reasonable sized ally
 					# since they will require our trades
-					#has_large_ally_not_pick_closed_economy = yes
+					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}

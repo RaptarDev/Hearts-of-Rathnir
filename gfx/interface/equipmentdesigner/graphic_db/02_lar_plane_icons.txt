@@ -1,0 +1,13 @@
+default = {
+	small_plane_airframe = {
+		pool = {
+			icons = { 
+				
+			 }
+			 models= {
+
+			 }
+		}
+	}
+}
+

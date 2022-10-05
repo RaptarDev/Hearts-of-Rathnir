@@ -275,7 +275,6 @@ peace_action_modifiers = {
         peace_action_type = liberate
         enable = {
             FROM = {
-                is_unlikely_country_tag = yes
             }
         }
         cost_multiplier = 1.25

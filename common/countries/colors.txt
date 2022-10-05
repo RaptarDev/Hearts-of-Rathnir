@@ -25,7 +25,7 @@ AUR = {
 
 VIN = {
 	color = rgb { 215 252 30 }
-	color_ui rgb { 215 252 30 }
+	color_ui = rgb { 215 252 30 }
 }
 
 LOR = {

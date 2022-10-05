@@ -7,5 +7,5 @@ avertico_paranoid = {
 	   original_tag = AVE
 	}
 	
-	cost
+	
 }

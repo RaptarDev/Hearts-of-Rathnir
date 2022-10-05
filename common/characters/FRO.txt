@@ -37,20 +37,13 @@ characters = {
 			allowed  = {
 				original_tag = FRO
 			}
-			available  = {
-				if  = {
-					limit  = {
-						controls_state = 59 
-					}
-				}
-			}
+
 			traits = {
 				communist_revolutionary
 			}
 			do_effect  = {
-				controls_state = 59
 				not = {
-					has_government = communist
+					has_government = communism 
 				}
 			}
 

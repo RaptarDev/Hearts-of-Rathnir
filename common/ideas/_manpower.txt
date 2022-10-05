@@ -29,9 +29,6 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
-				if = {
-
-				}
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
@@ -65,7 +62,6 @@ ideas = {
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
-
 			}
 
 			modifier = {
@@ -77,21 +73,12 @@ ideas = {
 				modifier = {
 					# Ignore if high on manpower
 					factor = 0.5
-					#manpower_per_military_factory > 5000
+					manpower_per_military_factory > 5000
 				}
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					#manpower_per_military_factory < 1000
-				}
-				modifier = {
-					tag = ENG
-					has_idea_with_trait = military_theorist
-					factor = 20
-				}
-				modifier = {
-					factor = 0
-					NOT = { has_idea = volunteer_only }
+					manpower_per_military_factory < 1000
 				}
 			}
 
@@ -117,8 +104,6 @@ ideas = {
 					}
 				}
 				has_war_support > 0.2
-
-
 			}
 			ai_will_do = {
    				factor = 1
@@ -126,21 +111,14 @@ ideas = {
 				modifier = {
 					# Ignore if high on manpower
 					factor = 0.5
-					#manpower_per_military_factory > 3000
+					manpower_per_military_factory > 3000
 				}
 
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					#manpower_per_military_factory <  800
+					manpower_per_military_factory <  800
 				}
-
-				
-				modifier = {
-					factor = 0
-					NOT = { has_idea = limited_conscription }
-				}
-				
 			}
 
 			cost = 150
@@ -180,8 +158,6 @@ ideas = {
 					has_war_support > 0.6
 					surrender_progress > 0
 				}
-
-
 			}
 
 			ai_will_do = {
@@ -189,19 +165,18 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					#manpower_per_military_factory <  700
+					manpower_per_military_factory <  700
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					#manpower_per_military_factory >  1000
+					manpower_per_military_factory >  1000
 				}
-				
 				modifier = {
+					#Block has plenty manpower
 					factor = 0
-					NOT = { has_idea = extensive_conscription }
+					manpower_per_military_factory >  3000
 				}
-				
 			}
 
 			cost = 150
@@ -236,7 +211,6 @@ ideas = {
 				#		ratio > 0.75
 				#	}
 				#}
-
 			}
 
 			ai_will_do = {
@@ -244,19 +218,18 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					#manpower_per_military_factory <  600
+					manpower_per_military_factory <  600
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					#manpower_per_military_factory >  1000
+					manpower_per_military_factory >  1000
 				}
-				
 				modifier = {
+					#Block has plenty manpower
 					factor = 0
-					NOT = { has_idea = service_by_requirement }
+					manpower_per_military_factory >  5000
 				}
-				
 			}
 
 			cost = 150
@@ -277,6 +250,7 @@ ideas = {
 
 		scraping_the_barrel = {
 
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
@@ -291,8 +265,6 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
-				
-				}
 			}
 
 			ai_will_do = {
@@ -300,24 +272,18 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					#manpower_per_military_factory <  500
+					manpower_per_military_factory <  500
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					#manpower_per_military_factory >  1000
+					manpower_per_military_factory >  1000
 				}
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					#manpower_per_military_factory >  5000
+					manpower_per_military_factory >  5000
 				}
-				
-				modifier = {
-					factor = 0
-					NOT = { has_idea = all_adults_serve }
-				}
-				
 			}
 
 			cost = 150
@@ -334,4 +300,5 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
+	}
+}

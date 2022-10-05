@@ -57,7 +57,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes 
 	}
 
 
@@ -94,7 +94,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_neutral = yes 
 		
 		rules = {
 			can_force_government = no
@@ -169,7 +169,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes 
 	}
 	
 	neutrality = {
@@ -230,6 +230,6 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_neutral = yes 
 	}
 }

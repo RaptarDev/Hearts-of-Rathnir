@@ -1,9 +1,10 @@
 sub_unit_categories = {
 	category_tanks
 	category_light_infantry
-	category_front_line
+    category_front_line
 	category_all_infantry
 	category_support_battalions
+	category_militia
 	category_all_armor
 	category_army
 	category_line_artillery
@@ -15,5 +16,7 @@ sub_unit_categories = {
 	category_nav_bomber
 	category_tac_bomber
 	category_strat_bomber
-	category_cavalry
+	category_scout_plane
+	category_recon
 }
+ 

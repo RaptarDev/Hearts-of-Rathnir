@@ -86,27 +86,6 @@ kurdish_separatism = {
 	disable_strategic_redeployment = 1
 }
 
-dense_rural_infrastructure = { #State Modifier
-	enable = { always = yes }
-	remove_trigger = { infrastructure > 4 }
-
-	icon = GFX_modifiers_SOV_civilian_labor_in_defense
-	
-	local_non_core_supply_impact_factor = 0.35
-}
-
-yellow_river_blown = { #State Modifier
-	enable = { always = yes }
-
-	icon = GFX_decision_hol_inundate_water_lines
-	
-	local_supply_impact_factor = 0.5
-	disable_strategic_redeployment = 1
-	state_resources_factor = -0.25
-	local_manpower = -0.5
-	army_speed_factor_for_controller = -0.25
-}
-
 kurdish_rebellion = {
 	enable = { always = yes }
 
@@ -430,10 +409,10 @@ SOV_increased_metals_production = { #STATE MODIFIER
 
 	icon = GFX_modifiers_increased_metal_production
 
-	state_resource_aluminium = SOV_aluminium_bonus
-	state_resource_tungsten = SOV_tungsten_bonus
-	state_resource_steel = SOV_steel_bonus
-	state_resource_chromium = SOV_chromium_bonus
+	state_resource_aluminium = SOV_steel_bonus
+	state_resource_tungsten = SOV_aluminium_bonus
+	state_resource_steel = SOV_chromium_bonus
+	state_resource_chromium = SOV_tungsten_bonus
 }
 
 SOV_invaders_must_die = { #STATE MODIFIER
@@ -556,7 +535,8 @@ SOV_third_five_year_plan_dynamic_modifier = { #NATIONAL SPIRIT - Basic
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0.05
 
 	#INITIAL
-
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
+	
 	#EXTRA IMPROVEMENTS
 	local_resources_factor = SOV_fyp_local_resources_factor #0.10 -> Increase State Reserves
 }
@@ -571,6 +551,7 @@ SOV_third_five_year_plan_civilian_dynamic_modifier = { #NATIONAL SPIRIT - Civili
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.05
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.08
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0.1
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
 	
 	#EXTRA IMPROVEMENTS
 	local_resources_factor = SOV_fyp_local_resources_factor #0.10 -> Increase State Reserves
@@ -591,7 +572,8 @@ SOV_third_five_year_plan_military_dynamic_modifier = { #NATIONAL SPIRIT - Milita
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.05
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.1
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0
-
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
+	
 	#INITIAL -> Shift to Armaments Production
 	production_speed_arms_factory_factor = SOV_fyp_production_speed_arms_factory_factor #0.10
 
@@ -614,6 +596,7 @@ SOV_fourth_five_year_plan_dynamic_modifier = { #NATIONAL SPIRIT
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.1 (0.2 with Civilian focus)
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.06/0.08 (and turned into 0.2/0.12 in this NS)
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
 
 	#OPTIONAL IMPROVEMENTS
 	production_speed_arms_factory_factor = SOV_fyp_production_speed_arms_factory_factor #0.10 -> Shift to Armaments Production
@@ -642,7 +625,8 @@ SOV_third_five_year_plan_dynamic_modifier_alt = { #NATIONAL SPIRIT - Basic
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0.05
 
 	#INITIAL
-
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
+	
 	#EXTRA IMPROVEMENTS
 	local_resources_factor = SOV_fyp_local_resources_factor #0.10 -> Increase State Reserves
 }
@@ -657,7 +641,8 @@ SOV_third_five_year_plan_civilian_dynamic_modifier_alt = { #NATIONAL SPIRIT - Ci
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.05
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.008
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0.1
-
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
+	
 	#EXTRA IMPROVEMENTS
 	local_resources_factor = SOV_fyp_local_resources_factor #0.10 -> Increase State Reserves
 	line_change_production_efficiency_factor = SOV_fyp_line_change_production_efficiency_factor #0.1 -> Industrial Modernization
@@ -677,7 +662,8 @@ SOV_third_five_year_plan_military_dynamic_modifier_alt = { #NATIONAL SPIRIT - Mi
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.05
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.1
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0
-
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
+	
 	#INITIAL -> Shift to Armaments Production
 	production_speed_arms_factory_factor = SOV_fyp_production_speed_arms_factory_factor #0.10
 
@@ -700,6 +686,7 @@ SOV_fourth_five_year_plan_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	production_factory_max_efficiency_factor = SOV_fyp_production_factory_max_efficiency_factor #0.1 (0.2 with Civilian focus)
 	consumer_goods_factor = SOV_fyp_consumer_goods_factor #0.06/0.08 (and turned into 0.2/0.12 in this NS)
 	production_speed_industrial_complex_factor = SOV_fyp_production_speed_industrial_complex_factor #0
+	industrial_concern_cost_factor = SOV_fyp_industrial_concern_cost_factor #-0.15
 
 	#OPTIONAL IMPROVEMENTS
 	production_speed_arms_factory_factor = SOV_fyp_production_speed_arms_factory_factor #0.10 -> Shift to Armaments Production
@@ -745,7 +732,9 @@ SOV_soviet_airforce_dynamic_modifier = { #NATIONAL SPIRIT
 	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
 	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
 
-	#FUTURE	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
+	#FUTURE
+	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
+	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
 	air_fuel_consumption_factor = SOV_soviet_airforce_air_fuel_consumption_factor #-0.05 -> Modernize Aircraft Factories / +0.1 Intensify Pilot Program
 	air_agility_factor = SOV_soviet_airforce_air_agility_factor #0.05 -> Modernize Aircraft Factories
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
@@ -771,6 +760,7 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier = { #NATIONAL SPI
 	custom_modifier_tooltip = SOV_soviet_airforce_aircraft_production_focus_tt #Equipment modifiers (more aircraft production) applied via hidden NS -> Increase Aircraft Production
 
 	#FUTURE
+	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
 	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
 	air_fuel_consumption_factor = SOV_soviet_airforce_air_fuel_consumption_factor #-0.05 -> Modernize Aircraft Factories / +0.1 Intensify Pilot Program
 	air_agility_factor = SOV_soviet_airforce_air_agility_factor #0.05 -> Modernize Aircraft Factories
@@ -795,7 +785,9 @@ SOV_soviet_airforce_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
 	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
 
-	#FUTURE	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
+	#FUTURE
+	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
+	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
 	air_fuel_consumption_factor = SOV_soviet_airforce_air_fuel_consumption_factor #-0.05 -> Modernize Aircraft Factories / +0.1 Intensify Pilot Program
 	air_agility_factor = SOV_soviet_airforce_air_agility_factor #0.05 -> Modernize Aircraft Factories
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
@@ -820,7 +812,9 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier_alt = { #NATIONAL
 	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
 	custom_modifier_tooltip = SOV_soviet_airforce_aircraft_production_focus_tt #Equipment modifiers (more aircraft production) applied via hidden NS -> Increase Aircraft Production
 
-	#FUTURE	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
+	#FUTURE
+	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
+	air_range_factor = SOV_soviet_airforce_air_range_factor #0.05 -> Modernize Aircraft Factories
 	air_fuel_consumption_factor = SOV_soviet_airforce_air_fuel_consumption_factor #-0.05 -> Modernize Aircraft Factories / +0.1 Intensify Pilot Program
 	air_agility_factor = SOV_soviet_airforce_air_agility_factor #0.05 -> Modernize Aircraft Factories
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
@@ -1048,7 +1042,9 @@ SOV_defense_industry_dynamic_modifier = { #NATIONAL SPIRIT
 	line_change_production_efficiency_factor = SOV_defense_industry_line_change_production_efficiency_factor #-0.1
 
 	#FUTURE
+	tank_manufacturer_cost_factor = SOV_defense_industry_tank_manufacturer_cost_factor #-0.25 -> Tank Designer focus
 	land_equipment_upgrade_xp_cost = SOV_defense_industry_land_equipment_upgrade_xp_cost #-0.1 -> Tankograd
+	materiel_manufacturer_cost_factor = SOV_defense_industry_materiel_manufacturer_cost_factor #-0.25 -> Equipment Designers focus
 	breakthrough_factor = SOV_defense_industry_breakthrough_factor #0.05 -> PC of Mortar Armament
 	army_artillery_defence_factor = SOV_defense_industry_army_artillery_defence_factor #0.05 -> PC of Mortar Armament
 
@@ -1071,7 +1067,9 @@ SOV_the_red_army_dynamic_modifier = { #NATIONAL SPIRIT
 
 	#FUTURE
 	mobilization_speed = SOV_the_red_army_mobilization_speed #0.05 -> Strengthen the Mobilization Plan
-	conscription_factor = SOV_the_red_army_conscription_factor #0.03 -> Strengthen the Mobilization Plan	cavalry_attack_factor = SOV_the_red_army_cavalry_attack_factor #0.05 -> Restore Cossack Units
+	conscription_factor = SOV_the_red_army_conscription_factor #0.03 -> Strengthen the Mobilization Plan
+	modifier_army_sub_unit_cavalry_speed_factor = SOV_the_red_army_modifier_army_sub_unit_cavalry_speed_factor # 0.05 -> Restore Cossack Units
+	cavalry_attack_factor = SOV_the_red_army_cavalry_attack_factor #0.05 -> Restore Cossack Units
 	training_time_factor = SOV_the_red_army_training_time_factor #-0.1 -> Cohesion First
 	heat_attrition_factor = SOV_the_red_army_heat_attrition_factor #-0.1 -> An Adaptable Army
 	winter_attrition_factor = SOV_the_red_army_winter_attrition_factor #-0.1 -> An Adaptable Army
@@ -1104,7 +1102,9 @@ SOV_the_red_army_dynamic_modifier_alt = { #NATIONAL SPIRIT
 
 	#FUTURE
 	mobilization_speed = SOV_the_red_army_mobilization_speed #0.05 -> Strengthen the Mobilization Plan
-	conscription_factor = SOV_the_red_army_conscription_factor #0.03 -> Strengthen the Mobilization Plan	cavalry_attack_factor = SOV_the_red_army_cavalry_attack_factor #0.05 -> Restore Cossack Units
+	conscription_factor = SOV_the_red_army_conscription_factor #0.03 -> Strengthen the Mobilization Plan
+	modifier_army_sub_unit_cavalry_speed_factor = SOV_the_red_army_modifier_army_sub_unit_cavalry_speed_factor # 0.05 -> Restore Cossack Units
+	cavalry_attack_factor = SOV_the_red_army_cavalry_attack_factor #0.05 -> Restore Cossack Units
 	training_time_factor = SOV_the_red_army_training_time_factor #-0.1 -> Cohesion First
 	heat_attrition_factor = SOV_the_red_army_heat_attrition_factor #-0.1 -> An Adaptable Army
 	winter_attrition_factor = SOV_the_red_army_winter_attrition_factor #-0.1 -> An Adaptable Army

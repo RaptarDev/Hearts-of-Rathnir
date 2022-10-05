@@ -9,8 +9,8 @@ continuous_focus_palette = {
 	reset_on_civilwar = no
 			
 	position = { x = 50 y = 1000 }
-
-
+	
+		
 	focus = {
 		id = continuous_naval_production
 		
@@ -23,11 +23,6 @@ continuous_focus_palette = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0.25		
-				is_government_in_exile = yes 
-				original_tag = ETH
-			}
 		}
 		
 		supports_ai_strategy = ai_focus_naval
@@ -49,11 +44,6 @@ continuous_focus_palette = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0.25		
-				is_government_in_exile = yes 
-				original_tag = ETH 
-			}
 		}
 		
 		supports_ai_strategy = ai_focus_aviation
@@ -90,11 +80,6 @@ continuous_focus_palette = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0.25		
-				is_government_in_exile = yes 
-				original_tag = ETH 
-			}
 		}
 		
 		supports_ai_strategy = ai_focus_defense
@@ -118,11 +103,6 @@ continuous_focus_palette = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0.25		
-				is_government_in_exile = yes  
-				original_tag = ETH
-			}
 		}
 		
 		supports_ai_strategy = ai_focus_defense
@@ -187,51 +167,6 @@ continuous_focus_palette = {
 		
 		available_if_capitulated = yes
 	}
-
-	focus = {
-		id = continuous_tech_share
-		
-		icon = GFX_goal_continuous_research
-		
-		available = {
-			hidden_trigger = { has_dlc = "Together for Victory" }
-			
-		}
-
-		enable = {
-			is_in_faction = yes
-			num_faction_members > 1
-
-			custom_trigger_tooltip = {
-				tooltip = NO_OTHER_SHARING_GROUPS
-				OR = {
-					AND = {
-						is_in_tech_sharing_group = continuous_tech_share
-						num_tech_sharing_groups < 2
-					}
-					num_tech_sharing_groups < 1
-				}				
-			}
-		}
-		
-		select_effect = {
-			add_to_tech_sharing_group = continuous_tech_share
-		}
-		
-		cancel_effect = {
-			remove_from_tech_sharing_group = continuous_tech_share	
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-		
-		supports_ai_strategy = ai_focus_military_advancements
-		
-		daily_cost = 1
-		
-		available_if_capitulated = yes
-	}
 	
 	focus = {
 		id = continuous_boost_freedom
@@ -286,7 +221,5 @@ continuous_focus_palette = {
 		
 		available_if_capitulated = yes
 	}
-
-	
 
 }
