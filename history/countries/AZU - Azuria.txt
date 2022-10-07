@@ -1,4 +1,4 @@
-capital = 296
+capital = 623
 
 oob = "generic_oob"
 

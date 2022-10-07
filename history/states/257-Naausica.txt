@@ -21,7 +21,7 @@ history = {
 		
 		buildings = {
 			infrastructure = 1
-			bunker = 1
+			#bunker = 1
 		}
 		
 		victory_points = {

@@ -9,7 +9,7 @@ state={
 		5063 
 	}
 
-history = {
+	history = {
 		owner = GSH
 		buildings = {
 			infrastructure = 2
@@ -23,6 +23,6 @@ history = {
 		victory_points = {
 			5063 20
 		}
-
+	}
 
 }

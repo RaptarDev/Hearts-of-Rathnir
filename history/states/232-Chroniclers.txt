@@ -9,11 +9,11 @@ state={
 		1464 1751 2562 3938 4816 5524 6877 8615 8616 8644 8645 8646 8647 8685 8700 8784 8824 8828 8838 8870 
 	}
 
-resources = {
+	resources = {
 		oil  = 1
 	}
 
-history = {
+	history = {
 		owner = GSH
 
                 controller = GSH
@@ -23,6 +23,6 @@ history = {
 		victory_points = {
 			8616 5
 		}
-
+	}
 
 }

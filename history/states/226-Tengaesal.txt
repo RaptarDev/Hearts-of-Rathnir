@@ -9,7 +9,7 @@ state={
 		2495 4255 4480 5441 5986 6123 7813 8080 8938 8957 9004 9009 9031 9041 9042 9077 9051
 	}
 
-history = {
+	history = {	
 		owner = GSH
 
                 controller = GSH
@@ -26,6 +26,6 @@ history = {
 		victory_points = {
 			8938 10
 		}
-
+	}
 
 }
