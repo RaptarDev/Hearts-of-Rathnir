@@ -13,7 +13,7 @@ state={
 		add_core_of = TTT 
 
 		victory_points = {
-			6660d 5
+			6660 5
 		}
 
 

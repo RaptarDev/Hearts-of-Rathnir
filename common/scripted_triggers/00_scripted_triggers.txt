@@ -22,9 +22,9 @@ can_ROOT_get_wargoal_on_THIS = {
 #Country scope
 is_JAP_or_ally_of_JAP = {
 	OR = {
-		tag = JAP
-		is_in_faction_with = JAP
-		is_subject_of = JAP
+		#tag = JAP
+		#is_in_faction_with = JAP
+		#is_subject_of = JAP
 	}
 }
 
@@ -63,26 +63,26 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 }
 
 check_has_focus_tree_to_switch_to_fascism = {
-	NOT = { tag = JAP }
+	#NOT = { tag = JAP }
 	NOT = { tag = GER }
-	NOT = { tag = MAN }
+	#NOT = { tag = MAN }
 	NOT = { tag = ITA }
 	OR = {
 		NOT = {
 			AND = {
-				tag = SAF
+				#tag = SAF
 				has_dlc = "Together for Victory"
 			}
 		}
 		AND = {
-			tag = SAF
+			#tag = SAF
 			has_dlc = "Together for Victory"
-			has_completed_focus = SAF_south_africa_first
+			#has_completed_focus = SAF_south_africa_first
 		}
 	}
 	NOT = {
 		AND = {
-			tag = RAJ
+			#tag = RAJ
 			has_dlc = "Together for Victory"
 		}
 	}
@@ -106,11 +106,11 @@ check_has_focus_tree_to_switch_to_fascism = {
 	}
 	NOT = {
 		AND = {
-			original_tag = SPR
+			#original_tag = SPR
 			OR = {
-				has_completed_focus = SPA_the_phalanx_ascendant
-				has_completed_focus = SPA_supremacy_of_the_communion
-				has_completed_focus = SPR_the_popular_front
+				#has_completed_focus = SPA_the_phalanx_ascendant
+				#has_completed_focus = SPA_supremacy_of_the_communion
+				#has_completed_focus = SPR_the_popular_front
 			}
 			has_dlc = "La Resistance"
 		}
@@ -118,83 +118,11 @@ check_has_focus_tree_to_switch_to_fascism = {
 }
 
 check_has_focus_tree_to_switch_to_democratic = {
-	NOT = { tag = MAN }
-	NOT = { tag = FRA }
-	NOT = { tag = USA }
-	NOT = { tag = ENG }
-	NOT = { tag = CAN }
-	NOT = { tag = SAF }
-	NOT = { tag = AST }
-	NOT = { tag = NZL }
-	NOT = { tag = RAJ }
-	NOT = { tag = CZE }
-	NOT = {
-		AND = {
-			tag = HUN
-			has_dlc = "Death or Dishonor"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = JAP
-			has_dlc = "Waking the Tiger"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = GER
-			has_dlc = "Waking the Tiger"
-		}
-	}
+
 }
 
 check_has_focus_tree_to_switch_to_communism = {
-	NOT = { tag = PRC }
-	NOT = { tag = SIK }
-	NOT = { tag = MAN }
-	NOT = { tag = SOV }
-	NOT = {
-		AND = {
-			tag = RAJ
-			has_dlc = "Together for Victory"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = JAP
-			has_dlc = "Waking the Tiger"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = YUN
-			has_dlc = "Waking the Tiger"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = USA
-			has_dlc = "Man the Guns"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = ENG
-			has_dlc = "Man the Guns"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = FRA
-			has_dlc = "La Resistance"
-		}
-	}
-	NOT = {
-		AND = {
-			original_tag = SPR
-			has_dlc = "La Resistance"
-		}
-	}
+	
 }
 
 #State scope
@@ -250,10 +178,10 @@ is_csa_state = {
 
 has_naval_treaty_trigger = {
 	OR = {
-		has_idea = MTG_naval_treaty_adherent
-		has_idea = MTG_naval_treaty_cheating
-		has_idea = MTG_naval_treaty_adherent_reduced
-		has_idea = MTG_naval_treaty_cheating_reduced
+		#has_idea = MTG_naval_treaty_adherent
+		#has_idea = MTG_naval_treaty_cheating
+		#has_idea = MTG_naval_treaty_adherent_reduced
+		#has_idea = MTG_naval_treaty_cheating_reduced
 	}
 }
 
@@ -300,105 +228,6 @@ ai_land_doctrine_tier_2_trigger = {
 	}
 }
 
-CHI_is_on_historical_plan_trigger = {
-	has_dlc = "Waking the Tiger"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = CHI_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = CHI_AI_RANDOM_HISTORICAL
-		has_game_rule = {
-			rule = CHI_ai_behavior
-			option = HISTORICAL
-		}
-	}
-}
-SOV_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = SOV_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = SOV_AI_RANDOM_COMMUNIST_HISTORICAL
-		has_game_rule = {
-			rule = SOV_ai_behavior
-			option = HISTORICAL
-		}
-	}
-}
-USA_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = USA_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = USA_AI_DEMOCRATIC_HISTORICAL
-		has_game_rule = {
-			rule = USA_ai_behavior
-			option = DEMOCRATIC_HISTORICAL
-		}
-	}
-}
-ROM_is_on_historical_plan_trigger = {
-	has_dlc = "Death or Dishonor"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = ROM_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = ROM_AI_RANDOM_FASCIST_HISTORICAL
-		has_game_rule = {
-			rule = ROM_ai_behavior
-			option = FASCIST_HISTORICAL
-		}
-	}
-}
-HUN_is_on_historical_plan_trigger = {
-	has_dlc = "Death or Dishonor"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = HUN_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = HUN_AI_RANDOM_FASCIST_HISTORICAL
-		has_game_rule = {
-			rule = HUN_ai_behavior
-			option = FASCIST_HISTORICAL
-		}
-	}
-}
-ENG_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = ENG_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = ENG_AI_DEMOCRATIC_HISTORICAL
-		has_game_rule = {
-			rule = eng_ai_behavior
-			option = DEMOCRATIC_HISTORICAL
-		}
-	}
-}
 
 SOV_save_pp_for_manpower_trouble = {
 	has_manpower < 1000000
@@ -428,10 +257,10 @@ anti_submarine_strategy_required_trigger = {
 				}
 			}
 		}
-		AND = {
-			tag = JAP
-			not = { is_in_faction_with = USA }
-		}
+		#AND = {
+		#	tag = JAP
+		#	not = { is_in_faction_with = USA }
+		#}
 		AND = {
 			has_war = yes
 			any_enemy_country = {
@@ -481,9 +310,9 @@ should_USA_invade_europe_or_africa = {
 				is_in_array = { potential_and_current_enemies = ITA }
 				is_in_array = { potential_and_current_enemies = SPR }
 			}
-		}
 	}
 }
+
 
 enemy_has_equal_or_better_radar_tech_trigger = {
 	custom_trigger_tooltip = {
@@ -574,14 +403,14 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 
 is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
 	NOT = {
-		AND = {
-			FROM = { original_tag = YUG }
-			original_tag = ITA
-		}
-		AND = {
-			FROM = { original_tag = DNZ }
-			original_tag = POL
-		}
+		#AND = {
+		#	FROM = { original_tag = YUG }
+		#	original_tag = ITA
+		#}
+		#AND = {
+		#	FROM = { original_tag = DNZ }
+	#		original_tag = POL
+		#}
 		
 		any_country_with_original_tag = {
 			original_tag_to_check = FROM
@@ -637,13 +466,13 @@ is_core_or_compliance_60 = {
 }
 
 has_any_byz_cosmetic_tag = {
-	OR = {
-		has_cosmetic_tag = BYZ_UNIFIED
-		has_cosmetic_tag = BYZ_UNIFIED_communism
-		has_cosmetic_tag = BYZ_UNIFIED_democratic
-		has_cosmetic_tag = BYZ_UNIFIED_fascism
-		has_cosmetic_tag = BYZ_UNIFIED_neutrality
-	}
+	#OR = {
+	#	has_cosmetic_tag = BYZ_UNIFIED
+	#	has_cosmetic_tag = BYZ_UNIFIED_communism
+	#	has_cosmetic_tag = BYZ_UNIFIED_democratic
+	#	has_cosmetic_tag = BYZ_UNIFIED_fascism
+	#	has_cosmetic_tag = BYZ_UNIFIED_neutrality
+	#}
 }
 
 has_same_ideology = {
@@ -670,30 +499,6 @@ has_same_ideology = {
 	}
 }
 
-is_latin_american_country = {
-	OR = {
-		original_tag = CUB
-		original_tag = ARG
-		original_tag = BRA
-		original_tag = URG
-		original_tag = PAR
-		original_tag = CHL
-		original_tag = BOL
-		original_tag = PRU
-		original_tag = ECU
-		original_tag = COL
-		original_tag = VEN
-		original_tag = PAN
-		original_tag = COS
-		original_tag = NIC
-		original_tag = HON
-		original_tag = ELS
-		original_tag = GUA
-		original_tag = MEX
-		original_tag = HAI
-		original_tag = DOM
-	}
-}
 
 has_specialist_level_trigger = {
 	skill > 5
@@ -710,10 +515,10 @@ has_genius_level_trigger = {
 }
 
 is_league_of_nations_member = {
-	custom_trigger_tooltip = {
-		tooltip = is_league_of_nations_member_tt
-		has_idea = league_of_nations_member_idea
-	}
+	#custom_trigger_tooltip = {
+	#	tooltip = is_league_of_nations_member_tt
+	#	#has_idea = league_of_nations_member_idea
+	#}
 }
 
 state_is_in_the_mediterranean_sea = {
@@ -729,8 +534,8 @@ state_is_in_the_mediterranean_sea = {
 			state = 31
 			state = 22
 			state = 21
-			state = 851
-			state = 911
+			#state = 851
+			#state = 911
 			state = 735
 			state = 771
 			state = 162
@@ -741,12 +546,12 @@ state_is_in_the_mediterranean_sea = {
 			state = 1
 			state = 114
 			state = 116
-			state = 849
+			#state = 849
 			state = 157
 			state = 161
 			state = 160
 			state = 736
-			state = 852
+			#state = 852
 			state = 103
 			state = 163
 			state = 105
@@ -774,7 +579,7 @@ state_is_in_the_mediterranean_sea = {
 			state = 454
 			state = 453
 			state = 446
-			state = 907
+			#state = 907
 			state = 447
 			state = 452
 			state = 451
@@ -801,15 +606,15 @@ is_major_not_original_tag_root = {
 is_initial_ethiopian_state = {
 	OR = {
 		state = 271
-		state = 835
-		state = 836
-		state = 837
-		state = 838
-		state = 839
-		state = 840
-		state = 841
-		state = 842
-		state = 843
+		#state = 835
+		#state = 836
+		#state = 837
+		#state = 838
+		#state = 839
+		#state = 840
+		#state = 841
+		#state = 842
+		#state = 843
 	}
 }
 
@@ -821,7 +626,7 @@ has_subject_autonomy_feature = {
 is_organization_of_african_unity_member = {
 	custom_trigger_tooltip = {
 		tooltip = is_league_of_nations_member_tt
-		has_idea = organization_of_african_unity_member_idea
+		#has_idea = organization_of_african_unity_member_idea
 	}
 }
 
@@ -877,17 +682,17 @@ is_alpine_state = {
 	hidden_trigger = {
 		OR = {
 			state = 21 #Bouche-du-Rhone - FRA
-			state = 851 #Var - FRA 
+		#	state = 851 #Var - FRA 
 			state = 735 #Savoy - FRA 
 			state = 32 #Alpes - FRA 
 			state = 158 #Piemonte - ITA
 			state = 159 #Lombardia - ITA 
-			state = 850 #Trentino - ITA 
+			#state = 850 #Trentino - ITA 
 			state = 39 #Alto Adige - ITA
-			state = 847 #Western Swiss Alps - SWi
+			#state = 847 #Western Swiss Alps - SWi
 			state = 151 #Eastern Swiss Alps - SWI 
-			state = 846 #Ticino - SWI
-			state = 848 #Vorarlberg - AUS
+			#state = 846 #Ticino - SWI
+			#state = 848 #Vorarlberg - AUS
 			state = 153 #Tyrol - AUS 
 			state = 152 #Upper Austria - AUS 
 			state = 4 #Lower Austria 
@@ -937,50 +742,50 @@ country_can_be_reasonable_target_of_wargoal = { #Expected scopes: Target country
 
 is_unlikely_country_tag = {
 	OR = {
-	    tag = BRI
-	    tag = CAT
-	    tag = NAV
-	    tag = GLC
-	    tag = ADU
-	    tag = BRI
-	    tag = OCC
-	    tag = COR
-	    tag = DNZ
-	    tag = KSH
-	    tag = CKK
-	    tag = FER
-	    tag = YAK
-	    tag = VLA
-	    tag = KKP
-	    tag = YAM
-	    tag = TAY
-	    tag = OVO
-	    tag = NEN
-	    tag = KOM
-	    tag = CHU
-	    tag = MEL
-	    tag = RIF
-	    tag = HAR
-	    tag = TIG
-	    tag = AFA
-	    tag = BEG
-	    tag = GBA
-	    tag = SID
-	    tag = ORO
-	    tag = QEM
-	    tag = LBV
-	    tag = PAP
-	    tag = TOS
-	    tag = SPM
-	    tag = TTS
-		tag = BSK
-		tag = TAT
-		tag = UDM
-		tag = KHA
-		tag = VGE
-		tag = KAL
-		tag = KAR
-		tag = SIL
-		tag = KSH
+	    #tag = BRI
+	    #tag = CAT
+	   # tag = NAV
+	    #tag = GLC
+	    #tag = ADU
+	    #tag = BRI
+	   # tag = OCC
+	    #tag = COR
+	   # tag = DNZ
+	   # tag = KSH
+	   # tag = CKK
+	    #tag = FER
+	    #tag = YAK
+	    #tag = VLA
+	    #tag = KKP
+	    #tag = YAM
+	    #tag = TAY
+	    #tag = OVO
+	    #tag = NEN
+	    #tag = KOM
+	    #tag = CHU
+	    #tag = MEL
+	    #tag = RIF
+	    #tag = HAR
+	    #tag = TIG
+	    #tag = AFA
+	    #tag = BEG
+	    #tag = GBA
+	    #tag = SID
+	    #tag = ORO
+	    #tag = QEM
+	    #tag = LBV
+	    #tag = PAP
+	    #tag = TOS
+	    #tag = SPM
+	    #tag = TTS
+		#tag = BSK
+		#tag = TAT
+		#tag = UDM
+		#tag = KHA
+		#tag = VGE
+		#tag = KAL
+		#tag = KAR
+		#tag = SIL
+		#tag = KSH
 	}
 }

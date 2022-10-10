@@ -6,7 +6,7 @@ oob = "generic_oob"
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
-	support_equipment = 1
+	#support_equipment = 1
 }
 
 set_convoys = 10

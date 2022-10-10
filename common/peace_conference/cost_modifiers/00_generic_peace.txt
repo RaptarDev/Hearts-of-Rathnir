@@ -275,6 +275,7 @@ peace_action_modifiers = {
         peace_action_type = liberate
         enable = {
             FROM = {
+                is_unlikely_country_tag = yes
             }
         }
         cost_multiplier = 1.25
@@ -325,7 +326,7 @@ peace_action_modifiers = {
                 is_major = yes
             }
         }
-        cost_multiplier = 0.85
+        cost_multiplier = 0.80
     }
 
 
@@ -353,7 +354,7 @@ peace_action_modifiers = {
         enable = {
             FROM.FROM = { pc_is_forced_government_by = ROOT }
         }
-        cost_multiplier = 0.95
+        cost_multiplier = 0.85
     }
 
 
@@ -364,7 +365,7 @@ peace_action_modifiers = {
         enable = {
             FROM.FROM = { pc_is_puppeted_by = ROOT }
         }
-        cost_multiplier = 0.95
+        cost_multiplier = 0.85
     }
 
 }
