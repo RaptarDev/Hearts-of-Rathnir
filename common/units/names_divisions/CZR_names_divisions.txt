@@ -1,0 +1,70 @@
+﻿CZR_INF_01 = { 
+	name = "Infantry Divisions" 
+	for_countries = { CZR } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Otdál Vojskij" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { CZR_INF_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Otdál Vojskij" } # The first division.
+		2 = { "%d Otdál Vojskij" } # Numbers must always start CZRm 1 and go up
+		4 = { "%d Otdál Vojskij" } # The numbers do not need to be sequential
+	}
+}
+
+CZR_INF_02 = { 
+	name = "Infantry Divisions" 
+	for_countries = { CZR } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Krolija Straž" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { CZR_INF_02 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Krolija Straž" } # The first division.
+		2 = { "%d Krolija Straž" } # Numbers must always start CZRm 1 and go up
+		4 = { "%d Krolija Straž" } # The numbers do not need to be sequential
+	}
+}
+
+CZR_INF_03 = { 
+	name = "Infantry Divisions" 
+	for_countries = { CZR } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Garrison Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { CZR_INF_03 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Otdál Posadá" } # The first division.
+		2 = { "%d Otdál Posadá" } # Numbers must always start CZRm 1 and go up
+		4 = { "%d Otdál Posadá" } # The numbers do not need to be sequential
+	}
+}
+
+CZR_CAV_01 = { 
+	name = "Cavalry Divisions" 
+	for_countries = { CZR } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "cavalry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Otdál Ézdéckij" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { CZR_CAV_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Otdál Ézdéckij" } # The first division.
+		2 = { "%d Otdál Ézdéckij" } # Numbers must always start CZRm 1 and go up
+		4 = { "%d Otdál Ézdéckij" } # The numbers do not need to be sequential
+	}
+}
+
+CZR_MOT_01 = { 
+	name = "Motorized Divisions" 
+	for_countries = { CZR } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "Motorized" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Otdál Motorizovni" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { CZR_CAV_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Otdál Motorizovni" } # The first division.
+		2 = { "%d Otdál Motorizovni" } # Numbers must always start CZRm 1 and go up
+		4 = { "%d Otdál Motorizovni" } # The numbers do not need to be sequential
+	}
+}
+

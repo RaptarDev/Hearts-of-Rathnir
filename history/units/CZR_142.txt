@@ -45,7 +45,7 @@ division_template = {
 }
 division_template = {
 	name = "Otdál Ézdéckij"  	# Cavalry Regiment
-	division_names_group = CZR_CAV_02
+	division_names_group = CZR_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -61,7 +61,7 @@ division_template = {
 }
 division_template = {
 	name = "Otdál Motorizovni"  	
-	division_names_group = CZR_MOT_02
+	division_names_group = CZR_MOT_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }

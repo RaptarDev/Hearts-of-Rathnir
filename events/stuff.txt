@@ -11,6 +11,8 @@ country_event = {
 		country_exists = ITA
 		NOT = { has_global_flag = FRO_not_jarldom }
 	}
+	
+	mean_time_to_happen = { days = 2 }
 
 	hidden = yes
 
@@ -19,3 +21,4 @@ country_event = {
 		set_global_flag = FRO_not_jarldom
 	}
 }
+

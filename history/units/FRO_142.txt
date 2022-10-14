@@ -47,7 +47,7 @@ division_template = {
 }
 division_template = {
 	name = "Cavalry group"  	# Cavalry Regiment
-	division_names_group = FRO_CAV_02
+	division_names_group = FRO_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -63,7 +63,7 @@ division_template = {
 }
 division_template = {
 	name = "Motorized"  	
-	division_names_group = FRO_MOT_02
+	division_names_group = FRO_MOT_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }

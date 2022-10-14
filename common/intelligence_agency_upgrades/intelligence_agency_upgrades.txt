@@ -299,9 +299,7 @@ branch_operative = {
 				new_operative_slot_bonus = 1
 			}
 			
-			complete_effect = {
-				unlock_decision_category_tooltip = lar_local_recruitment
-			}
+
 		}
 		
 	}

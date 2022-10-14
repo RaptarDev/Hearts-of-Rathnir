@@ -2,7 +2,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9383;18627;sea;22637;-1;-1;-1;-1;;Yulara-Yulara
 18627;2872;sea;23565;-1;-1;-1;-1;;Yulara-Yulara
 4256;19292;sea;26436;-1;-1;-1;-1;;Sorligste-Lumaire
-19292;17155;sea;-1;-1;-1;-1;-1;;Sorligste-Lumaire
+19292;17155;sea;-1;-1;-1;-1;;;Sorligste-Lumaire
 19265;16985;sea;23031;-1;-1;-1;-1;;Lumaire-Lumaire
 18070;19332;sea;26690;-1;-1;-1;-1;;Sorligste-Sorligste
 4715;16901;sea;26405;-1;-1;-1;-1;;Sorligste-Kronesia
@@ -47,7 +47,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 262;824;sea;24578;-1;-1;-1;-1;;
 5934;10181;sea;25341;-1;-1;-1;-1;;
 4609;10114;sea;20311;-1;-1;-1;-1;;
-2628;1485;sea;2628;-1;-1;-1;-1;;
+2628;1485;sea;25007;-1;-1;-1;-1;;
 3469;9961;sea;23918;-1;-1;-1;-1;;
 9920;4748;sea;25292;-1;-1;-1;-1;;
 9871;6592;sea;23797;-1;-1;-1;-1;;
@@ -68,7 +68,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2349;5897;sea;23327;-1;-1;-1;-1;;
 11981;1058;sea;24453;-1;-1;-1;-1;;
 18848;12135;sea;24008;-1;-1;-1;-1;;
-12001;12064;sea;25593;-1;-1;-1;-1;;
+12001;12064;sea;25598;-1;-1;-1;-1;;
 8140;12217;sea;22256;-1;-1;-1;-1;;
 9761;9820;sea;22075;-1;-1;-1;-1;;
 9634;7342;sea;20019;-1;-1;-1;-1;;Lower Durandal-Paludis
@@ -79,7 +79,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9136;140;sea;25176;-1;-1;-1;-1;;Narva
 10310;18705;sea;24677;-1;-1;-1;-1;;Isthmus
 18705;5685;sea;25357;-1;-1;-1;-1;;Isthmus
-8152;8029;sea;2410;-1;-1;-1;-1;;Theros
+8152;8029;sea;25410;-1;-1;-1;-1;;Theros
 6418;12149;sea;24809;-1;-1;-1;-1;;Huitca
 12114;12143;sea;25618;-1;-1;-1;-1;;Huitca
 9193;2366;sea;24898;-1;-1;-1;-1;;Korribon
@@ -94,11 +94,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8686;8701;impassable;-1;-1;-1;-1;-1;;Genshin mountains
 824;262;sea;22763;-1;-1;-1;-1;;POrt tittor -axum
 8634;181;sea;26626;-1;-1;-1;-1;;Kitaitchi
-5934;10181;sea;25314;-1;-1;-1;-1;;Isthmus
+5934;10181;sea;25341;-1;-1;-1;-1;;Isthmus
 9491;5130;sea;26598;-1;-1;-1;-1;;Polikos
 9773;9821;sea;25256;-1;-1;-1;-1;;Cusilvana
 6333;6733;sea;23807;-1;-1;-1;-1;;Ignatava-donfuer
-16430;1211;sea;23513-1;-1;-1;-1;;Tortuga_Isle-Tortuga_Isle
+16430;1211;sea;23513;-1;-1;-1;-1;;Tortuga_Isle-Tortuga_Isle
 51;18944;sea;20819;-1;-1;-1;-1;;Huitca-Island
 18944;12999;sea;20819;-1;-1;-1;-1;;Island-Island
 13296;13327;sea;23628;-1;-1;-1;-1;;Yimu-Island
@@ -109,4 +109,36 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 16288;1211;sea;26274;-1;-1;-1;-1;;tortuga-akratia
 17054;17049;sea;26432;-1;-1;-1;-1;;
 1175;4047;sea;23811;-1;-1;-1;-;1;;
+16801;19250;sea;26390;-1;-1;-1;-1;;Kronesia-Kronesia
+5576;19234;sea;24291;-1;-1;-1;-1;;Kronesia-Kronesia
+6654;19340;sea;21522;-1;-1;-1;-1;;Boulderov-Boulderov
+8555;19344;sea;24328;-1;-1;-1;-1;;Boulderov-Boulderov
+11551;11570;sea;24666;-1;-1;-1;-1;;Bardonia-Bardonia
+6875;18793;sea;25510;-1;-1;-1;-1;;Bardonia-Bardonia
+11655;18796;sea;20744;-1;-1;-1;-1;;Bardonia-Bardonia
+11655;18801;sea;25510;-1;-1;-1;-1;;Bardonia-Bardonia
+3170;18826;sea;20037;-1;-1;-1;-1;;Bardonia-Bardonia
+11775;18804;sea;22833;-1;-1;-1;-1;;Bardonia-Bardonia
+11712;18802;sea;22833;-1;-1;-1;-1;;Bardonia-Bardonia
+2866;10404;sea;21581;-1;-1;-1;-1;;Bardonia-Bardonia
+10222;18691;sea;24708;-1;-1;-1;-1;;Bardonia-Bardonia
+7571;19336;sea;23265;-1;-1;-1;-1;;Floria-Floria
+5245;19345;sea;21438;-1;-1;-1;-1;;Floria-Floria
+18343;19348;sea;24454;-1;-1;-1;-1;;Floria-Floria
+6171;9878;sea;23631;-1;-1;-1;-1;;Alamayn
+3335;18641;sea;24553;-1;-1;-1;-1;;Alamayn
+5145;18643;sea;21424;-1;-1;-1;-1;;Alamayn
+9978;10006;sea;23908;-1;-1;-1;-1;;Najer-Najer
+9941;18673;sea;23908;-1;-1;-1;-1;;Najer-Najer
+10168;18689;sea;23774;-1;-1;-1;-1;;Najer-Najer
+10132;18681;sea;23110;-1;-1;-1;-1;;Najer-Najer
+4748;9914;sea;23797;-1;-1;-1;-1;;Ravgard
+9833;18664;sea;23797;-1;-1;-1;-1;;Ravgard
+9833;18663;sea;23797;-1;-1;-1;-1;;Ravgard
+9760;18652;sea;21174;-1;-1;-1;-1;;Ravgard
+3995;18677;sea;25310;-1;-1;-1;-1;;Ravgard
+16784;16757;sea;24116;-1;-1;-1;-1;;X
+15783;15894;sea;24055;-1;-1;-1;-1;;Karkoros
+15894;6262;sea;24055;-1;-1;-1;-1;;Karkoros
+6262;8496;sea;24055;-1;-1;-1;-1;;Karkoros
 ## TEST

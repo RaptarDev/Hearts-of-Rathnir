@@ -1,0 +1,70 @@
+﻿FRO_INF_01 = { 
+	name = "Infantry Divisions" 
+	for_countries = { FRO } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Valdic Foot Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { FRO_INF_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Valdic Foot Division" } # The first division.
+		2 = { "%d Valdic Foot Division" } # Numbers must always start from 1 and go up
+		4 = { "%d Valdic Foot Division" } # The numbers do not need to be sequential
+	}
+}
+
+FRO_INF_02 = { 
+	name = "Infantry Divisions" 
+	for_countries = { FRO } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Defensive Valdic Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { FRO_INF_02 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Defensive Valdic Division" } # The first division.
+		2 = { "%d Defensive Valdic Division" } # Numbers must always start from 1 and go up
+		4 = { "%d Defensive Valdic Division" } # The numbers do not need to be sequential
+	}
+}
+
+FRO_INF_03 = { 
+	name = "Infantry Divisions" 
+	for_countries = { FRO } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Garrison Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { FRO_INF_03 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Garrison Division" } # The first division.
+		2 = { "%d Garrison Division" } # Numbers must always start from 1 and go up
+		4 = { "%d Garrison Division" } # The numbers do not need to be sequential
+	}
+}
+
+FRO_CAV_01 = { 
+	name = "Cavalry Divisions" 
+	for_countries = { FRO } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "cavalry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Valdic Cavalry Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { FRO_CAV_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Valdic Cavalry Division" } # The first division.
+		2 = { "%d Valdic Cavalry Division" } # Numbers must always start from 1 and go up
+		4 = { "%d Valdic Cavalry Division" } # The numbers do not need to be sequential
+	}
+}
+
+FRO_MOT_01 = { 
+	name = "Motorized Divisions" 
+	for_countries = { FRO } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "Motorized" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d Valdic Motorized Division" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	link_numbering_with = { FRO_CAV_01 } # Alternative to fallback name, if you run out of numbers in this group you can use another list after it.
+	ordered = {
+		1 = { "%d Valdic Motorized Division" } # The first division.
+		2 = { "%d Valdic Motorized Division" } # Numbers must always start from 1 and go up
+		4 = { "%d Valdic Motorized Division" } # The numbers do not need to be sequential
+	}
+}
+
