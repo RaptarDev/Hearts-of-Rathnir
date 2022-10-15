@@ -480,3 +480,26 @@ GRE = {
 	color = rgb { 41 222 24 }
 	color_ui = rgb { 41 222 24 }
 }
+BAR = {
+	color = rgb { 255 239 18 }
+	color_ui = rgb { 255 239 18 }
+}
+KAZ = {
+	color = rgb { 145 23 252 }
+	color_ui = rgb { 145 23 252 }
+}
+VER = {
+	color = rgb { 207 181 95 }
+	color_ui = rgb { 207 181 95 }
+}
+KUS = {
+	color = rgb { 46 130 53 }
+	color_ui = rgb { 46 130 53 }
+}
+VSH = {
+	color = rgb { 46 130 53 }
+	color_ui = rgb { 46 130 53 }
+}
+COL = {
+	color = rgb {  }
+}
