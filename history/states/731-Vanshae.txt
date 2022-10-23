@@ -2,10 +2,19 @@
 state={
 	id=731
 	name="STATE_731"
+
+	history={
+		owner = UOH
+		add_core_of = UOH
+		add_core_of = VSH
+
+	}
+
 	provinces={
 		14900 14941 19056 19061 19078 19092 19093 19106 
 	}
-	manpower=0
+	manpower=1200000
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

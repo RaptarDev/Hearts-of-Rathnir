@@ -25,7 +25,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = stalinism
-			expire = "1965.1.1.1"
+			expire = "1965.1.1"
 			id = -1
 			traits = {
 				work_of_the_people
@@ -59,7 +59,7 @@ characters = {
 		}
 		country_leader = {
 			ideology=anarchist_communism
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			id=-1
 		}
 	}
@@ -75,7 +75,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = liberalism
-			expire = "1965.1.1.1"
+			expire = "1965.1.1"
 			id = -1
 			traits = {
 				popular_figurehead	
@@ -96,7 +96,7 @@ characters = {
 	FRO_earth = {
 		country_leader = {
 			ideology = rexism
-			expire = "1965.1.1.1"
+			expire = "1965.1.1"
 			id = -1
 			traits = {
 				anti_democrat

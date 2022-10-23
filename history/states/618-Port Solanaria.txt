@@ -12,6 +12,10 @@ state={
 
 		add_core_of = IMP 
 
+		add_core_of = BAR
+		
+		add_core_of = SEX
+
 		victory_points = {
 			11275 8
 		}

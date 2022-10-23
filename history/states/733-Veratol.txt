@@ -5,7 +5,15 @@ state={
 	provinces={
 		13651 14107 14150 18989 18990 18991 18996 19001 19010 19013 
 	}
-	manpower=0
+
+	history={
+		owner = KUS
+		add_core_of = KUS
+
+	}
+
+	manpower=2650000 # 53 people
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
 }

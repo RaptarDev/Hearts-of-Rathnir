@@ -5,7 +5,14 @@ state={
 	provinces={
 		18798 18799 
 	}
-	manpower=0
+
+	history={
+		owner = PFA
+		add_core_of = PFA
+	}
+
+	manpower=650000 # 13 people
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

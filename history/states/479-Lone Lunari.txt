@@ -10,12 +10,9 @@ state={
 	state_category=tiny_island
 	
 
-	history=
-	{
+	history={
 		owner = LUN
 		controller = LUN
 		add_core_of = LUN
-		
-
 	}
 }

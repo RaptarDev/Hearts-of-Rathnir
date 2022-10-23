@@ -4,12 +4,12 @@ state={
 	provinces={
 		284 6584 8068 9331 
 	}
-	manpower=0
+	manpower=5000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = pastoral
 
-history = {
+	history = {
 		owner = AYN
 
                 controller = AYN

@@ -4,7 +4,7 @@
 
 division_template = {
 	name = "Infantery division"			# Infantry Division
-	division_names_group = NRG_INF_01
+	#division_names_group = NRG_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -20,7 +20,7 @@ division_template = {
 }
 division_template = {
 	name = "Defence division"
-	division_names_group = NRG_INF_02
+#	division_names_group = NRG_INF_02
 	template_counter = 3
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -33,7 +33,7 @@ division_template = {
 }
 division_template = {
 	name = "Garrison Area"			# Garrison Force
-	division_names_group = NRG_GAR_01
+	#division_names_group = NRG_GAR_01
 	template_counter = 12
 	# For reserve and independent regiments, lower experience and equipment
 	regiments = {
@@ -46,7 +46,7 @@ division_template = {
 }
 division_template = {
 	name = "Cavalry group"  	# Cavalry Regiment
-	division_names_group = NRG_CAV_02
+	#division_names_group = NRG_CAV_02
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -62,7 +62,7 @@ division_template = {
 }
 division_template = {
 	name = "Motorized"  	
-	division_names_group = NRG_MOT_02
+	#division_names_group = NRG_MOT_02
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -250,13 +250,5 @@ instant_effect = {
 		progress = 0.21
 		efficiency = 100
 	}
-	add_equipment_production = {
-		equipment = {
-			type = cavalry_equipment_1
-			creator = "NRG"
-		}
-		requested_factories = 1
-		progress = 0.21
-		efficiency = 100
-	}
+	
 }

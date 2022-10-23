@@ -5,7 +5,15 @@ state={
 	provinces={
 		1964 12014 18838 18840 
 	}
-	manpower=0
+
+	history={
+		owner = ONU
+		add_core_of = ONU
+	}
+
+	manpower=550000 # 11 people
+	state_category=town 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
 }

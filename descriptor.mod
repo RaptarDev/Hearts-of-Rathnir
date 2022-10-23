@@ -1,5 +1,5 @@
 version="0.1"
-picture="thumbnail.0png"
+picture="thumbnail.png"
 name="Hearts of Rathnir - Early Beta"
 tags={
 	"Map"
@@ -42,4 +42,5 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
 supported_version="1.12.*"
-remote_file_id="2874605205"
+path="C:/Users/jardi/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Hearts of Rathnir"
+remote_file_id="2878696044"

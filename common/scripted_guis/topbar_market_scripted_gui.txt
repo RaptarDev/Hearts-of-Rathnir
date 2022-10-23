@@ -19,6 +19,7 @@ scripted_gui = {
                 else = {
                     set_country_flag = market_open
                 }
+            }
         }
     }
 }

@@ -4,6 +4,13 @@ state={
 	provinces={
 		1149 3099 3451 4437 6523 8091 8409 11944 11968 11983 12057 12058 12098 12144 
 	}
+
+	history={
+		owner = AUR
+		controller = AUR
+		add_core_of = AUR
+	}
+
 	manpower=550000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

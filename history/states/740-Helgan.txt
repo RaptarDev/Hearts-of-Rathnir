@@ -5,7 +5,14 @@ state={
 	provinces={
 		1141 4381 4588 6826 12898 13158 13201 13211 13216 13217 13261 13309 13332 18943 18950 18957 18963 18970 18975 18979 
 	}
-	manpower=0
+
+	history={
+		owner = ALD
+		add_core_of = ALD
+	}
+
+	manpower=650000 # 13 people
+	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -34,7 +34,7 @@ division_template = {
 }
 division_template = {
 	name = "Garrison Area"			# Garrison Force
-	division_names_group = FRO_GAR_01
+	#division_names_group = FRO_GAR_01
 	template_counter = 12
 	# For reserve and independent regiments, lower experience and equipment
 	regiments = {
@@ -132,13 +132,5 @@ instant_effect = {
 		progress = 0.21
 		efficiency = 100
 	}
-	add_equipment_production = {
-		equipment = {
-			type = cavalry_equipment_1
-			creator = "FRO"
-		}
-		requested_factories = 1
-		progress = 0.21
-		efficiency = 100
-	}
+	
 }

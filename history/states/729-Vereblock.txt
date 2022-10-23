@@ -2,10 +2,18 @@
 state={
 	id=729
 	name="STATE_729"
+
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+
 	provinces={
 		8481 19136 19142 19151 19162 
 	}
-	manpower=0
+	manpower=1250000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

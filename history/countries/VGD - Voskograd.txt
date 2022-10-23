@@ -9,6 +9,10 @@ set_technology = {
 
 set_convoys = 5
 
+declare_war_on= {
+	target = KAR
+	type = independence_wargoal
+}
 
 1939.1.1 = {
 	#generic focuses
