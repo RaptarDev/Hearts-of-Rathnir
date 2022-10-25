@@ -5,7 +5,15 @@ state={
 	provinces={
 		1058 1651 3145 3692 3895 6522 6677 7126 8309 11981 12135 12162 12204 18848 
 	}
-	manpower=0
+
+	history={
+		owner = COL
+		add_core_of = COL
+	}
+
+	manpower=1200000 # 24 people
+	state_category=large_town 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
 }

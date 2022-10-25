@@ -4,6 +4,11 @@ state={
 	provinces={
 		3757 12351 12355 12384 18888 18895 18904 
 	}
+	history={
+		owner = TES
+		controller = TES
+		add_core_of = TES
+	}
 	manpower=250000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

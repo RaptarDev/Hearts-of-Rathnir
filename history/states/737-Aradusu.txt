@@ -5,7 +5,14 @@ state={
 	provinces={
 		11708 11730 11737 11756 18813 
 	}
-	manpower=0
+
+	history={
+		owner = ROM
+		add_core_of = ROM
+	}
+
+	manpower=50000 # 1 people
+	state_category = tiny_island
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

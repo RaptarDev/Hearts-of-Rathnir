@@ -1,8 +1,8 @@
-From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+fFrom;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9383;18627;sea;22637;-1;-1;-1;-1;;Yulara-Yulara
 18627;2872;sea;23565;-1;-1;-1;-1;;Yulara-Yulara
 4256;19292;sea;26436;-1;-1;-1;-1;;Sorligste-Lumaire
-19292;17155;sea;-1;-1;-1;-1;;;Sorligste-Lumaire
+19292;17155;sea;20512;-1;-1;-1;-1;;Sorligste-Lumaire
 19265;16985;sea;23031;-1;-1;-1;-1;;Lumaire-Lumaire
 18070;19332;sea;26690;-1;-1;-1;-1;;Sorligste-Sorligste
 4715;16901;sea;26405;-1;-1;-1;-1;;Sorligste-Kronesia
@@ -23,7 +23,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11111;3628;sea;20195;-1;-1;-1;-1;;
 5791;17347;sea;20042;-1;-1;-1;-1;;
 400;15098;sea;23677;-1;-1;-1;-1;;
-15060;7134;sea;26078;-1;-1;-1;-1;;
+15060;7134;sea;24433;-1;-1;-1;-1;;
 12578;12509;sea;25712;-1;-1;-1;-1;;
 11133;11072;sea;24245;-1;-1;-1;-1;;
 11120;11097;sea;23203;-1;-1;-1;-1;;
@@ -84,10 +84,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12114;12143;sea;25618;-1;-1;-1;-1;;Huitca
 9193;2366;sea;24898;-1;-1;-1;-1;;Korribon
 6333;9680;sea;22178;-1;-1;-1;-1;;Ignatava - Chumon-ito
-9515;7;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
-9515;9482;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
-9515;9557;impassable;-1;-1;-1;-1;-1;;Don fuer mountains
-8618;8619;impassable;-1;-1;-1;-1;-1;;Genshin mountains
+9515;7;impassable;-1;-1;-1;-1;;;Don fuer mountains
+9515;9482;impassable;-1;-1;-1;-1;;;Don fuer mountains
+9515;9557;impassable;-1;-1;-1;-1;;;Don fuer mountains
+8618;8619;impassable;-1;-1;-1;-1;;;Genshin mountains
 8618;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
 8686;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
 8618;24;impassable;-1;-1;-1;-1;-1;;Genshin 	mountains
@@ -108,7 +108,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13173;18949;sea;22308;-1;-1;-1;-1;;
 16288;1211;sea;26274;-1;-1;-1;-1;;tortuga-akratia
 17054;17049;sea;26432;-1;-1;-1;-1;;
-1175;4047;sea;23811;-1;-1;-1;-;1;;
+1175;4047;sea;23811;-1;-1;-1;-1;;
 16801;19250;sea;26390;-1;-1;-1;-1;;Kronesia-Kronesia
 5576;19234;sea;24291;-1;-1;-1;-1;;Kronesia-Kronesia
 6654;19340;sea;21522;-1;-1;-1;-1;;Boulderov-Boulderov

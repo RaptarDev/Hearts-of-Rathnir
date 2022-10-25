@@ -5,7 +5,15 @@ state={
 	provinces={
 		13743 13757 13856 18993 19004 19007 19011 19016 
 	}
-	manpower=0
+
+	history={
+		owner = CAE
+		add_core_of = CAE
+	}
+
+	manpower=7150000 # 143 people
+	state_category=megalopolis 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
 }

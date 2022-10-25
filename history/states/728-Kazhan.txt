@@ -2,10 +2,19 @@
 state={
 	id=728
 	name="STATE_728"
+
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = BAR
+
+	}
+
 	provinces={
 		18645 18648 18655 18656 18659 18660 18665 18666 18668 18674 18675 18676 18678 18685 18690 
 	}
-	manpower=0
+	manpower=1100000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

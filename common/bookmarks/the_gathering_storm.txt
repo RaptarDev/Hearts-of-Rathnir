@@ -9,27 +9,35 @@ bookmarks = {
 		
 		"HSY"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
 		}
 		"UOH"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
 		}
 		"SIM"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
 		}
 		"IMP"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascist
 		}
 		"IAU"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
 		}
 		"KAR"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascist
 		}
 		"TOR"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascist
 		}
 		"YIM"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
 		}		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

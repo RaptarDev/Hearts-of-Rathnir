@@ -480,3 +480,67 @@ GRE = {
 	color = rgb { 41 222 24 }
 	color_ui = rgb { 41 222 24 }
 }
+BAR = {
+	color = rgb { 255 239 18 }
+	color_ui = rgb { 255 239 18 }
+}
+KAZ = {
+	color = rgb { 145 23 252 }
+	color_ui = rgb { 145 23 252 }
+}
+VER = {
+	color = rgb { 207 181 95 }
+	color_ui = rgb { 207 181 95 }
+}
+KUS = {
+	color = rgb { 46 130 53 }
+	color_ui = rgb { 46 130 53 }
+}
+VSH = {
+	color = rgb { 46 130 53 }
+	color_ui = rgb { 46 130 53 }
+}
+COL = {
+	color = rgb { 58 144 201 }
+	color_ui = rgb { 58 144 201 }
+}
+ONU = {
+	color = rgb { 242 123 99 }
+	color_ui = rgb { 242 123 99 }
+}
+VKR = {
+	color = rgb { 191 155 107 }
+	color_ui = rgb { 191 155 107 }
+}
+PFA = {
+	color = rgb { 109 222 188 }
+	color_ui = rgb { 109 222 188 }
+}
+ROM = {
+	color = rgb { 210 134 217 }
+	color_ui = rgb { 210 134 217 }
+}
+CAE = {
+	color = rgb { 26 29 120 }
+	color_ui = rgb { 26 29 120 }
+}
+SKA = {
+	color = rgb { 158 147 100 }
+	color_ui = rgb { 158 147 100 }
+}
+ZEM = {
+	color = rgb { 126 161 116 }
+	color_ui = rgb { 126 161 116 }
+}
+TES = {
+	color = rgb { 163 86 131 }
+	color_ui = rgb { 163 86 131 }
+}
+JAD = {
+	color = rgb { 0 168 107 }
+	color_ui = rgb { 0 168 107 }
+}
+SEX = {
+	color = rgb { 242 238 237 }
+	color_ui = rgb { 242 238 237 }
+}

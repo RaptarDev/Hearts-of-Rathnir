@@ -5,7 +5,15 @@ state={
 	provinces={
 		5002 7141 14177 14255 19017 19025 19034 19035 19042 
 	}
-	manpower=0
+
+	history={
+		owner = VKR
+		add_core_of = VKR
+
+	}
+
+	manpower=500000 # 10 people
+	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

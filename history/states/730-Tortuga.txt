@@ -2,10 +2,18 @@
 state={
 	id=730
 	name="STATE_730"
+
+	history={
+		owner = KUS
+		add_core_of = KUS
+
+	}
+
 	provinces={
 		2088 5127 6637 15615 15638 15662 15697 15702 
 	}
-	manpower=0
+	manpower=400000
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

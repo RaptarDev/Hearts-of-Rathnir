@@ -63,58 +63,9 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 }
 
 check_has_focus_tree_to_switch_to_fascism = {
-	#NOT = { tag = JAP }
-	NOT = { tag = GER }
-	#NOT = { tag = MAN }
-	NOT = { tag = ITA }
-	OR = {
-		NOT = {
-			AND = {
-				#tag = SAF
-				has_dlc = "Together for Victory"
-			}
-		}
-		AND = {
-			#tag = SAF
-			has_dlc = "Together for Victory"
-			#has_completed_focus = SAF_south_africa_first
-		}
-	}
-	NOT = {
-		AND = {
-			#tag = RAJ
-			has_dlc = "Together for Victory"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = USA
-			has_dlc = "Man the Guns"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = ENG
-			has_dlc = "Man the Guns"
-		}
-	}
-	NOT = {
-		AND = {
-			tag = FRA
-			has_dlc = "La Resistance"
-		}
-	}
-	NOT = {
-		AND = {
-			#original_tag = SPR
-			OR = {
-				#has_completed_focus = SPA_the_phalanx_ascendant
-				#has_completed_focus = SPA_supremacy_of_the_communion
-				#has_completed_focus = SPR_the_popular_front
-			}
-			has_dlc = "La Resistance"
-		}
-	}
+	
+
+	
 }
 
 check_has_focus_tree_to_switch_to_democratic = {
@@ -238,30 +189,6 @@ SOV_save_pp_for_manpower_trouble = {
 anti_submarine_strategy_required_trigger = {
 	OR = {
 		AND = {
-			tag = ENG
-			not = { is_in_faction_with = GER }
-			GER = {
-				has_navy_size = {
-					type = submarine
-					size > 30
-				}
-			}
-		}
-		AND = {
-			tag = USA
-			not = { is_in_faction_with = GER }
-			GER = {
-				has_navy_size = {
-					type = submarine
-					size > 30
-				}
-			}
-		}
-		#AND = {
-		#	tag = JAP
-		#	not = { is_in_faction_with = USA }
-		#}
-		AND = {
 			has_war = yes
 			any_enemy_country = {
 				has_navy_size = {
@@ -271,45 +198,6 @@ anti_submarine_strategy_required_trigger = {
 			}
 		}
 		convoy_threat > 0.3
-	}
-}
-
-should_USA_invade_europe_or_africa = {
-	USA = {
-		OR = {
-			is_in_faction_with = ENG
-			has_military_access_to = ENG
-		}
-	}
-	surrender_progress < 0.05
-	FRA = {
-		has_capitulated = yes
-	}
-	OR = {
-		GER = {
-			exists = yes
-			has_war_with = USA
-		}
-		ITA = {
-			exists = yes
-			has_war_with = USA
-		}
-
-		}
-		USA = {
-			OR = {
-				AND = {
-					has_government = democratic
-					ENG = { has_government = democratic }
-					OR = {
-						GER = { has_government = fascism }
-						ITA = { has_government = fascism }
-					}
-				}
-				is_in_array = { potential_and_current_enemies = GER }
-				is_in_array = { potential_and_current_enemies = ITA }
-				is_in_array = { potential_and_current_enemies = SPR }
-			}
 	}
 }
 

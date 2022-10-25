@@ -5,7 +5,15 @@ state={
 	provinces={
 		4723 12231 12268 18877 18879 
 	}
-	manpower=0
+
+	history={
+		owner = OMB
+		add_core_of = OMB
+	}
+
+	manpower=300000 # 6 people
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
 }

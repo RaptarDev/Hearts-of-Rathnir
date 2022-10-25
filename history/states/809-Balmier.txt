@@ -4,11 +4,11 @@ state={
 	provinces={
 		15553 3503 19130 9 15523 5287 15502 550 1863 5423 15536
 	}
-	manpower=0
+	manpower=10000 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = town
-history={
+	history={
 		owner = IAU
 		controller = IAU
 		add_core_of = IAU
@@ -20,7 +20,6 @@ history={
 			dockyard = 0
 
 		}
-
 
 	}
 }

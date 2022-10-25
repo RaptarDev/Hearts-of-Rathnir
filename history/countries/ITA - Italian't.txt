@@ -61,7 +61,7 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Crackpot Starlorde" # HighKing_Castie
+	name = "Crackpot Starlorde" # Starlorde
 	picture = "gfx/leaders/SORLIGSTE/Starlorde.png"
 	expire = "1965.1.1"
 	ideology = despotism

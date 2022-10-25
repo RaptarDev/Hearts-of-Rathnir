@@ -12,6 +12,8 @@ state={
 
 		add_core_of = IMP 
 
+		add_core_of = BAR
+
 		victory_points = {
 			3504 2
 		}

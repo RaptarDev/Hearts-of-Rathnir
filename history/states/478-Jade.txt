@@ -4,6 +4,13 @@ state={
 	provinces={
 		5943 11404 18767 18780 18785 18786 18794 
 	}
+	
+	history={
+		owner = JAD
+		controller = JAD
+		add_core_of = JAD
+	}
+
 	manpower=400000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

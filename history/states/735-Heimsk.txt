@@ -5,7 +5,15 @@ state={
 	provinces={
 		4210 5154 11595 18792 
 	}
-	manpower=0
+
+	history={
+		owner = RYZ
+		add_core_of = RYZ
+
+	}
+
+	manpower=200000 # 4 people
+	state_category=small_island
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
