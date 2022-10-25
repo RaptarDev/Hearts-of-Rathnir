@@ -11,6 +11,10 @@ state = {
 		162 688 3064 3286 3671 4067 4290 4656 5543 5887 6301 6554 17735 17751 17785 17793 17808 17809 17833 17841 17871 17890 17891 17924 17942 17987 17994 18010 18019 18041 18064 18069 18081 18106 18107 18126 18174 26686 26691 
 	}
 
+	resources = {
+		oil = 10 aluminium = 2 tungsten = 1
+	}
+
 	history = {
 		
 		owner = FRO
@@ -18,6 +22,12 @@ state = {
 		add_core_of = FRO
 
 		add_core_of = NVS
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
 
 		victory_points = { 17890 5 }
 
