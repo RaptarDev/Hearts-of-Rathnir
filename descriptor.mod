@@ -1,5 +1,5 @@
 version="0.1"
-picture="thumbnail.0png"
+picture="thumbnail.png"
 name="Hearts of Rathnir - Early Beta"
 tags={
 	"Map"
