@@ -11,6 +11,10 @@ state = {
 		21 346 365 832 2741 2820 2943 2946 3351 3636 3641 3727 5288 5971 5999 6707 7258 7680 17434 17462 17478 17501 17513 17555 17605 17606 17628 17632 17633 17642 17679 17699 17720 17736 17737 17775 17787 17788 17820 17834 17842 
 	}
 
+	resources = {
+		steel = 2 chromium = 1
+	}
+
 	history = {
 		
 		owner = FRO
@@ -18,6 +22,19 @@ state = {
 		add_core_of = FRO
 
 		add_core_of = ITA
+
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+
+			346 = {
+				dockyard = 8
+			}
+
+		}
 
 		victory_points = { 6707 30 }
 

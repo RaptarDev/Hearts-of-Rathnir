@@ -21,7 +21,7 @@ bookmarks = {
 		}
 		"IMP"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism 
 		}
 		"IAU"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -29,11 +29,11 @@ bookmarks = {
 		}
 		"KAR"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism 
 		}
 		"TOR"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism 
 		}
 		"YIM"={
 			history = "OTHER_GATHERING_STORM_DESC"

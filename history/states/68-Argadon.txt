@@ -20,6 +20,8 @@ state = {
 		add_core_of = NVS
 
 		add_core_of = ITA
+		
+		add_core_of = LEV
 
 		victory_points = { 1367 1 }
 

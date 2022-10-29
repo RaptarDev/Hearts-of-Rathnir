@@ -544,3 +544,23 @@ SEX = {
 	color = rgb { 242 238 237 }
 	color_ui = rgb { 242 238 237 }
 }
+LUM = {
+	color = rgb { 235 164 89	}
+	color_ui = rgb { 235 164 89	}
+}
+LEV = {
+	color = rgb { 76 29 130 }
+	color_ui = rgb { 76 29 130	}
+}
+KHA = {
+	color = rgb { 121 166 125 }
+	color_ui = rgb { 121 166 125 }
+}
+FEA = {
+	color = rgb { 82 148 186 }
+	color_ui = rgb { 82 148 186 }
+}
+KRO = {
+	color = rgb { 222 76 138 }
+	color_ui = rgb { 222 76 138 }
+}

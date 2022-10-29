@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = IAU
 
+		add_core_of = TOR
+
 		victory_points = { 8471 5 }
 
 		victory_points = { 15892 5 }

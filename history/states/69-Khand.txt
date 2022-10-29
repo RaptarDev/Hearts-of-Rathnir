@@ -17,6 +17,9 @@ state = {
 
 		add_core_of = TOR
 
+		add_core_of = KHA
+
+
 		victory_points = { 2256 1 }
 
 

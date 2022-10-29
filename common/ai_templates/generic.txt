@@ -611,7 +611,7 @@ suppression_generic = {
 
 			modifier = {
 				factor = 50
-				tag = GER
+			
 				OR = {
 					AND = {
 						

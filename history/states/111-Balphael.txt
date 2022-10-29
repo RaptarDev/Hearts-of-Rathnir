@@ -16,6 +16,8 @@ state = {
 		owner = BOR
 
 		add_core_of = BOR
+
+		add_core_of = TOR
 		
 		victory_points = {
 			3068 1 

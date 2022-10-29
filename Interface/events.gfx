@@ -2,7 +2,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_scotch_death"
-		texturefile = "/gfx/event_pictures/ScotchPassingcommissionsunset.png"
+		texturefile = "gfx/event_pictures/ScotchPassingcommissionsunset.png"
 	}
 
 }

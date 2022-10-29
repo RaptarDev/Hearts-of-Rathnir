@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = LOR
 
+		add_core_of = LUM
+
 		victory_points = { 17201 10 }
 
 	}

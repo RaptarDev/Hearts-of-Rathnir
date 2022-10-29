@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_fro_unbalanced_power"
+		texturefile = "gfx/interface/ideas/FRO_unbalanced_power.png"
+	}
+
+}

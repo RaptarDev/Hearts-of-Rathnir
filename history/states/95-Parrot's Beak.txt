@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = VAL
 
+		add_core_of = TOR
+
 		victory_points = { 16597 1 }
 
 

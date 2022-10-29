@@ -5,7 +5,13 @@ state={
 
 	history={
 		owner = TOR
+
 		add_core_of = TOR
+
+		add_core_of = LEV
+
+		add_core_of = KHA
+
 		victory_points = {
 			18462 15 
 		}
