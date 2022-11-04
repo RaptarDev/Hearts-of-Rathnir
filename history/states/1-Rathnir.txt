@@ -7,15 +7,38 @@ state={
 		owner = JUN
 		add_core_of = JUN
 		
+		buildings = {
+
+			2698 = {
+				naval_base = 10
+			}
+
+			3701 = {
+				naval_base = 10
+			}
+			4273 = {
+				naval_base = 10
+			}
+			6988 = {
+				naval_base = 10
+			}
+			7956 = {
+				naval_base = 10
+			}
+
+			
+
+		}
+
 	}
-	resources ={
-		oil = 1000000
-		aluminium = 1000000
-		rubber = 1000000
-		tungsten = 1000000
-		steel = 1000000
-		chromium = 1000000
-	}
+	#resources ={
+	#	oil = 1000000
+	#	aluminium = 1000000
+	#	rubber = 1000000
+	#	tungsten = 1000000
+	#	steel = 1000000
+	#	chromium = 1000000
+	#}
 	provinces={
 		2698 3701 4273 6988 7956 8497 11764 11818 11864 11871 26650 
 	}

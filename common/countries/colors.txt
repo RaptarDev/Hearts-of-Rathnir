@@ -564,3 +564,7 @@ KRO = {
 	color = rgb { 222 76 138 }
 	color_ui = rgb { 222 76 138 }
 }
+ASH = {
+	color = rgb { 212 194 116 }
+	color_ui = rgb { 212 194 116 }
+}

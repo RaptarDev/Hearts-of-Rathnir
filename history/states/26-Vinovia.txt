@@ -17,6 +17,8 @@ state = {
 
 		add_core_of = VIN
 
+		add_core_of = PAL
+
 		victory_points = { 6489 30 }
 
 		victory_points = { 16429 1 }

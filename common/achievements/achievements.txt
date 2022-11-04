@@ -1,0 +1,664 @@
+unique_id = HoR_achievements
+viva_la_vida = {
+	possible = {
+		difficulty > 1
+		tag = RYZ
+		ROOT = {
+			has_government = democratic
+		}
+	}
+	happened = {
+		608 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		609 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		610 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		611 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		612 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		613 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		614 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		615 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		616 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		617 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		618 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		619 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		620 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		621 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		630 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		631 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		632 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		633 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+				610 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		634 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		635 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		636 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		637 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		638 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		639 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		640 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		641 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		642 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		643 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		644 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		645 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		646 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		647 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		648 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		649 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		650 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		651 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		652 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		653 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		654 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		655 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		656 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		657 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		658 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		659 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		660 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		661 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		662 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		663 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		664 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		665 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		666 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		667 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		668 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		669 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		670 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		671 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		672 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		673 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		674 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		675 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		676 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		677 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		678 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		679 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		680 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		681 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		682 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		683 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		684 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		685 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		686 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		687 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		688 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		689 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		690 = {
+			owner = {
+				has_government = democratic
+			}
+			
+		}
+		691 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		692 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		693 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		694 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		695 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		696 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		697 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		698 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		699 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		700 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		701 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		702 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		703 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		704 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		705 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		706 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		707 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		708 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		709 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		710 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		711 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		712 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		713 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		714 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		715 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		716 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		717 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		718 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		719 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		720 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		721 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		722 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		723 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		724 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		725 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		726 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		727 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+		728 = { 
+			owner = { 
+				has_government = democratic 
+			} 
+		}
+				
+		
+		
+				
+		
+		
+	}
+}

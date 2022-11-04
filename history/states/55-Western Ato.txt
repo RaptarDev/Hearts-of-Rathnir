@@ -19,11 +19,22 @@ state = {
 
 		add_core_of = ATO
 
+		buildings = {
+			infrastructure = 2
+
+
+		}
+
 		victory_points = { 18311 3 }
 
 		victory_points = { 18257 1 }
 
 
+	}
+
+	resources = {
+		steel = 5
+		tungsten = 1
 	}
 
 }

@@ -141,4 +141,6 @@ fFrom;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 15783;15894;sea;24055;-1;-1;-1;-1;;Karkoros
 15894;6262;sea;24055;-1;-1;-1;-1;;Karkoros
 6262;8496;sea;24055;-1;-1;-1;-1;;Karkoros
-## TEST
+5206;19020;sea;23593;-1;-1;-1;-1;;
+19020;14325;sea;23593;-1;-1;-1;-1;;
+934;19238sea;26360;-1;-1;-1;-1;;

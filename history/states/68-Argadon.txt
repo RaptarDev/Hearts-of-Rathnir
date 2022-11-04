@@ -23,6 +23,10 @@ state = {
 		
 		add_core_of = LEV
 
+		buildings = {
+			infrastructure = 1
+		}
+
 		victory_points = { 1367 1 }
 
 

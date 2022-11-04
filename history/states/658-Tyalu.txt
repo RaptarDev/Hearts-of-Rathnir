@@ -8,9 +8,11 @@ state={
 
 	history={
 
-		owner = AVD 
+		owner = ASH 
 
 		add_core_of = AVD 
+
+		add_core_of = ASH
 
 		victory_points = {
 			12039 10

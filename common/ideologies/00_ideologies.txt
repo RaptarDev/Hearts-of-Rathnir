@@ -191,6 +191,10 @@ ideologies = {
 			
 			centrism = {
 			}
+			
+			jarlism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -215,11 +219,11 @@ ideologies = {
 		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			generate_wargoal_tension = 0.25
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.2
+			send_volunteers_tension = 0.2
+			guarantee_tension = 0.2
 			drift_defence_factor = -0.3	
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 10.0

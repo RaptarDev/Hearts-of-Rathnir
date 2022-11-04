@@ -21,10 +21,23 @@ state = {
 
 		add_core_of = ITA
 
+		buildings = {
+
+			infrastructure = 2
+
+			industrial_complex = 1 
+
+		}
+
 		victory_points = { 18427 1 }
 
 		victory_points = { 6265 1 }
 
+	}
+
+	resources = {
+		steel = 3
+		aluminium = 2
 	}
 
 }

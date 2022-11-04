@@ -12,6 +12,8 @@ state={
 
 		add_core_of = GOL 
 
+		add_core_of = ALD
+
 		victory_points = {
 			6686 5
 		}

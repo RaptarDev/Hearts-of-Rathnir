@@ -5,8 +5,44 @@ state={
 	provinces={
 		19526 19598 19604 19620 19765 19970 20101 20516 20543 20675 20697 20753 20972 20987 21248 21333 21834 21865 22107 22194 22318 22334 22849 22874 23056 23328 23567 24061 24646 24996 25195 25747 25820 25832 26696 26697 
 	}
+
+	history = {
+		owner = JUN
+		
+		buildings = {
+			21248 = {
+				naval_base = 10
+			}
+
+			20101 = {
+				naval_base = 10
+			}
+
+			22318 = {
+				naval_base = 10
+			}
+
+			24996 = {
+				naval_base = 10
+			}
+			24646 = {
+				naval_base = 10
+			}
+		}
+
+	}
+
+	resources ={
+		oil = 1000000
+		aluminium = 1000000
+		rubber = 1000000
+		tungsten = 1000000
+		steel = 1000000
+		chromium = 1000000
+	}
+
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 	local_supplies=0.000
 }
