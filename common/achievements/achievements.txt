@@ -654,11 +654,6 @@ viva_la_vida = {
 				has_government = democratic 
 			} 
 		}
-				
-		
-		
-				
-		
 		
 	}
 }

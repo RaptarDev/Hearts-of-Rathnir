@@ -9,6 +9,11 @@ set_technology = {
 
 set_convoys = 5
 
+set_autonomy = {
+	target = YIM 
+	autonomy_state = autonomy_integrated_puppet
+}
+
 
 1939.1.1 = {
 	#generic focuses
