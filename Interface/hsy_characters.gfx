@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_HSY_scothknight"
+		texturefile = "gfx/leaders/HSY/maiden_scotchKnight.dds"
+	}
+}

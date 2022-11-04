@@ -1,0 +1,33 @@
+characters={
+	HSY_maiden_scotchKnight={
+		name="Maiden ScotchKnight"
+		portraits={
+			civilian={
+				large=GFX_HSY_scothknight
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			desc = HSY_MAIDEN_DESC
+			traits = {
+				legitimate_heir
+				dictator
+				humble
+			}
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits={
+				defensive_doctrine
+				logistics_wizard
+				
+			}
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+}
