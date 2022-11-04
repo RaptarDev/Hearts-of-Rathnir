@@ -12,6 +12,8 @@ state={
 
 		add_core_of = RYZ 
 
+		add_core_of = AVD
+
 		victory_points = {
 			2473 3
 		}

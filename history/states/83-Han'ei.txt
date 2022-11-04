@@ -21,7 +21,15 @@ state = {
 
 		victory_points = { 168 3 }
 
+		buildings = {
+			infrastructure = 1
+		}
+
 	}
 
+	resources = {
+		oil = 2
+		steel = 2
+	}
 
 }

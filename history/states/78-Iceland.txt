@@ -17,6 +17,15 @@ state={
 
 		add_core_of = FRO
 
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	resources = {
+		steel = 2
+		oil = 1
 	}
 	
 }

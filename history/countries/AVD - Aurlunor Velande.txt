@@ -15,6 +15,7 @@ set_autonomy = {
 	autonomy_state = autonomy_puppet
 }
 
+
 1939.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
@@ -74,3 +75,13 @@ set_popularities = {
 #		#
 #	}
 #}
+
+add_ideas = all_off_map_factories
+
+recruit_character = AVD_sareariel_lelya_earcala
+
+recruit_character = AVD_azan_shaer
+recruit_character = AVD_dr_tara_sauranis
+recruit_character = AVD_mao_melli 
+recruit_character = AVD_nori_di_nekomar
+recruit_character = AVD_orwa_sinawis

@@ -1,0 +1,321 @@
+focus_tree = {
+	id = uoh-1
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UOH
+		}
+	}
+	#Founding A Union
+	focus = {
+		id = UOH_founding_a_union
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 4
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			always = yes
+			
+			
+		}
+		completion_reward = {
+			add_ideas = {
+			    UoH_loyalist_heritage
+			}
+			
+			
+			
+		}
+	}
+
+	#Rexhold v. Alfheim
+	focus = {
+		id = UOH_rexhold_v_alfheim
+		icon = GFX_goal_generic_neutrality_focus
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_founding_a_union  }
+		bypass = {
+			always = yes
+			
+			
+		}
+	}
+
+	#Side With Rexhold
+	focus = {
+		id = UOH_side_with_rexhold
+		icon = GFX_focus_AST_never_gallipoli
+		x = 0
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_rexhold_v_alfheim  }
+		bypass = {
+			always = yes
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 50
+			
+			
+		}
+	}
+
+	#Side With Alfheim
+	focus = {
+		id = UOH_side_with_alfheim
+		icon = GFX_focus_AST_never_gallipoli
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_rexhold_v_alfheim  }
+		mutually_exclusive = { focus = UOH_side_with_rexhold  }
+		available = {
+			always = no
+		}
+		completion_reward = {
+			add_stability = 0.1
+			
+			
+		}
+	}
+
+	#Crush the Lunaists
+	focus = {
+		id = UOH_crush_the_lunaists
+		icon = GFX_focus_generic_army_tanks2
+		x = 7
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_founding_a_union  }
+		available = {
+			always = yes
+			
+			
+		}
+		bypass = {
+			always = yes
+			
+			
+		}
+		completion_reward = {
+			add_ideas = {
+			    UoH_loyalist_heritage
+			    UoH_identity_crisis
+			}
+			
+			
+			
+		}
+	}
+
+	#Pass a New Constitution
+	focus = {
+		id = UOH_pass_a_new_constitution
+		icon = GFX_focus_generic_treaty
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_crush_the_lunaists  }
+		mutually_exclusive = { focus = UOH_seize_authority  }
+		available = { OR = {
+			has_country_leader = { 
+			    id = ID 
+			    ruling_only = yes
+			    name = "Vic van Barcht" 
+			} 
+				has_country_leader = { 
+			    id = ID 
+			    ruling_only = yes
+			    name = "Mary Belgrave" 
+			} 
+		} }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Hold the Line
+	focus = {
+		id = UOH_hold_the_line
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 4
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { 
+			has_country_leader = { 
+			    id = ID 
+			    ruling_only = yes
+			    name = "Vic van Barcht" 
+			} }
+		prerequisite = { focus = UOH_pass_a_new_constitution  }
+		mutually_exclusive = { focus = UOH_appease_the_nation  }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Appease the Nation
+	focus = {
+		id = UOH_appease_the_nation
+		icon = GFX_focus_generic_military_academy
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { 
+			has_country_leader = { 
+			    id = ID 
+			    ruling_only = yes
+			    name = "Mary Belgrave" 
+			} }
+		prerequisite = { focus = UOH_pass_a_new_constitution  }
+		mutually_exclusive = { focus = UOH_hold_the_line  }
+		completion_reward = {
+			add_political_power = -50
+			
+			
+		}
+	}
+
+	#Seize Authority
+	focus = {
+		id = UOH_seize_authority
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { Always = false }
+		prerequisite = { focus = UOH_crush_the_lunaists  }
+		mutually_exclusive = { focus = UOH_pass_a_new_constitution  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = 0.1
+			}
+			
+			
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Convince the Generals
+	focus = {
+		id = UOH_convince_the_generals
+		icon = GFX_focus_focus_fra_maquis
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_seize_authority  }
+	}
+
+	#"Convince" the People
+	focus = {
+		id = UOH_convincethepeople
+		icon = GFX_goal_generic_demand_territory
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_convince_the_generals  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = 0.1
+			}
+			
+			
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Out of Chaos, Hope
+	focus = {
+		id = UOH_outofchaoshope
+		icon = GFX_goal_tripartite_pact
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_appease_the_nation  }
+		available = {
+			has_idea = UoH_compromise_constitution
+			
+			
+		}
+	}
+
+	#Crackdown
+	focus = {
+		id = UOH_crackdown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UOH_convincethepeople  }
+		completion_reward = {
+			add_political_power = -50
+			
+			country_event = {
+			    id = UoH1_uoh_starting_event.26
+			    days = 1
+			    random = 0
+			    random_days = 0
+			}
+			
+			
+			
+			
+			
+		}
+	}
+
+}

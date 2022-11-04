@@ -1,4 +1,4 @@
-technologies = { 
+technologies = {  
 	
 	early_fighter = {
 
@@ -157,15 +157,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -228,11 +219,6 @@ technologies = {
 				is_major = yes
 			}
 
-			modifier = {
-				factor = 0
-				original_tag = GER
-				date < "1941.1.1"
-			}
 
 			modifier = {
 				factor = 1.2
@@ -273,23 +259,8 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
+	
 			
-			modifier = {
-				factor = 2.5
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 10
-				AND = {
-					is_historical_focus_on = yes
-					tag = JAP
-				}
-			}
 			modifier = {
 				factor = 1.5
 				date > "1941.6.1"
@@ -390,15 +361,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
+
 			modifier = {
 				factor = 1.5
 				date > "1945.1.1"
@@ -448,10 +411,7 @@ technologies = {
 				is_major = yes
 				factor = 2
 			}
-			modifier = {
-				tag = GER
-				factor = 2
-			}
+
 		}
 	}
 	
@@ -512,20 +472,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 100
-				tag = SOV
-			}
-			modifier = {
-				has_war_with = GER
-				tag = SOV
-				factor = 2
-			}
 
 		}
 	}
@@ -555,7 +501,7 @@ technologies = {
 				}
 			}
 
-			}
+			
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -564,9 +510,9 @@ technologies = {
 				factor = 0
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
-		
-	}
 	
+		}
+	}
 	CAS2 = {
 
 		enable_equipments = {
@@ -635,20 +581,7 @@ technologies = {
 					is_researching_technology = CAS3
 				}
 			}
-			modifier = {
-				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
+			
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -692,27 +625,13 @@ technologies = {
 			factor = 1
 			
 			modifier = {
-				factor = 2
-				tag = GER
-			}
-			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
 					type = cas
 				}
 				factor = 3
 			}
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
+
 		}
 	}
 	
@@ -733,20 +652,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
+		
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -788,23 +694,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
+
 		}
 	}
 	
@@ -832,20 +722,7 @@ technologies = {
 					is_researching_technology = naval_bomber2
 				}
 			}
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
+	
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -887,14 +764,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
@@ -902,15 +772,7 @@ technologies = {
 				}
 				factor = 1.5
 			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
+
 		}
 	}
 	
@@ -938,21 +800,7 @@ technologies = {
 					is_researching_technology = naval_bomber3
 				}
 			}
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-					has_war_with = ENG
-				}
-			}
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -994,14 +842,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
@@ -1009,15 +850,7 @@ technologies = {
 				}
 				factor = 1.5
 			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
+		
 		}
 	}
 	
@@ -1037,20 +870,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -1227,10 +1047,7 @@ technologies = {
 				has_tech = CAS1
 				factor = 3
 			}
-			modifier = {
-				factor = 4
-				original_tag = GER
-			}
+
 		}
 	}
 	
@@ -1518,15 +1335,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
@@ -1558,15 +1366,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
@@ -1598,15 +1397,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
@@ -1670,4 +1460,5 @@ technologies = {
 		}
 		################
 	}
-}
+
+} 

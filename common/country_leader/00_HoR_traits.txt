@@ -4,9 +4,20 @@
 
 leader_traits = {
     work_of_the_people = {
+
         random = no 
 
         production_speed_buildings_factor = 0.1
         stability_weekly = 0.05
+
+    }
+
+    blessed_daughter_of_sen = {
+        
+        random = no
+        
+        stability_factor = 0.1
+        political_power_gain = 0.05
+
     }
 }

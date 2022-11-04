@@ -48,4 +48,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_FRO_shark.png"
 	}
 
+	## AVD
+	## Leaders
+	spriteType = {
+		name = "GFX_AVD_sareariel"
+		texturefile = "gfx/leaders/AVD/Sareariel.png"
+	}
+
 }

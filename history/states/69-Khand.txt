@@ -22,6 +22,10 @@ state = {
 
 		victory_points = { 2256 1 }
 
+	}
 
+	resources = {
+		steel = 5
+		chromium = 1
 	}
 }

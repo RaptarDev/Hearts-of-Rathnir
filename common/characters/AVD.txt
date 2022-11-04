@@ -1,0 +1,142 @@
+characters = {
+
+
+	# Leaders
+	AVD_sareariel_lelya_earcala = {
+		name = AVD_sareariel_lelya_earcala
+		portraits = {
+			civilian = {
+				large = "GFX_AVD_sareariel"
+			}
+
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1"
+			
+			traits = {
+				blessed_daughter_of_sen
+			}
+		}
+		gender = female
+		
+	}
+
+	# Advisors
+	AVD_mao_melli = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_mao_melli
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				smooth_talking_charmer	
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_mao_melli
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_mao_melli"
+			}
+		}
+	}
+
+	AVD_nori_di_nekomar = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_nori_di_nekomar
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				backroom_backstabber	
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_nori_di_nekomar
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_nori_di_nekomar"
+			}
+		}
+	}
+
+	AVD_orwa_sinawis = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_orwa_sinawis
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				silent_workhorse	
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_orwa_sinawis
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_orwa_sinawis"
+			}
+		}
+	}
+
+	AVD_azan_shaer = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_azan_shaer
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				compassionate_gentleman
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_azan_shaer
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_azan_shaer"
+			}
+		}
+	}
+
+	AVD_dr_tara_sauranis = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_dr_tara_sauranis
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				technocrat
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_dr_tara_sauranis
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_dr_tara_sauranis"
+			}
+		}
+	}
+
+
+}

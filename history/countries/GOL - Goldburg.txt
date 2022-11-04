@@ -69,3 +69,5 @@ set_popularities = {
 #		#
 #	}
 # }
+
+add_ideas = all_off_map_factories

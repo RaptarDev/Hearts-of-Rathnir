@@ -70,3 +70,5 @@ create_country_leader = {
 		#
 	}
 }
+
+add_ideas = all_off_map_factories

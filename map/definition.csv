@@ -16067,7 +16067,7 @@
 16066;118;219;181;land;false;plains;1
 16067;208;83;223;land;false;desert;1
 16068;204;193;122;land;false;plains;1
-16069;251;204;200;land;true;hills;1
+16069;251;204;200;land;false;hills;1
 16070;222;227;192;land;false;plains;1
 16071;133;180;235;land;true;hills;1
 16072;89;194;228;land;false;plains;1

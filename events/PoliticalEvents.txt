@@ -544,6 +544,7 @@ country_event = {
 				has_dlc = "Together for Victory"
 			}
 			
+		}
 	}
 
 	mean_time_to_happen = {
@@ -562,8 +563,8 @@ country_event = {
 		}
 		add_ideas = fascist_assault_divisions
 	}
+	
 }
-
 # The Threat of Communism
 country_event = {
 	id = political.12
@@ -597,6 +598,7 @@ country_event = {
 		}
 	}
 }
+
 
 # Move Towards Democracy
 #country_event = {
@@ -642,44 +644,7 @@ country_event = {
 		democratic > 0.6
 		NOT = { democratic > 0.7 }
 		check_has_focus_tree_to_switch_to_democratic = yes
-		NOT = {
-			AND = {
-				original_tag = SPR
-				has_dlc = "La Resistance"
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
-
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-					original_tag = SWI
-			}
-		}
+		
 	}
 
 	fire_only_once = yes
@@ -728,37 +693,10 @@ country_event = {
 		NOT = { has_country_flag = democracy_opposition_formed }
 		is_puppet = no
 		NOT = { democratic > 0.59 }
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
+	
 
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = SWI
-			}
-		}
+
+
 	}
 	
 	mean_time_to_happen = {
@@ -792,30 +730,7 @@ country_event = {
 		NOT = { has_government = democratic }
 		has_country_flag = democracy_opposition_formed
 		NOT = { has_idea = democratic_opposition_voicing_protests }
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
+
 	}
 	
 	mean_time_to_happen = {
@@ -835,11 +750,7 @@ country_event = {
 
 		ai_chance = {
 			base = 1
-			modifier = {
-				factor = 0
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
+
 		}
 
 		add_political_power = -20
@@ -991,13 +902,7 @@ country_event = {
 		name = political.19.c
 		trigger = {
 			#Special case CHI PRC
-			OR = {
-				NOT = { tag = CHI }
-				AND = {
-					NOT = { country_exists = PRC }
-					tag = CHI
-				}			
-			}
+	
 		}
 		set_politics = {
 			ruling_party = communism
@@ -1085,49 +990,7 @@ country_event = {
 		NOT = { has_government = fascism }
 		has_civil_war = no
 		check_has_focus_tree_to_switch_to_fascism = yes
-		NOT = {
-			AND = {
-				original_tag = SPR
-				has_dlc = "La Resistance"
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = SWI				
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
-
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = SWI
-			}
-		}
+	
 	}
 
 	mean_time_to_happen = {
@@ -1214,58 +1077,10 @@ country_event = {
 		num_of_controlled_states > 1
 		#has_idea = communist_revolutionaries
 		NOT = { has_government = communism }
-		#Special case CHI PRC
-		OR = {
-			NOT = { tag = CHI }
-			AND = {
-				NOT = { country_exists = PRC }
-				tag = CHI
-			}			
-		}
-		NOT = {
-			AND = {
-				original_tag = USA
-				has_dlc = "Man the Guns"
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = SWI				
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
+		
 		has_civil_war = no
 		check_has_focus_tree_to_switch_to_communism = yes
-		NOT = {
-			AND = {
-				original_tag = SPR
-				has_dlc = "La Resistance"
-			}
-		}
+
 	}
 
 	mean_time_to_happen = {
@@ -1353,58 +1168,10 @@ country_event = {
 		#has_idea = democratic_revolutionaries
 		#Special case CHI PRC
 		NOT = { has_government = democratic }
-		OR = {
-			NOT = { tag = CHI }
-			AND = {
-				NOT = { country_exists = PRC }
-				tag = CHI
-			}			
-		}
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				OR = {
-					original_tag = GRE
-					original_tag = TUR
-				}
-			}
-		}
-		NOT = {
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = SWI				
-			}
-		}
+		
 		has_civil_war = no
 		check_has_focus_tree_to_switch_to_democratic = yes
-		NOT = {
-			AND = {
-				original_tag = SPR
-				has_dlc = "La Resistance"
-			}
-		}
 
-		NOT = {
-			AND = {
-				original_tag = SWI
-				has_dlc = "By Blood Alone"
-			}
-		}
 	}
 
 	mean_time_to_happen = {
@@ -1591,54 +1358,7 @@ country_event = {
 		is_subject = no
 		has_civil_war = yes
 		NOT = { has_country_flag = ENG_communist_civil_war }
-		NOT = {
-			AND = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-				SPR_scw_in_progress = yes
-			}
-			AND = {
-				has_dlc = "La Resistance"
-				original_tag = POR
-				has_global_flag = SPR_portuguese_anarchism_flag
-			}
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-				OR = {
-					has_country_flag = BUL_zveno_coup_flag
-					has_country_flag = BUL_zveno_bulgaria_flag
-				}
-			}
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = POL
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					original_tag = ROM
-					AND = {
-						original_tag = FIN
-						EST = { has_completed_focus = EST_national_pride_in_finland }
-					}
-					original_tag = BLR #Baltic Belarus civil war
-				}
-			}
-			AND = {
-				original_tag = SOV
-				has_global_flag = SOV_soviet_civil_war # Stalin doesn't really want to reconciliate with Trotsky/Bukharin at this point
-			}
-			AND = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = TUR
-			}
-			AND = {
-				has_dlc = "By Blood Alone"
-				original_tag = ETH
-				has_country_flag = ETH_communist_civil_war
-			}
-		}
+		
 		any_other_country = {
 			NOT = { tag = ROOT }
 			original_tag = ROOT
