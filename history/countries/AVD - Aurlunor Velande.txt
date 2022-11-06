@@ -29,17 +29,17 @@ set_autonomy = {
 	complete_national_focus = production_effort
 	
 	set_technology = {
-
+		
 		#doctrines
 		grand_battle_plan = 1
 		trench_warfare = 1
-
+		
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
-
+		
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -85,3 +85,5 @@ recruit_character = AVD_dr_tara_sauranis
 recruit_character = AVD_mao_melli 
 recruit_character = AVD_nori_di_nekomar
 recruit_character = AVD_orwa_sinawis
+recruit_character = AVD_lanfan_lelya_earcala
+recruit_character = AVD_pyrrah_lelya_earcala
