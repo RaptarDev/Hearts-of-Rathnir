@@ -20,6 +20,22 @@ state={
 			7187 1
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+			dockyard = 1
+
+			10534 = {
+				naval_base = 3
+			}
+		}
+
+	}
+
+	resources = {
+		steel = 3
+		aluminium = 4
 	}
 
 	manpower=750000 # 15 people

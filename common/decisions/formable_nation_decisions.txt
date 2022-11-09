@@ -199,3 +199,274 @@ form_Korolian_empire_category = {
 		}
 	}
 }
+
+form_aurlunor_ryzan_category = {
+
+	form_aurlunor_ryzan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			or = {
+				original_tag = RYZ
+				original_tag = AVD
+			}
+		}
+
+		available = {
+			controls_state = 653
+			controls_state = 654
+			controls_state = 662
+			controls_state = 663
+			controls_state = 660
+			controls_state = 666
+			controls_state = 664
+			controls_state = 670
+			controls_state = 669
+			controls_state = 668
+			controls_state = 665
+			controls_state = 667
+			controls_state = 661
+			controls_state = 638
+			controls_state = 639
+			controls_state = 640
+			controls_state = 641
+			controls_state = 642
+			controls_state = 643
+			controls_state = 644
+			controls_state = 645
+			controls_state = 646
+			controls_state = 647
+			controls_state = 648
+			controls_state = 649
+			controls_state = 650
+			controls_state = 651
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ARE
+			653 = { add_core_of = ROOT }
+			654 = { add_core_of = ROOT }
+			662 = { add_core_of = ROOT }
+			663 = { add_core_of = ROOT }
+			660 = { add_core_of = ROOT }
+			666 = { add_core_of = ROOT }
+			664 = { add_core_of = ROOT }
+			670 = { add_core_of = ROOT }
+			669 = { add_core_of = ROOT }
+			668 = { add_core_of = ROOT }
+			665 = { add_core_of = ROOT }
+			667 = { add_core_of = ROOT }
+			661 = { add_core_of = ROOT }
+			638 = { add_core_of = ROOT }
+			639 = { add_core_of = ROOT }
+			640 = { add_core_of = ROOT }
+			641 = { add_core_of = ROOT }
+			642 = { add_core_of = ROOT }
+			643 = { add_core_of = ROOT }
+			644 = { add_core_of = ROOT }
+			645 = { add_core_of = ROOT }
+			646 = { add_core_of = ROOT }
+			647 = { add_core_of = ROOT }
+			648 = { add_core_of = ROOT }
+			649 = { add_core_of = ROOT }
+			650 = { add_core_of = ROOT }
+			651 = { add_core_of = ROOT }
+			658 = { add_core_of = ROOT }
+			659 = { add_core_of = ROOT }
+			657 = { add_core_of = ROOT }
+			656 = { add_core_of = ROOT }
+			655 = { add_core_of = ROOT }
+			652 = { add_core_of = ROOT }
+
+			638 = { set_demilitarized_zone = no	}
+			639 = { set_demilitarized_zone = no	}
+			set_capital = { state = 639 }
+
+			every_owned_state = {
+				if = {
+					limit = { 
+						or = {
+							
+						} 
+					}
+					add_core_of = ROOT
+
+				}
+			 }
+
+		}
+
+	}
+}
+
+form_soumere_category = {
+	form_soumere = {
+		
+		icon = generic_form_nation
+
+		allowed = {
+			or = {
+				original_tag = ITA
+				original_tag = NVS
+				original_tag = LUM
+				original_tag = ATO
+			}
+		}
+
+		available = {
+			controls_state = 41
+			controls_state = 42
+			controls_state = 43
+			controls_state = 44
+			controls_state = 45
+			controls_state = 46
+			controls_state = 47
+			controls_state = 48
+			controls_state = 49
+			controls_state = 50
+			controls_state = 52
+			controls_state = 53
+			controls_state = 54
+			controls_state = 56
+			controls_state = 57
+			controls_state = 58
+			controls_state = 59
+			controls_state = 61
+			controls_state = 62
+			controls_state = 63
+			controls_state = 64
+			controls_state = 65
+			controls_state = 86
+			controls_state = 87
+			controls_state = 104
+			controls_state = 105
+			controls_state = 106
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SOU
+			
+			41 = { add_core_of = ROOT }
+			42 = { add_core_of = ROOT }
+			43 = { add_core_of = ROOT }
+			44 = { add_core_of = ROOT }
+			45 = { add_core_of = ROOT }
+			46 = { add_core_of = ROOT }
+			47 = { add_core_of = ROOT }
+			48 = { add_core_of = ROOT }
+			49 = { add_core_of = ROOT }
+			50 = { add_core_of = ROOT }
+			51 = { add_core_of = ROOT }
+			52 = { add_core_of = ROOT }
+			53 = { add_core_of = ROOT }
+			54 = { add_core_of = ROOT }
+			56 = { add_core_of = ROOT }
+			57 = { add_core_of = ROOT }
+			58 = { add_core_of = ROOT }
+			59 = { add_core_of = ROOT }
+			61 = { add_core_of = ROOT }
+			62 = { add_core_of = ROOT }
+			63 = { add_core_of = ROOT }
+			64 = { add_core_of = ROOT }
+			65 = { add_core_of = ROOT }
+			86 = { add_core_of = ROOT }
+			87 = { add_core_of = ROOT }
+			104 = { add_core_of = ROOT }
+			105 = { add_core_of = ROOT }
+			106 = { add_core_of = ROOT }
+		}
+	
+	}
+}
+form_aldovir_category = {
+	form_aldovir = {
+		
+		icon = generic_form_nation
+
+		allowed = {
+			or = {
+				original_tag = SIR
+				original_tag = CAR
+				original_tag = ADA
+				original_tag = LIR
+				original_tag = VOL
+				original_tag = VIR
+			}
+		}
+
+		available = {
+			
+			controls_state = 322
+			controls_state = 323
+			controls_state = 324
+			controls_state = 325
+			controls_state = 326
+			controls_state = 327
+			controls_state = 328
+			controls_state = 329
+			controls_state = 330
+			controls_state = 331
+			controls_state = 332
+			controls_state = 333
+			controls_state = 334
+			controls_state = 335
+			controls_state = 336
+			controls_state = 337
+			controls_state = 338
+			controls_state = 339
+			controls_state = 340
+			controls_state = 341
+			controls_state = 342
+			controls_state = 343
+			controls_state = 344
+			controls_state = 345
+			controls_state = 346
+			controls_state = 347
+			controls_state = 348
+			controls_state = 349
+			controls_state = 350
+			controls_state = 351
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = AVR
+			
+			108 = { add_core_of = ROOT }
+			109 = { add_core_of = ROOT }
+			110 = { add_core_of = ROOT }
+			322 = { add_core_of = ROOT }
+			323 = { add_core_of = ROOT }
+			324 = { add_core_of = ROOT }
+			325 = { add_core_of = ROOT }
+			326 = { add_core_of = ROOT }
+			327 = { add_core_of = ROOT }
+			328 = { add_core_of = ROOT }
+			329 = { add_core_of = ROOT }
+			330 = { add_core_of = ROOT }
+			331 = { add_core_of = ROOT }
+			332 = { add_core_of = ROOT }
+			333 = { add_core_of = ROOT }
+			334 = { add_core_of = ROOT }
+			335 = { add_core_of = ROOT }
+			336 = { add_core_of = ROOT }
+			337 = { add_core_of = ROOT }
+			338 = { add_core_of = ROOT }
+			339 = { add_core_of = ROOT }
+			340 = { add_core_of = ROOT }
+			341 = { add_core_of = ROOT }
+			342 = { add_core_of = ROOT }
+			343 = { add_core_of = ROOT }
+			344 = { add_core_of = ROOT }
+			345 = { add_core_of = ROOT }
+			346 = { add_core_of = ROOT }
+			347 = { add_core_of = ROOT }
+			348 = { add_core_of = ROOT }
+			349 = { add_core_of = ROOT }
+			350 = { add_core_of = ROOT }
+			351 = { add_core_of = ROOT }
+		}
+}
+}

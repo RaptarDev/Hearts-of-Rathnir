@@ -21,11 +21,20 @@ state={
 		victory_points = {
 			11681 1
 		}
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+
+			5087 = {
+				naval_base = 3
+			}
+		}
 
 	}
 
-	manpower=300000 # 6 people
+	manpower=600000 # 12 people
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 }

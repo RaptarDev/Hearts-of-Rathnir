@@ -67,12 +67,15 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 5
 	fascism = 15
 	communism = 5
 	neutrality = 75
 }
+
+recruit_character = TOR_ulifer
 
 #create_country_leader = {
 #	
@@ -85,3 +88,4 @@ set_popularities = {
 #	}
 #}
 add_ideas = all_off_map_factories
+

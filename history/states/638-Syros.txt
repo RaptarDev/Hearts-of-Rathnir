@@ -24,6 +24,23 @@ state={
 
 		set_demilitarized_zone = yes
 
+		buildings = {
+
+			infrastructure = 2
+
+			industrial_complex = 1
+
+			2473 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	resources = {
+		steel = 4
+		oil = 1
 	}
 
 	manpower=250000 # 5 people

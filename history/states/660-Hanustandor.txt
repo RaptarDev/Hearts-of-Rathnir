@@ -16,6 +16,12 @@ state={
 			11511 4
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+		}
+
 	}
 
 	manpower=400000 # 8 people

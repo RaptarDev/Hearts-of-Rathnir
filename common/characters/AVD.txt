@@ -18,6 +18,23 @@ characters = {
 				blessed_daughter_of_sen
 			}
 		}
+
+		corps_commander={
+			traits={
+				logistics_wizard
+				old_guard
+				war_hero
+				politically_connected
+				
+			}
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+
 		gender = female
 		
 	}
@@ -137,6 +154,52 @@ characters = {
 			}
 		}
 	}
+	AVD_lanfan_lelya_earcala  = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_lanfan_lelya_earcala
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				quartermaster_general
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_lanfan_lelya_earcala
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_lanfan_lelya_earcala"
+			}
+		}
+	}
+	AVD_pyrrah_lelya_earcala  = {
+		advisor={
+			slot = political_advisor
+			idea_token = AVD_pyrrah_lelya_earcala
+			allowed  = {
+				original_tag = AVD
+			}
+
+			traits = {
+				popular_figurehead
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name = AVD_pyrrah_lelya_earcala
+		portraits = {
+			army = {
+				small="GFX_AVD_idea_pyrrah_lelya_earcala"
+			}
+		}
+	}
+	
+
 
 
 }

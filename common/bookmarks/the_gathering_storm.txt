@@ -39,6 +39,10 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
+		AVD = {			
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

@@ -18,10 +18,20 @@ state={
 
 		set_demilitarized_zone = yes
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+
+			11042 = {
+				naval_base = 3
+			}
+		}
+
 	}
 
-	manpower=100000 # 2 people
+	manpower=250000 # 5 people
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 }

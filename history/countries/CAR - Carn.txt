@@ -70,4 +70,11 @@ set_popularities = {
 #	}
 #}
 
+recruit_character = CAR_atton_nullus
+recruit_character = CAR_daria_elernel_daria
+recruit_character = CAR_derius_of_gellifrey
+recruit_character = CAR_kerplis_everthorne_elernel
+recruit_character = CAR_shareleria_elernel_levia
+recruit_character = CAR_uzair_elernel
+
 add_ideas = all_off_map_factories

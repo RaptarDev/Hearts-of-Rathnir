@@ -1,0 +1,125 @@
+characters = {
+	## Leaders 
+	CAR_shareleria_elernel_levia = {
+		name = CAR_shareleria_elernel_levia
+		portraits = {
+			civilian = {
+				large = GFX_CAR_shareleria_elernel_levia
+			}
+		}
+		country_leader = {
+			ideology = despotism 
+			desc = CAR_shareleria_elernel_levia_DESC
+			traits = {
+				elernel_dynasty
+				constitutional_monarch
+			}
+		}
+	}
+
+	CAR_kerplis_everthorne_elernel = {
+		name = CAR_kerplis_everthorne_elernel
+		portraits = {
+			civilian = {
+				large = GFX_CAR_kerplis_everthorne_elernel
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			desc = CAR_kerplis_everthorne_elernel_DESC
+			traits = {
+				elernel_dynasty
+				popular_figurehead
+				great_architect
+			}
+		}
+	}
+
+	CAR_daria_elernel_daria = {
+		name = CAR_daria_elernel_daria
+		portraits = {
+			civilian = {
+				large = GFX_CAR_daria_elernel_daria
+			}
+		}
+		country_leader = {
+			ideology = nazism 
+			desc = CAR_daria_elernel_daria
+			traits = {
+				elernel_dynasty
+				autocratic_imperialist
+				dictator
+				empire_builder
+			}
+		}
+	}
+
+	CAR_derius_of_gellifrey = {
+		name = CAR_derius_of_gellifrey
+		portraits = {
+			civilian = {
+				large = GFX_CAR_derius_of_gellifrey
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			desc = CAR_derius_of_gellifrey
+			traits = {
+				veteran_communist
+				empire_builder
+				man_of_the_nation
+			}
+		}
+	}
+
+	## Advisors 
+	CAR_atton_nullus = {
+		name = CAR_atton_nullus
+		portraits = {
+			army = {
+				small = "GFX_CAR_idea_atton_nullus"
+			}
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAR_idea_atton_nullus
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				democratic_reformer
+			}
+			do_effect  = {
+
+			}
+
+		}
+	}
+	CAR_uzair_elernel = {
+		name = CAR_uzair_elernel
+		portraits = {
+			army = {
+				small = "GFX_CAR_idea_uzair_elernel"
+			}
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAR_idea_uzair_elernel
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				# cultural_hero
+			}
+			do_effect  = {
+
+			}
+
+		}
+	}
+
+}

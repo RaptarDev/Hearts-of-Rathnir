@@ -20,9 +20,27 @@ state={
 			3942 1
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+
+			10238 = {
+				naval_base = 7
+			}
+
+		}
+
 	}
 
-	manpower=1950000 # 39 people
+	resources = {
+		steel = 3
+		chromium = 1
+	}
+
+	manpower=2350000 # 47 people
 	buildings_max_level_factor=1.000
 	state_category=city
 

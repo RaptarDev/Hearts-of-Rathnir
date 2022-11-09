@@ -92,3 +92,167 @@ form_korolian_empire_category = {
 	}
 
 }
+form_aurlunor_ryzan_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_aurlunor_ryzan
+
+	visible = {
+		NOT = { has_cosmetic_tag = ARE }
+	}
+
+	allowed = {
+		or = {
+			original_tag = RYZ
+			original_tag = AVD
+		}
+	}
+
+	highlight_states = {
+		highlight_state_targets = {
+			state = 653
+			state = 654
+			state = 662
+			state = 663
+			state = 660
+			state = 666
+			state = 664
+			state = 670
+			state = 669
+			state = 668
+			state = 665
+			state = 667
+			state = 661
+			state = 638
+			state = 639
+			state = 640
+			state = 641
+			state = 642
+			state = 643
+			state = 644
+			state = 645
+			state = 646
+			state = 647
+			state = 648
+			state = 649
+			state = 650
+			state = 651
+		}
+	}
+
+}
+form_soumere_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_soumere
+
+	visible = {
+		NOT = { has_cosmetic_tag = SOU }
+	}
+
+	allowed = {
+		or = {
+			original_tag = ITA
+			original_tag = NVS
+			original_tag = LUM
+			original_tag = ATO
+		}
+	}
+
+	highlight_states = {
+		highlight_state_targets = {
+			state = 41
+			state = 42
+			state = 43
+			state = 44
+			state = 45
+			state = 46
+			state = 47
+			state = 48
+			state = 49
+			state = 50
+			state = 51
+			state = 52
+			state = 53
+			state = 54
+			state = 56
+			state = 57
+			state = 58
+			state = 59
+			state = 61
+			state = 62
+			state = 63
+			state = 64
+			state = 65
+			state = 86
+			state = 87
+			state = 104
+			state = 105
+			state = 106
+			
+		}
+	}
+
+}
+
+form_aldovir_category = {
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_aldovir
+	visible = {
+		NOT = { has_cosmetic_tag = AVR }
+	}
+
+	allowed = {
+		or = {
+			original_tag = SIR
+			original_tag = CAR
+			original_tag = ADA
+			original_tag = LIR
+			original_tag = VOL
+			original_tag = VIR
+		}
+	}
+
+	highlight_states = {
+		highlight_state_targets = {
+			state = 108
+			state = 109
+			state = 110
+			state = 322
+			state = 323
+			state = 324
+			state = 325
+			state = 326
+			state = 327
+			state = 328
+			state = 329
+			state = 330
+			state = 331
+			state = 332
+			state = 333
+			state = 334
+			state = 335
+			state = 336
+			state = 337
+			state = 338
+			state = 339
+			state = 340
+			state = 341
+			state = 342
+			state = 343
+			state = 344
+			state = 345
+			state = 346
+			state = 347
+			state = 348
+			state = 349
+			state = 350
+			state = 351
+			
+		}
+	}
+
+}

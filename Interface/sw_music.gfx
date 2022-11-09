@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Stoneworks_album_art"
+		texturefile = "gfx//interface//topbar//musicplayer//stoneworks_album_art.dds"
+		noOfFrames = 2
+	}	
+}

@@ -2,7 +2,21 @@ ULD = {
 	color = rgb { 79 12 9 }
 	color_ui = rgb { 79 12 9 }
 }
+
 KOR = {
 	color = rgb { 153 21 59 }
 	color_ui = rgb { 153 21 59 }
+}
+
+ARE = {
+	color = rgb { 57 35 66 }
+	color_ui = rgb { 57 35 66 }
+}
+SOU = {
+	color = rgb { 0 74 172 }
+	color_ui = rgb { 0 74 172 }
+}
+AVR = {
+	color = rgb { 130 37 52 }
+	color_ui = rgb { 130 37 52 }
 }

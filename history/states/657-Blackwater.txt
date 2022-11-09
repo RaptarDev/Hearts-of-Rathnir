@@ -18,10 +18,15 @@ state={
 			5074 1
 		}
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
 	}
 
-	manpower=1500000 # 3 people
+	manpower=500000 # 10 people
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 
 }

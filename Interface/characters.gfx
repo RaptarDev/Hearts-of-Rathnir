@@ -55,4 +55,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AVD/Sareariel.png"
 	}
 
+	## TOR
+	## Leaders
+	spriteType = {
+		name = "GFX_TOR_ulifer"
+		texturefile = "gfx/leaders/TOR/Ulifer.png"
+	}
+
 }

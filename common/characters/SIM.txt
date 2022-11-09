@@ -1,0 +1,17 @@
+characters = {
+	SIM_zeno = {
+		name = SIM_zeno
+		portraits = {
+			civilian = {
+				large = GFX_SIM_zeno
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			desc = SIM_zeno_DESC
+			traits = {
+
+			}
+		}
+	}
+}

@@ -16,6 +16,14 @@ state={
 			11744 1
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			11744 = {
+				naval_base = 2
+			}
+		}
+
 	}
 
 	manpower=150000 # 3 people

@@ -92,3 +92,5 @@ set_popularities = {
 #		#
 #	}
 #}
+
+recruit_character = SIM_zeno

@@ -20,10 +20,29 @@ state={
 
 		set_demilitarized_zone = yes
 
+		buildings = {
+
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+
+			6646 = {
+				naval_base = 5
+			}
+
+		}
+
 	}
 
-	manpower=1450000 # 15 people
+	resources = {
+		steel = 1 
+		tungsten = 2
+		oil = 3
+	}
+
+	manpower=1000000 # 20 people
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 
 }

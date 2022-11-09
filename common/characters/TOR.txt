@@ -1,0 +1,17 @@
+characters = {
+	TOR_ulifer = {
+		name = TOR_ulifer
+		portraits = {
+			civilian = {
+				large = GFX_TOR_ulifer
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			desc = TOR_ulifer_DESC
+			traits = {
+
+			}
+		}
+	}
+}
