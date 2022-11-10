@@ -10,6 +10,7 @@ state={
 		owner = AVE
 
 		add_core_of = AVE
+		add_core_of = PAU
 		
 		victory_points = {
 			459 3 

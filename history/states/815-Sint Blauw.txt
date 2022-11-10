@@ -7,9 +7,9 @@ state={
 
 	history={
 
-		owner = AEZ
+		owner = PAU
 
-		add_core_of = AEZ
+		add_core_of = PAU
 		
 		victory_points = {
 			22362 1  

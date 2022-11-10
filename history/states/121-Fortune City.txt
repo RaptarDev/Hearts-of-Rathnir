@@ -17,6 +17,7 @@ state = {
 		owner = REG
 
 		add_core_of = REG
+		add_core_of = AVA
 		
 		victory_points = {
 			1921 10 
