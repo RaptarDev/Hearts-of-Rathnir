@@ -1,0 +1,152 @@
+ideas = {
+	country = {
+
+		AVD_aurlunoren_isolationism = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_aurlunoren_isolationism
+	
+			modifier = {
+				join_faction_tension = 1
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1
+			}
+		}
+		AVD_faulty_infastructure = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_faulty_infastructure
+	
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				local_resources_factor = -0.2
+				
+			}
+		}
+		AVD_centre_of_western_science = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_centre_of_western_science
+	
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		AVD_aurlunoren_ryzani_border_dispute = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_aurlunoren_ryzani_border_dispute
+	
+			on_add = {
+				add_opinion_modifier = {
+					modifier = dispute_ar
+					target = ROOT
+				}
+			}
+			on_remove = {
+				remove_opinion_modifier = {
+					modifier = dispute_ar
+					target = ROOT
+				}
+			}
+		}
+		
+		AVD_soleannen_dilemma = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_soleannen_dilemma
+	
+			on_add = {
+				every_country = {
+					if = {
+						limit = {
+							has_idea = soleannen
+						}
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = anti_religion
+						}
+					}
+				}
+
+			}
+			on_remove = {
+				every_country = {
+					remove_opinion_modifier = {
+						target = ROOT
+						modifier = anti_religion
+					}
+				}
+			}
+		}
+
+		AVD_inexperienced_army = {
+			allowed = {
+				original_tag = AVD
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_AVD_inexperienced_army
+	
+			modifier = {
+				training_time_factor = 0.1
+				max_planning_factor	= -0.1
+				army_org_factor	= -0.1
+			}
+		}
+
+	}
+
+}
+

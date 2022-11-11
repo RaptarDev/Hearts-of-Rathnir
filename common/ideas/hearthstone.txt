@@ -1,0 +1,52 @@
+ideas = {
+	country = {
+
+		HSY_light_in_the_dark = {
+			allowed = {
+				original_tag = HSY
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_HSY_light_in_the_dark
+	
+			modifier = {
+				drift_defence_factor = -0.5
+				political_power_gain = 0.5
+				local_manpower = 0.05
+				send_volunteers_tension = 0
+			}
+		}
+
+		HSY_armory_crisis = {
+			allowed = {
+				original_tag = HSY
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_HSY_armory_crisis
+	
+			modifier = {
+				war_support_factor = -0.10
+				add_stability = -0.5
+				production_factory_efficiency_gain_factor = -0.5
+				production_speed_arms_factory_factor = 0.10
+			}
+		}
+
+
+	}
+
+}
+

@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 
-		corps_commander={
+		field_marshal ={
 			traits={
 				logistics_wizard
 				old_guard

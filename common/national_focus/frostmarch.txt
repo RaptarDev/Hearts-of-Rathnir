@@ -1,0 +1,94 @@
+focus_tree = {
+	id = frostmarch_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRO
+		}
+
+	}
+	
+	default = no
+
+	focus = {
+		id = FRO_divided_nation
+		icon = GFX_goal_generic_construction
+		prerequisite = { }
+		mutually_exclusive = {   }
+		x = -1
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = -0.1
+			
+			
+		}
+	}
+
+	
+	focus = {
+		id = FRO_transfer_power_to_the_west
+		icon = GFX_goal_generic_construction
+
+		relative_position_id = FRO_divided_nation
+
+		prerequisite = { focus = FRO_divided_nation }
+		mutually_exclusive = {  }
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = { id = frostmarch.1 hours = 12 random_hours = 12 }
+			
+			
+		}
+	}
+	
+}

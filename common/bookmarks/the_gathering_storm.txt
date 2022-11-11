@@ -10,6 +10,10 @@ bookmarks = {
 		"HSY"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
+			ideas = {
+				HSY_light_in_the_dark
+				HSY_armory_crisis
+			}
 		}
 		"UOH"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -38,6 +42,10 @@ bookmarks = {
 		"FRO"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
+			ideas = {
+				FRO_unbalanced_power
+			}
+
 		}
 		AVD = {			
 			history = "OTHER_GATHERING_STORM_DESC"

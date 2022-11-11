@@ -568,3 +568,7 @@ ASH = {
 	color = rgb { 212 194 116 }
 	color_ui = rgb { 212 194 116 }
 }
+SAL = {
+	color = rgb { 250 138 112 }
+	color_ui = rgb { 250 138 112 }
+}

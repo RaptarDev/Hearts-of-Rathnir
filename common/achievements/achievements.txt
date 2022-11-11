@@ -657,3 +657,22 @@ viva_la_vida = {
 		
 	}
 }
+
+competitive_sex = {
+
+	possible = {
+		difficulty > 1
+
+	}
+
+	happened = {
+		ROOT = {
+			diplomatic_relation = {
+				country = HSY
+				relation = puppet
+				active = no
+			}
+		}
+	}
+
+}

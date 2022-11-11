@@ -60,6 +60,10 @@ set_popularities = {
 	neutrality = 85
 }
 
+add_ideas = HSY_light_in_the_dark
+add_ideas = HSY_armory_crisis
+
+
 #create_country_leader = {
 #	
 #	name = "Maiden ScotchKnight"

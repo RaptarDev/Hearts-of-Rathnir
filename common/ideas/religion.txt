@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+
+		twin_dragon_state = {
+			allowed = {
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_twin_dragon_state
+	
+			modifier = {
+				
+			}
+		}
+
+		soleannen = {
+			allowed = {
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_soleannen
+	
+			modifier = {
+				
+			}
+		}
+
+	}
+}
