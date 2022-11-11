@@ -7,6 +7,7 @@ state={
 		owner = IAU
 		add_core_of = IAU
 		add_core_of = AVE
+		add_core_of = PAU
 		victory_points = {
 			14846 3 
 		}

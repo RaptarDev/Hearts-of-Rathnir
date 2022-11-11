@@ -13,6 +13,7 @@ state={
 		controller = IAU
 		add_core_of = IAU
 		add_core_of = AVE
+		add_core_of = PAU
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
