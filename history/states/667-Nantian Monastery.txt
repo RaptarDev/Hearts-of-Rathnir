@@ -20,6 +20,11 @@ state={
 			11207 1
 		}
 
+		buildings = {
+			infrastructure = 2
+
+		}
+
 	}
 
 	manpower=300000 # 6 people

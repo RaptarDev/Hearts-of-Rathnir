@@ -76,7 +76,13 @@ set_popularities = {
 #	}
 #}
 
-add_ideas = all_off_map_factories
+add_ideas = AVD_aurlunoren_isolationism
+add_ideas = AVD_aurlunoren_ryzani_border_dispute
+add_ideas = AVD_centre_of_western_science
+add_ideas = AVD_faulty_infastructure
+add_ideas = AVD_inexperienced_army
+add_ideas = AVD_soleannen_dilemma
+add_ideas = twin_dragon_state
 
 recruit_character = AVD_sareariel_lelya_earcala
 

@@ -16,10 +16,25 @@ state={
 			11054 20
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 3
+			naval_base = 1
+			arms_factory = 2
+
+			7164 = {
+				naval_base = 4
+			}
+			11015 = {
+				naval_base = 7
+			}
+		}
+
 	}
 
-	manpower=2150000 # 43 people
+	manpower=2250000 # 45 people
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 
 }

@@ -1,46 +1,39 @@
 
-state = {
-	id = 57
-	name = "STATE_57"
-	manpower = 1350000 # 27 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = city
-
-	provinces = {
-		1370 1983 3018 4027 4660 4942 4977 5724 6641 17488 17489 17532 17545 17592 17611 17615 17620 17627 17665 17686 17698 17703 17719 17727 17752 
+state={
+	id=57
+	name="STATE_57"
+	resources={
+		steel=2.000
+		chromium=1.000
 	}
 
-	history = {
-		
+	history={
 		owner = FRO
-
 		add_core_of = FRO
-		
 		add_core_of = NVS
-
 		add_core_of = ATO
-
 		buildings = {
 			infrastructure = 3
-
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
-
 			17611 = {
 				naval_base = 4
+
 			}
 
 		}
-
-		victory_points = { 4027 15 }
+		victory_points = {
+			4027 15 
+		}
 
 	}
 
-	resources = {
-		steel = 2 
-		chromium = 1
+	provinces={
+		109 1370 1983 3018 4027 4660 4942 4977 5724 6118 6641 17488 17489 17532 17545 17592 17611 17615 17620 17627 17665 17686 17698 17703 17719 17727 17752 
 	}
-
+	manpower=1350000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

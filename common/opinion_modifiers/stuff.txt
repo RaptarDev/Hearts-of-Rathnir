@@ -1,0 +1,10 @@
+opinion_modifiers = {
+	
+	dispute_ar = {
+		value = -20
+	}
+	anti_religion = {
+		value = -20
+	}
+	
+}
