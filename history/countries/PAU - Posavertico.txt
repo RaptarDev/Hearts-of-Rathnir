@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "LEADER_POSAVERTICO_BLUEFORDPEN_DESC"
 	picture = "gfx/leaders/SPARWOOD_MINOR/bluepichu.dds"
 	expire = "1000.1.1"
-	ideology = neutrality
+	ideology = despotism
 	traits = {
 		#
 	}
