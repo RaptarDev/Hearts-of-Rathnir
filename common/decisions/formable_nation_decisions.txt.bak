@@ -487,9 +487,35 @@ form_third_posavar_state_category = {
 		}
 
 		available = {
-
-			controls_state = 179
-			controls_state = 177
+			controls_state = 7
+			controls_state = 8
+			controls_state = 9
+			controls_state = 10
+			controls_state = 197
+			controls_state = 205
+			controls_state = 206
+			controls_state = 198
+			controls_state = 22
+			controls_state = 34
+			controls_state = 6
+			controls_state = 14
+			controls_state = 15
+			controls_state = 30
+            controls_state = 22
+			controls_state = 34
+			controls_state = 31
+            controls_state = 218
+			controls_state = 217
+			controls_state = 215
+            controls_state = 216
+			controls_state = 34
+			controls_state = 220
+            controls_state = 191
+			controls_state = 196
+			controls_state = 203
+            controls_state = 195
+			controls_state = 185
+			controls_state = 130
 		}
 
 		
@@ -507,28 +533,58 @@ form_third_posavar_state_category = {
 		complete_effect = {
 			set_cosmetic_tag = POS
 			hidden_effect = {
-				127 = { add_core_of = ROOT }
-				126 = { add_core_of = ROOT }
-				128 = { add_core_of = ROOT }
-				176 = { add_core_of = ROOT }
-				813 = { add_core_of = ROOT }
-				812 = { add_core_of = ROOT }
-				815 = { add_core_of = ROOT }
-				181 = { add_core_of = ROOT }
-				180 = { add_core_of = ROOT }
-				177 = { add_core_of = ROOT }
-				178 = { add_core_of = ROOT }
-				179 = { add_core_of = ROOT }
-				182 = { add_core_of = ROOT }
-				375 = { add_core_of = ROOT }
-				100 = { add_core_of = ROOT }
-				121 = { add_core_of = ROOT }
-				122 = { add_core_of = ROOT }
-				124 = { add_core_of = ROOT }
-				125 = { add_core_of = ROOT }
-				186 = { add_core_of = ROOT }
-				183 = { add_core_of = ROOT }
-				184 = { add_core_of = ROOT }
+
+				7 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				9 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				205 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				198 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				6 = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				22 = { add_core_of = ROOT }
+				31 = { add_core_of = ROOT }
+				218 = { add_core_of = ROOT }
+				217 = { add_core_of = ROOT }
+				215 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				220 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				3 = { add_core_of = ROOT }
+				2 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				37 = { add_core_of = ROOT }
+				38 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				204 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				214 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				210 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
 				185 = { add_core_of = ROOT }
 				130 = { add_core_of = ROOT }
 			}
