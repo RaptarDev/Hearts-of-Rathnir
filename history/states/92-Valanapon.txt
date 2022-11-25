@@ -21,6 +21,25 @@ state = {
 
 		victory_points = { 15684 5 }
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+
+			15734 = {
+				naval_base = 7
+			}
+
+		}
+
+	}
+
+	resources = {
+		steel = 4
+		aluminium = 1
+		chromium = 1
 	}
 
 }

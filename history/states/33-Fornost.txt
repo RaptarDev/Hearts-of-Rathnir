@@ -1,24 +1,35 @@
 
-state = {
-	id = 33
-	name = "STATE_33"
-	manpower = 10900000 # 218 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = megalopolis 
+state={
+	id=33
+	name="STATE_33"
 
-	provinces = {
+	history={
+		owner = AUR
+		add_core_of = AUR
+		victory_points = {
+			985 50 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 5
+		}
+
+	}
+
+	resources = {
+		chromium = 2
+		tungsten = 1 
+	}
+
+
+
+	provinces={
 		916 985 1045 1130 2044 2094 2224 2556 2619 3434 3746 4445 4975 6625 7064 7108 7903 8560 15833 15852 15867 15872 15899 15955 15956 15960 15970 15987 16012 16022 26612 
 	}
-
-	history = {
-		
-		owner = AUR
-
-		add_core_of = AUR
-
-		victory_points = { 985 50 }
-
-	}
-
+	manpower=15150000 
+	buildings_max_level_factor=5.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

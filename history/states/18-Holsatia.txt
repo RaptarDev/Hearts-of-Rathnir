@@ -5,7 +5,7 @@ state = {
 	manpower = 600000 # 12 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = rural
+	state_category = town
 
 	provinces = {
 		640 775 788 1070 1280 1972 2020 2470 2538 2903 3023 3090 3251 3374 3446 4043 4401 4871 5205 5417 5723 6274 6801 6814 7283 7471 7482 7526 7750 8004 8125 8131 8530 17846 17868 17882 17959 17991 18016 18057 18068 18088 18096 18117 18188 18204 18210 18279 18291 18332 18333 18347 18348 18354 18378 18400 18401 18408 18415 18431 18437 18444 18453 18458 18478 18479 18512 18513 18514 18546 18554 
@@ -23,6 +23,18 @@ state = {
 
 		victory_points = { 18479 1 }
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+		}
+
+	}
+
+	resources = {
+		rubber = 4
+		aluminium = 1
+		steel = 1
 	}
 
 }

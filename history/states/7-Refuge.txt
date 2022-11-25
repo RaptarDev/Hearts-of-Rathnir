@@ -12,12 +12,27 @@ state = {
 	}
 
 	history = {
+
+		buildings = {
+			infrastructure = 3
+			
+			industrial_complex = 2
+
+			dockyard = 1
+		}
 		
 		owner = HSY
 
 		add_core_of = HSY
 
 		victory_points = { 3322 5 }
+	}
+
+	resources = {
+		oil = 5
+		steel = 3
+		aluminium = 1
+		rubber = 1
 	}
 
 }

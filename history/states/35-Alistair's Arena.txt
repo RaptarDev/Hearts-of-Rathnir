@@ -10,6 +10,18 @@ state={
 			15849 3 
 		}
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+	}
+
+	resources = {
+		steel = 3
+		aluminium = 1
+		chromium = 1
 	}
 
 	provinces={

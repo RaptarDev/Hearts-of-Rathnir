@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "religion_icon_container"
+		position = {x=0 y=0}
+		size = { width=780 height=496 }
+		iconType = {
+			name = "religion_icon"
+			position = {x= 457 y = 15}
+			spriteType = GFX_religion_icon_0
+			pdx_tooltip = "GS_RELIGION_INFO"
+			pdx_tooltip_delayed = "GS_RELIGION_DESC"
+		}
+		
+
+	}
+}

@@ -10,8 +10,14 @@ state={
 
 		add_core_of = HSY 
 
+		add_core_of = AND
+
 		victory_points = {
 			6689 2
+		}
+
+		buildings = {
+			infrastructure = 2
 		}
 
 	}

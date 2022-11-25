@@ -5,7 +5,7 @@ state = {
 	manpower = 1600000  # 32 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = large_town
+	state_category = city
 
 	provinces = {
 		566 671 1166 1636 1801 2976 3111 3191 3266 3305 3816 4157 5137 6286 7259 7751 16113 16149 16187 16201 16227 16245 16254 16293 16294 16304 16319 16340 16346 16351 16361 16379 16380 16384 16394 16419 16428 16431 16454 16458 16504 16512 16533 16593 
@@ -21,6 +21,19 @@ state = {
 
 		victory_points = { 1636 3 }
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 3
+			arms_factory = 1
+		}
+
+	}
+
+	resources = {
+		aluminium = 2
+		steel = 1
+		chromium = 1
 	}
 
 }

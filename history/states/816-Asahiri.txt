@@ -1,0 +1,41 @@
+
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		1787 7592 8283 16640 16673 16712 16738 16778 16786 
+	}
+	history = {
+		owner = PAL
+		add_core_of  = PAL
+
+		victory_points = {
+			16738 3 
+		}
+
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			naval_base = 1
+
+			1787 = {
+				naval_base = 3
+			}
+
+		}
+
+	}
+	
+	resources = {
+		steel = 2
+		aluminium = 1
+		tungsten = 1
+		oil = 3
+	}
+
+	manpower= 750000 # 15 people
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

@@ -1,0 +1,48 @@
+scripted_map_modes = {
+	religion_map_mode = {
+		top = {
+			type = state 
+			
+			color = {
+	 			set_temp_variable = { red = global.religion_color_red^FROM.religion?0 }
+	 			set_temp_variable = { blue = global.religion_color_blue^FROM.religion?0 }
+	 			set_temp_variable = { green = global.religion_color_green^FROM.religion?0 }
+	 			set_temp_variable = { alpha = global.religion_color_alpha^FROM.religion?0 }
+	 			
+	 			# only needed if thickness = yes on parent
+	 			# specify layer thickness
+	 			set_temp_variable = { thickness = 10.0 }
+	 			
+	 			# if set border will pulsate
+	 			set_temp_variable = { highlighted = 0 }
+	 			
+	 			#always = yes
+ 			}
+		}
+		
+		bottom = {
+			type = state 
+			
+			color = {
+	 			set_temp_variable = { red = global.religion_color_red^FROM.religion?0 }
+	 			set_temp_variable = { blue = global.religion_color_blue^FROM.religion?0 }
+	 			set_temp_variable = { green = global.religion_color_green^FROM.religion?0 }
+	 			set_temp_variable = { alpha = global.religion_color_alpha^FROM.religion?0 }
+	 			
+	 			# only needed if thickness = yes on parent
+	 			# specify layer thickness
+	 			set_temp_variable = { thickness = 10.0 }
+	 			
+	 			# if set border will pulsate
+	 			set_temp_variable = { highlighted = 0 }
+	 			
+	 			#always = yes
+ 			}
+		}
+		
+		far_text = none
+		near_text = state
+		update_daily = no
+		
+	}
+}

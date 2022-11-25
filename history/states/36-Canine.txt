@@ -10,6 +10,21 @@ state={
 			7602 3 
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+			dockyard = 1
+			
+			15385 = {
+				naval_base = 6
+			}
+		}
+
+	}
+	resources = {
+		oil = 4
+		tungsten = 1
 	}
 
 	provinces={

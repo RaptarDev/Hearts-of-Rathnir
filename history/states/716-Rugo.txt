@@ -2,22 +2,21 @@
 state={
 	id=716
 	name="STATE_716"
-	provinces={
-		597 986 1325 2068 3118 3520 3927 4547 5018 5550 6494 6664 7387 8224 8814 8915 8924 8958 8960 8969 8974 8999 9052 9069 9084 9129 9160 9171 9176 9180 
-	}
-	history = {
-		owner = AND 
 
-		add_core_of = AND 
-
+	history={
+		owner = AND
+		add_core_of = AND
 		victory_points = {
-			7804 8
+			7804 8 
 		}
 
 	}
 
-	manpower=800000 # 16 people
+	provinces={
+		597 986 1325 2068 3118 3520 3927 4547 5018 5550 6494 6664 7387 8224 8814 8915 8924 8958 8960 8969 8974 8999 9052 9069 9084 9129 9160 9171 9176 9180 25150 
+	}
+	manpower=800000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=large_town
+	local_supplies=0.000
 }

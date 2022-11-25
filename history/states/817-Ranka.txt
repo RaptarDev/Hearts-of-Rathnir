@@ -1,0 +1,34 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		victory_points = {
+			16802 3 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	resources = {
+		steel = 3
+		aluminium = 1
+	}
+
+	provinces={
+		1350 1396 2071 3397 5023 6231 6414 16696 16733 16762 16802 16809 16829 16859 16882 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

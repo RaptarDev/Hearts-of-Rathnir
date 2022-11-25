@@ -1,0 +1,23 @@
+scripted_gui = {
+	religion_screen = {
+		context_type = selected_state_context
+
+		window_name = "religion_icon_container"
+		parent_window_token = selected_state_view 
+
+		visible = {
+			#has_variable = religion
+		}
+
+		effects = {
+
+		}
+		
+		properties = {
+			religion_icon = {
+				image = "[GetReligionIcon]"
+			}
+		
+		}
+	}
+}
