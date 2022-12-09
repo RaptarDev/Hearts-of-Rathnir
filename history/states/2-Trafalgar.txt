@@ -2,7 +2,7 @@
 state = {
 	id = 2
 	name = "STATE_2"
-	manpower = 150000  # 3 People
+	manpower = 250000  # 5 People
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	state_category = town
@@ -11,6 +11,16 @@ state = {
 		853 2441 3180 4328 4847 5860 18296 18388 18407 18414 18504 19342 19354 
 	}
 	history = {
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+			18414 = {
+				naval_base = 5
+			}
+
+		}
 		
 		owner = UOH
 
@@ -18,6 +28,11 @@ state = {
 
 		victory_points = { 18388 5 }
 
+	}
+
+	resources = {
+		oil = 5
+		steel = 1
 	}
 
 }

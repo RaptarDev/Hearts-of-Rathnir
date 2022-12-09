@@ -23,6 +23,25 @@ state = {
 
 		victory_points = { 2021 1 }
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+
+			8420 = {
+				naval_base = 5
+			}
+		}
+
 	}
+
+	resources = {
+		steel = 3
+		oil = 1
+		aluminium = 1
+	}
+
 
 }

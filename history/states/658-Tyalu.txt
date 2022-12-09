@@ -2,38 +2,32 @@
 state={
 	id=658
 	name="STATE_658"
+
+	history={
+		owner = ASH
+		add_core_of = AVD
+		add_core_of = ASH
+		victory_points = {
+			12039 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			1635 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
 	provinces={
 		1416 1635 1800 2106 2238 2703 3019 3590 3763 4169 4254 4707 5601 5804 7027 7412 7548 8114 11778 11792 11811 11896 11913 11975 12008 12009 12039 12049 12060 12063 12072 
 	}
-
-	history={
-
-		owner = ASH 
-
-		add_core_of = AVD 
-
-		add_core_of = ASH
-
-		victory_points = {
-			12039 10
-		}
-
-		buildings = {
-			infrastructure = 3
-
-			industrial_complex = 1
-			arms_factory = 1
-
-			1635 = {
-				naval_base = 4
-			}
-		}
-
-	}
-
-	manpower=1150000 # 23 people
+	manpower=1150000
 	buildings_max_level_factor=1.000
 	state_category=large_town
-
-
+	local_supplies=0.000
 }

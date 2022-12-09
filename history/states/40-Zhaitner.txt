@@ -19,6 +19,28 @@ state={
 			15260 2 
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+			dockyard = 1
+
+			15589 = {
+				naval_base = 4
+			}
+
+			8206 = { 
+				naval_base = 4
+			}
+
+		}
+
+	}
+
+	resources = {
+		oil = 4
+		steel = 2
+		tungsten = 1
 	}
 
 	provinces={

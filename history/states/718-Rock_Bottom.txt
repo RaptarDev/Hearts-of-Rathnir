@@ -8,16 +8,27 @@ state={
 	history = {
 		owner = HSY 
 
-		add_core_of = NOR 
+		add_core_of = HSY 
+		add_core_of = AND
 
 		victory_points = {
 			513 1
 		}
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+	}
+
+	resources = {
+		steel = 3
+		chromium = 1
 	}
 
 	manpower=800000 # 16 people
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category=pastoral
+	state_category=town
 }

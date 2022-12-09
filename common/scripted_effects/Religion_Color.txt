@@ -1,0 +1,25 @@
+clear_religion_colour_arrays = {
+	clear_array = global.religion_color_red
+	clear_array = global.religion_color_blue
+	clear_array = global.religion_color_green
+	clear_array = global.religion_color_alpha
+}
+
+generate_colour_arrays = {
+	add_to_array = { global.religion_color_red = 0 }
+	add_to_array = { global.religion_color_blue = 0 }
+	add_to_array = { global.religion_color_green = 0 }
+	add_to_array = { global.religion_color_alpha = 0 }
+	
+	### 1 - Twin Dragon
+	add_to_array = { global.religion_color_red = 0.75 }
+	add_to_array = { global.religion_color_blue = 0 }
+	add_to_array = { global.religion_color_green = 0.75 }
+	add_to_array = { global.religion_color_alpha = 0.5 }
+
+}
+
+regenerate_religion_colour_arrays = {
+	clear_religion_colour_arrays = yes
+	generate_colour_arrays = yes
+}

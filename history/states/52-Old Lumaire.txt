@@ -5,7 +5,7 @@ state = {
 	manpower = 250000 # 5 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = large_town
+	state_category = rural
 
 	provinces = {
 		404 1004 3304 7393 7685 16985 17018 17042 17060 17155 17201 19265 19284 19292 
@@ -20,6 +20,16 @@ state = {
 		add_core_of = LUM
 
 		victory_points = { 17201 10 }
+
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+
+			7685 = {
+				naval_base = 4
+			}
+		}
 
 	}
 

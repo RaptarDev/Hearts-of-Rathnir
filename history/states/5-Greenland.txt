@@ -11,6 +11,12 @@ state = {
 		19343 19347 19350 19353 
 	}
 	history = {
+
+		buildings = {
+			infrastructure = 4
+
+			infrastructure = 2
+		}
 		
 		owner = GRE
 
@@ -18,6 +24,11 @@ state = {
 
 		victory_points = { 19350 1 }
 
+	}
+
+	resources = {
+		oil = 10
+		chromium = 1
 	}
 
 }

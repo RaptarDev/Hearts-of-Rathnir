@@ -1,0 +1,21 @@
+characters = {
+	## Leaders 
+	SAL_earth = {
+		name = SAL_earth
+		portraits = {
+			civilian = {
+				large = GFX_SAL_earth
+			}
+		}
+		country_leader = {
+			ideology = despotism 
+			desc = SAL_earth_DESC
+			traits = {
+				dictator
+			}
+		}
+
+	
+
+	}
+}

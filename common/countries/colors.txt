@@ -59,8 +59,8 @@ FRI = {
 }
 
 VAL = {
-	color = rgb { 100 100 30 }
-	color_ui = rgb { 100 100 30 }
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
 }
 
 AVA = {
@@ -565,8 +565,8 @@ KRO = {
 	color_ui = rgb { 222 76 138 }
 }
 ASH = {
-	color = rgb { 212 194 116 }
-	color_ui = rgb { 212 194 116 }
+	color = rgb { 44 100 84 }
+	color_ui = rgb { 44 100 84 }
 }
 SAL = {
 	color = rgb { 250 138 112 }

@@ -10,13 +10,32 @@ state={
 			32 10 
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			
+			32 = {
+				naval_base = 6
+			}
+
+		}
+
+	}
+
+	resources = {
+		rubber = 1
+		steel = 3
+		tungsten = 1
 	}
 
 	provinces={
 		32 670 1038 1295 4301 7163 8261 17960 17981 18002 18017 18027 18159 18264 18270 18309 18363 19338 
 	}
-	manpower=1100000
+	manpower=4050000 # 81 People
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=megalopolis
 	local_supplies=0.000
 }

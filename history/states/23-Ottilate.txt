@@ -1,27 +1,39 @@
 
-state = {
-	id = 23
-	name = "STATE_23"
-	manpower = 1100000  # 22 people 
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = large_town
+state={
+	id=23
+	name="STATE_23"
 
-	provinces = {
-		1106 1787 2154 4184 5813 7561 7592 7755 8283 16640 16673 16712 16738 16778 16786 16798 16815 16837 16842 16846 16876 16898 16947 
-	}
-
-	history = {
-		
+	history={
 		owner = PAL
-
 		add_core_of = PAL
+		victory_points = {
+			7561 10 
+		}
 
-		victory_points = { 7561 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 
-		victory_points = { 16738 1 }
+			16898 = {
+				naval_base = 7
+			}
+		}
 
 	}
 
+	resources = {
+		oil = 5
+		steel = 2
+		rubber = 1
+	}
 
+	provinces={
+		1106 2154 4184 5813 7561 7755 16798 16815 16837 16842 16846 16876 16898 16947 
+	}
+	manpower=1250000 # 25 people
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
