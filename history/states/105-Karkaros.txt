@@ -22,13 +22,31 @@ state={
 			16352 1 
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 3
+
+			15783 = {
+				naval_base = 8
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 6
+		steel = 2
+		rubber = 1
 	}
 
 	provinces={
 		554 713 1046 1067 1198 2443 3563 4467 4666 4703 5592 5621 6204 6262 6409 6524 7415 8496 15666 15683 15710 15714 15728 15733 15746 15747 15777 15783 15809 15815 15827 15856 15870 15894 15916 15917 15922 15991 15992 16037 16038 16129 16352 19139 19176 19182 19183 19186 19191 
 	}
-	manpower=3000000
+	manpower=6250000 # 125
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -1,0 +1,33 @@
+
+state={
+	id=823
+	name="STATE_823"
+
+	provinces={
+		1720 2690 3426 4019 5743 15667 15668 15674 15693 15703 15753 19150 
+	}
+	history = {
+		owner = BOR
+		add_core_of = BOR
+
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+		}
+
+	}
+
+	resources = {
+		oil = 3
+		steel = 1
+		chromium = 1
+	}
+
+	manpower=2750000 #55
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

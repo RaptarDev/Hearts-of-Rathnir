@@ -2,28 +2,40 @@
 state = {
 	id = 112
 	name = "STATE_112"
-	manpower = 2250000 # 45 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = city
-
-	provinces={
-		931 1104 1298 1518 1720 2690 2724 2941 3021 3426 3947 4019 5338 5743 6090 6105 7416 8254 15287 15406 15419 15441 15447 15474 15475 15487 15493 15501 15513 15518 15524 15529 15541 15548 15549 15557 15568 15577 15580 15599 15600 15667 15668 15674 15693 15703 15753 19150 
-	}
 
 	history={
-
 		owner = BOR
-
 		add_core_of = BOR
-
 		add_core_of = TOR
-		
 		victory_points = {
 			15529 20 
 		}
-		
+
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+
+			15568 = {
+				naval_base = 7
+			}
+		}
+
 	}
 
+	resources = {
+		oil = 3
+		steel = 4
+		aluminium = 2
+	}
 
+	provinces={
+		931 1104 1298 1518 2724 2941 3021 3947 5338 6090 6105 7416 8254 15287 15406 15419 15441 15447 15474 15475 15487 15493 15501 15513 15518 15524 15529 15541 15548 15549 15557 15568 15577 15580 15599 15600 
+	}
+	manpower=2650000 # 53
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
 }

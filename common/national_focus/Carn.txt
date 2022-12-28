@@ -1,0 +1,39 @@
+focus_tree = {
+	id = carn_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAR
+		}
+	}
+	
+	default = no
+	focus = {
+		id = AVE_technocratic_anniversary_twomonths_fct
+		icon = GFX_goal_generic_demand_territory
+		x = 18
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+		}
+	}
+}
+

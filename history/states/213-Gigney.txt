@@ -6,6 +6,7 @@ state={
 	history={
 		owner = UOH
 		add_core_of = UOH
+		add_core_of = AET
 		victory_points = {
 			4336 5 
 		}

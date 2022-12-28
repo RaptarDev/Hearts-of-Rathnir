@@ -1,0 +1,153 @@
+music_station = "Stoneworks"
+music = {
+	song = "New Journey"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Ahoy"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "War"
+	chance = {
+		factor = 0
+		modifier = {
+			has_war = yes
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Settler's Song"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Echoes of the Past"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Order Müvielle"
+	chance = {
+		factor = 0
+		modifier = {
+			original_tag = SIM
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Combat"
+	chance = {
+		factor = 0
+		modifier = {
+			has_war = yes
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Song of the Full Moon"
+	chance = {
+		factor = 0
+		modifier = {
+			
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Nieden Sights"
+	chance = {
+		factor = 0
+		modifier = {
+			
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Adventurer's Tale"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Far Lands"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "The Nether"
+	chance = {
+		factor = 0
+		modifier = {
+			has_war = yes
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "One Block at a time"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Mythical Fight"
+	chance = {
+		factor = 0
+		modifier = {
+			has_war = yes
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Anthem of The Simulami Empire"
+	chance = {
+		factor = 0
+		modifier = {
+			original_tag = SIM
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Tales of Barlinium"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}

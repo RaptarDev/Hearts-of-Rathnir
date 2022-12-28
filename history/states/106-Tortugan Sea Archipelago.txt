@@ -10,13 +10,29 @@ state={
 			16441 1 
 		}
 
+		buildings = {
+			infrastructure = 3
+			
+			industrial_complex = 2
+			naval_base = 1
+
+			16170 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 4
+		rubber = 1
 	}
 
 	provinces={
 		1083 3689 4474 16170 16250 16280 16343 16398 16411 16577 19168 19169 19170 19172 19180 19185 19187 19189 19194 19195 19206 19209 19210 19212 19219 19220 
 	}
-	manpower=250000
+	manpower=1000000 # 20
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=large_town
 	local_supplies=0.000
 }

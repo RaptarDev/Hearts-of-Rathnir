@@ -1,35 +1,36 @@
 
-state = {
-	id = 110
-	name = "STATE_110"
-	manpower = 300000 # 6 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = rural
-
-	provinces = {
-		269 1637 2334 3068 3667 5302 8269 15359 15416 15473 15522 15564 19125 
+state={
+	id=110
+	name="STATE_110"
+	resources={
+		rubber=1.000
+		aluminium=2.000
 	}
 
 	history={
-
 		owner = VIR
-
 		add_core_of = VIR
-		
 		victory_points = {
 			3068 1 
 		}
-
 		victory_points = {
 			15564 1 
 		}
-
 		victory_points = {
 			1637 1 
 		}
-		
+		buildings = {
+			infrastructure = 1
+
+		}
+
 	}
 
-
+	provinces={
+		269 1637 2334 3068 3667 5302 8269 15359 15416 15473 15486 15522 15564 19125 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

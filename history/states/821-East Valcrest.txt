@@ -1,0 +1,41 @@
+
+state={
+	id=821
+	name="STATE_821"
+	provinces={
+		462 621 1016 2399 3278 5238 5295 6051 6368 6527 6853 7360 7481 8048 16344 16371 16388 16415 16470 16488 16514 16520 16569 16613 16680 19223 
+	}
+
+	history = {
+
+		owner = TOR
+
+		add_core_of = TOR
+
+		victory_points = {
+			16388 3 
+		}
+		victory_points = {
+			6368 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+
+	}
+
+	resources = {
+		steel = 4
+		aluminium = 2
+	}
+
+	manpower=2400000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,7 +2,7 @@
 state = {
 	id = 99
 	name = "STATE_99"
-	manpower = 850000 # 17 people
+	manpower = 1400000 # 17 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	state_category = large_town
@@ -21,8 +21,22 @@ state = {
 
 		victory_points = { 8471 5 }
 
-		victory_points = { 15892 5 }
+		victory_points = { 15892 5 }#
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+
+			8471 = {
+				naval_base = 4
+			}
+		}
+
+	}
+	resources = {
+		oil =  3
+		rubber = 3
 	}
 
 }

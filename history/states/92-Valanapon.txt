@@ -1,45 +1,41 @@
 
-state = {
-	id = 92
-	name = "STATE_92"
-	manpower = 1300000 # 26 people
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = city
-
-	provinces = {
-		358 2328 2577 3216 4820 5100 5345 5559 5922 7288 8346 8399 15486 15511 15517 15556 15565 15639 15684 15692 15734 15761 15778 
+state={
+	id=92
+	name="STATE_92"
+	resources={
+		steel=4.000
+		aluminium=1.000
+		chromium=1.000
 	}
 
-	history = {
-		
+	history={
 		owner = TOR
-
 		add_core_of = TOR
-
-		victory_points = { 15734 10 }
-
-		victory_points = { 15684 5 }
-
+		victory_points = {
+			15734 10 
+		}
+		victory_points = {
+			15684 5 
+		}
 		buildings = {
 			infrastructure = 3
-
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
-
 			15734 = {
 				naval_base = 7
+
 			}
 
 		}
 
 	}
 
-	resources = {
-		steel = 4
-		aluminium = 1
-		chromium = 1
+	provinces={
+		358 2328 2577 5100 5922 8346 15556 15692 15734 15761 15778 
 	}
-
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

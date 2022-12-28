@@ -1,12 +1,12 @@
 version="0.1"
 name="Hearts of Rathnir"
-path="mod/Hearts of Rathnir2"
+path="mod/Hearts of Rathnir"
 tags={
 	"Map"
 	"Utilities"
 }
 picture="thumbnail.png"
-supported_version="1.11.*"
+supported_version="1.12.*"
 
 
 replace_path="common/ai_peace"

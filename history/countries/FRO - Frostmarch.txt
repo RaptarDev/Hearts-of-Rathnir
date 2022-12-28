@@ -106,7 +106,7 @@ set_popularities = {
 	neutrality = 80
 }
 
-add_ideas = FRO_unbalanced_power
+add_ideas = FRO_unbalanced_power.1
 
 recruit_character = FRO_temsyod
 recruit_character = FRO_raptar

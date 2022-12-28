@@ -1,0 +1,36 @@
+
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		3216 4820 5345 5559 7288 8399 15511 15517 15565 15639 15684 
+	}
+
+	history = {
+		owner = TOR
+		add_core_of = TOR
+		
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			dockyard = 1
+
+			15684 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 1
+		steel = 3
+		chromium = 1
+	}
+
+	manpower=700000 # 14 people 
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

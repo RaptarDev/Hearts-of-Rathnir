@@ -2,10 +2,10 @@
 state = {
 	id = 131
 	name = "STATE_131"
-	manpower = 850000  # 17 people
+	manpower = 1500000  # 30 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = large_town
+	state_category = city
 
 	provinces={
 		1883 2449 3507 4016 7104 7464 7513 8405 16666 16760 16856 16902 16930 16931 16975 16986 17019 19217 19233 19235 19243 19245 19264 19270 
@@ -21,6 +21,25 @@ state = {
 			7564 10
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+
+			7464 = {
+				naval_base = 6
+			}
+			1883 = {
+				naval_base = 5
+			}
+		}
+
 	}
 
+	resources = {
+		steel = 3
+		rubber = 3
+	}
 }

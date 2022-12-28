@@ -86,6 +86,11 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = { id = frostmarch.1 hours = 12 random_hours = 12 }
+
+			swap_ideas = {
+				remove_idea = FRO_unbalanced_power.1
+				add_idea = FRO_unbalanced_power.2
+			}
 			
 			
 		}

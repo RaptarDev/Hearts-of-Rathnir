@@ -572,3 +572,7 @@ SAL = {
 	color = rgb { 250 138 112 }
 	color_ui = rgb { 250 138 112 }
 }
+AET = {
+	color = rgb { 168 93 27 }
+	color_ui = rgb { 168 93 27 }
+}

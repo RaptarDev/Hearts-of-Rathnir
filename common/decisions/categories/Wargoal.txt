@@ -1,0 +1,3 @@
+wargoal_category = {
+	icon = GFX_warview_wargoal_icon
+}

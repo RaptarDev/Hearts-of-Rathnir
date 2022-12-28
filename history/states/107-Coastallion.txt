@@ -2,9 +2,9 @@
 state = {
 	id = 107
 	name = "STATE_107"
-	manpower = 200000
+	manpower = 350000 # 7
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	local_supplies = 0.000
 
 	provinces = {
@@ -24,6 +24,23 @@ state = {
 			19215 1 
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 1
+			dockyard = 1
+
+			16173 = {
+				naval_base = 4
+			}
+		}
 
 	}
+	
+	resources = {
+		steel = 4
+		oil = 2
+		aluminium = 1
+	}
+
 }

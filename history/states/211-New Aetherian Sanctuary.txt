@@ -11,6 +11,8 @@ state={
 		owner = UOH
 
 		add_core_of = UOH
+
+		add_core_of = AET
 		
 		victory_points = {
 			16598 5  

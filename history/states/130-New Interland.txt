@@ -21,7 +21,18 @@ state = {
 			16527 1 
 		}
 
+		buildings = {
+			infrastructure = 1
 
+		}
+
+
+	}
+
+	resources = {
+		oil = 5
+		aluminium = 3
+		steel = 4
 	}
 
 

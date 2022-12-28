@@ -1,0 +1,84 @@
+wargoal_category = {
+	justify_wargoal = {
+
+		icon = GFX_warview_wargoal_icon
+
+		cost = 20
+
+		days_remove = 1
+
+		target_trigger = {
+			NOT = { FROM = { tag = JUN } }
+			NOT = {FROM = {has_war_with = ROOT}}
+			NOT = {FROM = {is_subject_of = ROOT}}
+			NOT = {FROM = {is_in_faction_with = ROOT}}
+			any_owned_state = {
+				any_neighbor_state = {
+					is_owned_by = FROM
+				}
+			}
+			FROM = { is_neighbor_of = ROOT }
+		}
+
+		available = {
+			NOT = {FROM = {has_war_with = ROOT}}
+			any_owned_state = {
+				any_neighbor_state = {
+					is_owned_by = FROM
+				}
+			}
+		}
+
+		visible = {
+			is_subject = no
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				OR = {
+					is_subject = yes
+					NOT = {FROM = {is_neighbor_of = ROOT}}
+					NOT = {
+						ROOT = {
+							any_owned_state = {
+								any_neighbor_state = {
+									is_owned_by = FROM
+									is_controlled_by = FROM
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+		
+
+		remove_effect = {
+			create_wargoal = {
+				target = FROM
+				type = topple_government
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+				modifier = {
+					factor = 0
+					num_divisions < 2
+				}
+
+				modifier = {
+					factor = 2
+					num_divisions > FROM = { num_division }
+					NOT = { has_war = yes }
+				}
+				modifier = {
+					factor = 0.1
+					has_war = yes
+				}
+		}
+
+	}
+	
+}

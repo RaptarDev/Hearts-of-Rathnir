@@ -13,6 +13,19 @@ state={
 			16316 1 
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			15885 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 2
+		chromium = 2
 	}
 
 	provinces={

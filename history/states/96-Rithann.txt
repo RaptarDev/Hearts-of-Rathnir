@@ -2,12 +2,27 @@
 state={
 	id=96
 	name="STATE_96"
+	resources={
+		oil=2.000
+		steel=4.000
+		tungsten=1.000
+	}
 
 	history={
 		owner = TOR
 		add_core_of = TOR
 		victory_points = {
 			16441 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			16656 = {
+				naval_base = 4
+
+			}
+
 		}
 
 	}
