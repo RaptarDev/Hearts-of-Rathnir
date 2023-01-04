@@ -12,13 +12,13 @@ What does this mod add?
 
 A list of nations with focus trees:
 
-Imperial Archonal Union
-Avertican Technocratic State
-Pos-Avertican Union
-Simulami Empire 
-Union of Haven
-Kingdom of Aurora
-+ more
+- Imperial Archonal Union
+- Avertican Technocratic State
+- Pos-Avertican Union
+- Simulami Empire 
+- Union of Haven
+- Kingdom of Aurora
+and more!
 
 
 
