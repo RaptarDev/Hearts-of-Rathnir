@@ -26,6 +26,7 @@ Developed by:
 Raptor (Head Dev)
 Tiptheirishguy (Sr. Dev) *Quit on 1/1/2023*
 Pixel Fencer (Programmer & Gfx)
+Ludio (Senior Dev, States & Plagos-nieden) 
 
 Please finish this readme when ya can guys, im too lazy to finish it :)!
 
