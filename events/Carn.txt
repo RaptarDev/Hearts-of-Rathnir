@@ -1,0 +1,493 @@
+﻿add_namespace = carn
+
+# Grand Gathering 
+country_event = {
+	id = carn.1
+	title = carn.1.t
+	desc = carn.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.1.a 
+		
+		set_politics = {
+			ruling_party = democratic
+		}
+
+	}
+
+}
+
+# Power of Ernir
+country_event = {
+	id = carn.2
+	title = carn.2.t
+	desc = carn.2.d
+
+	is_triggered_only = yes
+
+	# Return of Bivoj the Lard?
+	option = {
+		name = carn.2.a 
+		set_country_flag = Bivoj
+	}
+
+		# Dont return of Bivoj the Lard?
+		option = {
+			name = carn.2.a 
+	
+		}
+
+}
+
+# Lirgal Carn
+country_event = {
+	id = carn.3
+	title = carn.3.t
+	desc = carn.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.3.a 
+
+		ai_chance = {
+			factor = 80
+		}
+		CAR = {
+			annex_country = {
+				target = LIR
+			}
+			country_event = carn.4
+			set_cosmetic_tag = LIRGAL_CARN
+			every_state = {
+				limit = {
+					is_core_of = LIR
+				}
+				add_core_of = CAR
+			}
+		}
+		
+	}
+
+	option = {
+		name = carn.3.b 
+		ai_chance = {
+			factor = 20
+		}
+		CAR = {
+			create_wargoal = {
+				target = LIR
+				type = annex_everything
+			}
+			country_event = carn.5
+		}
+	}
+}
+#lirgal accepts
+country_event = {
+	id = carn.4
+	title = carn.4.t
+	desc = carn.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.4.a 
+		
+	}
+
+}
+#lirgal refuses
+country_event = {
+	id = carn.5
+	title = carn.5.t
+	desc = carn.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.5.a 
+		
+	}
+
+}
+
+# Sironia Carn
+country_event = {
+	id = carn.6
+	title = carn.6.t
+	desc = carn.6.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.6.a 
+
+		ai_chance = {
+			factor = 80
+		}
+		CAR = {
+			annex_country = {
+				target = SIR
+			}
+			country_event = carn.7
+			set_cosmetic_tag = SIRONIA_CARN
+			every_state = {
+				limit = {
+					is_core_of = SIR
+				}
+				add_core_of = CAR
+			}
+		}
+		
+	}
+
+	option = {
+		name = carn.6.b 
+		ai_chance = {
+			factor = 20
+		}
+		CAR = {
+			create_wargoal = {
+				target = SIR
+				type = annex_everything
+			}
+			country_event = carn.8
+		}
+	}
+}
+
+#lirgal accepts
+country_event = {
+	id = carn.7
+	title = carn.7.t
+	desc = carn.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.7.a 
+		
+	}
+
+}
+#lirgal refuses
+country_event = {
+	id = carn.8
+	title = carn.8.t
+	desc = carn.8.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.8.a 
+		
+	}
+
+}
+
+# Form Federation of Aldovir
+country_event = {
+	id = carn.9
+	title = carn.9.t
+	desc = carn.9.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.9.a 
+		CAR = {
+			puppet = ROOT
+		}
+	}
+
+	option = {
+		name = carn.9.b
+		CAR = {
+			create_wargoal = {
+				target = root
+				type = puppet_wargoal_focus
+			}
+		}
+		
+	}
+
+}
+
+# Demand Carn
+country_event = {
+	id = carn.10
+	title = carn.10.t
+	desc = carn.10.d
+
+	is_triggered_only = yes
+
+	
+	#surrender rhodia
+	option = {
+		name = carn.10.a 
+
+		CAR = { transfer_state = 539 }
+		CAR = { transfer_state = 540 }
+
+		CAR = {
+			country_event = carn.11
+		}
+		ai_chance = {
+			factor = 60
+		}
+
+	}
+
+	# Come take it
+	option = {
+		name = carn.10.a 
+
+		CAR = {
+			create_wargoal = {
+				type = take_state_focus
+				target = YIM
+				expire = 0
+				generator = { 539 }
+			}
+		}
+		CAR = {
+			country_event = carn.12
+		}
+
+		ai_chance = {
+			factor = 40
+		}
+
+	}
+	
+}
+
+#Yimmie's accept
+country_event = {
+	id = carn.11
+	title = carn.11.t
+	desc = carn.11.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.11.a 
+		
+	}
+
+}
+#Yimmie's refuse
+country_event = {
+	id = carn.12
+	title = carn.12.t
+	desc = carn.12.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.12.a 
+		
+	}
+
+}
+
+
+country_event = {
+	id = carn.13
+	title = carn.13.t
+	desc = carn.13.d
+
+	is_triggered_only = yes
+
+	
+	#surrender rhodia
+	option = {
+		name = carn.13.a 
+
+		CAR = { transfer_state = 541 }
+		CAR = { transfer_state = 542 }
+		CAR = { transfer_state = 543 }
+		CAR = { transfer_state = 544 }
+
+		CAR = {
+			country_event = carn.14
+		}
+		ai_chance = {
+			factor = 60
+		}
+
+	}
+
+	# Come take it
+	option = {
+		name = carn.13.a 
+
+		CAR = {
+			create_wargoal = {
+				type = take_state_focus
+				target = YIM
+				expire = 0
+				generator = { 543 }
+			}
+		}
+		CAR = {
+			country_event = carn.15
+		}
+
+		ai_chance = {
+			factor = 40
+		}
+
+	}
+	
+}
+
+#Yimmie's Accept
+country_event = {
+	id = carn.14
+	title = carn.14.t
+	desc = carn.14.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.14.a 
+		
+	}
+
+}
+#Yimmie's refuse
+country_event = {
+	id = carn.15
+	title = carn.15.t
+	desc = carn.15.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.15.a 
+		
+	}
+
+}
+
+country_event = {
+	id = carn.16
+	title = carn.16.t
+	desc = carn.16.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.16.a 
+		
+		add_stability = -0.1
+		add_war_support = 0.1
+
+	}
+
+}
+
+# Grand Gathering Imperalism
+country_event = {
+	id = carn.17
+	title = carn.17.t
+	desc = carn.17.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.17.a 
+		
+	}
+
+}
+
+#convert to Aegmerism
+country_event = {
+	id = carn.18
+	title = carn.18.t
+	desc = carn.18.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.18.a 
+		
+	}
+	option = {
+		name = carn.18.b
+		
+	}
+
+}
+
+
+#invite to League of free lords
+country_event = {
+	id = carn.19
+	title = carn.19.t
+	desc = carn.19.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = carn.19.a 
+
+		ai_chance = {
+			factor = 100
+			modifier = {
+				tag = YIM
+				factor = 30
+			}
+		}
+		CAR = {
+			annex_country = {
+				target = SIR
+			}
+			country_event = carn.7
+
+			every_state = {
+				limit = {
+					is_core_of = SIR
+				}
+				add_core_of = CAR
+			}
+		}
+		
+	}
+
+	option = {
+		name = carn.19.b 
+		ai_chance = {
+			factor = 20
+			modifier = {
+				tag = YIM
+				factor = 70
+			}
+		}
+		CAR = {
+			create_wargoal = {
+				target = SIR
+				type = annex_everything
+			}
+			#country_event = carn.19
+		}
+	}
+}
+
+country_event = {
+	id = carn.20
+	title = carn.20.t
+	desc = carn.20.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = carn.20.a 
+		
+	}
+}

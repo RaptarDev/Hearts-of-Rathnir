@@ -43,7 +43,7 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				FRO_unbalanced_power
+				#FRO_unbalanced_power
 			}
 
 		}

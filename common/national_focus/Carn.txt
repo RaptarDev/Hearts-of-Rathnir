@@ -11,11 +11,378 @@ focus_tree = {
 	}
 	
 	default = no
+
+
+	continuous_focus_position = { x = 10 y = 2000 } 
+
+	####################################
+	        #INDUSTRIAL SECTION
+	####################################
+
 	focus = {
-		id = AVE_technocratic_anniversary_twomonths_fct
-		icon = GFX_goal_generic_demand_territory
-		x = 18
+		id = CAR_carnian_revival 
+		icon = GFX_CAR_carnian_revival
+		x = 2
 		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_ideas = { CAR_new_construction }
+		}
+	}
+
+	focus = {
+		id = CAR_new_possibilities
+		icon = GFX_CAR_new_possibilities
+		x = -1
+		y = 1
+
+		relative_position_id = CAR_carnian_revival
+
+		mutually_exclusive = { focus = CAR_industrial_heartlands }
+		prerequisite = { focus = CAR_carnian_revival }
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			350 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+			343 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+
+		}
+		
+	}
+
+	
+	focus = {
+		id = CAR_invest_in_the_north
+		icon = GFX_focus_generic_industry_2
+		x = 0
+		y = 1
+
+		relative_position_id = CAR_new_possibilities
+
+		prerequisite = { focus = CAR_new_possibilities }
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			351 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+			350 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
+			}
+
+		}
+		
+	}
+
+	focus = {
+		id = CAR_industrial_heartlands
+		icon = GFX_focus_generic_industry_3
+
+		x = 1
+		y = 1
+
+		relative_position_id = CAR_carnian_revival
+
+		mutually_exclusive = { focus = CAR_new_possibilities }
+
+		prerequisite = { focus = CAR_carnian_revival }
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			348 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+			345 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+
+		}
+		
+
+	}
+
+	focus = {
+		id = CAR_imperial_capital
+		icon = GFX_focus_CAR_imperial_capital
+		x = 0
+		y = 1
+
+		relative_position_id = CAR_industrial_heartlands
+
+		prerequisite = { focus = CAR_industrial_heartlands }
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			345 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+
+		}
+		
+	}
+
+	focus = {
+		id = CAR_carnian_renaissance
+		icon = GFX_CAR_carnian_renaissance
+		x = -1
+		y = 1
+
+		relative_position_id = CAR_imperial_capital
+
+		prerequisite = { focus = CAR_imperial_capital focus = CAR_invest_in_the_north }
+
+
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_ideas = { CAR_carnian_renaissance }
+
+		}
+
+	}
+
+	focus = {
+		id = CAR_aegmerist_revivial
+		icon = GFX_CAR_aegmerist_revivial
+		x = -1
+		y = 1
+
+		relative_position_id = CAR_carnian_renaissance
+
+		mutually_exclusive = {
+			focus = CAR_lestrian_university
+		}
+
+		prerequisite = { focus = CAR_carnian_renaissance  }
+
+
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			NOT = { has_government = democratic }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_carnian_renaissance
+				add_idea = CAR_cult_of_aegmer
+			} 
+
+		}
+
+	}
+
+	focus = {
+		id = CAR_lestrian_university
+		icon = GFX_CAR_lestrian_university
+		x = 1
+		y = 1
+
+		relative_position_id = CAR_carnian_renaissance
+
+		prerequisite = { focus = CAR_carnian_renaissance  }
+
+		mutually_exclusive = {
+			focus = CAR_aegmerist_revivial
+		}
+
 		offset = {
 			x = 0
 			y = 0
@@ -27,13 +394,3849 @@ focus_tree = {
 		}
 		
 		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_carnian_renaissance
+				add_idea = CAR_carnian_golden_age
+			} 
+			add_research_slot = 1
+			345 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			351 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+		}
+
+	}
+
+
+
+	####################################
+	        # ARMY SECTION
+	####################################
+
+	focus = {
+		id = CAR_morvannian_elites
+		icon = GFX_focus_CAR_morvannian_elites
+		x = 8
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			army_experience = 50
+		}
+	}
+
+	
+
+	focus = {
+		id = CAR_powerful_infantry
+		icon = GFX_focus_CAR_powerful_infantry
+
+		prerequisite = {
+			focus = CAR_morvannian_elites
+		}
+
+		relative_position_id = CAR_morvannian_elites
+
+		x = -2
+		y = 1
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = infantry_tech
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Hærtheron 1\" division_template = \"Infantery division\" start_experience_factor = 1.0 }" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Hærtheron 2\" division_template = \"Infantery division\" start_experience_factor = 1.0 }" 
+					owner = ROOT
+				}
+			}
+			
+			
+		}
+	}
+
+	focus = {
+		id = CAR_heavy_units
+		icon = GFX_focus_CAR_heavy_units
+
+		prerequisite = {
+			focus = CAR_powerful_infantry
+		}
+
+		relative_position_id = CAR_powerful_infantry
+
+		x = 0
+		y = 1
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			
+		}
+	}
+
+	focus = {
+		id = CAR_clean_skies
+		icon = GFX_focus_CAR_clean_skies
+
+		prerequisite = {
+			focus = CAR_morvannian_elites
+		}
+
+		relative_position_id = CAR_morvannian_elites
+
+		x = 0
+		y = 2
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			air_experience = 50
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = light_fighter
+			}
+			
+		}
+	}
+
+	focus = {
+		id = CAR_defending_our_waters
+		icon = GFX_focus_CAR_defending_our_waters
+
+		prerequisite = {
+			focus = CAR_morvannian_elites
+		}
+
+		relative_position_id = CAR_morvannian_elites
+
+		x = 2
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			navy_experience = 50
+
+			345 = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			} 
+			
+		}
+	}
+
+	focus = {
+		id = CAR_lestrian_shipyards
+		icon = GFX_focus_CAR_lestrian_shipyards
+
+		prerequisite = {
+			focus = CAR_defending_our_waters
+		}
+
+		relative_position_id = CAR_defending_our_waters
+
+		x = 0
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = naval_equipment
+			}
+
+			
+
+			add_ideas = {
+				CAR_lestrian_shipyards
+			}
+			
+		}
+	}
+
+	focus = {
+		id = CAR_reform_the_erneraevis
+		icon = GFX_focus_CAR_reform_the_erneraevis
+
+		prerequisite = {
+			focus = CAR_heavy_units
+
+		}
+		prerequisite = {
+
+			focus = CAR_clean_skies
+
+		}
+		prerequisite = {
+
+			focus = CAR_lestrian_shipyards
+		}
+
+		relative_position_id = CAR_clean_skies
+
+		x = 0
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			create_corps_commander = {
+				name = "Aymeric Allaire"
+				gfx = GFX_portrait_aymeric_allaire
+				skill = 4
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+			}
+
+			add_ideas = {
+				CAR_palace_guard
+			}
+
+			division_template = {
+				name = "Ernerævis"
+				template_counter = 2
+				priority = 2
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+
+					artillery_brigade = { x = 3 y = 0 }
+					artillery_brigade = { x = 3 y = 1 }
+					artillery_brigade = { x = 3 y = 2 }
+					artillery_brigade = { x = 3 y = 3 }
+
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					recon = { x = 0 y = 2 }
+				}
+			}
+
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Ernerævis 1\" division_template = \"Ernerævis\" start_experience_factor = 20.0 }" 
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Ernerævis 2\" division_template = \"Ernerævis\" start_experience_factor = 20.0 }" 
+					owner = ROOT
+				}
+			}
+			
+		}
+	}
+
+	focus = {
+		id = CAR_stalwart_defense
+		icon = GFX_focus_CAR_stalwart_defense
+
+		prerequisite = {
+			focus = CAR_reform_the_erneraevis
+
+		}
+		
+
+		relative_position_id = CAR_reform_the_erneraevis
+
+		x = -1
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				ahead_reduction = 2 #Years
+				category = artillery
+			}
+			345 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			350 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			343 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			
+			
+		}
+	}
+
+
+	focus = {
+		id = CAR_the_northern_line
+		icon = GFX_focus_CAR_the_northern_line
+
+		prerequisite = {
+			focus = CAR_stalwart_defense
+
+		}
+		
+
+		relative_position_id = CAR_stalwart_defense
+
+		x = 0
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			351 = {
+				add_building_construction = { type = bunker province = 3660 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 4389 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 3588 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 14100 level = 3 instant_build = yes }
+			}
+
+			350 = {
+				add_building_construction = { type = bunker province = 14204 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 7586 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 14311 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 2257 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 3105 level = 3 instant_build = yes }
+			}
+			349 = {
+				add_building_construction = { type = bunker province = 7520 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 14516 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 14533 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 2747 level = 3 instant_build = yes }
+			}
+				
+		}
+	}
+
+	focus = {
+		id = CAR_powerful_offense
+		icon = GFX_focus_CAR_powerful_offense
+
+		prerequisite = {
+			focus = CAR_reform_the_erneraevis
+
+		}
+		
+
+		relative_position_id = CAR_reform_the_erneraevis
+
+		x = 1
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				ahead_reduction = 2 #Years
+				category = armor
+			}
+			
+			345 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			350 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			343 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			
+			
+		}
+	}
+
+	focus = {
+		id = CAR_heavy_assault
+		icon = GFX_focus_CAR_heavy_assault
+
+		prerequisite = {
+			focus = CAR_powerful_offense
+
+		}
+		
+
+		relative_position_id = CAR_powerful_offense
+
+		x = 0
+		y = 1
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = { 
+			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+			
+		}
+	}
+
+	####################################
+	        # POLITICIAL SECTION
+	####################################
+
+	focus = {
+		id = CAR_struggle_for_power
+		icon = GFX_focus_CAR_struggle_for_power
+		x = 24
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
+
 		completion_reward = { 
+			add_political_power = 120
 		}
 	}
-}
 
+	####################################
+	    	# DEMOCRATIC SECTION
+	####################################
+	focus = {
+		id = CAR_liberal_ideas
+		icon = GFX_focus_CAR_liberal_ideas
+
+		x = -8
+		y = 1
+		mutually_exclusive = {
+			focus = CAR_compromise_with_the_liberals focus = CAR_resort_to_extremism
+		}
+		prerequisite = {
+			focus = CAR_struggle_for_power
+		}
+		relative_position_id = CAR_struggle_for_power
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_political_power = 150
+			add_ideas = {
+				CAR_liberal_ideas
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_limiting_caeroneal_authority
+		icon = GFX_CAR_limiting_caeroneal_authority
+
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = CAR_liberal_ideas
+		}
+		relative_position_id = CAR_liberal_ideas
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_political_power = 120
+
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.5
+			}
+
+			add_ideas = {
+				 CAR_growing_democratic_support 
+			}
+			
+		}
+	
+	}
+
+	focus = {
+		id = CAR_shaeroneal_council
+		icon = GFX_CAR_shaeroneal_council
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_limiting_caeroneal_authority
+		}
+		relative_position_id = CAR_limiting_caeroneal_authority
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = CAR_broken_nation
+				add_idea = CAR_uneasy_peace
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_lestrian_forum
+		icon = GFX_CAR_lestrian_forum
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_shaeroneal_council
+		}
+		relative_position_id = CAR_shaeroneal_council
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_political_power = 100
+			swap_ideas = {
+				remove_idea = CAR_uneasy_peace
+				add_idea = CAR_free_population
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_repopulate_morvanne
+		icon = GFX_CAR_repopulate_morvanne
+
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CAR_liberal_ideas
+		}
+		relative_position_id = CAR_liberal_ideas
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_political_power = 20
+			swap_ideas = {
+				remove_idea = CAR_rebels_in_the_borderlands
+				add_idea = CAR_pacified_borderlands
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_synneian_militias
+		icon = GFX_CAR_synneian_militias
+
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = CAR_repopulate_morvanne
+		}
+		relative_position_id = CAR_repopulate_morvanne
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_pacified_borderlands
+				add_idea = CAR_radicalized_borderlands
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_hold_a_grand_gathering
+		icon = GFX_CAR_hold_a_grand_gathering
+
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CAR_lestrian_forum
+		}
+		prerequisite = {
+			focus = CAR_synneian_militias
+		}
+
+		relative_position_id = CAR_lestrian_forum
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			democratic > 0.54
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			country_event = {
+				id = carn.1
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_bound_by_law
+		icon = GFX_CAR_bound_by_law
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_hold_a_grand_gathering
+		}
+
+		relative_position_id = CAR_hold_a_grand_gathering
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_political_power = 100
+			add_ideas = {
+				CAR_constitutional_monarchy
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_blue_flower_cult
+		icon = GFX_focus_CAR_blue_flow_cult
+
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = CAR_bound_by_law
+		}
+
+		relative_position_id = CAR_bound_by_law
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			country_event = carn.2
+			add_ideas = {
+				CAR_blue_flower_cult
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_mediator_in_aldovir
+		icon = GFX_focus_CAR_mediator_in_aldovir
+
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = CAR_liberal_ideas
+		}
+
+		relative_position_id = CAR_liberal_ideas
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			SIR = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+			ADA = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+			LIR = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+			VOL = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+			VKR = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+			YIM = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = mediator_in_aldovir
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_aid_asitir_settlers
+		icon = GFX_CAR_aid_asitir_settlers
+
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CAR_mediator_in_aldovir
+		}
+
+		mutually_exclusive = {
+			focus = CAR_legalize_sakrelism
+		}
+
+		relative_position_id = CAR_mediator_in_aldovir
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			not = {
+				or = {
+					has_idea = CAR_blue_flower_cult
+					has_idea = CAR_cult_of_aegmer
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_ideas = { CAR_asitir_aegmerist_dualism }
+		}
+	
+	}
+
+	focus = {
+		id = CAR_lirgal_carn
+		icon = GFX_focus_CAR_lirgal_carn
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_aid_asitir_settlers
+		}
+
+		relative_position_id = CAR_aid_asitir_settlers
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			LIR = {
+				has_opinion = {
+					target = CAR
+					value > 70
+				}
+			}
+
+			has_army_manpower = {
+				size > 150000
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			LIR = {
+				country_event = carn.3
+			}
+		}
+	
+	}
+
+	
+	focus = {
+		id = CAR_legalize_sakrelism
+		icon = GFX_CAR_legalize_sakrelism
+
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CAR_mediator_in_aldovir
+		}
+
+		relative_position_id = CAR_mediator_in_aldovir
+
+		mutually_exclusive = {
+			focus = CAR_aid_asitir_settlers
+		}
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			not = {
+				or = {
+					has_idea = CAR_blue_flower_cult
+					has_idea = CAR_cult_of_aegmer
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_ideas = { CAR_forceful_sakrelist_conversions }
+		}
+	
+	}
+
+	focus = {
+		id = CAR_sironia_carn
+		icon = GFX_focus_CAR_sironia_carn
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_legalize_sakrelism
+		}
+
+		relative_position_id = CAR_legalize_sakrelism
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			LIR = {
+				has_opinion = {
+					target = CAR
+					value =  100
+				}
+			}
+
+			has_army_manpower = {
+				size > 150000
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			SIR = {
+				country_event = carn.6
+			}
+		}
+	
+	}
+
+
+
+		focus = {
+			id = CAR_third_treaty_of_roscella
+			icon = GFX_focus_CAR_third_treaty_of_roscella
+	
+			x = 1
+			y = 2
+			prerequisite = {
+				focus = CAR_lirgal_carn focus = CAR_sironia_carn
+			}
+			prerequisite = {
+				focus = CAR_bound_by_law
+			}
+	
+			relative_position_id = CAR_lirgal_carn
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+			ai_will_do = {
+	
+			}
+			available = {
+				LIR = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						has_opinion = {
+							target = CAR
+							value > 79
+						}
+					}
+				}
+				SIR = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						has_opinion = {
+							target = CAR
+							value > 79
+						}
+					}
+				}
+				ADA = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						has_opinion = {
+							target = CAR
+							value > 79
+						}
+					}
+				}
+				VKR = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						has_opinion = {
+							target = CAR
+							value > 79
+						}
+					}
+				}			
+				VOL = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						has_opinion = {
+							target = CAR
+							value > 79
+						}
+					}
+				}
+				
+			}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			create_faction = "Federation of Aldovir"
+
+			set_rule = {
+				can_create_factions = yes
+			}
+
+			add_political_power = 200			
+			
+			every_country = {
+				limit = {
+					has_country_flag = in_aldovir
+					not = {
+						tag = CAR
+					}
+				}
+				country_event = carn.9
+			}
+			
+		}
+	
+	}
+	focus = {
+		id = CAR_compromise_with_yazov
+		icon = GFX_CAR_compromise_with_yazov
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CAR_third_treaty_of_roscella 
+		}
+		mutually_exclusive = {
+			focus = CAR_fight_for_our_unity
+		}
+
+		relative_position_id = CAR_third_treaty_of_roscella
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			YIM = {
+				has_opinion = {
+					target = CAR
+					value > 49
+				}
+			}
+		}
+	
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			
+			annex_country = {
+				target = LIR
+			}
+			annex_country = {
+				target = SIR
+			}
+			annex_country = {
+				target = ADA
+			}
+			annex_country = {
+				target = VOL
+			}
+			annex_country = {
+				target = VKR
+			}
+
+			YIM = {
+				puppet = CAR
+			}
+
+		}
+
+	}
+
+	focus = {
+		id = CAR_fight_for_our_unity
+		icon = GFX_CAR_fight_for_our_unity
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CAR_third_treaty_of_roscella 
+		}
+		prerequisite = {
+			focus = CAR_taloran_question 
+		}
+
+		mutually_exclusive = {
+			focus = CAR_compromise_with_yazov
+		}
+
+
+		relative_position_id = CAR_third_treaty_of_roscella
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+		}
+	
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			
+			annex_country = {
+				target = LIR
+			}
+			annex_country = {
+				target = SIR
+			}
+			annex_country = {
+				target = ADA
+			}
+			annex_country = {
+				target = VOL
+			}
+			annex_country = {
+				target = VKR
+			}
+
+			YIM = {
+				create_wargoal = {
+					target = CAR
+					type = puppet_wargoal_focus
+				}
+			}
+			IMP = {
+				create_wargoal = {
+					target = CAR
+					type = puppet_wargoal_focus
+				}
+			}
+
+		}
+
+	}
+
+	
+	focus = {
+		id = CAR_rhodia_is_carn
+		icon = GFX_focus_CAR_rhodia_is_carn
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = CAR_liberal_ideas 
+		}
+
+		relative_position_id = CAR_liberal_ideas
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+# 
+		}
+		available = {
+			has_army_manpower = {
+				size > 49999
+			}
+		}
+	
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			
+			add_opinion_modifier = {
+				target = YIM
+				modifier = claimed_rhodia
+			}
+			add_ideas = {
+				CAR_coenian_nationalism
+			}
+
+		}
+
+	}
+
+	focus = {
+		id = CAR_demand_rhodia
+		icon = GFX_focus_CAR_demand_rhodia
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = CAR_rhodia_is_carn 
+		}
+
+		relative_position_id = CAR_rhodia_is_carn
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_army_manpower = {
+				size > 149999
+			}
+		}
+	
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			
+			add_opinion_modifier = {
+				target = YIM
+				modifier = demanded_rhodia
+			}
+
+			539 = {
+				add_core_of = CAR
+			}
+			540 = {
+				add_core_of = CAR
+			}
+			YIM = {
+				country_event = carn.10
+			}
+
+		}
+
+	}
+
+	focus = {
+		id = CAR_taloran_question
+		icon = GFX_focus_CAR_taloran_question
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = CAR_demand_rhodia 
+		}
+
+		relative_position_id = CAR_demand_rhodia
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_army_manpower = {
+				size > 249999
+			}
+		}
+	
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			
+			add_opinion_modifier = {
+				target = YIM
+				modifier = demanded_talor
+			}
+
+			541 = {
+				add_core_of = CAR
+			}
+			542 = {
+				add_core_of = CAR
+			}
+			543 = {
+				add_core_of = CAR
+			}
+			544 = {
+				add_core_of = CAR
+			}
+			YIM = {
+				country_event = carn.13
+			}
+
+		}
+
+	}
+
+	####################################
+	    	# MONARCHY SECTION
+	####################################
+	focus = {
+		id = CAR_compromise_with_the_liberals
+		icon = GFX_CAR_compromise_with_the_liberals
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = CAR_liberal_ideas focus = CAR_resort_to_extremism
+		}
+		prerequisite = {
+			focus = CAR_struggle_for_power
+		}
+		relative_position_id = CAR_struggle_for_power
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_stability = 0.100
+			add_ideas = {
+				CAR_kerpliss_committe
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_protect_the_caeron_at_all_costs
+		icon = GFX_CAR_protect_the_caeron_at_all_costs
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_compromise_with_the_liberals
+		}
+
+		relative_position_id = CAR_compromise_with_the_liberals
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_stability = 0.100
+			add_ideas = {
+				CAR_closed_palace
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_apease_the_masses
+		icon = GFX_CAR_apease_the_masses
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = CAR_protect_the_caeron_at_all_costs
+		}
+		relative_position_id = CAR_protect_the_caeron_at_all_costs
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_popularity = {
+				ideology = neutrality
+				popularity = 10
+			}
+			swap_ideas = {
+				remove_idea = CAR_broken_nation
+				add_idea = CAR_politicial_struggle
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_increase_feudal_power
+		icon = GFX_CAR_increase_feudal_power
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_apease_the_masses
+		}
+		relative_position_id = CAR_apease_the_masses
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			remove_ideas = CAR_kerpliss_committe
+			swap_ideas = {
+				remove_idea = CAR_politicial_struggle
+				add_idea = CAR_powerful_shaerons
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_prepare_for_civil_war
+		icon = GFX_CAR_prepare_for_civil_war
+		x = 1
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_protect_the_caeron_at_all_costs
+		}
+		relative_position_id = CAR_protect_the_caeron_at_all_costs
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_ideas = CAR_prepared_for_civil_war
+		}
+	
+	}
+
+	focus = {
+		id = CAR_peace_by_force
+		icon = GFX_CAR_peace_by_force
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_prepare_for_civil_war
+		}
+		relative_position_id = CAR_prepare_for_civil_war
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			start_civil_war = {
+				ideology = democratic
+				size = 0.25
+				capital = 348
+				states = { 346 348 }
+			}
+			
+		}
+	
+	}
+
+	focus = {
+		id = CAR_reintegrating_the_borderlands
+		icon = GFX_CAR_reintegrating_the_borderlands
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_peace_by_force
+		}
+		relative_position_id = CAR_peace_by_force
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			has_civil_war = no
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			remove_ideas = CAR_prepared_for_civil_war
+			remove_ideas = CAR_rebels_in_the_borderlands
+
+			
+		}
+	
+	}
+
+	focus = {
+		id = CAR_rig_the_grand_gathering
+		icon = GFX_CAR_rig_the_grand_gathering
+		x = 0
+		y = 2
+
+
+		prerequisite = {
+			focus = CAR_increase_feudal_power
+		}
+		prerequisite = {
+			focus = CAR_reintegrating_the_borderlands
+		}
+
+		relative_position_id = CAR_increase_feudal_power
+		offset = {
+			x = 0
+			y = 1
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			neutrality > 0.75
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			country_event = carn.16
+			
+		}
+
+	
+	}
+
+	focus = {
+		id = CAR_queen_of_blood_and_iron
+		icon = GFX_CAR_queen_of_blood_and_iron
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_rig_the_grand_gathering
+		}
+		prerequisite = {
+			focus = CAR_reintegrating_the_borderlands
+		}
+
+		relative_position_id = CAR_rig_the_grand_gathering
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			add_ideas = CAR_absolute_monarchy
+			
+		}
+		
+	
+	}
+
+	focus = {
+		id = CAR_elernel_hegemony
+		icon = GFX_CAR_elernel_hegemony
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_queen_of_blood_and_iron
+		}
+
+		relative_position_id = CAR_queen_of_blood_and_iron
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			or = {
+				NOT = {
+					NOT = {
+						has_idea = CAR_cult_of_aegmer
+					}
+				}
+				NOT = {
+					NOT = {
+						has_idea = CAR_carnian_golden_age
+					}
+				}
+			}
+		}
+			
+			
+		
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			add_ideas = CAR_absolute_monarchy
+			country_event = carn.2
+		}
+		
+	
+	}
+
+	focus = {
+		id = CAR_the_eternal_caeron
+		icon = GFX_CAR_the_eternal_caeron
+		x = 5
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_blue_flower_cult
+			focus = CAR_elernel_hegemony
+		}
+
+
+		relative_position_id = CAR_blue_flower_cult
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_country_flag = Bivoj
+		}
+			
+			
+		
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			add_ideas = CAR_prophesied_return
+
+			every_state = {
+				limit = {
+					or = {
+						is_core_of = LIR
+						is_core_of = SIR
+						is_core_of = ADA
+						is_core_of = VKR
+						is_core_of = VOL
+					}
+				}
+				add_core_of = CAR
+					
+			}
+			
+
+			every_country = {
+				limit = {
+					or = {
+						has_country_flag = in_aldovir
+						original_tag = YIM
+					}
+					
+					has_opinion = {
+						target = CAR
+						value < 80
+					}
+				}
+				
+				declare_war_on = {
+					target = CAR
+					type = puppet_wargoal_focus
+				}
+
+			}
+			
+		}
+	}
+
+	focus = {
+		id = CAR_ultimate_merit
+		icon = GFX_CAR_ultimate_merit
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_the_eternal_caeron
+		}
+
+
+		relative_position_id = CAR_the_eternal_caeron
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			NOT = {
+				has_war_with = YIM
+				has_war_with = SIR
+				has_war_with = LIR
+				has_war_with = VKR
+				has_war_with = VAN
+				has_war_with = ADA				
+			}
+		}
+			
+			
+		
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					is_core_of =  YIM
+				}
+				add_core_of = CAR
+			}
+			set_rule = {
+				can_create_factions = yes
+			}
+
+			set_cosmetic_tag = LARDBURGIA
+
+		}
+	
+	}
+
+	focus = {
+		id = CAR_rightful_carnian_lands
+		icon = GFX_CAR_rightful_carnian_lands
+		x = 1
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_reintegrating_the_borderlands
+		}
+
+
+		relative_position_id = CAR_reintegrating_the_borderlands
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_army_manpower = {
+				size > 149999
+			}
+		}
+			
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			add_opinion_modifier = {
+				target = YIM
+				modifier = demanded_rhodia
+			}
+
+			539 = {
+				add_core_of = CAR
+			}
+			540 = {
+				add_core_of = CAR
+			}
+			YIM = {
+				country_event = carn.10
+			}
+
+		}
+	
+	}
+
+	focus = {
+		id = CAR_dealing_with_the_sakrelist
+		icon = GFX_CAR_dealing_with_the_sakrelist
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_rightful_carnian_lands
+		}
+
+
+		relative_position_id = CAR_rightful_carnian_lands
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+		}
+			
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					is_core_of = SIR
+				}
+				add_core_of = CAR
+			}
+
+			add_ideas = CAR_carnian_nationalism
+
+			SIR = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = claimed_us
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_liberating_asitir_lands
+		icon = GFX_CAR_liberating_asitir_lands
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_dealing_with_the_sakrelist
+		}
+
+
+		relative_position_id = CAR_dealing_with_the_sakrelist
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			338 = {
+				is_controlled_by = CAR
+			}
+			339 = {
+				is_controlled_by = CAR
+			}
+			340 = {
+				is_controlled_by = CAR
+			}
+			341 = {
+				is_controlled_by = CAR
+			}	
+			342 = {
+				is_controlled_by = CAR
+			}	
+
+		}
+			
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					is_core_of = LIR
+				}
+				add_core_of = CAR
+			}
+
+			swap_ideas = {
+				remove_idea = CAR_carnian_nationalism
+				add_idea = CAR_widespread_carnian_nationalism
+			}
+
+			LIR = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = claimed_us
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = CAR_lestrian_expansion
+		icon = GFX_CAR_lestrian_expansion
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_liberating_asitir_lands
+		}
+
+
+		relative_position_id = CAR_liberating_asitir_lands
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			325 = {
+				is_controlled_by = CAR
+			}
+			326 = {
+				is_controlled_by = CAR
+			}
+			327 = {
+				is_controlled_by = CAR
+			}
+			328 = {
+				is_controlled_by = CAR
+			}	
+			329 = {
+				is_controlled_by = CAR
+			}	
+
+		}
+			
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					is_core_of = YIM
+				}
+				add_claim_by = CAR
+			}
+
+			541 = {
+				add_core_of = CAR
+			}
+			542 = {
+				add_core_of = CAR
+			}
+			543 = {
+				add_core_of = CAR
+			}
+			544 = {
+				add_core_of = CAR
+			}
+
+			YIM = {
+				add_opinion_modifier = {
+					target = CAR
+					modifier = claimed_us
+				}
+			}
+
+			create_wargoal = {
+				target = YIM
+				type = annex_everything
+			}
+
+		}
+	
+	}
+
+	focus = {
+		id = CAR_coenia_aeternee_cind
+		icon = GFX_CAR_coenia_aeternee_cind
+		x = 0
+		y = 1
+
+
+		prerequisite = {
+			focus = CAR_lestrian_expansion
+		}
+
+
+		relative_position_id = CAR_lestrian_expansion
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+			not = {
+				country_exists = YIM
+			}
+		}
+			
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = SIR
+						is_core_of = LIR
+						is_core_of = YIM
+					}
+				}
+				add_core_of = CAR
+			}
+
+			set_cosmetic_tag = COENIA
+
+			swap_ideas = {
+				remove_idea = CAR_widespread_carnian_nationalism
+				add_idea = CAR_coenian_dreams_fulfilled
+			}
+
+		}
+	
+	}
+
+	####################################
+	    	# EXTREMIST SECTION
+	####################################
+	focus = {
+		id = CAR_resort_to_extremism
+		icon = GFX_focus_CAR_resort_to_extremism
+		x = 9
+		y = 1
+		mutually_exclusive = {
+			focus = CAR_compromise_with_the_liberals focus = CAR_liberal_ideas
+		}
+
+		prerequisite = {
+			focus = CAR_struggle_for_power
+		}
+		relative_position_id = CAR_struggle_for_power
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_stability = 0.1
+			add_ideas = {
+				CAR_kerpliss_committe
+			}
+		}
+	}
+
+	####################################
+	    	# IMPERIALISM SECTION
+	####################################
+	focus = {
+		id = CAR_let_daria_return_from_exile
+		icon = GFX_CAR_let_daria_return_from_exile
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = CAR_resort_to_extremism
+		}
+		relative_position_id = CAR_resort_to_extremism
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_ideas = CAR_disruptive_presence
+		}
+	}
+
+	focus = {
+		id = CAR_nationalist_support
+		icon = GFX_CAR_nationalist_support
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = CAR_let_daria_return_from_exile
+		}
+		relative_position_id = CAR_let_daria_return_from_exile
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_rebels_in_the_borderlands
+				add_idea = CAR_appeased_borderlands
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_converting_the_liberals
+		icon = GFX_CAR_converting_the_liberalss
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_nationalist_support
+		}
+		relative_position_id = CAR_nationalist_support
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			fascism > 0.24
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_ideas = CAR_content_liberals
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = CAR_prepare_for_civil_war_2
+		icon = CAR_prepare_for_civil_war_2
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_converting_the_liberals
+		}
+
+		relative_position_id = CAR_converting_the_liberals
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_ideas = CAR_prepared_for_civil_war
+		}
+	}
+
+	focus = {
+		id = CAR_daria_drae_tolle
+		icon = CAR_daria_drae_tolle
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_prepare_for_civil_war_2
+		}
+
+		relative_position_id = CAR_prepare_for_civil_war_2
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			fascism > 0.49
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			set_capital = {
+				state = 343
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+			start_civil_war = {
+				ideology = neutrality
+				size = 0.5
+				states = { 344 345 349 350 351 }
+			}
+
+			
+		}
+	}
+
+	focus = {
+		id = CAR_aid_from_yazov
+		icon = GFX_CAR_aid_from_yazov
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_let_daria_return_from_exile
+		}
+
+		relative_position_id = CAR_let_daria_return_from_exile
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_government = fascism
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			YIM = {
+				create_faction = "Altinequian Entente"
+				add_to_faction = CAR
+				add_to_faction = IMP
+			}
+			swap_ideas = {
+				remove_idea = CAR_broken_nation
+				add_idea = CAR_struggling_nation
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_ask_for_rhodia
+		icon = GFX_CAR_ask_for_rhodia
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = CAR_aid_from_yazov
+		}
+
+		relative_position_id = CAR_aid_from_yazov
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_war = no
+			YIM = {
+				has_opinion = {
+					target = CAR 
+					value > 59
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+			539 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+			540 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_ask_for_talor
+		icon = GFX_CAR_ask_for_talor
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_ask_for_rhodia
+		}
+
+		relative_position_id = CAR_ask_for_rhodia
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_war = no
+			YIM = {
+				has_opinion = {
+					target = CAR 
+					value > 79
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+			541 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+			542 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+			543 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+			544 = {
+				transfer_state_to = CAR
+				add_core_of = CAR
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_manipulate_the_grand_gathering
+		icon = GFX_CAR_manipulate_the_grand_gathering
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = CAR_daria_drae_tolle
+		}
+
+		prerequisite = {
+			focus = CAR_ask_for_talor
+		}
+
+		relative_position_id = CAR_daria_drae_tolle
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			country_event = carn.17
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = CAR_aegmerist_exaltation
+		icon = GFX_CAR_aid_from_yazov
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = CAR_let_daria_return_from_exile
+		}
+
+		relative_position_id = CAR_let_daria_return_from_exile
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+			has_idea = CAR_cult_of_aegmer
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			add_political_power = 150
+
+			YIM = {
+				country_event = carn.18
+			}
+			IMP = {
+				country_event = carn.18
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_destroy_the_sakrelists
+		icon = GFX_CAR_destroy_the_sakrelists
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_aegmerist_exaltation
+		}
+
+		relative_position_id = CAR_aegmerist_exaltation
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					is_core_of = SIR
+				}
+				add_claim_by = CAR
+			}
+
+			create_wargoal = {
+				target = SIR
+				type = annex_everything
+			}
+
+		}
+	}
+
+	focus = {
+		id = CAR_cleanse_the_asitir_in_carn
+		icon = GFX_CAR_cleanse_the_asitir_in_carn
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_destroy_the_sakrelists
+		}
+
+		relative_position_id = CAR_destroy_the_sakrelists
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+
+			add_ideas = CAR_religious_extremism
+
+		}
+	}
+
+	focus = {
+		id = CAR_dominate_aldovir
+		icon = GFX_CAR_dominate_aldovir
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = CAR_cleanse_the_asitir_in_carn
+		}
+
+		relative_position_id = CAR_cleanse_the_asitir_in_carn
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			NOT = {
+				country_exists = SIR
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			every_state = {
+				limit = {
+					or = {
+						is_core_of = ADA
+						is_core_of = LIR
+						is_core_of = VOL
+						is_core_of = VKR
+						is_core_of = VIR
+					}
+				}
+				add_claim_by = CAR
+			}
+
+			create_wargoal = {
+				target = ADA
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = LIR
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = VOL
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = VKR
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = VIR
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_deify_the_elernels
+		icon = GFX_CAR_deify_the_elernels
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = CAR_manipulate_the_grand_gathering
+		}
+		prerequisite = {
+			focus = CAR_dominate_aldovir
+		}
+
+		relative_position_id = CAR_manipulate_the_grand_gathering
+
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			NOT = {
+				country_exists = SIR
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+
+			set_cosmetic_tag = Elernel_Empire
+
+			every_state = {
+				limit = {
+					is_core_of = SIR
+					is_core_of = LIR
+					is_core_of = ADA
+					is_core_of = VKR
+					is_core_of = VOL
+					is_core_of = VIR
+				}
+				add_core_of = CAR
+			}
+
+			swap_ideas = {
+				remove_idea = CAR_religious_extremism
+				add_idea = CAR_divine_rule
+			}
+
+		}
+	}
+
+
+
+	####################################
+	    	# Commie SECTION
+	####################################
+	focus = {
+		id = CAR_appoint_derius_as_steward
+		icon = GFX_CAR_appoint_derius_as_steward
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = CAR_resort_to_extremism
+		}
+		relative_position_id = CAR_resort_to_extremism
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_ideas = CAR_lord_derius
+		}
+	}
+
+	focus = {
+		id = CAR_planned_economy
+		icon = GFX_CAR_planned_economy
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = CAR_appoint_derius_as_steward
+		}
+		relative_position_id = CAR_appoint_derius_as_steward
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_broken_nation
+				add_idea = CAR_crisis_under_control
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_confiscate_elernel_properties
+		icon = GFX_CAR_confiscate_elernel_properties
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_planned_economy
+		}
+		relative_position_id = CAR_planned_economy
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 10
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_dismiss_the_shaerons
+		icon = GFX_CAR_dismiss_the_shaerons
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_confiscate_elernel_properties
+		}
+		relative_position_id = CAR_confiscate_elernel_properties
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			communism > 34
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_crisis_under_control
+				add_idea = CAR_empowered_citizenry
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_negotiate_with_the_rebels
+		icon = GFX_CAR_planned_economy
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_appoint_derius_as_steward
+		}
+		relative_position_id = CAR_appoint_derius_as_steward
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			communism > 44
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_rebels_in_the_borderlands
+				add_idea = CAR_neutral_borderlands
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_reform_the_league_of_free_lords
+		icon = GFX_CAR_reform_the_league_of_free_lords
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = CAR_negotiate_with_the_rebels
+		}
+		relative_position_id = CAR_negotiate_with_the_rebels
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			communism > 59
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = CAR_neutral_borderlands
+				add_idea = CAR_enthusiastic_borderlands
+			}
+		}
+	}
+
+	focus = {
+		id = CAR_abolish_the_grand_gathering
+		icon = GFX_CAR_abolish_the_grand_gathering
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CAR_reform_the_league_of_free_lords
+		}
+		prerequisite = {
+			focus = CAR_dismiss_the_shaerons
+		}
+		relative_position_id = CAR_reform_the_league_of_free_lords
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			communism > 59
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+			set_politics = {
+				ruling_party = communism
+			}
+			set_cosmetic_tag = LEAGUE_OF_FREE_LORDS
+
+			add_political_power = 100
+			
+		}
+	}
+
+	focus = {
+		id = CAR_alliance_with_caeron_peter
+		icon = GFX_CAR_alliance_with_caeron_peter
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = CAR_appoint_derius_as_steward
+		}
+		relative_position_id = CAR_appoint_derius_as_steward
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			communism > 44
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+			add_offsite_building = {
+				type = industrial_complex
+				level = 3
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 3
+			}
+		
+		}
+	}
+
+	focus = {
+		id = CAR_free_the_rhodians
+		icon = GFX_CAR_free_the_rhodians
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_alliance_with_caeron_peter
+		}
+		relative_position_id = CAR_alliance_with_caeron_peter
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_army_manpower = {
+				size > 149999
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			YIM = {
+				country_event = carn.10
+
+				add_opinion_modifier = {
+					target = CAR
+					modifier = demanded_rhodia
+				}
+			}
+		
+		}
+	}
+	
+	focus = {
+		id = CAR_invite_sironia_into_the_league
+		icon = GFX_CAR_invite_sironia_into_the_league
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_free_the_rhodians
+		}
+		relative_position_id = CAR_free_the_rhodians
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_government = communism
+			SIR = {
+				communism > 0.34
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			SIR = {
+				country_event = carn.19
+
+			}
+		
+		}
+	}
+
+	
+	focus = {
+		id = CAR_invite_the_audalads_into_the_league
+		icon = GFX_CAR_invite_the_audalads_into_the_league
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CAR_invite_sironia_into_the_league
+		}
+		relative_position_id = CAR_invite_sironia_into_the_league
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			has_government = communism
+			YIM = {
+				communism > 0.34
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = { 
+
+			YIM = {
+				country_event = carn.19
+
+			}
+		
+		}
+	}
+
+	focus = {
+		id = CAR_freedom_for_all
+		icon = GFX_CAR_freedom_for_all
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CAR_invite_the_audalads_into_the_league
+		}
+		prerequisite = {
+			focus = CAR_abolish_the_grand_gathering
+		}
+		relative_position_id = CAR_abolish_the_grand_gathering
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { 
+
+			set_rule = {
+				can_create_factions = yes
+			}
+
+			add_research_slot = 1
+
+			add_ideas = CAR_centralised_council
+		
+		}
+	}
+
+}

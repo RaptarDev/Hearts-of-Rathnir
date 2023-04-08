@@ -1,0 +1,42 @@
+focus_tree = {
+	id = aurlunor_velande_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AVD
+		}
+	}
+	
+	default = no
+	focus = {
+		id = CAR_repair_the_infrastructure
+		icon = GFX_focus_CAR_repair_the_infrastructure
+		x = 1
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		cost = 10
+		ai_will_do = {
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { 
+
+			unlock_decision_category_tooltip = AVD_repair_the_infrastructure
+
+		}
+	}
+}
+

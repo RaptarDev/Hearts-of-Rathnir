@@ -2,6 +2,8 @@ on_action = {
 	on_startup = {
 		effects = {
 			every_state = { set_variable = { religion = 1 } }
+			
 		}
+
 	}
 }

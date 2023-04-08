@@ -296,6 +296,10 @@ form_aurlunor_ryzan_category = {
 			 }
 
 		}
+		
+		ai_will_do = {
+			factor = 200
+		}
 
 	}
 }
@@ -468,8 +472,11 @@ form_aldovir_category = {
 			350 = { add_core_of = ROOT }
 			351 = { add_core_of = ROOT }
 		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
 }
-
 form_third_posavar_state_category = {
 
 	form_third_posavar_state = {
@@ -544,5 +551,4 @@ form_third_posavar_state_category = {
 			}
 		}
 	}
-}
 }

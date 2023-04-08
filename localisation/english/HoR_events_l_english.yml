@@ -11,3 +11,21 @@
  ## Union of Haven
  uoh.1.t:0 "Declaration of Aetheria!"
  uoh.1.d:0 "As Ursus refuses Democracy, the peoples of Umbria have risen up! The odds look against them, but who knows?"
+
+ ## Carn
+ carn.1.t:0 "A Grand Gathering"
+ carn.1.d:0 "Democracy has grown support drastically inside our great nation of Carn, the leader of this democratic movement, Kerplis is telling us to hold a grand gathering to hold a referendum to turn over to democracy."
+ carn.1.a:0 "Democracy is the only answer"
+
+ carn.3.t:0 "Carn proposes a union"
+ carn.3.d:0 "Carn and Lirgal has been growing closer everyday. Therefor Carn has proposed a new Union of Lirgal-Carn, we now have a chose do we accept this union?"
+ carn.3.a:0 "A Union of 2 Great nations!"
+ carn.3.b:0 "We need no union"
+
+ carn.4.t:0 "Lirgal Accepts!"
+ carn.4.d:0 "Lirgal Accepts our grcaious offer of a union!"
+ carn.4.a:0 "Ave Lirgal-Carn!"
+
+ carn.5.t:0 "Lirgal Declines!"
+ carn.5.d:0 "Lirgal Delinces our grcaious offer of a union! We will show them what happens now"
+ carn.5.a:0 "Fuck Lirgal"

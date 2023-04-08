@@ -14,13 +14,15 @@ history=
 			arms_factory = 2
 			industrial_complex = 2
 			dockyard = 2
-			1227 = { naval_base = 4}
+			1227 = { naval_base = 7 }
 		}
 		victory_points = { 9608 25 } #Ignatava
 		add_core_of = CZR
 	}
 
-
+	resources = {
+		steel = 5
+	}
 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

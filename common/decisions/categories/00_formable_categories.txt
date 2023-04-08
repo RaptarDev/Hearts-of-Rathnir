@@ -254,80 +254,67 @@ form_aldovir_category = {
 			
 		}
 	}
+}
 
 form_third_posavar_state_category = {
 
-	form_third_posavar_state = {
+	icon = generic_form_nation
 
-		icon = generic_form_nation
-
-		allowed = {
-			OR = {
-				original_tag = AVE
-				original_tag = REG
-				original_tag = PAU
-				original_tag = AVA
-                original_tag = CER
-			}
-		}
-
-		available = {
-
-			controls_state = 179
-			controls_state = 177
-		}
-
-		
-		visible = {
-			OR = {
-				original_tag = AVE
-				original_tag = REG
-				original_tag = PAU
-				original_tag = AVA
-                original_tag = CER
-			}
-			NOT = { has_cosmetic_tag = POS }
-		}
-
-		complete_effect = {
-			set_cosmetic_tag = POS
-			hidden_effect = {
-				127 = { add_core_of = ROOT }
-				126 = { add_core_of = ROOT }
-				128 = { add_core_of = ROOT }
-				176 = { add_core_of = ROOT }
-				813 = { add_core_of = ROOT }
-				812 = { add_core_of = ROOT }
-				815 = { add_core_of = ROOT }
-				181 = { add_core_of = ROOT }
-				180 = { add_core_of = ROOT }
-				177 = { add_core_of = ROOT }
-				178 = { add_core_of = ROOT }
-				179 = { add_core_of = ROOT }
-				182 = { add_core_of = ROOT }
-				375 = { add_core_of = ROOT }
-				100 = { add_core_of = ROOT }
-				121 = { add_core_of = ROOT }
-				122 = { add_core_of = ROOT }
-				124 = { add_core_of = ROOT }
-				125 = { add_core_of = ROOT }
-				186 = { add_core_of = ROOT }
-				183 = { add_core_of = ROOT }
-				184 = { add_core_of = ROOT }
-				185 = { add_core_of = ROOT }
-				130 = { add_core_of = ROOT }
-			}
-
-
-		}
-
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+	allowed = {
+		OR = {
+			original_tag = AVE
+			original_tag = REG
+			original_tag = PAU
+			original_tag = AVA
+            original_tag = CER
 		}
 	}
-}
+
+	available = {
+		controls_state = 179
+		controls_state = 177
+	}
+
+		
+	visible = {
+		OR = {
+			original_tag = AVE
+			original_tag = REG
+			original_tag = PAU
+			original_tag = AVA
+             original_tag = CER
+		}
+	}
+	highlight_states = {
+		highlight_state_targets = {
+
+			state = 127
+			state = 126
+			state = 128
+			state = 176
+			state = 813
+			state = 812
+			state = 815
+			state = 181
+			state = 180
+			state = 177
+			state = 178
+			state = 179
+			state = 182
+			state = 375
+			state = 100
+			state = 121
+			state = 122
+			state = 124
+			state = 125
+			state = 186
+			state = 183
+			state = 184
+			state = 185
+			state = 130
+
+
+		}
+	}
+
 }

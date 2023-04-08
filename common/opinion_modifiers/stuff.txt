@@ -6,5 +6,32 @@ opinion_modifiers = {
 	anti_religion = {
 		value = -20
 	}
+
+	mediator_in_aldovir = {
+		value = 20
+	}
 	
+	aiding_asitir_settlers = {
+		value = 40
+	}
+		
+	legalizing_sakrelism = {
+		value = 40
+	}
+
+	
+	claimed_rhodia = {
+		value = -20
+	}
+
+	demanded_rhodia = {
+		value = -30
+	}
+
+	demanded_talor = {
+		value = -10
+	}
+	claimed_us = {
+		value = -50
+	}
 }

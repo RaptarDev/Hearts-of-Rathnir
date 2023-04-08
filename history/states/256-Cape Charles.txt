@@ -11,7 +11,7 @@ state={
 	}
 
 	resources = {
-		rubber = 1
+		rubber = 3
 	}
 
 history = {
@@ -25,6 +25,10 @@ history = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 1
+
+			1500 = {
+				naval_base = 4
+			}
 			
 		}
 		

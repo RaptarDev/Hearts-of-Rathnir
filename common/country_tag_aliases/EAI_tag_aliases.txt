@@ -45,15 +45,15 @@
 #	# ...
 #}
 
-WD0 = { variable = EAI_wardec_script_target }
+#WD0 = { variable = EAI_wardec_script_target }
 
-WP0 = { variable = EAI_prepare_for_war_targets^0 }
-WP1 = { variable = EAI_prepare_for_war_targets^1 }
-WP2 = { variable = EAI_prepare_for_war_targets^2 }
-WP3 = { variable = EAI_prepare_for_war_targets^3 }
-WP4 = { variable = EAI_prepare_for_war_targets^4 }
-WP5 = { variable = EAI_prepare_for_war_targets^5 }
-WP6 = { variable = EAI_prepare_for_war_targets^6 }
-WP7 = { variable = EAI_prepare_for_war_targets^7 }
-WP8 = { variable = EAI_prepare_for_war_targets^8 }
-WP9 = { variable = EAI_prepare_for_war_targets^9 }
+#WP0 = { variable = EAI_prepare_for_war_targets^0 }
+#WP1 = { variable = EAI_prepare_for_war_targets^1 }
+#WP2 = { variable = EAI_prepare_for_war_targets^2 }
+#WP3 = { variable = EAI_prepare_for_war_targets^3 }
+#WP4 = { variable = EAI_prepare_for_war_targets^4 }
+#WP5 = { variable = EAI_prepare_for_war_targets^5 }
+#WP6 = { variable = EAI_prepare_for_war_targets^6 }
+#WP7 = { variable = EAI_prepare_for_war_targets^7 }
+#WP8 = { variable = EAI_prepare_for_war_targets^8 }
+#WP9 = { variable = EAI_prepare_for_war_targets^9 }

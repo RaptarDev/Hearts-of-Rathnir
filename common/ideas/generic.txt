@@ -12,11 +12,11 @@ ideas = {
 			picture = GFX_goal_generic_construct_civ_factory
 	
 
-			modifier = {
-					#add_offsite_building = {
-					#	type = industrial_complex
-					#	level = 5
-					#}
+			on_add = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = 5
+					}
 			}
 
 

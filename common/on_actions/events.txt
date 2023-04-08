@@ -1,7 +1,19 @@
 on_actions = {
     on_startup = {
         effect = {
-            UOH= { news_event = { id = uoh.1 } days = 24 }
+            UOH = { 
+                country_event = { 
+                    id = uoh.1 
+                    days = 24
+                } 
+            }
+
+            every_country = {
+                limit = {
+                    num_of_factories = 0	
+                }
+                add_ideas = all_off_map_factories
+            }
         }
     }
 }

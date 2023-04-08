@@ -27,12 +27,12 @@ ideologies = {
 		
 		rules = {
 			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
+			can_send_volunteers = yes
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -42,10 +42,10 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
+			generate_wargoal_tension = 40
+			join_faction_tension = 0.20
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.25
 			guarantee_tension = 0.25
 			annex_cost_factor = 0.5
 			civilian_intel_to_others = 20.0
@@ -57,7 +57,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_neutral = yes 
+		ai_neutral = no 
 	}
 
 
@@ -94,7 +94,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_neutral = yes 
+		ai_neutral = no 
 		
 		rules = {
 			can_force_government = no
@@ -169,7 +169,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_neutral = yes 
+		ai_neutral = no 
 	}
 	
 	neutrality = {
@@ -219,7 +219,7 @@ ideologies = {
 		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.10
 			join_faction_tension = 0.2
 			lend_lease_tension = 0.2
 			send_volunteers_tension = 0.2
@@ -234,6 +234,6 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes 
+		ai_neutral = no 
 	}
 }

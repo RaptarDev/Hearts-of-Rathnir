@@ -24,10 +24,14 @@ history = {
 		add_core_of = DON
 
 		buildings = {
-			infrastructure = 2
-			arms_factory = 3
-			industrial_complex = 3
-			dockyard = 2
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+
+			9531 = {
+				naval_base = 4
+			}
 			
 		}
 		

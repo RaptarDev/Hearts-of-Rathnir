@@ -1,0 +1,1011 @@
+ideas = {
+	country = {
+
+		CAR_broken_nation = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_broken_nation
+	
+			modifier = {
+				
+				stability_factor = -0.35
+				recruitable_population_factor = -0.05
+				production_factory_max_efficiency_factor = -0.1
+				
+
+			}
+		}
+
+		CAR_rebels_in_the_borderlands = {
+
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_car_new_construction
+
+			on_add = {
+				
+			}
+	
+			modifier = {
+				
+				recruitable_population_factor = -0.05
+				
+			}
+		}
+
+		CAR_new_construction = {
+
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_car_new_construction
+	
+			modifier = {
+				
+				production_speed_industrial_complex_factor = 0.1
+				conversion_cost_civ_to_mil_factor = 0.05
+
+			}
+		}
+
+		CAR_carnian_renaissance = {
+
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_carnian_renaissance
+	
+			modifier = {
+				
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = -0.05
+				stability_factor = 0.1	
+
+			}
+		}
+
+		CAR_cult_of_aegmer = {
+
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_cult_of_aegmer
+	
+			modifier = {
+				
+				production_factory_efficiency_gain_factor = 0.05
+				recruitable_population_factor = 0.1
+				war_support_factor = 0.15
+				consumer_goods_factor = -0.1
+				stability_factor = -0.15
+	
+			}
+		}
+
+		
+		CAR_carnian_golden_age = {
+
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_cult_of_aegmer
+	
+			modifier = {
+				
+				production_factory_efficiency_gain_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+	
+			}
+		}
+
+
+		CAR_liberal_ideas = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_cult_of_aegmer
+	
+			modifier = {
+				
+				production_factory_efficiency_gain_factor = 0.05
+				recruitable_population_factor = 0.1
+				war_support_factor = 0.15
+				consumer_goods_factor = -0.1
+				stability_factor = -0.15
+	
+			}
+		}
+
+		CAR_kerpliss_committe = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_cult_of_aegmer
+	
+			modifier = {
+				
+				stability_factor = 0.05
+				political_power_factor = 0.05
+	
+			}
+		}
+
+		CAR_growing_democratic_support = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_growing_democratic_support
+	
+			modifier = {
+				
+				democratic_drift = 0.1
+	
+			}
+		}
+
+		CAR_uneasy_peace = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_growing_democratic_support
+	
+			modifier = {
+				
+				stability_factor = -0.15
+				production_factory_max_efficiency_factor = -0.05
+	
+			}
+		}
+
+		CAR_free_population = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_free_population
+	
+			modifier = {
+				
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				war_support_factor = 0.05
+	
+			}
+		}
+
+		CAR_pacified_borderlands = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_pacified_borderlands
+	
+			modifier = {
+				
+				democratic_drift = 0.05
+				production_speed_buildings_factor = 0.05
+	
+			}
+		}
+
+		CAR_radicalized_borderlands = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_pacified_borderlands
+	
+			modifier = {
+
+				war_support_factor = 0.1
+				
+				democratic_drift = 0.1
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+	
+			}
+		}
+
+		CAR_constitutional_monarchy = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_constitutional_monarchy
+	
+			modifier = {
+
+				stability_factor = 0.1
+				war_support_factor = 0.05
+	
+			}
+		}
+
+		CAR_blue_flower_cult = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_blue_flower_cult
+	
+			modifier = {
+	
+				recruitable_population_factor = 0.025
+				war_support_factor = 0.05
+	
+			}
+		}
+
+		CAR_asitir_aegmerist_dualism = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_asitir_aegmerist_dualism
+
+			on_add = {
+				LIR = {
+					add_opinion_modifier = {
+						target = CAR
+						modifier = aiding_asitir_settlers
+					}
+				}
+			}
+	
+			modifier = {
+	
+				stability_factor = -0.1
+				war_support_factor = 0.05
+					
+			}
+		}
+
+		CAR_forceful_sakrelist_conversions = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_asitir_aegmerist_dualism
+
+			on_add = {
+				LIR = {
+					add_opinion_modifier = {
+						target = CAR
+						modifier = legalizing_sakrelism
+					}
+				}
+			}
+	
+			modifier = {
+	
+				stability_factor = -0.15
+				war_support_factor = 0.05
+				recruitable_population_factor = 0.025
+					
+			}
+		}
+
+		CAR_coenian_nationalism = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_asitir_aegmerist_dualism
+
+			on_add = {
+				LIR = {
+					add_opinion_modifier = {
+						target = CAR
+						modifier = legalizing_sakrelism
+					}
+				}
+			}
+	
+			modifier = {
+	
+				recruitable_population_factor = 0.05
+				war_support_factor = 0.05
+					
+			}
+			
+		}
+
+		CAR_closed_palace = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_asitir_aegmerist_dualism
+	
+			on_add = {
+				LIR = {
+					add_opinion_modifier = {
+						target = CAR
+						modifier = legalizing_sakrelism
+					}
+				}
+			}
+	
+			modifier = {
+	
+				stability_factor = 0.05
+				drift_defence_factor = 0.1
+				democratic_drift = 0.05
+				fascism_drift = 0.05
+				communism_drift = 0.05
+					
+			}
+		}
+
+		CAR_politicial_struggle = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_politicial_struggle
+	
+			modifier = {
+				
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor = -0.05
+				democratic_drift = 0.05
+				fascism_drift = 0.05
+				communism_drift = 0.05
+
+			}
+		}
+
+		CAR_powerful_shaerons = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_powerful_shaerons
+	
+			modifier = {
+				
+				stability_factor = 0.1
+				neutrality_drift = 0.05
+
+			}
+		}
+
+		CAR_prepared_for_civil_war = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_prepared_for_civil_war
+	
+			modifier = {
+				
+				recruitable_population_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				war_support_factor = 0.1
+
+			}
+		}
+
+		CAR_absolute_monarchy = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_absolute_monarchy
+	
+			modifier = {
+				
+				stability_factor = 0.10
+				war_support_factor = 0.05
+
+			}
+		}
+
+		CAR_prophesied_return = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_prophesied_return
+	
+			modifier = {
+				
+				stability_factor = 0.5
+				army_defence_factor = 0.1
+				recruitable_population_factor = 0.1
+
+			}
+		}
+
+		CAR_carnian_nationalism = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_carnian_nationalism
+	
+			modifier = {
+				
+				stability_factor = -0.1
+				recruitable_population_factor = 0.1
+
+			}
+		}
+
+		CAR_widespread_carnian_nationalism = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_carnian_nationalism
+	
+			modifier = {
+				
+				stability_factor = -0.15
+				recruitable_population_factor = 0.15
+
+			}
+		}
+
+		CAR_coenian_dreams_fulfilled = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_carnian_nationalism
+	
+			modifier = {
+				
+				war_support_factor = 0.1
+				stability_factor = 5
+				recruitable_population_factor = 0.075
+
+			}
+		}
+
+		CAR_disruptive_presence = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_disruptive_presence
+	
+			modifier = {
+				
+				stability_factor = -0.05
+				fascism_drift = 0.05
+
+			}
+		}
+
+		CAR_appeased_borderlands = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_appeased_borderlands
+	
+			modifier = {
+				
+				stability_factor = 0.1
+				fascism_drift = 0.05
+
+			}
+		}
+
+		CAR_content_liberals = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFXCAR_content_liberals
+	
+			modifier = {
+				
+				stability_factor = 0.1
+				recruitable_population_factor = 0.05
+
+			}
+		}
+
+		CAR_struggling_nation = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_struggling_nation
+	
+			modifier = {
+				
+				stability_factor = -0.20
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = -0.05
+
+			}
+		}
+
+		CAR_religious_extremism = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_religious_extremism
+	
+			modifier = {
+				
+				stability_factor = -0.15
+				war_support_factor = 0.2
+				recruitable_population_factor = 0.1
+
+			}
+		}
+
+		CAR_divine_rule = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_divine_rule
+	
+			modifier = {
+				
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.05
+				recruitable_population_factor = 0.15
+
+			}
+		}
+
+		CAR_lord_derius = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_lord_derius
+	
+			modifier = {
+				
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.05
+				recruitable_population_factor = 0.15
+
+			}
+		}
+
+		CAR_crisis_under_control = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_crisis_under_control
+	
+			modifier = {
+				
+				stability_factor = -0.2
+				recruitable_population_factor = -0.05
+				communism_drift = 0.05
+
+			}
+		}
+
+		CAR_empowered_citizenry = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_empowered_citizenry
+	
+			modifier = {
+				
+				stability_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = 0.05
+
+			}
+		}
+
+		CAR_neutral_borderlands = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_neutral_borderlands
+	
+			modifier = {
+				
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				
+			}
+		}
+
+		CAR_enthusiastic_borderlands = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_enthusiastic_borderlands
+	
+			modifier = {
+				
+				stability_factor = 0.1
+				production_speed_buildings_factor = 0.10
+				recruitable_population_factor = 0.05
+				
+			}
+		}
+
+		CAR_centralised_council = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_centralised_council
+	
+			modifier = {
+				
+				political_power_factor = 0.05
+				research_speed_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				
+			}
+		}
+
+		CAR_lestrian_shipyards = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_lestrian_shipyards
+	
+			modifier = {
+				
+				ship_hull_light_design_cost_factor = -0.1 #???
+				
+			}
+		}
+
+		CAR_grand_gathering = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_grand_gathering
+	
+			modifier = {
+				
+				add_stability = 0.05
+				add_war_support = 0.05
+				
+			}
+		}
+
+		CAR_palace_guard = {
+			allowed = {
+				original_tag = CAR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_CAR_palace_guard
+	
+			modifier = {
+				
+				add_stability = 0.05
+				add_war_support = 0.05
+				
+			}
+		}
+
+    }
+
+	
+
+}

@@ -20,3 +20,12 @@ AVR = {
 	color = rgb { 130 37 52 }
 	color_ui = rgb { 130 37 52 }
 }
+LIRGAL_CARN = {
+	color = rgb { 39 133 184 }
+	color_ui = rgb { 39 133 184 }
+}
+SIRONIA_CARN = {
+	color = rgb { 156 20 86 }
+	color_ui = rgb { 156 20 86 }
+
+}

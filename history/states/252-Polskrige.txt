@@ -11,10 +11,14 @@ state={
 		controller = CHU
 		add_core_of = CHU
 		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 6
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
 			dockyard = 1
+
+			7505 = {
+				naval_base = 6
+			}
 
 		}
 		victory_points = {

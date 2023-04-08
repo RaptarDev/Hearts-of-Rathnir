@@ -1,0 +1,20 @@
+
+AVD_repair_the_infrastructure = {
+
+	icon = GFX_decision_category_generic_industry
+
+	allowed = {
+		
+	}
+
+	available = {
+		
+	}
+
+		
+	visible = {
+		#has_completed_focus = AVD_repair_the_infrastructure
+	}
+	
+
+}
