@@ -158,6 +158,7 @@ form_Korolian_empire_category = {
 			controls_state = 271
 			controls_state = 281
 			controls_state = 282
+           	controls_state = 825
 		}
 
 		
@@ -185,6 +186,7 @@ form_Korolian_empire_category = {
 			 271= { add_core_of = ROOT }
 			 281= { add_core_of = ROOT }
 			 282= { add_core_of = ROOT }
+			 825= { add_core_of = ROOT }
 			}
 
 
@@ -538,6 +540,77 @@ form_third_posavar_state_category = {
 				184 = { add_core_of = ROOT }
 				185 = { add_core_of = ROOT }
 				130 = { add_core_of = ROOT }
+			}
+
+
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_United_Commonwealth_category = {
+
+	form_The_United_Commonwealth = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CZR
+				original_tag = KAZ
+			}
+		}
+
+		available = {			
+			controls_state = 221
+			controls_state = 222
+			controls_state = 223
+			controls_state = 233
+			controls_state = 248
+			controls_state = 251
+			controls_state = 252
+			controls_state = 254
+			controls_state = 253
+			controls_state = 256
+			controls_state = 769
+			controls_state = 770
+			controls_state = 771
+			controls_state = 772
+			controls_state = 773
+			controls_state = 774
+           	controls_state = 825
+			
+		}
+
+		
+		visible = {
+			OR = {
+				original_tag = CZR
+				original_tag = KAZ
+			}
+			NOT = { has_cosmetic_tag = UNC }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = UNC
+			hidden_effect = {
+			 221= { add_core_of = ROOT }
+			 222= { add_core_of = ROOT }
+			 223= { add_core_of = ROOT }
+			 233= { add_core_of = ROOT }
+			 248= { add_core_of = ROOT }
+			 251= { add_core_of = ROOT }
+			 252= { add_core_of = ROOT }
+			 254= { add_core_of = ROOT }
+			 253= { add_core_of = ROOT }
+			 256= { add_core_of = ROOT }
+			 825= { add_core_of = ROOT }
 			}
 
 

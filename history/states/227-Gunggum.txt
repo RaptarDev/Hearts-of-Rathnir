@@ -21,7 +21,7 @@ state={
 		add_core_of = GSH
 		
 		victory_points = {
-			8831 10
+			219 10
 		}
 	}
 

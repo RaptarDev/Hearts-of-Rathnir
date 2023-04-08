@@ -23,7 +23,7 @@ history = {
 		}		
 	
 		victory_points = {
-			6955 10
+			9088 10
 		}
 
 
