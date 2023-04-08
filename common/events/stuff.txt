@@ -1,0 +1,24 @@
+﻿add_namespace = stuff
+
+# Grand Jarldom becomes Jarldom
+country_event = {
+	id = stuff.1
+	
+	trigger = {
+		tag = FRO
+		country_exists = NVS
+		country_exists = ATO
+		country_exists = ITA
+		NOT = { has_global_flag = FRO_not_jarldom }
+	}
+	
+	mean_time_to_happen = { days = 2 }
+
+	hidden = yes
+
+	immediate = {
+		set_cosmetic_tag = JOF
+		set_global_flag = FRO_not_jarldom
+	}
+}
+

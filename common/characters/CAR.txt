@@ -33,6 +33,25 @@ characters = {
 				great_architect
 			}
 		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAR_idea_uzair_elernel
+			allowed  = {
+				original_tag = CAR
+				not = {
+					has_country_leader = CAR_kerplis_everthorne_elernel
+				}
+			}
+
+			traits = {
+				great_architect
+			}
+			do_effect  = {
+
+			}
+
+		}
 	}
 
 	CAR_daria_elernel_daria = {
@@ -70,6 +89,21 @@ characters = {
 				man_of_the_nation
 			}
 		}
+
+		corps_commander={
+			traits={
+				infantry_officer
+				politically_connected
+				old_guard
+
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+
 	}
 
 	## Advisors 
@@ -113,13 +147,201 @@ characters = {
 			}
 
 			traits = {
-				# cultural_hero
+				cultural_hero
 			}
 			do_effect  = {
 
 			}
 
 		}
+	}
+
+	CAR_remnes_elernel_dariae = {
+		name = "Rémnés Elernel-Dariæ"
+		portraits = {
+			army = {
+				small = "GFX_CAR_remnes_elernel_dariae"
+			}
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAR_idea_remnes_elernel_dariae
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				lady_of_the_people
+			}
+			do_effect  = {
+
+			}
+
+		}
+	}
+	
+	CAR_everthorne_lant	= {
+		name = "Everthorne Lant"
+		portraits = {
+			army = {
+				small = "GFX_CAR_everthorne_lant"
+			}
+		}
+
+		advisor={
+			slot = high_command
+			idea_token = CAR_idea_everthorne_lant
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				ancient_caeron
+			}
+			do_effect  = {
+
+			}
+
+		}
+	}
+
+	CAR_jecten_tliavan = {
+		name = "Jecten Tliavan"
+		portraits = {
+			army = {
+				small = "GFX_CAR_jecten_tliavan"
+			}
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAR_idea_jecten_tliavan
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				disloyal_governor
+			}
+			do_effect  = {
+
+			}
+
+		}
+	}
+
+	#Generals
+
+	CAR_beat_of_bloodystone ={
+		name="Beat of bloodystone"
+		portraits={
+			civilian={
+				large=GFX_CAR_beat_of_bloodystone
+			}
+		}
+		
+		corps_commander={
+			traits={
+				infantry_officer
+				old_guard
+				
+			}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+
+	CAR_drakakus_elernel_ravensrock	={
+		name="Drakakus Elernel-Ravensrock"
+		portraits={
+			civilian={
+				large=GFX_CAR_drakakus_elernel_ravensrock
+			}
+		}
+		
+		corps_commander={
+			traits={
+				infantry_officer
+				old_guard
+				
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+
+		advisor={
+			slot = theorist
+			idea_token = CAR_idea_drakakus_elernel_ravensrock
+			allowed  = {
+				original_tag = CAR
+			}
+
+			traits = {
+				military_theorist 
+			}
+			ledger = army
+
+			do_effect  = {
+
+			}
+
+		}
+	}
+
+	CAR_lord_flickeye_of_wolowicz = {
+		name="Lord Flickeye of Wolowicz"
+		portraits={
+			civilian={
+				large=GFX_CAR_lord_flickeye_of_wolowicz
+			}
+		}
+		
+		field_marshal = {
+			
+		
+			traits={
+				organizer
+				defensive_doctrine
+				
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+
+	CAR_lord_peter_of_lardburg = {
+			name="Lord Peter of Lardburg "
+			portraits={
+				civilian={
+					large=GFX_CAR_lord_peter_of_lardburg
+				}
+			}
+			
+			field_marshal = {
+				
+			
+				traits={
+					offensive_doctrine
+					fast_planner
+					
+				}
+				skill=4
+				attack_skill=5
+				defense_skill=3
+				planning_skill=4
+				logistics_skill=3
+			}
+		
 	}
 
 }

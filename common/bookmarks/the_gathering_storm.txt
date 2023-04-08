@@ -54,17 +54,17 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+		CAR={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 
 		# minors ####
-		#"AUR"={
-		#	minor = yes
-		#	history = "OTHER_GATHERING_STORM_DESC"
-		#	ideology = neutrality
-		#
-		#}
 		#"RYZ"={
 		#	minor = yes
 		#	history = "OTHER_GATHERING_STORM_DESC"

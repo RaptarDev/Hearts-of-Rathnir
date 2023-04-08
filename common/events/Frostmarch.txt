@@ -1,0 +1,36 @@
+add_namespace = frostmarch
+
+# Change Capital
+country_event = {
+	id = frostmarch.1
+	title = frostmarch.1.t
+	desc = frostmarch.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = frostmarch.1.a # Not Venice
+		ai_chance = { factor = 80 }
+		set_capital = {
+			state = 63
+		}
+
+	}
+	option = {
+		name = frostmarch.1.b # Port Leon
+		ai_chance = { factor = 19 }
+		set_capital = {
+			state = 59
+		}
+
+	}
+	option = {
+		name = frostmarch.1.c # Windcliff
+		ai_chance = { factor = 1 }
+		set_capital = {
+			state = 57
+		}
+
+	}
+
+}

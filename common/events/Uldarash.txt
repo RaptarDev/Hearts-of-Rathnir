@@ -1,0 +1,39 @@
+﻿add_namespace = scotch
+
+news_event = {
+    id = scotch.1
+
+    trigger = {
+       has_country_flag = scotch_died
+    }
+
+    title = {
+        text = "Empress Elyun ScotchKnight found dead!"
+    }
+
+    desc = {
+        text = scotch.1.d
+
+    }
+
+    
+    picture = GFX_scotch_death
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = "May her Basedness Rest in peace, Imur Scotch!"
+        trigger = {
+            has_cosmetic_tag = ULD
+        }
+    }
+    
+    option = {
+        name = "May she rest in peace..."
+        trigger = {
+            NOT = { has_cosmetic_tag = ULD }
+        }
+    }
+    
+}

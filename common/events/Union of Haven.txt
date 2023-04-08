@@ -1,0 +1,44 @@
+﻿add_namespace = uoh
+
+# Declaration of Aetheria!
+country_event = {
+	id = uoh.1
+	title = uoh.1.t
+	desc = uoh.1.d
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 10
+		
+
+	}
+
+	option = {
+		name = uoh.1.a 
+		add_stability  = -0.1
+
+		every_owned_state = {
+			
+			limit = {
+				is_core_of = AET
+				
+			}
+			random = {
+				chance = 70
+				transfer_state_to = AET
+			}
+		}
+		
+		AET = {
+			
+			declare_war_on= {
+				target = UOH
+				type = independence_wargoal
+				
+			}
+		}
+
+		add_named_threat = { threat = 5 name = "Aetherian Independence War" }
+	}
+}
