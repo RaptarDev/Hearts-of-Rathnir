@@ -22,7 +22,6 @@ history = {
 
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			dockyard = 1
 		}		
 	

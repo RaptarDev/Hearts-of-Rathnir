@@ -10,10 +10,6 @@ state={
 		owner = AYN
 		controller = AYN
 		add_core_of = AYN
-		buildings = {
-			industrial_complex = 1
-
-		}
 
 	}
 

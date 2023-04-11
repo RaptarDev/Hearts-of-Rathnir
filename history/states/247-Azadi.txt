@@ -8,9 +8,10 @@ state={
 		controller = AYN
 		add_core_of = AYN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 6
+			industrial_complex = 1
+			dockyard = 1
 
 		}
 		victory_points = {

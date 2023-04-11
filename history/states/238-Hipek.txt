@@ -15,12 +15,6 @@ history = {
                 controller = AYN
 
 		add_core_of = AYN
-
-		buildings = {
-			infrastructure = 0
-			arms_factory = 0
-			industrial_complex = 2
-		}		
 	
 		victory_points = {
 			7726 10
