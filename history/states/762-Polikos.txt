@@ -10,8 +10,12 @@ state={
 	state_category = City
 
 	resources = {
-		Steel  = 2
+		Steel  = 4
 	}
+	
+	buildings = {
+			industrial_complex = 1
+		}
 
 history = {
 		owner = POL

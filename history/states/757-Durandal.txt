@@ -17,7 +17,7 @@ history = {
 		add_core_of = AYN
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
 		}		
