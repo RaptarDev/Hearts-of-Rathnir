@@ -15,7 +15,6 @@ history=
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			industrial_complex = 1
 			18616 = { naval_base = 3 }
 		}
 		victory_points = { 18616 10 } #Fort
