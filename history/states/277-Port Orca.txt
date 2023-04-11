@@ -13,17 +13,18 @@ state={
 
 resources = {
 		tungsten = 2
+		rubber = 3
 	}
 
 history = {
 		owner = SLI
 		
-                controller = SLI
+        controller = SLI
 
 		add_core_of = SLI
 
 		buildings = {
-			industrial_complex = 2
+			industrial_complex = 1
 
 		}	
 		victory_points = {

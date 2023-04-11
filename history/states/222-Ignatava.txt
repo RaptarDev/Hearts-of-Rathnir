@@ -12,7 +12,7 @@ history=
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 3
 			dockyard = 2
 			1227 = { naval_base = 4 }
 		}

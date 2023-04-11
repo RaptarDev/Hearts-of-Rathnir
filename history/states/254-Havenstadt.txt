@@ -22,7 +22,6 @@ history = {
 
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
 			industrial_complex = 2
 			dockyard = 2
 			9953 = { naval_base = 5}
