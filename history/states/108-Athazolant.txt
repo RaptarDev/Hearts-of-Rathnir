@@ -31,7 +31,7 @@ state = {
 			1327 = {
 				naval_base = 6
 			}
-			108 = {
+			8569 = {
 				naval_base = 5
 			}
 		}

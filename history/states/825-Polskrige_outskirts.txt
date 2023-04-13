@@ -7,15 +7,17 @@ state={
 	manpower=250
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-history={
-		owner = CHU
-		controller = CHU
-		add_core_of = CHU
-		buildings = {
-			infrastructure = 0
-			industrial_complex = 1
+	history={
+			owner = CHU
+			controller = CHU
+			add_core_of = CHU
+			buildings = {
+				infrastructure = 0
+				industrial_complex = 0
 
-		}
+			}
 
 	}
+	state_category = pastoral
+
 }
