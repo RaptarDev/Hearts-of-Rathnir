@@ -11,6 +11,8 @@ state={
 		owner = WIV 
 
 		add_core_of = WIV 
+		
+		add_core_of = AND 
 
 		victory_points = {
 			9229 15

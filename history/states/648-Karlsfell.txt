@@ -13,7 +13,7 @@ state={
 		add_core_of = RYZ 
 
 		victory_points = {
-			10056 15
+			6290 5
 		}
 
 		buildings = {

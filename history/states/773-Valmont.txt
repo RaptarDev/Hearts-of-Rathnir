@@ -16,6 +16,8 @@ state={
                 controller = RYZ
 
 		add_core_of = RYZ
+		
+		add_core_of = DLR
 
 		buildings = {
 			infrastructure = 1
@@ -24,7 +26,6 @@ state={
 		}		
 	
 		victory_points = {10405 20}
-		victory_points = {877 10}
 
 	}
 }

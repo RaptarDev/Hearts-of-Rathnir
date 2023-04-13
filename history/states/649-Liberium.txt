@@ -7,10 +7,7 @@ state={
 		owner = RYZ
 		add_core_of = RYZ
 		victory_points = {
-			4506 4 
-		}
-		victory_points = {
-			6934 2 
+			4506 5 
 		}
 
 		buildings = {
@@ -26,8 +23,8 @@ state={
 	}
 
 	resources = {
-		steel = 4
-		chromium = 1
+		steel = 8
+		chromium = 2
 	}
 
 	provinces={

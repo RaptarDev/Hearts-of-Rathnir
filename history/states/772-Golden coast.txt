@@ -15,6 +15,7 @@ state={
                 controller = RYZ
 
 		add_core_of = RYZ
+		add_core_of = DLR 
 
 		buildings = {
 			arms_factory = 1

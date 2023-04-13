@@ -9,10 +9,11 @@ state={
 
 		owner = RYZ 
 
-		add_core_of = RYZ 
+		add_core_of = RYZ
+		add_core_of = BAR 
 
 		victory_points = {
-			10917 5
+			10917 7
 		}
 
 		buildings = {
