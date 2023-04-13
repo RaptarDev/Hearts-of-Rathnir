@@ -10,7 +10,18 @@ state={
 			15813 1 
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			7993 = {
+				naval_base = 3
+			}
+		}
 	}
+
+	resources = {
+		steel = 4
+]	}
 
 	provinces={
 		4058 5469 7993 8227 15740 15812 15813 15819 15847 15848 19145 
