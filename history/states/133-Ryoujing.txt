@@ -25,7 +25,7 @@ state = {
 			infrastructure = 4
 			industrial_complex = 5
 			arms_factory = 3
-			naval_base = 1
+			dockyard = 1
 
 			1151 = {
 				naval_base = 6

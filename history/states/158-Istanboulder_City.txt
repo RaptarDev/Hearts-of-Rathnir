@@ -28,11 +28,33 @@ state={
 			5179 1
 		}
 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+
+			2162 = {
+				naval_base = 6
+			}
+			16771 = {
+				naval_base = 7
+			}
+			4966 = {
+				naval_base = 6
+			}
+		}
+
 	}
 
-	manpower = 1700000 # 34 people
+	resources = {
+		steel = 12
+		aluminium = 3
+	}
+
+	manpower = 3750000 # 75 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = city
+	state_category = large_city
 
 }

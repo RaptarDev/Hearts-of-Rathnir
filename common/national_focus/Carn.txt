@@ -13,7 +13,7 @@ focus_tree = {
 	default = no
 
 
-	continuous_focus_position = { x = 10 y = 2000 } 
+	continuous_focus_position = { x = 10 y = 1500 } 
 
 	####################################
 	        #INDUSTRIAL SECTION
@@ -1085,7 +1085,7 @@ focus_tree = {
 			x = 0
 			y = 0
 		}
-		cost = 10
+		cost = 5
 		ai_will_do = {
 
 		}
@@ -1104,6 +1104,9 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 120
 		}
+
+		
+
 	}
 
 	####################################

@@ -10,13 +10,26 @@ state={
 			17578 10 
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 4
+			arms_factory = 2
+		}
+
+	}
+
+
+	resources = {
+		steel = 21
+		aluminium = 2
 	}
 
 	provinces={
 		628 792 1125 1210 1382 3268 3699 3985 4029 4535 4603 5319 5457 5697 6054 6536 6556 7005 7081 7194 8195 8345 17153 17189 17211 17238 17276 17282 17306 17322 17377 17384 17410 17467 17468 17517 17518 17549 17551 17577 17578 17624 17649 17655 17663 17702 17710 17714 17756 26456 
 	}
-	manpower=1050000
+	manpower=2650000 #53
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city 
 	local_supplies=0.000
 }

@@ -1,0 +1,115 @@
+bookmarks = {
+	bookmark = {
+		name = "Hearts of Gold"
+		desc = "GATHERING_STORM_DESC"
+		date = 47.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "HSY"
+		default = yes
+		
+		"HSY"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"AND"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"BAR"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"NDR"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality 
+		}
+		"RYZ"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"AVD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality 
+		}
+		"IAU"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality 
+		}
+		"HUI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+		}
+		"YIM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+
+		}
+		"IMP"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+
+		}
+		
+
+
+	
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+
+		# minors ####
+		#"RYZ"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#
+		#}
+		#"AYN"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = democratic
+
+		#}
+		#"DLR"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#}
+		#"CZR"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#	
+		#}
+		#"NAJ"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#}
+		
+		#"FRO"={
+		#	minor = no
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#
+		#}
+		#"CHU"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#	ideology = fasiscm
+		#
+		#}
+
+
+
+	}
+}
+
+}
+	
+

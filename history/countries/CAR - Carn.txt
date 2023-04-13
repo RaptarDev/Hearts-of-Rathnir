@@ -1,13 +1,28 @@
 capital = 345
 
-oob = "generic_oob"
+oob = "CAR_142"
+
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	gw_artillery = 1
+	
+	early_fighter = 1
+	fighter1 = 1
+
+	fuel_silos = 1
+
+	gwtank = 1
 }
 
-set_convoys = 5
+set_convoys = 7
 
 
 1939.1.1 = {
@@ -23,10 +38,6 @@ set_convoys = 5
 	complete_national_focus = production_effort
 	
 	set_technology = {
-
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -70,11 +81,26 @@ set_popularities = {
 #	}
 #}
 
+341 = {
+	set_state_flag = borderlands
+}
+
 recruit_character = CAR_atton_nullus
 recruit_character = CAR_daria_elernel_daria
 recruit_character = CAR_derius_of_gellifrey
 recruit_character = CAR_kerplis_everthorne_elernel
 recruit_character = CAR_shareleria_elernel_levia
 recruit_character = CAR_uzair_elernel
+recruit_character = CAR_remnes_elernel_dariae
+recruit_character = CAR_everthorne_lant
+recruit_character = CAR_jecten_tliavan
+recruit_character = CAR_beat_of_bloodystone
+recruit_character = CAR_drakakus_elernel_ravensrock
+recruit_character = CAR_lord_flickeye_of_wolowicz
+recruit_character = CAR_lord_peter_of_lardburg
 
-add_ideas = all_off_map_factories
+set_country_flag = in_aldovir
+
+add_ideas = CAR_broken_nation
+add_ideas = CAR_rebels_in_the_borderlands
+add_ideas = CAR_grand_gathering

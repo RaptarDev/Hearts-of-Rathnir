@@ -15,12 +15,31 @@ state={
 		victory_points = {
 			3555 10
 		}
+		
+		buildings = {
+			infrastructure = 4
+			
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			
+			14613 = {
+				naval_base = 6
+			}
+		}
 
 	}
 
-	manpower=1200000 # 24 people
+	resources = {
+		oil = 2
+
+		steel = 8
+		aluminium = 3
+	}
+
+	manpower=1700000 # 34 people
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 
 

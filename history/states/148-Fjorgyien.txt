@@ -20,11 +20,22 @@ state={
 			17927 1
 		}
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 4
+		}
+
 	}
 
-	manpower = 2200000 # 44 people
+	resources = {
+		rubber = 3
+		steel = 1
+	}
+
+	manpower = 6050000 # 121 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = city
+	state_category = megalopolis
 
 }

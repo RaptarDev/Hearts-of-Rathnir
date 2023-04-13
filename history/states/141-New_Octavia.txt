@@ -25,7 +25,17 @@ state = {
 			641 3
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+		}
+
 	}
 
+	resources = {
+		rubber = 16
+		aluminium = 2
+	}
 
 }

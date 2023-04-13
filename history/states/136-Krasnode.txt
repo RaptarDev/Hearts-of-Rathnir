@@ -21,6 +21,20 @@ state = {
 			17023 10
 		}
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+			17057 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	resources = {
+		steel = 4
+		chromium = 2
 	}
 
 }

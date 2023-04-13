@@ -10,7 +10,7 @@ ideologies = {
 			liberalism = {
 			}
 		
-			socialism = {
+			social_democratic = {
 			}
 		}
 		
@@ -182,9 +182,6 @@ ideologies = {
 			oligarchism  = {
 			}
 
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
 			
 			moderatism = {
 			}
@@ -194,6 +191,9 @@ ideologies = {
 			
 			jarlism = {
 				can_be_randomly_selected = no
+			}
+			monarchism = {
+				
 			}
 		}
 
@@ -236,4 +236,54 @@ ideologies = {
 
 		ai_neutral = no 
 	}
+
+	anarchy = {
+	
+		types = {
+		
+			
+			
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+		
+		color = {  0 0 0 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = no
+			can_be_randomly_selected = no
+		}
+		
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.10
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.2
+			send_volunteers_tension = 0.2
+			guarantee_tension = 0.2
+			drift_defence_factor = -0.3	
+			civilian_intel_to_others = 50.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 50.0
+			airforce_intel_to_others = 30.0
+		}
+		
+		faction_modifiers = {
+		}
+
+		ai_neutral = no 
+	}
+
 }

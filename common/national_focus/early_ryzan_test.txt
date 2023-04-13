@@ -1,0 +1,352 @@
+focus_tree = {
+	id = ryzan_focus
+	continuous_focus_position = { x = 0 y = 0 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RYZ
+		}
+	}
+	#Reform the Third Tsardom
+	focus = {
+		id = Third_Tsardom_Reformation
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 0
+		cost = 10
+
+		available = {
+			date < 142.1.1
+		}
+
+		allow_branch = {
+			date > 46.12.31
+			date < 142.1.1
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.1 }
+			}
+			custom_effect_tooltip = ryzantip18
+			add_political_power = 100
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Ratification of Ryzani Constitution
+	focus = {
+		id = Ratification_of_Constitution
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 1
+		cost = 3
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.2 }
+			}
+			custom_effect_tooltip = ryzantip1
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Third_Tsardom_Reformation }
+	}
+	#Zefirov President of Ryzan
+	focus = {
+		id = Zefirov_for_President
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 2
+		cost = 3
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.4 }
+			}
+			custom_effect_tooltip = ryzantip2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ratification_of_Constitution }
+	}
+	#Dissolves the Senate
+	focus = {
+		id = Ryzan_Dissolve_Senate
+		icon = GFX_RYZ_ryzan-15842
+		x = 4
+		y = 3
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.5 }
+			}
+			custom_effect_tooltip = ryzantip3
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Zefirov_for_President }
+	}
+	#Reorganizing Ryzani Departments
+	focus = {
+		id = Ryzan_Department_Replaced
+		icon = GFX_RYZ_ryzan-15842
+		x = 6
+		y = 3
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.6 }
+			}
+			custom_effect_tooltip = ryzantip4
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Zefirov_for_President }
+	}
+	#Tsardom Abolished
+	focus = {
+		id = Abolish_of_Tsardom
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 4
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.7 }
+			}
+			custom_effect_tooltip = ryzantip5
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ryzan_Department_Replaced focus = Ryzan_Dissolve_Senate }
+	}
+	#The Prophet
+	focus = {
+		id = Prophet_Uni
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 5
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id= ryzan.8 }
+			}
+			custom_effect_tooltip = ryzantip6
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Abolish_of_Tsardom }
+	}
+	#Defend Ryzan
+	focus = {
+		id = Disappearence_of_Zefriov
+		icon = GFX_RYZ_ryzan-15842
+		available = {
+			allow_branch = { has_completed_focus = Prophet_Uni }
+		}
+		allow_branch = { has_completed_focus = Prophet_Uni }
+		x = 16
+		y = 0
+		cost = 3
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id= ryzan.9 }
+			}
+			custom_effect_tooltip = ryzantip7
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Carthya Fort Line
+	#NOT HISTORICAL
+	focus = {
+		id = Carthya_Line
+		icon = GFX_RYZ_ryzan-15842
+		x = 14
+		y = 1
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				#
+			}
+			custom_effect_tooltip = ryzantip8
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = Ryzan_Task_Force }
+		prerequisite = { focus = Disappearence_of_Zefriov }
+	}
+	#Ryzani Task Forces
+	focus = {
+		id = Ryzan_Task_Force
+		icon = GFX_RYZ_ryzan-15842
+		x = 20
+		y = 1
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.10 }
+			}
+			custom_effect_tooltip = ryzantip9
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = Carthya_Line }
+		prerequisite = { focus = Disappearence_of_Zefriov }
+	}
+	#Ryzani Navy
+	focus = {
+		id = Ryzani_Navy
+		icon = GFX_RYZ_ryzan-15842
+		x = 19
+		y = 3
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.11 }
+			}
+			custom_effect_tooltip = ryzantip14
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Reinforce_Volkoregrad focus = Reinforce_Tossagrad focus = Reinforce_Carthya }
+	}
+	#Reinforce Carthya
+	focus = {
+		id = Reinforce_Carthya
+		icon = GFX_RYZ_ryzan-15842
+		x = 22
+		y = 2
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.12 }
+			}
+			custom_effect_tooltip = ryzantip15
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ryzan_Task_Force }
+	}
+	#Reinforce Tossagrad
+	focus = {
+		id = Reinforce_Tossagrad
+		icon = GFX_RYZ_ryzan-15842
+		x = 20
+		y = 2
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.13 }
+			}
+			custom_effect_tooltip = ryzantip16
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ryzan_Task_Force }
+	}
+	#Reinforce Volkoregrad
+	focus = {
+		id = Reinforce_Volkoregrad
+		icon = GFX_RYZ_ryzan-15842
+		x = 18
+		y = 2
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.14 }
+			}
+			custom_effect_tooltip = ryzantip17
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ryzan_Task_Force }
+	}
+	#Hiring Ulfaeng
+	focus = {
+		id = Ulfaeng_Hired
+		icon = GFX_RYZ_ryzan-15842
+		x = 21
+		y = 3
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.15 }
+			}
+			custom_effect_tooltip = ryzantip11
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Reinforce_Volkoregrad focus = Reinforce_Tossagrad focus = Reinforce_Carthya }
+	}
+	#Nebsko Flee
+	#Nebsko declares war on Ryzan - BARD WAR STARTS
+	focus = {
+		id = Nebsko_Flee
+		icon = GFX_RYZ_ryzan-15842
+		x = 20
+		y = 4
+		cost = 30
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = ryzan.16 }
+			}
+			custom_effect_tooltip = ryzantip10
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Ulfaeng_Hired focus = Ryzani_Navy }
+	}
+	#Emergency Ryzani Mobilization
+	focus = {
+		id = Ryzani_Moblization
+		icon = GFX_RYZ_ryzan-15842
+		x = 19
+		y = 5
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				#
+			}
+			custom_effect_tooltip = ryzantip12
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Nebsko_Flee }
+	}
+	#Ryzani Reorganization
+	focus = {
+		id = Ryzani_Military_Reorg
+		icon = GFX_RYZ_ryzan-15842
+		x = 21
+		y = 5
+		cost = 20
+		completion_reward = {
+			hidden_effect = {
+				#
+			}
+			custom_effect_tooltip = ryzantip13
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Nebsko_Flee }
+	}
+}

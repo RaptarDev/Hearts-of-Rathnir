@@ -18,9 +18,14 @@ state={
 
 	}
 
-	manpower=150000 # 3 people
+	resources = {
+		steel = 5
+		chromium = 2
+	}
+
+	manpower=450000 # 9 people
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=0.000
 
 

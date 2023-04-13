@@ -6,8 +6,8 @@
  fascism:0 "Imperialist"
  fascism_noun:0 "Imperialism"
  fascism_desc:0 "Imperialist Regime"
- neutrality:0 "Monarchist"
- neutrality_noun:0 "Autocratic"
+ neutrality:0 "Autocratic"
+ neutrality_noun:0 "Autocracy"
  neutrality_desc:0 "Autocratic State"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
@@ -16,7 +16,10 @@
  technocracy:0 "Technocratic"
  technocracy_noun:0 "Technocracy"
  technocracy_desc:0 "Technocractic State"
-
+#Autocratic Types
+social_democratic:0 "Social Democratic"
+social_democratic_noun:0 "Social Democracy"
+social_democratic_desc:0 "Social Democratic State"
  #Avertico
  AVE_fascism_party:0 "ASTRO"
  AVE_fascism_party_long:0 "Avertican Science and Tech Revolutionary Organisation"

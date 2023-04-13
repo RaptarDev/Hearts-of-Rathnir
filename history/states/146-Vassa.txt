@@ -17,10 +17,21 @@ state = {
 			4640 20
 		}
 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+		}
+
 	}
 
-	manpower = 1500000 # 30 people
+	resources = {
+		rubber = 2
+		aluminium = 3
+	}
+
+	manpower = 3650000 # 73 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = city
+	state_category = metropolis
 }

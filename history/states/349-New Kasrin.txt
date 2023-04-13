@@ -20,11 +20,22 @@ state={
 			4260 1
 		}
 
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
 	}
 
-	manpower=350000 # 7 people
+	resources = {
+		steel = 5
+		aluminium = 3
+	}
+
+	manpower=1100000	# 22 people
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 
 }

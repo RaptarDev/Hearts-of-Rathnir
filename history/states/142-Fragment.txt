@@ -28,6 +28,17 @@ state={
 			18435 1 
 		}
 
+		buildings = {
+			infrastructure = 2
+			
+			industrial_complex = 2
+		}
+
+	}
+
+	resources = {
+		rubber = 25
+		oil = 6
 	}
 
 

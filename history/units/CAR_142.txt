@@ -1,0 +1,342 @@
+﻿
+division_template = {
+	name = "Haertheron Division"			# Infantry Division
+	#division_names_group = CHU_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }     
+	}
+	
+}
+
+division_template = {
+	name = "Garrison Area"			# Garrison Force
+	#division_names_group = CHU_GAR_01
+	template_counter = 12
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+division_template = {
+	name = "Hevether Division"  	# Cavalry Regiment
+	#division_names_group = CHU_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Motorized Division"  	
+	#division_names_group = CHU_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+	}
+}
+
+
+
+	######## LAND UNITS ########
+
+units = {
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3555 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 275 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14912 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6436 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14677 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2928 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4389 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7586 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7520 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2747 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3560 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 771 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14046 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14613 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14204 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2257 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14962 # 
+		division_template = "Haertheron Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 974 # 
+		division_template = "Hevether Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1923 # 
+		division_template = "Hevether Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14899 # 
+		division_template = "Hevether Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4260 # 
+		division_template = "Hevether Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.3
+	}
+	
+}
+
+### Starting Production ###
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CAR"
+		}
+		requested_factories = 1
+		progress = 0.77
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CAR"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CAR"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+
+}

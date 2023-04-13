@@ -20,11 +20,27 @@ state={
 			4031 5
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+
+			4137 = {
+				naval_base = 6
+			} 
+		}
+
 	}
 
-	manpower = 700000 # 14 people
+	resources = {
+		oil = 3
+		steel = 2	
+	}
+
+	manpower = 900000 # 18 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = town
+	state_category = large_town
 
 }

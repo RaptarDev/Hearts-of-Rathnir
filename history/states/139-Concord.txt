@@ -21,6 +21,18 @@ state = {
 			2190 1
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			2190 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	resources = {
+		steel = 2
 	}
 
 }

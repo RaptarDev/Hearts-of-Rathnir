@@ -576,3 +576,12 @@ AET = {
 	color = rgb { 168 93 27 }
 	color_ui = rgb { 168 93 27 }
 }
+
+NDR = {
+	color = rgb { 36 112 38 }
+	color_ui = rgb { 36 112 38 }
+}
+VLR = {
+	color =  rgb { 48 39 184 }
+	color_ui = rgb { 48 39 184 }
+}

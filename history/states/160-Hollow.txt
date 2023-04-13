@@ -14,8 +14,18 @@ state={
 		
 		victory_points = {
 			16910 5
+
 		}
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	resources = {
+		steel = 3
 	}
 
 	manpower = 500000 # 10 people

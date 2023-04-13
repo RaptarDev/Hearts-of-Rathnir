@@ -5,7 +5,7 @@ state = {
 	manpower = 1650000 # 33 people
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = city
+	state_category = large_city
 
 	provinces = {
 		70 242 596 1472 1746 4408 4683 5961 6015 17360 17370 17371 17401 17417 17418 17437 17474 17498 17503 17566 17603 19303 19315 
@@ -21,6 +21,22 @@ state = {
 			17418 20
 		}
 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+
+			17360 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	resources = {
+		rubber = 6
+		aluminium = 3
 	}
 
 }
