@@ -1,0 +1,21 @@
+state={
+	id=825
+	name="STATE_825"
+	provinces={
+		3039 6916 9603 9644 9688 
+	}
+	manpower=250
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+history={
+		owner = CHU
+		controller = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+
+		}
+
+	}
+}

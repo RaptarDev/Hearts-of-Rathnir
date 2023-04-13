@@ -12,7 +12,7 @@ state={
 history = {
 		owner = AYN
 
-                controller = AYN
+        controller = AYN
 
 		add_core_of = AYN
 
@@ -20,7 +20,7 @@ history = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
-			dockyard = 1
+			dockyard = 2
 		}		
 	
 		victory_points = {

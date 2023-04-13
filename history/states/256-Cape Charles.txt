@@ -17,17 +17,15 @@ state={
 history = {
 		owner = CHU
 		
-                controller = CHU
+        controller = CHU
 
 		add_core_of = CHU
 
 		buildings = {
 			infrastructure = 1
-			arms_factory = 0
-			industrial_complex = 1
 
 			1500 = {
-				naval_base = 4
+				naval_base = 2
 			}
 			
 		}

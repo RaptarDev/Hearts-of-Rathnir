@@ -18,12 +18,11 @@ history = {
 
 		buildings = {
 			infrastructure = 1
-			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 1
 		}		
 	
 		victory_points = {
-			6955 10
+			9088 10
 		}
 
 

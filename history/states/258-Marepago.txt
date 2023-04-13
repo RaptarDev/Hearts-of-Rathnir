@@ -19,7 +19,6 @@ history = {
 		add_core_of = ARL
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 2
 
 		}

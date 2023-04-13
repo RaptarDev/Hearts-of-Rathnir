@@ -10,12 +10,10 @@ history=
 		owner = CZR
 		add_core_of = CZR
 		buildings = {
-			infrastructure = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 0
 			18669 = { naval_base = 3}
 		}
-		victory_points = { 18669 5 } #Kavan
+		victory_points = { 18669 1 } #Kavan
 
 	}
 

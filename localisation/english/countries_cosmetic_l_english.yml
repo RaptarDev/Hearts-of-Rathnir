@@ -23,6 +23,18 @@
  KOR_DEF:0 "Korolian"
  KOR_ADJ:0 "Korolian"
 
+ UNC_fascism:0 "Commonwealth of United Korolian States"
+ UNC_fascism_DEF:0 "The Commonwealth of United Korolian States"
+ UNC_neutrality:0 "Second United Commonwealth"
+ UNC_neutrality_DEF:0 "the Second United Commonwealth"
+ UNC_democratic:0 "Second United Commonwealth"
+ UNC_democratic_DEF:0 "the Second United Commonwealth"
+ UNC_communism:0 "United Socialist Commonwealth"
+ UNC_communism_DEF:0 "the United Socialist Commonwealth"
+ UNC:0 "Korolian"
+ UNC_DEF:0 "Korolian"
+ UNC_ADJ:0 "Korolian"
+
  ARE_fascism:0 "Second Aurlûnoren-Ryzani Empire"
  ARE_fascism_DEF:0 "The Second Aurlûnoren-Ryzani Empire"
  ARE_neutrality:0 "Second Aurlûnoren-Ryzani Empire"

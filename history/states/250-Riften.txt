@@ -1,34 +1,32 @@
+
 state={
 	id=250
 	name="STATE_250"
-	manpower=250000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category=town
-	provinces={	
-
-		3479 5155 5737 5826 6534 7842 9427 9464 9508 9557 9520 9562 9604 5368 9645
-	}
-	
-resources = {
-		Tungsten = 2
+	resources={
+		tungsten=2.000
 	}
 
-history = {
+	history={
 		owner = NRG
-		
-                controller = NRG
-
+		controller = NRG
 		add_core_of = NRG
-
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 			industrial_complex = 2
-			
+
 		}
-		
 		victory_points = {
-			5155 15
+			5155 15 
 		}
+
 	}
+
+	provinces={
+		2909 3479 5155 5368 5737 5826 6162 6534 7842 9427 9435 9464 9508 9520 9557 9562 9604 9645 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

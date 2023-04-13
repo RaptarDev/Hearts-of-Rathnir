@@ -13,6 +13,12 @@
  democratic_noun:0 "Democracy"
  democratic_desc:0 "Democratic Regime"
  #Imperialism ideology types
+
+ #Neutrality sub ideologies
+ neutrality:0 "Autocracy"
+ neutrality_noun:0 "Autocratic"
+ neutrality_desc:0 "Autocratic State"
+ #fascism ideology types
  technocracy:0 "Technocratic"
  technocracy_noun:0 "Technocracy"
  technocracy_desc:0 "Technocractic State"
@@ -27,3 +33,22 @@ social_democratic_desc:0 "Social Democratic State"
  PAU_neutrality_party:0 "The Pen Dynasty"
  PAU_neutrality_party_long:0 "The Pen Dynasty"
  PAU_monarchism_desc:0 "The Pen Dynasty is the legitamite Royal Family of Avertico. The Founder of Avertico, Blueford Pen being the reasoning for it being the legitimate Royal Family. The Heir to the throne Ruby Pen is determined to take back Avertico once she is in power, getting rid of the sick man who kicked them out and his obsessions with technology. "
+ #Czervoslavia
+ CZR_fascism_party:0 "KNF"
+ CZR_fascism_party_long:0 "Korolian National Front"
+ CZR_fascism_desc:0 "The Korolian National Front serves to unite all korolian people within a single realm"
+ CZR_democratic_party:0 "CDP"
+ CZR_democratic_party_long:0 "Czervoslavian Republican party"
+ CZR_neutrality_party:0 "HKRI"
+ CZR_neutrality_party_long:0 "House Korol Royalist Initiative"
+ CZR_communism_party:0 "CAPP"
+ CZR_communism_party_long:0 "Czervoslavian Agrarianist Peoples Party"
+ #Chumon Ito
+ CHU_fascism_party:0 "SPLF"
+ CHU_fascism_party_long:0 "The Southern Plagatean Liberation Front"
+ CHU_democratic_party:0 "CDP"
+ CHU_democratic_party_long:0 "Republican Veldski Party"
+ CHU_neutrality_party:0 "PRF"
+ CHU_neutrality_party_long:0 "Polskon Restorationist Front"
+ CHU_communism_party:0 "UPPW"
+ CHU_communism_party_long:0 "United Provinces of Plagatean Workers"

@@ -1,35 +1,31 @@
+
 state={
 	id=249
 	name="STATE_249"
-	manpower=300000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category=large_town
-
-	provinces={
-		7 779 1221 1489 2804 4279 6162 6448 7474 7737 8523 9299 9414 9434 9435 9482 
+	resources={
+		chromium=3.000
 	}
 
-
-resources = {
-		chromium = 3
-	}
-
-history = {
+	history={
 		owner = NRG
-		
-                controller = NRG
-
+		controller = NRG
 		add_core_of = NRG
-
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 2
-			
+			industrial_complex = 3
+
 		}
-		
 		victory_points = {
-			6448 15
+			6448 15 
 		}
+
 	}
+
+	provinces={
+		7 779 1221 1489 2804 4279 6448 7474 7737 8523 9299 9414 9434 9482 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

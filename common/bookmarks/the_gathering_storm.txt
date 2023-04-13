@@ -7,6 +7,7 @@ bookmarks = {
 		default_country = "HSY"
 		default = yes
 		
+#=============================MAJORS======================================
 		"HSY"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -62,17 +63,26 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = democratic
 		}
+		
+##=============================MINORS======================================
+
 		CAR={
 			minor = yes
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
+		}
+			
+		CHU={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
 		}
 
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
-
+		}
 		# minors ####
 		#"RYZ"={
 		#	minor = yes
@@ -121,6 +131,4 @@ bookmarks = {
 	}
 }
 
-}
-	
 

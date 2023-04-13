@@ -23,7 +23,7 @@ history = {
 
 		buildings = {
 			infrastructure = 1
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 1
 
 		}	
