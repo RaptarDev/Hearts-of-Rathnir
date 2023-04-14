@@ -1,0 +1,22 @@
+characters = { 
+    # Leaders
+	AND_alexander_evans = {
+		name = "Alexander Evans"
+		portraits = {
+			civilian = {
+				large = "GFX_AND_evans"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				legitimate_heir
+				dictator
+                humble
+			}
+			expire = "1965.1.1.1"
+		}
+		gender = male
+		
+	}
+}

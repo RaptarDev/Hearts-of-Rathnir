@@ -62,4 +62,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TOR/Ulifer.png"
 	}
 
+	## AND
+	## Leaders
+	spriteType = {
+		name = "GFX_AND_evans"
+		texturefile = "gfx/leaders/AND/Evans.png"
+	}
+
 }

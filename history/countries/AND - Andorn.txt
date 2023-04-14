@@ -6,7 +6,7 @@ oob = "generic_oob"
 set_technology = {
 	infantry_weapons = 1
 }
-
+recruit_character = AND_alexander_evans
 set_convoys = 5
 
 
