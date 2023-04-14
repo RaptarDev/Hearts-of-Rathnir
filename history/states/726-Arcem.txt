@@ -15,10 +15,6 @@ state={
 			9026 8
 		}
 
-		victory_points = {
-			9261 6
-		}
-
 	}
 
 	manpower=1400000 # 28 people

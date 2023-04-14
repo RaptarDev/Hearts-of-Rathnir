@@ -11,10 +11,6 @@ state={
 
 		add_core_of = AND 
 
-		victory_points = {
-			7853 3
-		}
-
 	}
 
 	manpower=250000 # 5 people

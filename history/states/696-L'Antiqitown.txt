@@ -12,10 +12,6 @@ state={
 
 		add_core_of = AND 
 
-		victory_points = {
-			10431 3
-		}
-
 
 
 	}
