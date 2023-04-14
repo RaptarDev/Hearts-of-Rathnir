@@ -14,10 +14,6 @@ state={
 
 		add_core_of = BAR
 
-		victory_points = {
-			4407 1
-		}
-
 	}
 
 	manpower=150000 # 3 people
