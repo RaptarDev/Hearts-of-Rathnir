@@ -11,6 +11,7 @@ state={
 		owner = RYZ 
 
 		add_core_of = RYZ 
+		add_core_of = ASK
 
 		victory_points = {
 			3815 4

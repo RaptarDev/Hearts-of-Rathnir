@@ -13,9 +13,6 @@ state={
 		add_core_of = ASK 
 		
 		add_core_of = AND 
-		victory_points = {
-			556 4
-		}
 
 	}
 

@@ -12,10 +12,6 @@ state={
 
 		add_core_of = DEN 
 
-		victory_points = {
-			12856 3
-		}
-
 	}
 
 	manpower=300000 # 6 people

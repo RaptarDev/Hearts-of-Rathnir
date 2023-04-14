@@ -12,11 +12,10 @@ state={
 
 		add_core_of = IMP 
 
-		victory_points = {
-			4925 3
-		}
-
 	}
+		victory_points = {
+			7978 8
+		}
 
 	manpower=300000 # 6 people
 	buildings_max_level_factor=1.000

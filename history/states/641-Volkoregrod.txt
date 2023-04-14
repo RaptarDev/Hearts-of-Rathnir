@@ -13,7 +13,7 @@ state={
 		add_core_of = RYZ 
 
 		victory_points = {
-			10534 5
+			10534 10
 		}
 
 		victory_points = {
@@ -38,7 +38,7 @@ state={
 		aluminium = 4
 	}
 
-	manpower=750000 # 15 people
+	manpower=950000 # 15 people
 	buildings_max_level_factor=1.000
 	state_category=town
 

@@ -13,12 +13,9 @@ state={
 		add_core_of = IMP 
 
 		victory_points = {
-			8142 10
+			8142 20
 		}
 
-		victory_points = {
-			3200 1
-		}
 
 
 	}
