@@ -11,9 +11,6 @@ state={
 
 		add_core_of = ARD 
 
-		victory_points = {
-			12894 8
-		}
 
 	}
 
