@@ -5,7 +5,6 @@ tags={
 	"Gameplay"
 	"Alternative History"
 }
-
 replace_path="portraits"
 replace_path="common/dynamic_modifiers"
 replace_path="common/ai_peace"
@@ -41,7 +40,6 @@ replace_path="history/countries"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
-
 picture="thumbnail.png"
 supported_version="1.12.*"
 path="C:/Users/jardi/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Hearts-of-Rathnir"
