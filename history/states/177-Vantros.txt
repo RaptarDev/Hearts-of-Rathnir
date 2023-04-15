@@ -15,11 +15,28 @@ state={
 			15818 3 
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			dockyard = 1
+
+			15818 = {
+				naval_base = 6
+			}
+
+		}
+
 	}
 
-	manpower=250000 # 5 peoplee
+	resources = {
+		steel = 4
+		tungsten = 2
+	}
+
+	manpower=700000 # 14 peoplee
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 
 }

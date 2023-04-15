@@ -16,6 +16,22 @@ state={
 			17832 10  
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+
+			17832 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 6
+		steel = 2
 	}
 
 	manpower=1100000 # 22 peoplee

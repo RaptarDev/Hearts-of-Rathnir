@@ -11,9 +11,14 @@ state={
 		}
 
 		buildings = {
-			
+			infrastructure = 2
 		}
 
+	}
+
+	resources = {
+		oil = 5
+		chromium = 2
 	}
 
 	provinces={

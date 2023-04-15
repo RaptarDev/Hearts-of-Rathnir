@@ -17,11 +17,26 @@ state={
 			8356 1 
 		}
 
+		buildings = {
+			infrastructure = 3
+			
+			industrial_complex = 2
+			
+			5144 = {
+				naval_base = 4
+			}
+		}
+
 	}
 
-	manpower=150000 # 3 peoplee
+	resources = {
+		steel = 3
+		aluminium = 2
+	}
+
+	manpower=400000 # 8 peoplee
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=0.000
 
 }

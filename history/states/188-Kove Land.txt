@@ -15,6 +15,18 @@ state={
 			7101 3  
 		}
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+
+		}
+
+	}
+
+	resources = {
+		oil = 7
+		steel = 2
 	}
 
 	manpower=350000 # 7 peoplee

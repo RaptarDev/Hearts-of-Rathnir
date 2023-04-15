@@ -12,21 +12,19 @@ What does this mod add?
 
 A list of nations with focus trees:
 
-- Imperial Archonal Union
-- Avertican Technocratic State
-- Pos-Avertican Union
-- Simulami Empire 
-- Union of Haven
-- Kingdom of Aurora
-and more!
+- Carn...
 
 
 
 Developed by:
 Raptor (Head Dev)
-Tiptheirishguy (Sr. Dev) *Quit on 1/1/2023*
-Pixel Fencer (Programmer & Gfx)
 Ludio (Senior Dev, States & Plagos-nieden) 
+oShotty (Senior Dev, Alamayn)
+Spinny_Femboi (Senior Dev, Chumon Ito/Plagtea)
+MrDerpyman (Dev, Alamayn)
+Tiptheirishguy (Sr. Dev) *Quit on 1/1/2023*
+
+Pixel Fencer (Programmer & Gfx)
 
 Please finish this readme when ya can guys, im too lazy to finish it :)!
 
