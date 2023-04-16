@@ -59,6 +59,23 @@ set_popularities = {
 	neutrality = 25
 }
 
+
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = AYN
+            autonomous_state = autonomy_dominion
+        }
+        else = {
+            puppet = AYN
+        }
+    }
+}
+
+
 #create_country_leader = {
 #	
 #	name = "Grand Sultan BlackAdder"

@@ -59,6 +59,22 @@ set_popularities = {
 	neutrality = 10
 }
 
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = TES
+            autonomous_state = autonomy_colony
+        }
+        else = {
+            puppet = TES
+        }
+    }
+}
+
+
 #create_country_leader = {
 	
 #	name = "Democracy"

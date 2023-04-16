@@ -19,6 +19,19 @@ state={
 			16455 3  
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	resources = {
+		steel = 7
+		chromium = 2
 	}
 
 	manpower=950000 # 19 peoplee

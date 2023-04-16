@@ -18,7 +18,21 @@ state={
 			3014 5  
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
 	}
+
+	resources = {
+		rubber = 12
+		steel = 6
+		aluminium = 2
+	}
+
 
 	manpower=950000 # 19 peoplee
 	buildings_max_level_factor=1.000

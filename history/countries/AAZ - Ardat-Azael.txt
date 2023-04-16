@@ -59,6 +59,22 @@ set_popularities = {
 	neutrality = 70
 }
 
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = AAZ
+            autonomous_state = autonomy_colony
+        }
+        else = {
+            puppet = AAZ
+        }
+    }
+}
+
+
 #create_country_leader = {
 #	
 #	name = "DukeSoulEater"

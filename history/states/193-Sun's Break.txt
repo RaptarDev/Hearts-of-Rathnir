@@ -15,7 +15,23 @@ state={
 			5791 3  
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 2
+
+			5791 = {
+				naval_base = 6
+			}
+		}
+
 	}
+
+	resources = {
+		oil = 7
+		
+	}
+
 
 	manpower=350000 # 7 peoplee
 	buildings_max_level_factor=1.000

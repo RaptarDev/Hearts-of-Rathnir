@@ -29,3 +29,19 @@
  carn.5.t:0 "Lirgal Declines!"
  carn.5.d:0 "Lirgal Delinces our grcaious offer of a union! We will show them what happens now"
  carn.5.a:0 "Fuck Lirgal"
+
+carn.6.t:0 "Carn Proposes a union"
+car.6.5:0 "Carn and Sironia has been growing closer everyday. Therefor Sironia has proposed a new Union of Sironia-Carn, we now have a chose do we accept this union?"
+ carn.6.a:0 "A Union of 2 Great nations!"
+ carn.6.b:0 "We need no union"
+
+ carn.7.t:0 "Sironia Accepts!"
+ carn.7.d:0 "Sironia Accepts our grcaious offer of a union!"
+ carn.7.a:0 "Ave Sironia-Carn!"
+
+ carn.8.t:0 "Sironia Declines!"
+ carn.8.d:0 "Sironia Delinces our grcaious offer of a union! We will show them what happens now"
+ carn.8.a:0 "Fuck Sironia"
+
+
+

@@ -72,43 +72,5 @@ set_popularities = {
 
 
 
-set_autonomy = {
-	target = NRG
-	autonomy_state = autonomy_integrated_puppet
-}
-
-set_autonomy = {
-	target = OPC
-	autonomy_state = autonomy_colony
-}
-
-
-set_autonomy = {
-	target = NOA
-	autonomy_state = autonomy_colony
-}
-
-set_autonomy = {
-	target = SLI
-	autonomy_state = autonomy_colony
-}
-
-set_autonomy = {
-	target = AYN
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.4
-}
-
-set_autonomy = {
-	target = AAZ
-	autonomy_state = autonomy_colony
-}
-
-set_autonomy = {
-	target = TES
-	autonomy_state = autonomy_colony
-}
-
-
 
 add_ideas = all_off_map_factories

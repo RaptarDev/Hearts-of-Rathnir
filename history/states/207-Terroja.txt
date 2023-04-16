@@ -15,6 +15,23 @@ state={
 			15795 30  
 		}
 
+		buildings = {
+			infrastructure = 4
+
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+
+			8466 = {
+				naval_base = 9
+			}
+		}
+
+	}
+
+	resources = {
+		steel = 8
+		chromium = 3
 	}
 
 	manpower=4200000 # 84 peoplee

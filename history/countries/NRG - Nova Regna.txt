@@ -66,6 +66,21 @@ set_popularities = {
 	neutrality = 68
 }
 
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = NRG
+            autonomous_state = autonomy_integrated_puppet
+        }
+        else = {
+            puppet = NRG
+        }
+    }
+}
+
 #create_country_leader = {
 #	
 #	name = "King Revo"

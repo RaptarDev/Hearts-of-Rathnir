@@ -19,7 +19,22 @@ state={
 			42 1  
 		}
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			
+			8412 = { 
+				naval_base = 4
+			}
+		}
+
 	}
+
+	resources = {
+		steel = 4
+		oil = 6
+	}
+
 
 	manpower=450000 # 9 peoplee
 	buildings_max_level_factor=1.000

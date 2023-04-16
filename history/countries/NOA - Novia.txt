@@ -59,6 +59,22 @@ set_popularities = {
 	neutrality = 75
 }
 
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = NOA
+            autonomous_state = autonomy_colony
+        }
+        else = {
+            puppet = NOA
+        }
+    }
+}
+
+
 #create_country_leader = {
 #	
 #	name = "Unknown"

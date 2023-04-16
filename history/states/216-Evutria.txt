@@ -15,10 +15,26 @@ state={
 			15772 13  
 		}
 
+		buildings = {
+			infrastructure = 3
+
+			industrial_complex = 2
+			arms_factory = 1
+
+			15772 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	resources = {
+		oil = 8
+		steel = 5
 	}
 
 	manpower=750000 # 15 peoplee
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

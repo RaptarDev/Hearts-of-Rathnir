@@ -16,10 +16,21 @@ state={
 			2000 1  
 		}
 
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+		}
+
 	}
 
-	manpower=150000 # 3 peoplee
+	resources = {
+		oil = 4
+		steel = 12
+	}
+
+	manpower=450000 # 9 peoplee
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=0.000
 }

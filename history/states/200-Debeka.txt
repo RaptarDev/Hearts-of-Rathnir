@@ -20,6 +20,19 @@ state={
 			16911 3  
 		}
 
+		buildings = {
+			infrastructure = 2
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+
+	}
+
+	resources = {
+		oil = 2
+		steel = 7
+		aluminium = 1
 	}
 
 	manpower=750000 # 15 peoplee

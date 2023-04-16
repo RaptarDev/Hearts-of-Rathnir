@@ -18,10 +18,25 @@ state={
 			5905 3  
 		}
 
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 2
+			arms_factory = 2
+
+			5905 = {
+				naval_base = 6
+			}
+		}
+
 	}
 
-	manpower=350000 # 7 peoplee
+	resources = {
+		steel = 8
+		tungsten = 4
+	}
+
+	manpower=1250000 # 25 peoplee
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city 
 	local_supplies=0.000
 }
