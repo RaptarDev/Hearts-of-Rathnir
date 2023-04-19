@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+
+		AYN_War_Exhaustion = {
+			allowed = {
+				original_tag = AYN
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_war_exhaustion.dds
+	
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = -0.20
+				war_support_factor = -0.6
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+
+		AYN_Citizens_To_Arms = {
+			allowed = {
+				original_tag = AYN
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_citizens_to_arms.dds
+	
+			modifier = {
+				conscription = 0.015
+				stability_factor = -0.1
+				weekly_manpower = 120
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+spriteTypes = {	
+
+
+	## Frostmarch
+	spriteType = {
+		name = "GFX_idea_FRO_unbalanced_power"
+		texturefile = "gfx/interface/ideas/FRO_unbalanced_power.png"
+	}
+
+
+	## Hearthstone
+	spriteType = {
+		name = "GFX_idea_HSY_light_in_the_dark"
+		texturefile = "gfx/interface/ideas/HSY_light_in_the_dark.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HSY_armory_crisis"
+		texturefile = "gfx/interface/ideas/HSY_armory_crisis.png"
+	}
+
+	# Relgion
+	spriteType = {
+		name = "GFX_idea_twin_dragon_state"
+		texturefile = "gfx/interface/ideas/twin_dragon_state.png"
+	}
+
+	# Relgion
+	spriteType = {
+		name = "GFX_idea_AYN_War_Exhaustion"
+		texturefile = "gfx/interface/ideas/war_exhaustion.dds"
+	}
+	
+	# Relgion
+	spriteType = {
+		name = "GFX_idea_AYN_Citizens_To_Arms"
+		texturefile = "gfx/interface/ideas/citizens_to_arms.dds"
+	}
