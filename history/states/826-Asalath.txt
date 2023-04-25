@@ -1,0 +1,22 @@
+
+state={
+	id=826
+	name="Asalath"
+
+	history={
+		owner = SIR
+		add_core_of = SIR
+		victory_points = {
+			5817 5 
+		}
+
+	}
+
+	provinces={
+		52 850 1205 1236 2928 4670 5320 5458 5817 6843 7612 7740 14317 14356 14360 14395 14400 14408 14409 14445 14453 14515 19019 26673 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
