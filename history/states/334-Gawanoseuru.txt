@@ -2,25 +2,21 @@
 state={
 	id=334
 	name="STATE_334"
-	provinces={
-		1833 2684 3960 5946 15167 15210 15252 
-	}
 
 	history={
-
-		owner = ADA 
-
-		add_core_of = ADA 
-
+		owner = ADA
+		add_core_of = ADA
 		victory_points = {
-			15252 5
+			15252 5 
 		}
 
 	}
 
-	manpower=600000 # 12 people
+	provinces={
+		2684 3960 5946 15167 15210 15252 
+	}
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
-
 }

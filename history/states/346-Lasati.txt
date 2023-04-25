@@ -1,40 +1,33 @@
 
 state={
 	id=346
-	name="STATE_346"
-	provinces={
-		572 782 942 2125 3656 4678 4700 4773 6436 6990 7357 7703 14580 14626 14636 14677 14720 14729 14772 14801 14831 14834 14878 14912 
+	name="Lantstein"
+	resources={
+		steel=14.000
+		chromium=4.000
+		tungsten=5.000
 	}
 
 	history={
-
-		owner = CAR 
-
-		add_core_of = CAR 
-
+		owner = CAR
+		add_core_of = CAR
 		victory_points = {
-			3678 3
+			4678 3 
 		}
-
 		buildings = {
 			infrastructure = 2
-			
-			industrial_complex = 2 
+			industrial_complex = 2
 			arms_factory = 1
+
 		}
 
 	}
 
-	resources = {
-		steel = 14
-		chromium = 4
-		tungsten = 5
+	provinces={
+		572 782 942 2125 3656 4678 4700 4773 5867 6436 6990 7357 7703 7954 14580 14626 14636 14644 14677 14720 14729 14772 14801 14831 14834 14878 14912 14974 14989 
 	}
-
-	manpower=750000 # 15 people
+	manpower=750000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
-
-
 }

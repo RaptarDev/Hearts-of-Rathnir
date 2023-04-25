@@ -3,7 +3,7 @@ state={
 	id=351
 	name="STATE_351"
 	provinces={
-		1923 3588 3660 4389 7127 13911 14046 14091 14100 18994 
+		1923 3588 3660 4389 7127 13911 14046 14091 18994 14137 771 6526 14191 1032
 	}
 
 	history={
@@ -34,7 +34,7 @@ state={
 		steel = 3
 	}
 
-	manpower=800000 # 16 people
+	manpower=950000 # 19 people
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

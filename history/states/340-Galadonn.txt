@@ -2,25 +2,21 @@
 state={
 	id=340
 	name="STATE_340"
-	provinces={
-		52 1236 5458 6411 7740 14515 
-	}
 
 	history={
-
-		owner = SIR 
-
-		add_core_of = SIR 
-
+		owner = SIR
+		add_core_of = SIR
 		victory_points = {
-			52 30
+			14550 30 
 		}
 
 	}
 
-	manpower=2700000 # 54 people
+	provinces={
+		59 757 2680 4484 6411 14500 14524 14550 14588 14625 14694 
+	}
+	manpower=2700000
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
-
 }

@@ -1,7 +1,7 @@
 
 state={
 	id=333
-	name="STATE_333"
+	name="Revaria"
 	provinces={
 		1493 4738 15240 15278 15284 15334 15335 15358 15415 
 	}

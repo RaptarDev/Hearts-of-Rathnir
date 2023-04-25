@@ -2,25 +2,21 @@
 state={
 	id=322
 	name="STATE_322"
-	provinces={
-		1051 3394 4448 5003 5315 15291 15292 15317 15338 15341 15411 15414 15443 19127 
-	}
 
 	history={
-
-		owner = VOL 
-
-		add_core_of = VOL 
-
+		owner = VOL
+		add_core_of = VOL
 		victory_points = {
-			15411 5
+			15411 5 
 		}
 
 	}
 
-	manpower=450000 # 9 people
+	provinces={
+		1051 2758 3394 4448 5003 5315 15291 15292 15317 15338 15341 15411 15414 15443 19127 
+	}
+	manpower=450000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
-
 }

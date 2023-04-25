@@ -2,40 +2,35 @@
 state={
 	id=343
 	name="STATE_343"
-	provinces={
-		275 763 1268 2864 4055 6979 7006 7199 14842 14843 14879 14883 14899 14913 14926 14949 14962 14990 
+	resources={
+		steel=9.000
+		chromium=3.000
 	}
 
 	history={
-
-		owner = CAR 
-
-		add_core_of = CAR 
-
+		owner = CAR
+		add_core_of = CAR
 		victory_points = {
-			14899 5
+			14899 5 
 		}
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 2
-
 			14899 = {
 				naval_base = 5
+
 			}
+
 		}
 
 	}
-	
-	resources = {
-		steel = 9
-		chromium = 3
-	}
 
-	manpower=2300000 # 46 people
+	provinces={
+		275 763 2864 4055 6979 7006 7199 14842 14843 14879 14883 14899 14913 14926 14949 14962 14990 
+	}
+	manpower=2300000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000
-
 }
