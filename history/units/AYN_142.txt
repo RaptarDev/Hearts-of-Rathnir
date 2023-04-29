@@ -1,0 +1,394 @@
+﻿division_template = {
+	name = "Ranger Division"		
+	division_names_group = AYN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Mountain Ranger Division"
+	division_names_group = AYN_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cavalry Ranger Division" 
+	division_names_group = AYN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+
+
+units = {
+	
+	
+ #################
+ #ADWA'S GUARD   #
+ ################# 
+	division= {	# "1 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 2920
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	# "2 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 2920
+		division_template = "Ranger Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Adwa Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 2920
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Adwa Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 2920
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	# "3 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2920
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	# "4 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 2920
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	# "5 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 2920
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	# "Adwa Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 102
+		}
+		location = 2920
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#################
+	#Dylarian Border#
+	#################
+division= {	# "6 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 2281
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "7 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 9442
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "8 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 9442
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "9 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 7979
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	##################
+	#Country Garrison#
+	##################
+division= {	# "10 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 9601
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "11 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 8505
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "12 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 1990
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+division= {	# "13 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 8505
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+division= {	# "14 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 2858
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+division= {	# "15 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 1990
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+division= {	# "16 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 4326
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+division= {	# "17 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 4326
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+division= {	# "Lumeno Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 7135
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+division= {	# "Tittor Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 824
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+division= {	# "Flueville Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 9002
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+division= {	# "Hipek Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 7726
+		division_template = "Cavalry Ranger Division" 
+		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+division= {	# "18 Mountain Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8837
+		division_template = "Mountain Ranger Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+
+	}
+division= {	# "19 Mountain Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 2003
+		division_template = "Mountain Ranger Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+
+	}
+division= {	# "20 Ranger Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 8773
+		division_template = "Ranger Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "Pol"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}
