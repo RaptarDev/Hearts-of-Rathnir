@@ -1,0 +1,96 @@
+focus_tree = {
+	id = HoR_SAV
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = SAV
+		}
+	}
+	shared_focus = SAV_the_empires_collapse
+	default = no
+	continuous_focus_position = { x = 1800 y = 1150 }
+}
+
+### Starting Focus Tree ###
+
+shared_focus = {
+	id = SAV_the_empires_collapse
+	icon = GFX_SAV_the_empires_collapse
+
+	x = 10
+	y = 0
+
+	cost = 7
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = SAV_congregate_military_forces
+	icon = GFX_SAV_congregate_military_forces
+
+	prerequisite = { focus = SAV_the_empires_collapse }
+
+	x = 8
+	y = 1
+
+	cost = 7
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus SAV_congregate_military_forces"	
+	}
+}
+
+shared_focus = {
+	id = SAV_the_future_of_the_throne
+	icon = GFX_SAV_the_future_of_the_throne
+
+	prerequisite = { focus = SAV_the_empires_collapse }
+
+	x = 10
+	y = 1
+
+	cost = 7
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus SAV_the_future_of_the_throne"	
+	}
+}
+
+shared_focus = {
+	id = SAV_summon_the_lords
+	icon = GFX_SAV_summon_the_lords
+
+	prerequisite = { focus = SAV_the_empires_collapse }
+
+	x = 12
+	y = 1
+
+	cost = 7
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus SAV_summon_the_lords"	
+	}
+}
+

@@ -1,0 +1,468 @@
+focus_tree = {
+	id = HoR_AYN
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = AYN
+		}
+	}
+	shared_focus = AYN_voluntary_war_funds
+	default = no
+	continuous_focus_position = { x = 1800 y = 1150 }
+}
+
+### Starting Focus Tree ###
+
+shared_focus = {
+	id = AYN_voluntary_war_funds
+	icon = GFX_AYN_voluntary_war_funds
+
+	x = 10
+	y = 0
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_voluntary_war_funds"
+
+	}
+}
+
+### A PERFECT BALANCE TREE ###
+
+shared_focus = {
+	id = AYN_a_perfect_balance
+	icon = GFX_AYN_a_perfect_balance
+
+	x = 10
+	y = 1
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_voluntary_war_funds }
+
+	mutually_exclusive = { focus = AYN_urban_construction_centers focus = AYN_agricultural_development }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_a_perfect_balance"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_equal_budget_distribution
+	icon = GFX_AYN_equal_budget_distribution
+
+	x = 10
+	y = 2
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_a_perfect_balance }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_equal_budget_distribution"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_boost_industrial_centers
+	icon = GFX_AYN_boost_industrial_centers
+
+	x = 9
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_equal_budget_distribution }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_boost_industrial_centers"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_boost_agricultural_centers
+	icon = GFX_AYN_boost_agricultural_centers
+
+	x = 11
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_equal_budget_distribution }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_boost_agricultural_centers"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_young_entrepreneurs_scheme
+	icon = GFX_AYN_young_entrepreneurs_scheme
+
+	x = 9
+	y = 4
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_boost_industrial_centers }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_young_entrepreneurs_scheme"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_farming_grants
+	icon = GFX_AYN_farming_grants
+
+	x = 11
+	y = 4
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_boost_agricultural_centers }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_farming_grants"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_open_the_national_unity_highway
+	icon = GFX_AYN_open_the_national_unity_highway
+
+	x = 10
+	y = 5
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_young_entrepreneurs_scheme focus= AYN_farming_grants }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_open_the_national_unity_highway"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_a_fairer_economy
+	icon = GFX_AYN_a_fairer_economy
+
+	x = 10
+	y = 6
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_open_the_national_unity_highway }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_open_the_national_unity_highway"
+
+	}
+}
+
+### A PERFECT BALANCE TREE END ###
+
+### AGRICULTURE DEVELOPMENT TREE ###
+
+shared_focus = {
+	id = AYN_agricultural_development
+	icon = GFX_AYN_agricultural_development
+
+	x = 6
+	y = 1
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_voluntary_war_funds }
+
+	mutually_exclusive = { focus = AYN_a_perfect_balance focus = AYN_urban_construction_centers }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_agricultural_development"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_growth_confederation
+	icon = GFX_AYN_growth_confederation
+
+	x = 5
+	y = 2
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_agricultural_development }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_growth_confederation"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_rural_highways
+	icon = GFX_AYN_rural_highways
+
+	x = 7
+	y = 2
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_agricultural_development }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_rural_highways"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_communal_growth
+	icon = GFX_AYN_communal_growth
+
+	x = 5
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_growth_confederation }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_communal_growth"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_cattle_farms
+	icon = GFX_AYN_cattle_farms
+
+	x = 7
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_rural_highways }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_cattle_farms"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_the_common_people
+	icon = GFX_AYN_the_common_people
+
+	x = 5
+	y = 4
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_communal_growth }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_the_common_people"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_rural_schools
+	icon = GFX_AYN_rural_schools
+
+	x = 7
+	y = 4
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_cattle_farms }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_rural_schools"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_a_peoples_economy
+	icon = GFX_AYN_a_peoples_economy
+
+	x = 6
+	y = 5
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_the_common_people focus = AYN_rural_schools }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_rural_schools"
+
+	}
+}
+
+### AGRICULTURE DEVELOPMENT END ###
+
+### URBAN CONSTRUCTION CENTERS TREE ###
+
+shared_focus = {
+	id = AYN_urban_construction_centers
+	icon = GFX_AYN_urban_construction_centers
+
+	x = 14
+	y = 1
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_voluntary_war_funds }
+
+	mutually_exclusive = { focus = AYN_a_perfect_balance focus = AYN_agricultural_development }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_urban_construction_centers"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_axum_factories
+	icon = GFX_AYN_axum_factories
+
+	x = 13
+	y = 2
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_urban_construction_centers }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_axum_factories"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_economic_reforms
+	icon = GFX_AYN_economic_reforms
+
+	x = 15
+	y = 2
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_urban_construction_centers }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_economic_reforms"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_higher_standards_of_living
+	icon = GFX_AYN_higher_standards_of_living
+
+	x = 13
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_axum_factories }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_higher_standards_of_living"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_privatize_land
+	icon = GFX_AYN_privatize_land
+
+	x = 15
+	y = 3
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_economic_reforms }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_privatize_land"
+
+	}
+}
+
+shared_focus = {
+	id = AYN_a_stronger_economy
+	icon = GFX_AYN_a_stronger_economy
+
+	x = 14
+	y = 4
+
+	cost = 7
+
+	available_if_capitulated = no
+
+	prerequisite = { focus = AYN_higher_standards_of_living focus = AYN_privatize_land }
+
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus AYN_a_stronger_economy"
+
+	}
+}
+
+
