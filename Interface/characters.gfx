@@ -2,6 +2,64 @@ spriteTypes = {
 	
 	## FRO
 	## Leaders
+	
+	spriteType = {
+		name = "GFX_Ayn_bolivar_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_bolivar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_ellie_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_ellie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_national_council_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_national_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_blackadder_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_black_adder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_theodosian_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_theodosian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_jorgie_large"
+		texturefile = "gfx/characters/AYN/portrait_large_jorgie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_giggsy_small"
+		texturefile = "gfx/characters/AYN/giggsy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_giggsy_large"
+		texturefile = "gfx/characters/AYN/portrait_large_giggsy.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_Ayn_hipek_small"
+		texturefile = "gfx/characters/AYN/hipek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_bolivar_small"
+		texturefile = "gfx/characters/AYN/bolivar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_karol_small"
+		texturefile = "gfx/characters/AYN/karol.dds"
+	}
+	
+	
 	spriteType = {
 		name = "GFX_FRO_temsyod"
 		texturefile = "gfx/leaders/SORLIGSTE/temsyod.png"
