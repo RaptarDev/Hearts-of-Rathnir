@@ -1,0 +1,645 @@
+characters={
+
+
+####################
+#POLITICAL ADVISORS#
+####################
+
+  AYN_rickey ={
+	 name= "Rickey"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_rickey
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				anti_communist
+				ideological_crusader
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+	}
+
+  AYN_ellie ={
+	 name= "Ellie"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+				
+				large= GFX_Ayn_ellie_large
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_ellie
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				socialist_justice
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+		country_leader = {
+            ideology = marxism
+            traits = { emergency_powers
+                       divided_interests
+			}
+        } 
+	}
+
+  AYN_rubii ={
+	 name= "Rubii"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_rubii
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				compassionate_gentleman
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+	}
+		
+		AYN_kaiser ={
+	 name= "Kaiser"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_kaiser
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				war_industrialist
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+	}
+		
+		
+	AYN_mr_derpy ={
+	 name= "Mr Derpy"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_mr_derpy
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				silent_workhorse
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+	}
+
+	AYN_hipek ={
+		name= "Hipek"
+		portraits={
+			civilian={
+				small= GFX_Ayn_hipek_small
+			}
+		}
+		advisor={
+		    ledger = Civilian 
+		    cost = 150
+			idea_token = AYN_idea_hipek
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				captain_of_industry
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = AYN_idea_hipek_army
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			
+			traits = {
+				superior_firepower_expert
+			}
+		}
+	}
+	AYN_bolivar ={
+		name= "bolivar"
+		portraits={
+			civilian={
+				small= GFX_Ayn_bolivar_small
+				
+				large= GFX_Ayn_bolivar_large
+			}
+		}
+		advisor={
+		    ledger = Civilian 
+		    cost = 150
+			idea_token = AYN_idea_bolivar
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			 NOT  = {
+					has_idea  = AYN_idea_bolivar_army
+				}
+			}
+			traits  = {
+				popular_figurehead
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AYN_idea_bolivar_army
+			ledger = army
+				allowed = {
+					original_tag = AYN
+				}
+				traits = {
+					army_chief_planning_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+             available  = {
+			 NOT  = {
+					has_idea  = AYN_idea_bolivar
+				}
+			}				
+		}
+		 country_leader = {
+            ideology = despotism
+            traits = { anti_communist
+			}
+        } 
+	}
+	AYN_karol ={
+	 name= "Karol Velky"
+	 portraits={
+			civilian={
+				small= GFX_Ayn_karol_small
+			}
+        }
+     		advisor={
+			ledger = Civilian 
+			idea_token = AYN_idea_karol
+		    cost = 150
+			slot = political_advisor
+			allowed  = {
+            original_tag  = AYN
+			}
+			available  = {
+			}
+			traits  = {
+				financial_expert
+			}
+			do_effect  = {
+				NOT  = {
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+				
+			}
+		}
+	}
+	
+	#Army high command 
+	
+	AYN_franz ={
+		name= "Franz"
+		portraits={
+			civilian={
+				small= GFX_Ayn_hipek_small
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = AYN_idea_franz
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	
+	AYN_jorgie={
+		name= "Jorgie"
+		portraits={
+			army={
+				large = GFX_Ayn_jorgie_large
+			}
+		}	
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	
+	AYN_giggsy={
+		name = "Giggsy"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_giggsy
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious  politically_connected organizer logistics_wizard offensive_doctrine }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	
+	AYN_sip={
+		name = "Sip"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AYN_idea_sip
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	
+	AYN_jude={
+		name = "Jude"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_sip
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	AYN_sttc={
+		name = "St4tc"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_sttc
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	AYN_hazan={
+		name = "Hazan"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_hazan
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	AYN_fisher={
+		name = "Fisher Man"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AYN_idea_fisher
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	AYN_lucius={
+		name = "Lucius"
+		portraits={
+			army={
+				small = GFX_Ayn_giggsy_small
+			}
+			army={
+				large = GFX_Ayn_giggsy_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_lucius
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	
+	# army field marshals
+	
+	
+	
+	
+	#########
+	#LEADERS#
+	#########
+	
+	AYN_black_adder ={
+	 name= "Black Adder"
+	 portraits={
+			civilian={
+				large= GFX_Ayn_blackadder_large
+			}
+		}
+	 country_leader = {
+            ideology = fascism_ideology
+            traits = { Editor
+                       legitimate_heir
+			}
+        } 
+	
+   }
+   	AYN_theodosian ={
+	 name= "Theodosian"
+	 portraits={
+			civilian={
+				large= GFX_Ayn_theodosian_large
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AYN_idea_theodosian
+			ledger = army
+			allowed = {
+				original_tag = AYN
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	
+   }
+   AYN_monkius_magnus ={
+	 name= "Monkius Magnus"
+	 portraits={
+			civilian={
+				large= GFX_Ayn_giggsy_large
+			}
+		}
+	 country_leader = {
+            ideology = liberalism
+            traits = { democratic_crusader
+                       hawk
+			}
+        } 
+	
+   }
+   AYN_ruling_council ={
+	 name= "National Ruling Council"
+	 portraits={
+			civilian={
+				large= GFX_Ayn_national_council_large
+			}
+		}
+	 country_leader = {
+            ideology = social_democratic
+            traits = { emergency_powers
+                       divided_interests
+			}
+        } 
+	
+   }
+}
+
