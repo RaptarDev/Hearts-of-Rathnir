@@ -1,10 +1,12 @@
 capital = 247
 
-oob = "generic_oob"
+oob = "AYN_142"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
 }
 
 set_convoys = 15
@@ -59,14 +61,38 @@ set_popularities = {
 	neutrality = 25
 }
 
+
+AAT= {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = AYN
+            autonomous_state = autonomy_dominion
+        }
+        else = {
+            puppet = AYN
+        }
+    }
+}
+recruit_character = AYN_hipek
+recruit_character = AYN_black_adder
+recruit_character = AYN_karol
+recruit_character = AYN_bolivar
+recruit_character = AYN_bolivar
+recruit_character = AYN_theodosian
+recruit_character = AYN_jorgie
+recruit_character = AYN_giggsy
+
 #create_country_leader = {
 #	
 #	name = "Grand Sultan BlackAdder"
 #	picture = 
 #	expire = "1965.1.1"
-#	ideology = democratic
+#	ideology = imperialist
 #	traits = {
-#		#
+#		dictator
 #	}
 #}
 

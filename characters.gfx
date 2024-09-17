@@ -1,0 +1,108 @@
+spriteTypes = {	
+	
+	## FRO
+	## Leaders
+	
+	spriteType = {
+		name = "GFX_Ayn_blackadder_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_black_adder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_theodosian_large"
+		texturefile = "gfx/leaders/AYN/portrait_large_theodosian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_jorgie_large"
+		texturefile = "gfx/characters/AYN/portrait_large_jorgie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_giggsy_small"
+		texturefile = "gfx/characters/AYN/giggsy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_giggsy_large"
+		texturefile = "gfx/characters/AYN/portrait_large_giggsy.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_Ayn_hipek_small"
+		texturefile = "gfx/characters/AYN/hipek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_bolivar_small"
+		texturefile = "gfx/characters/AYN/bolivar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ayn_karol_small"
+		texturefile = "gfx/characters/AYN/karol.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_FRO_temsyod"
+		texturefile = "gfx/leaders/SORLIGSTE/temsyod.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_raptar"
+		texturefile = "gfx/leaders/SORLIGSTE/Raptar.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_shark"
+		texturefile = "gfx/leaders/SORLIGSTE/Shark.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_earth"
+		texturefile = "gfx/leaders/SORLIGSTE/Earth.png"
+	}
+
+	## Advisors
+	spriteType = {
+		name = "GFX_FRO_idea_raptar"
+		texturefile = "gfx/interface/ideas/idea_FRO_raptar.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_jcaldas"
+		texturefile = "gfx/interface/ideas/idea_FRO_jcaldas.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_pope_urban"
+		texturefile = "gfx/interface/ideas/idea_FRO_pope_urban.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_earth"
+		texturefile = "gfx/interface/ideas/idea_FRO_earth.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRO_idea_shark"
+		texturefile = "gfx/interface/ideas/idea_FRO_shark.png"
+	}
+
+	## AVD
+	## Leaders
+	spriteType = {
+		name = "GFX_AVD_sareariel"
+		texturefile = "gfx/leaders/AVD/Sareariel.png"
+	}
+
+	## TOR
+	## Leaders
+	spriteType = {
+		name = "GFX_TOR_ulifer"
+		texturefile = "gfx/leaders/TOR/Ulifer.png"
+	}
+
+}
